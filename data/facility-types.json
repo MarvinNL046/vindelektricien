@@ -1,0 +1,124 @@
+{
+  "types": [
+    {
+      "slug": "inpatient-rehab",
+      "name": "Inpatient Rehabilitation Center",
+      "description": "Residential treatment facilities providing 24-hour care in a structured environment for addiction recovery.",
+      "search_terms": ["inpatient rehab", "residential treatment", "24 hour care", "live-in rehab"]
+    },
+    {
+      "slug": "outpatient-treatment",
+      "name": "Outpatient Treatment Program",
+      "description": "Flexible treatment programs that allow patients to live at home while attending scheduled therapy sessions.",
+      "search_terms": ["outpatient treatment", "outpatient rehab", "day program", "evening program"]
+    },
+    {
+      "slug": "detox-center",
+      "name": "Detoxification Center",
+      "description": "Medical facilities providing supervised withdrawal management and detox services.",
+      "search_terms": ["detox center", "medical detox", "withdrawal management", "detoxification"]
+    },
+    {
+      "slug": "sober-living",
+      "name": "Sober Living Home",
+      "description": "Transitional housing providing a substance-free living environment for those in recovery.",
+      "search_terms": ["sober living", "halfway house", "recovery housing", "transitional housing"]
+    },
+    {
+      "slug": "dual-diagnosis",
+      "name": "Dual Diagnosis Treatment Center",
+      "description": "Facilities specializing in treating co-occurring addiction and mental health disorders.",
+      "search_terms": ["dual diagnosis", "co-occurring disorders", "mental health and addiction", "integrated treatment"]
+    },
+    {
+      "slug": "luxury-rehab",
+      "name": "Luxury Rehabilitation Center",
+      "description": "Premium treatment facilities offering upscale amenities and highly personalized care.",
+      "search_terms": ["luxury rehab", "executive rehab", "private rehab", "upscale treatment"]
+    },
+    {
+      "slug": "intensive-outpatient",
+      "name": "Intensive Outpatient Program (IOP)",
+      "description": "Structured outpatient programs with multiple sessions per week while maintaining daily responsibilities.",
+      "search_terms": ["IOP", "intensive outpatient", "intensive outpatient program"]
+    },
+    {
+      "slug": "partial-hospitalization",
+      "name": "Partial Hospitalization Program (PHP)",
+      "description": "Day treatment programs providing structured care during the day with evenings at home.",
+      "search_terms": ["PHP", "partial hospitalization", "day treatment", "day program"]
+    },
+    {
+      "slug": "alcohol-rehab",
+      "name": "Alcohol Rehabilitation Center",
+      "description": "Treatment centers specializing in alcohol addiction and alcoholism recovery.",
+      "search_terms": ["alcohol rehab", "alcoholism treatment", "alcohol addiction treatment"]
+    },
+    {
+      "slug": "drug-rehab",
+      "name": "Drug Rehabilitation Center",
+      "description": "Treatment facilities specializing in drug addiction recovery.",
+      "search_terms": ["drug rehab", "drug treatment", "drug addiction treatment"]
+    },
+    {
+      "slug": "opioid-treatment",
+      "name": "Opioid Treatment Program",
+      "description": "Specialized facilities for treating opioid and heroin addiction, often including medication-assisted treatment.",
+      "search_terms": ["opioid treatment", "heroin rehab", "MAT program", "methadone clinic", "suboxone clinic"]
+    },
+    {
+      "slug": "veterans-program",
+      "name": "Veterans Treatment Program",
+      "description": "Addiction treatment programs designed specifically for military veterans.",
+      "search_terms": ["veterans rehab", "VA treatment", "military addiction treatment", "veteran program"]
+    },
+    {
+      "slug": "womens-rehab",
+      "name": "Women's Rehabilitation Center",
+      "description": "Treatment facilities designed specifically for women's unique recovery needs.",
+      "search_terms": ["women's rehab", "female only treatment", "women's treatment center"]
+    },
+    {
+      "slug": "mens-rehab",
+      "name": "Men's Rehabilitation Center",
+      "description": "Treatment facilities designed specifically for men's recovery needs.",
+      "search_terms": ["men's rehab", "male only treatment", "men's treatment center"]
+    },
+    {
+      "slug": "teen-rehab",
+      "name": "Adolescent Treatment Program",
+      "description": "Treatment programs designed for teenagers and young adults struggling with addiction.",
+      "search_terms": ["teen rehab", "adolescent treatment", "youth rehab", "young adult program"]
+    },
+    {
+      "slug": "christian-rehab",
+      "name": "Christian Rehabilitation Center",
+      "description": "Faith-based treatment centers incorporating Christian principles into recovery.",
+      "search_terms": ["christian rehab", "faith-based treatment", "religious rehab"]
+    },
+    {
+      "slug": "holistic-rehab",
+      "name": "Holistic Treatment Center",
+      "description": "Treatment facilities using holistic and alternative therapies alongside traditional treatment.",
+      "search_terms": ["holistic rehab", "alternative treatment", "natural recovery", "holistic addiction treatment"]
+    },
+    {
+      "slug": "behavioral-health",
+      "name": "Behavioral Health Center",
+      "description": "Facilities specializing in mental health and behavioral treatment services.",
+      "search_terms": ["behavioral health", "mental health center", "psychiatric services"]
+    },
+    {
+      "slug": "addiction-counseling",
+      "name": "Addiction Counseling Center",
+      "description": "Facilities providing professional addiction counseling and therapy services.",
+      "search_terms": ["addiction counseling", "substance abuse counseling", "recovery counseling"]
+    },
+    {
+      "slug": "eating-disorder-treatment",
+      "name": "Eating Disorder Treatment Center",
+      "description": "Specialized facilities for treating eating disorders and related addictions.",
+      "search_terms": ["eating disorder treatment", "anorexia treatment", "bulimia treatment"]
+    }
+  ]
+}

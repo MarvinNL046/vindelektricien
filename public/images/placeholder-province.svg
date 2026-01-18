@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F4FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+
+  <!-- Clouds -->
+  <ellipse cx="200" cy="100" rx="80" ry="40" fill="white" opacity="0.8"/>
+  <ellipse cx="250" cy="90" rx="60" ry="35" fill="white" opacity="0.8"/>
+  <ellipse cx="170" cy="85" rx="50" ry="30" fill="white" opacity="0.8"/>
+
+  <ellipse cx="800" cy="120" rx="90" ry="45" fill="white" opacity="0.7"/>
+  <ellipse cx="860" cy="110" rx="70" ry="40" fill="white" opacity="0.7"/>
+  <ellipse cx="750" cy="105" rx="55" ry="32" fill="white" opacity="0.7"/>
+
+  <ellipse cx="1050" cy="80" rx="70" ry="35" fill="white" opacity="0.6"/>
+  <ellipse cx="1090" cy="70" rx="50" ry="28" fill="white" opacity="0.6"/>
+
+  <!-- Rolling hills in background -->
+  <ellipse cx="300" cy="450" rx="400" ry="120" fill="#81C784" opacity="0.6"/>
+  <ellipse cx="900" cy="430" rx="450" ry="100" fill="#81C784" opacity="0.5"/>
+
+  <!-- Ground/Grass -->
+  <rect x="0" y="400" width="1200" height="230" fill="url(#grassGradient)"/>
+
+  <!-- Main Building -->
+  <rect x="480" y="250" width="240" height="180" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="2"/>
+  <rect x="470" y="240" width="260" height="20" fill="#5D4037"/>
+
+  <!-- Building Windows -->
+  <rect x="500" y="280" width="40" height="50" fill="#64B5F6"/>
+  <rect x="560" y="280" width="40" height="50" fill="#64B5F6"/>
+  <rect x="620" y="280" width="40" height="50" fill="#64B5F6"/>
+  <rect x="680" y="280" width="30" height="50" fill="#64B5F6"/>
+
+  <rect x="500" y="350" width="40" height="50" fill="#64B5F6"/>
+  <rect x="560" y="350" width="40" height="50" fill="#64B5F6"/>
+  <rect x="620" y="350" width="40" height="50" fill="#64B5F6"/>
+  <rect x="680" y="350" width="30" height="50" fill="#64B5F6"/>
+
+  <!-- Building Door -->
+  <rect x="575" y="380" width="50" height="50" fill="#8D6E63"/>
+  <circle cx="615" cy="405" r="3" fill="#5D4037"/>
+
+  <!-- Medical Cross -->
+  <rect x="585" y="260" width="30" height="8" fill="#E53935"/>
+  <rect x="596" y="252" width="8" height="24" fill="#E53935"/>
+
+  <!-- Trees left side -->
+  <circle cx="150" cy="380" r="50" fill="#388E3C"/>
+  <circle cx="120" cy="400" r="45" fill="#2E7D32"/>
+  <circle cx="180" cy="400" r="40" fill="#43A047"/>
+  <rect x="145" y="420" width="10" height="60" fill="#5D4037"/>
+
+  <!-- Trees right side -->
+  <circle cx="1000" cy="370" r="55" fill="#388E3C"/>
+  <circle cx="970" cy="390" r="50" fill="#2E7D32"/>
+  <circle cx="1030" cy="395" r="45" fill="#43A047"/>
+  <rect x="995" y="430" width="12" height="50" fill="#5D4037"/>
+
+  <!-- Pathway -->
+  <path d="M600 430 L580 550 L620 550 L600 430" fill="#9E9E9E" opacity="0.6"/>
+
+  <!-- Flowers/Garden left -->
+  <circle cx="350" cy="480" r="8" fill="#E91E63"/>
+  <circle cx="370" cy="485" r="8" fill="#FF9800"/>
+  <circle cx="390" cy="478" r="8" fill="#9C27B0"/>
+
+  <!-- Flowers/Garden right -->
+  <circle cx="810" cy="480" r="8" fill="#FFEB3B"/>
+  <circle cx="830" cy="485" r="8" fill="#E53935"/>
+  <circle cx="850" cy="478" r="8" fill="#2196F3"/>
+
+  <!-- Text overlay background -->
+  <rect x="350" y="540" width="500" height="60" rx="8" fill="white" opacity="0.9"/>
+
+  <!-- Text -->
+  <text x="600" y="575" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#374151" font-weight="500">
+    Find Treatment Centers in This State
+  </text>
+</svg>

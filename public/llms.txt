@@ -1,0 +1,30 @@
+# RehabNearByMe.com
+
+> The most comprehensive guide to rehabilitation and addiction treatment centers in the United States
+
+## Summary
+
+RehabNearByMe.com is an extensive directory of rehabilitation facilities and addiction treatment centers across all 50 US states. The site helps visitors find information about treatment options for addiction recovery, mental health support, and substance abuse treatment.
+
+## Key Data
+
+- Thousands of treatment facilities
+- All 50 states covered
+- Multiple facility types: Inpatient, Outpatient, Detox, Sober Living
+- Includes reviews, ratings, and contact information
+
+## Main Pages
+
+- /search - Search by location, facility name, or treatment type
+- /compare - Compare up to 3 facilities
+- /state/[name] - Browse by state
+- /facility/[slug] - Facility detail pages
+
+## Contact
+
+- Website: https://rehabnearbyme.com
+- Email: info@rehabnearbyme.com
+
+## More Information
+
+See /llms-full.txt for comprehensive documentation.

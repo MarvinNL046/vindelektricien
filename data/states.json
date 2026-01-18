@@ -1,0 +1,430 @@
+{
+  "states": [
+    {
+      "name": "Alabama",
+      "abbr": "AL",
+      "slug": "alabama",
+      "counties": 67,
+      "capital": "Montgomery",
+      "major_cities": ["Birmingham", "Montgomery", "Huntsville", "Mobile", "Tuscaloosa"]
+    },
+    {
+      "name": "Alaska",
+      "abbr": "AK",
+      "slug": "alaska",
+      "counties": 30,
+      "capital": "Juneau",
+      "major_cities": ["Anchorage", "Fairbanks", "Juneau", "Sitka", "Ketchikan"]
+    },
+    {
+      "name": "Arizona",
+      "abbr": "AZ",
+      "slug": "arizona",
+      "counties": 15,
+      "capital": "Phoenix",
+      "major_cities": ["Phoenix", "Tucson", "Mesa", "Chandler", "Scottsdale", "Glendale", "Tempe"]
+    },
+    {
+      "name": "Arkansas",
+      "abbr": "AR",
+      "slug": "arkansas",
+      "counties": 75,
+      "capital": "Little Rock",
+      "major_cities": ["Little Rock", "Fort Smith", "Fayetteville", "Springdale", "Jonesboro"]
+    },
+    {
+      "name": "California",
+      "abbr": "CA",
+      "slug": "california",
+      "counties": 58,
+      "capital": "Sacramento",
+      "major_cities": ["Los Angeles", "San Diego", "San Jose", "San Francisco", "Fresno", "Sacramento", "Long Beach", "Oakland", "Bakersfield", "Anaheim"]
+    },
+    {
+      "name": "Colorado",
+      "abbr": "CO",
+      "slug": "colorado",
+      "counties": 64,
+      "capital": "Denver",
+      "major_cities": ["Denver", "Colorado Springs", "Aurora", "Fort Collins", "Lakewood", "Boulder"]
+    },
+    {
+      "name": "Connecticut",
+      "abbr": "CT",
+      "slug": "connecticut",
+      "counties": 8,
+      "capital": "Hartford",
+      "major_cities": ["Bridgeport", "New Haven", "Hartford", "Stamford", "Waterbury"]
+    },
+    {
+      "name": "Delaware",
+      "abbr": "DE",
+      "slug": "delaware",
+      "counties": 3,
+      "capital": "Dover",
+      "major_cities": ["Wilmington", "Dover", "Newark", "Middletown", "Smyrna"]
+    },
+    {
+      "name": "Florida",
+      "abbr": "FL",
+      "slug": "florida",
+      "counties": 67,
+      "capital": "Tallahassee",
+      "major_cities": ["Jacksonville", "Miami", "Tampa", "Orlando", "St. Petersburg", "Hialeah", "Tallahassee", "Fort Lauderdale"]
+    },
+    {
+      "name": "Georgia",
+      "abbr": "GA",
+      "slug": "georgia",
+      "counties": 159,
+      "capital": "Atlanta",
+      "major_cities": ["Atlanta", "Augusta", "Columbus", "Macon", "Savannah", "Athens", "Sandy Springs"]
+    },
+    {
+      "name": "Hawaii",
+      "abbr": "HI",
+      "slug": "hawaii",
+      "counties": 5,
+      "capital": "Honolulu",
+      "major_cities": ["Honolulu", "Pearl City", "Hilo", "Kailua", "Waipahu"]
+    },
+    {
+      "name": "Idaho",
+      "abbr": "ID",
+      "slug": "idaho",
+      "counties": 44,
+      "capital": "Boise",
+      "major_cities": ["Boise", "Meridian", "Nampa", "Idaho Falls", "Pocatello"]
+    },
+    {
+      "name": "Illinois",
+      "abbr": "IL",
+      "slug": "illinois",
+      "counties": 102,
+      "capital": "Springfield",
+      "major_cities": ["Chicago", "Aurora", "Naperville", "Joliet", "Rockford", "Springfield", "Elgin", "Peoria"]
+    },
+    {
+      "name": "Indiana",
+      "abbr": "IN",
+      "slug": "indiana",
+      "counties": 92,
+      "capital": "Indianapolis",
+      "major_cities": ["Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel", "Bloomington"]
+    },
+    {
+      "name": "Iowa",
+      "abbr": "IA",
+      "slug": "iowa",
+      "counties": 99,
+      "capital": "Des Moines",
+      "major_cities": ["Des Moines", "Cedar Rapids", "Davenport", "Sioux City", "Iowa City"]
+    },
+    {
+      "name": "Kansas",
+      "abbr": "KS",
+      "slug": "kansas",
+      "counties": 105,
+      "capital": "Topeka",
+      "major_cities": ["Wichita", "Overland Park", "Kansas City", "Olathe", "Topeka", "Lawrence"]
+    },
+    {
+      "name": "Kentucky",
+      "abbr": "KY",
+      "slug": "kentucky",
+      "counties": 120,
+      "capital": "Frankfort",
+      "major_cities": ["Louisville", "Lexington", "Bowling Green", "Owensboro", "Covington"]
+    },
+    {
+      "name": "Louisiana",
+      "abbr": "LA",
+      "slug": "louisiana",
+      "parishes": 64,
+      "capital": "Baton Rouge",
+      "major_cities": ["New Orleans", "Baton Rouge", "Shreveport", "Lafayette", "Lake Charles"]
+    },
+    {
+      "name": "Maine",
+      "abbr": "ME",
+      "slug": "maine",
+      "counties": 16,
+      "capital": "Augusta",
+      "major_cities": ["Portland", "Lewiston", "Bangor", "South Portland", "Auburn"]
+    },
+    {
+      "name": "Maryland",
+      "abbr": "MD",
+      "slug": "maryland",
+      "counties": 24,
+      "capital": "Annapolis",
+      "major_cities": ["Baltimore", "Frederick", "Rockville", "Gaithersburg", "Bowie"]
+    },
+    {
+      "name": "Massachusetts",
+      "abbr": "MA",
+      "slug": "massachusetts",
+      "counties": 14,
+      "capital": "Boston",
+      "major_cities": ["Boston", "Worcester", "Springfield", "Cambridge", "Lowell", "Brockton"]
+    },
+    {
+      "name": "Michigan",
+      "abbr": "MI",
+      "slug": "michigan",
+      "counties": 83,
+      "capital": "Lansing",
+      "major_cities": ["Detroit", "Grand Rapids", "Warren", "Sterling Heights", "Lansing", "Ann Arbor"]
+    },
+    {
+      "name": "Minnesota",
+      "abbr": "MN",
+      "slug": "minnesota",
+      "counties": 87,
+      "capital": "Saint Paul",
+      "major_cities": ["Minneapolis", "Saint Paul", "Rochester", "Duluth", "Bloomington"]
+    },
+    {
+      "name": "Mississippi",
+      "abbr": "MS",
+      "slug": "mississippi",
+      "counties": 82,
+      "capital": "Jackson",
+      "major_cities": ["Jackson", "Gulfport", "Southaven", "Hattiesburg", "Biloxi"]
+    },
+    {
+      "name": "Missouri",
+      "abbr": "MO",
+      "slug": "missouri",
+      "counties": 115,
+      "capital": "Jefferson City",
+      "major_cities": ["Kansas City", "St. Louis", "Springfield", "Columbia", "Independence"]
+    },
+    {
+      "name": "Montana",
+      "abbr": "MT",
+      "slug": "montana",
+      "counties": 56,
+      "capital": "Helena",
+      "major_cities": ["Billings", "Missoula", "Great Falls", "Bozeman", "Helena"]
+    },
+    {
+      "name": "Nebraska",
+      "abbr": "NE",
+      "slug": "nebraska",
+      "counties": 93,
+      "capital": "Lincoln",
+      "major_cities": ["Omaha", "Lincoln", "Bellevue", "Grand Island", "Kearney"]
+    },
+    {
+      "name": "Nevada",
+      "abbr": "NV",
+      "slug": "nevada",
+      "counties": 17,
+      "capital": "Carson City",
+      "major_cities": ["Las Vegas", "Henderson", "Reno", "North Las Vegas", "Sparks"]
+    },
+    {
+      "name": "New Hampshire",
+      "abbr": "NH",
+      "slug": "new-hampshire",
+      "counties": 10,
+      "capital": "Concord",
+      "major_cities": ["Manchester", "Nashua", "Concord", "Derry", "Dover"]
+    },
+    {
+      "name": "New Jersey",
+      "abbr": "NJ",
+      "slug": "new-jersey",
+      "counties": 21,
+      "capital": "Trenton",
+      "major_cities": ["Newark", "Jersey City", "Paterson", "Elizabeth", "Edison", "Trenton"]
+    },
+    {
+      "name": "New Mexico",
+      "abbr": "NM",
+      "slug": "new-mexico",
+      "counties": 33,
+      "capital": "Santa Fe",
+      "major_cities": ["Albuquerque", "Las Cruces", "Rio Rancho", "Santa Fe", "Roswell"]
+    },
+    {
+      "name": "New York",
+      "abbr": "NY",
+      "slug": "new-york",
+      "counties": 62,
+      "capital": "Albany",
+      "major_cities": ["New York City", "Buffalo", "Rochester", "Yonkers", "Syracuse", "Albany"]
+    },
+    {
+      "name": "North Carolina",
+      "abbr": "NC",
+      "slug": "north-carolina",
+      "counties": 100,
+      "capital": "Raleigh",
+      "major_cities": ["Charlotte", "Raleigh", "Greensboro", "Durham", "Winston-Salem", "Fayetteville"]
+    },
+    {
+      "name": "North Dakota",
+      "abbr": "ND",
+      "slug": "north-dakota",
+      "counties": 53,
+      "capital": "Bismarck",
+      "major_cities": ["Fargo", "Bismarck", "Grand Forks", "Minot", "West Fargo"]
+    },
+    {
+      "name": "Ohio",
+      "abbr": "OH",
+      "slug": "ohio",
+      "counties": 88,
+      "capital": "Columbus",
+      "major_cities": ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron", "Dayton"]
+    },
+    {
+      "name": "Oklahoma",
+      "abbr": "OK",
+      "slug": "oklahoma",
+      "counties": 77,
+      "capital": "Oklahoma City",
+      "major_cities": ["Oklahoma City", "Tulsa", "Norman", "Broken Arrow", "Edmond"]
+    },
+    {
+      "name": "Oregon",
+      "abbr": "OR",
+      "slug": "oregon",
+      "counties": 36,
+      "capital": "Salem",
+      "major_cities": ["Portland", "Salem", "Eugene", "Gresham", "Hillsboro", "Bend"]
+    },
+    {
+      "name": "Pennsylvania",
+      "abbr": "PA",
+      "slug": "pennsylvania",
+      "counties": 67,
+      "capital": "Harrisburg",
+      "major_cities": ["Philadelphia", "Pittsburgh", "Allentown", "Reading", "Erie", "Harrisburg"]
+    },
+    {
+      "name": "Rhode Island",
+      "abbr": "RI",
+      "slug": "rhode-island",
+      "counties": 5,
+      "capital": "Providence",
+      "major_cities": ["Providence", "Warwick", "Cranston", "Pawtucket", "East Providence"]
+    },
+    {
+      "name": "South Carolina",
+      "abbr": "SC",
+      "slug": "south-carolina",
+      "counties": 46,
+      "capital": "Columbia",
+      "major_cities": ["Charleston", "Columbia", "North Charleston", "Mount Pleasant", "Rock Hill"]
+    },
+    {
+      "name": "South Dakota",
+      "abbr": "SD",
+      "slug": "south-dakota",
+      "counties": 66,
+      "capital": "Pierre",
+      "major_cities": ["Sioux Falls", "Rapid City", "Aberdeen", "Brookings", "Watertown"]
+    },
+    {
+      "name": "Tennessee",
+      "abbr": "TN",
+      "slug": "tennessee",
+      "counties": 95,
+      "capital": "Nashville",
+      "major_cities": ["Nashville", "Memphis", "Knoxville", "Chattanooga", "Clarksville"]
+    },
+    {
+      "name": "Texas",
+      "abbr": "TX",
+      "slug": "texas",
+      "counties": 254,
+      "capital": "Austin",
+      "major_cities": ["Houston", "San Antonio", "Dallas", "Austin", "Fort Worth", "El Paso", "Arlington", "Corpus Christi", "Plano", "Lubbock"]
+    },
+    {
+      "name": "Utah",
+      "abbr": "UT",
+      "slug": "utah",
+      "counties": 29,
+      "capital": "Salt Lake City",
+      "major_cities": ["Salt Lake City", "West Valley City", "Provo", "West Jordan", "Orem", "Sandy"]
+    },
+    {
+      "name": "Vermont",
+      "abbr": "VT",
+      "slug": "vermont",
+      "counties": 14,
+      "capital": "Montpelier",
+      "major_cities": ["Burlington", "South Burlington", "Rutland", "Essex", "Bennington"]
+    },
+    {
+      "name": "Virginia",
+      "abbr": "VA",
+      "slug": "virginia",
+      "counties": 133,
+      "capital": "Richmond",
+      "major_cities": ["Virginia Beach", "Norfolk", "Chesapeake", "Richmond", "Newport News", "Alexandria"]
+    },
+    {
+      "name": "Washington",
+      "abbr": "WA",
+      "slug": "washington",
+      "counties": 39,
+      "capital": "Olympia",
+      "major_cities": ["Seattle", "Spokane", "Tacoma", "Vancouver", "Bellevue", "Kent", "Everett"]
+    },
+    {
+      "name": "West Virginia",
+      "abbr": "WV",
+      "slug": "west-virginia",
+      "counties": 55,
+      "capital": "Charleston",
+      "major_cities": ["Charleston", "Huntington", "Morgantown", "Parkersburg", "Wheeling"]
+    },
+    {
+      "name": "Wisconsin",
+      "abbr": "WI",
+      "slug": "wisconsin",
+      "counties": 72,
+      "capital": "Madison",
+      "major_cities": ["Milwaukee", "Madison", "Green Bay", "Kenosha", "Racine"]
+    },
+    {
+      "name": "Wyoming",
+      "abbr": "WY",
+      "slug": "wyoming",
+      "counties": 23,
+      "capital": "Cheyenne",
+      "major_cities": ["Cheyenne", "Casper", "Laramie", "Gillette", "Rock Springs"]
+    },
+    {
+      "name": "District of Columbia",
+      "abbr": "DC",
+      "slug": "washington-dc",
+      "counties": 1,
+      "capital": "Washington",
+      "major_cities": ["Washington"]
+    }
+  ],
+  "total_states": 51,
+  "total_counties": 3143,
+  "treatment_types": [
+    { "slug": "inpatient-rehab", "name": "Inpatient Rehabilitation", "search_terms": ["inpatient rehab", "residential rehab", "inpatient treatment"] },
+    { "slug": "outpatient-treatment", "name": "Outpatient Treatment", "search_terms": ["outpatient treatment", "outpatient rehab", "day treatment"] },
+    { "slug": "detox-center", "name": "Detox Center", "search_terms": ["detox center", "detoxification", "medical detox"] },
+    { "slug": "residential-treatment", "name": "Residential Treatment", "search_terms": ["residential treatment", "long-term treatment", "residential care"] },
+    { "slug": "partial-hospitalization", "name": "Partial Hospitalization Program (PHP)", "search_terms": ["partial hospitalization", "PHP program", "day hospital"] },
+    { "slug": "intensive-outpatient", "name": "Intensive Outpatient Program (IOP)", "search_terms": ["intensive outpatient", "IOP program", "IOP treatment"] },
+    { "slug": "sober-living", "name": "Sober Living Home", "search_terms": ["sober living", "sober house", "halfway house", "recovery residence"] },
+    { "slug": "dual-diagnosis", "name": "Dual Diagnosis Treatment", "search_terms": ["dual diagnosis", "co-occurring disorders", "mental health and addiction"] },
+    { "slug": "luxury-rehab", "name": "Luxury Rehabilitation", "search_terms": ["luxury rehab", "executive rehab", "high-end treatment"] },
+    { "slug": "holistic-treatment", "name": "Holistic Treatment", "search_terms": ["holistic treatment", "holistic rehab", "alternative treatment"] },
+    { "slug": "faith-based-rehab", "name": "Faith-Based Rehabilitation", "search_terms": ["faith-based rehab", "christian rehab", "religious treatment"] },
+    { "slug": "adolescent-treatment", "name": "Adolescent Treatment", "search_terms": ["adolescent treatment", "teen rehab", "youth treatment"] },
+    { "slug": "veterans-program", "name": "Veterans Treatment Program", "search_terms": ["veterans program", "VA rehab", "military rehab"] },
+    { "slug": "medication-assisted", "name": "Medication-Assisted Treatment (MAT)", "search_terms": ["medication-assisted treatment", "MAT program", "suboxone treatment", "methadone clinic"] }
+  ]
+}

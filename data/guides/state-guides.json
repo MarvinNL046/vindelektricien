@@ -1,0 +1,764 @@
+{
+  "stateGuides": [
+    {
+      "slug": "california",
+      "name": "California",
+      "abbr": "CA",
+      "totalFacilities": 820,
+      "title": "Addiction Treatment Centers in California: Complete Guide",
+      "metaDescription": "Comprehensive guide to addiction treatment in California. Find rehab facilities, understand state laws, treatment costs, and recovery resources across the Golden State.",
+      "heroSubtitle": "Discover treatment options across the Golden State, from world-renowned facilities to community programs",
+      "overview": "California, the most populous state in the nation, offers an incredibly diverse range of addiction treatment options. From luxury facilities in Malibu to community-based programs in urban centers, California has over 820 treatment centers addressing substance use disorders. The state is known for pioneering innovative treatment approaches, including holistic therapies and evidence-based practices. California's Mediterranean climate and natural beauty provide healing environments that attract people from across the country seeking recovery.",
+      "treatmentLaws": {
+        "title": "California Treatment Laws and Regulations",
+        "content": "California has comprehensive regulations governing addiction treatment through the Department of Health Care Services (DHCS). The state licenses residential and outpatient treatment facilities, ensuring quality standards are met. California expanded Medicaid (Medi-Cal) coverage for addiction treatment, making services accessible to more residents. The state has been a leader in medication-assisted treatment (MAT) access and harm reduction approaches. California also has strong workplace protections for employees seeking treatment.",
+        "keyPoints": [
+          "DHCS licenses all addiction treatment facilities",
+          "Medi-Cal covers addiction treatment services",
+          "Strong workplace protections under CFRA for treatment",
+          "Medication-assisted treatment widely available",
+          "Harm reduction programs supported at state level",
+          "Parity laws ensure insurance coverage for treatment"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 320 },
+        { "type": "Inpatient Rehab", "count": 185 },
+        { "type": "Detox Center", "count": 97 },
+        { "type": "Sober Living", "count": 120 },
+        { "type": "Dual Diagnosis", "count": 60 },
+        { "type": "Luxury Rehab", "count": 38 }
+      ],
+      "topCities": ["Los Angeles", "San Diego", "San Francisco", "Orange County", "Sacramento", "San Jose", "Malibu", "Riverside", "Fresno", "Long Beach"],
+      "notableFacilities": [
+        {
+          "name": "Betty Ford Center",
+          "city": "Rancho Mirage",
+          "description": "One of America's most renowned addiction treatment facilities, founded by former First Lady Betty Ford. Offers comprehensive residential and outpatient programs with a focus on family involvement."
+        },
+        {
+          "name": "Promises Treatment Centers",
+          "city": "Malibu",
+          "description": "Luxury treatment facility offering individualized care in a serene coastal setting. Known for treating high-profile clients and offering extensive aftercare support."
+        },
+        {
+          "name": "Hazelden Betty Ford Foundation California",
+          "city": "Multiple Locations",
+          "description": "Part of the national organization that pioneered the Minnesota Model of treatment. Offers various programs including youth services and family programs."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$30,000-$60,000",
+        "outpatient": "$5,000-$15,000",
+        "notes": "California treatment costs are among the highest in the nation, particularly in areas like Malibu and Orange County. However, many facilities accept insurance, and Medi-Cal provides coverage for eligible residents. Sliding scale options and state-funded programs are available for those without insurance."
+      },
+      "faqs": [
+        {
+          "question": "Does Medi-Cal cover addiction treatment in California?",
+          "answer": "Yes, Medi-Cal covers a comprehensive range of addiction treatment services including assessment, outpatient counseling, intensive outpatient programs, residential treatment, medication-assisted treatment, and recovery support services. The Drug Medi-Cal Organized Delivery System (DMC-ODS) coordinates these services."
+        },
+        {
+          "question": "What are the best rehab centers in California?",
+          "answer": "California has numerous highly-rated facilities including Betty Ford Center, Promises Treatment Centers, Passages Malibu, and The Canyon at Peace Park. The best facility depends on individual needs, budget, and treatment preferences. Accredited facilities meeting DHCS standards are recommended."
+        },
+        {
+          "question": "Are there free rehab options in California?",
+          "answer": "Yes, California has state-funded treatment programs through county behavioral health departments. Medi-Cal covers treatment for eligible residents. Organizations like the Salvation Army and faith-based groups also offer free or low-cost treatment options."
+        },
+        {
+          "question": "How do I find treatment in California?",
+          "answer": "Start by contacting your insurance provider or county behavioral health department. SAMHSA's national helpline (1-800-662-4357) provides referrals. Our directory allows you to search by location, treatment type, and insurance accepted."
+        },
+        {
+          "question": "What types of treatment are available in California?",
+          "answer": "California offers the full spectrum of treatment options: medical detox, inpatient/residential treatment, partial hospitalization (PHP), intensive outpatient (IOP), standard outpatient, sober living homes, and medication-assisted treatment. Specialty programs serve specific populations including adolescents, veterans, and those with co-occurring disorders."
+        }
+      ]
+    },
+    {
+      "slug": "texas",
+      "name": "Texas",
+      "abbr": "TX",
+      "totalFacilities": 724,
+      "title": "Addiction Treatment Centers in Texas: Complete Guide",
+      "metaDescription": "Complete guide to addiction treatment in Texas covering treatment options, state regulations, costs, and resources across the Lone Star State.",
+      "heroSubtitle": "From Houston medical centers to rural recovery programs across the Lone Star State",
+      "overview": "Texas, the second-largest state by population, has over 724 addiction treatment facilities serving diverse communities. The state's major metropolitan areas—Houston, Dallas, San Antonio, and Austin—have numerous treatment options, while rural areas are served by a network of community programs. Texas has invested in expanding treatment access, particularly for opioid addiction, and has a strong network of faith-based recovery programs.",
+      "treatmentLaws": {
+        "title": "Texas Treatment Laws and Regulations",
+        "content": "The Texas Health and Human Services Commission (HHSC) oversees addiction treatment facility licensing. Texas requires facilities to meet specific staffing, safety, and treatment standards. The state has expanded Medicaid coverage for some treatment services and supports medication-assisted treatment programs. Texas law provides workplace protections for employees seeking treatment for substance use disorders.",
+        "keyPoints": [
+          "HHSC licenses all substance abuse treatment facilities",
+          "State funding available through local mental health authorities",
+          "Workplace protections under Texas Labor Code",
+          "Medication-assisted treatment (MAT) programs expanding",
+          "Faith-based programs widely available",
+          "Insurance parity laws in effect"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 290 },
+        { "type": "Inpatient Rehab", "count": 150 },
+        { "type": "Detox Center", "count": 89 },
+        { "type": "Sober Living", "count": 95 },
+        { "type": "Dual Diagnosis", "count": 55 },
+        { "type": "Faith-Based", "count": 45 }
+      ],
+      "topCities": ["Houston", "Dallas", "San Antonio", "Austin", "Fort Worth", "El Paso", "Plano", "Arlington", "Corpus Christi", "Lubbock"],
+      "notableFacilities": [
+        {
+          "name": "La Hacienda Treatment Center",
+          "city": "Hunt",
+          "description": "Located in the scenic Texas Hill Country, La Hacienda has been treating addiction for over 50 years. Known for its family program and comprehensive aftercare planning."
+        },
+        {
+          "name": "The Right Step",
+          "city": "Multiple Locations",
+          "description": "Network of treatment centers across Texas offering medical detox, residential treatment, and outpatient services. Accepts most insurance plans."
+        },
+        {
+          "name": "Memorial Hermann Prevention and Recovery Center",
+          "city": "Houston",
+          "description": "Major hospital-based treatment program offering comprehensive addiction services integrated with medical care."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$20,000-$40,000",
+        "outpatient": "$3,000-$10,000",
+        "notes": "Texas treatment costs are moderate compared to coastal states. Many facilities accept insurance, and local mental health authorities provide state-funded treatment for those who qualify. Faith-based programs often offer free or low-cost options."
+      },
+      "faqs": [
+        {
+          "question": "What treatment options are available in Texas?",
+          "answer": "Texas offers comprehensive treatment options including medical detox, inpatient rehabilitation, partial hospitalization, intensive outpatient programs, outpatient counseling, sober living, and medication-assisted treatment. Programs serve general populations and specialized groups."
+        },
+        {
+          "question": "Is there free addiction treatment in Texas?",
+          "answer": "Yes, Texas provides state-funded treatment through local mental health authorities. Faith-based programs like Teen Challenge offer free treatment. County-funded programs serve residents without insurance. Qualifying for these programs typically requires an assessment."
+        },
+        {
+          "question": "Does Texas Medicaid cover addiction treatment?",
+          "answer": "Texas Medicaid covers limited addiction treatment services. Coverage includes assessment, outpatient counseling, and some residential services for eligible populations. Coverage has expanded in recent years but remains more limited than some states."
+        },
+        {
+          "question": "What are the top rehab centers in Texas?",
+          "answer": "Notable facilities include La Hacienda, The Right Step network, Greenhouse Treatment Center, Origins Recovery Center, and university-affiliated programs. The best choice depends on individual needs, location, and insurance coverage."
+        },
+        {
+          "question": "How do I access treatment in rural Texas?",
+          "answer": "Local mental health authorities serve all Texas counties, including rural areas. Telehealth options have expanded access significantly. Some treatment centers offer transportation. Faith-based programs are available in many rural communities."
+        }
+      ]
+    },
+    {
+      "slug": "florida",
+      "name": "Florida",
+      "abbr": "FL",
+      "totalFacilities": 650,
+      "title": "Addiction Treatment Centers in Florida: Complete Guide",
+      "metaDescription": "Comprehensive guide to addiction treatment in Florida. Find rehab facilities, understand Florida's treatment landscape, costs, and recovery resources.",
+      "heroSubtitle": "From South Florida's treatment hub to statewide recovery resources in the Sunshine State",
+      "overview": "Florida has become one of America's major addiction treatment destinations, with over 650 facilities concentrated particularly in South Florida. The state's warm climate and relaxed atmosphere create an appealing recovery environment. Florida has invested heavily in treatment infrastructure following the opioid crisis and offers a wide range of options from luxury beachfront facilities to community-based programs.",
+      "treatmentLaws": {
+        "title": "Florida Treatment Laws and Regulations",
+        "content": "The Florida Department of Children and Families (DCF) licenses addiction treatment facilities. Following industry reforms, Florida strengthened regulations to ensure quality care and prevent unethical practices. The state requires accreditation for certain facilities and has implemented patient brokering laws. Florida Medicaid covers addiction treatment for eligible residents.",
+        "keyPoints": [
+          "DCF licenses all substance abuse treatment facilities",
+          "Patient brokering laws protect consumers",
+          "Marchman Act allows involuntary treatment in emergencies",
+          "Florida Medicaid covers treatment services",
+          "Accreditation required for some facility levels",
+          "Strong consumer protection regulations"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 260 },
+        { "type": "Inpatient Rehab", "count": 140 },
+        { "type": "Detox Center", "count": 85 },
+        { "type": "Sober Living", "count": 100 },
+        { "type": "Dual Diagnosis", "count": 45 },
+        { "type": "Luxury Rehab", "count": 20 }
+      ],
+      "topCities": ["Miami", "Fort Lauderdale", "West Palm Beach", "Tampa", "Orlando", "Jacksonville", "Delray Beach", "Boca Raton", "Sarasota", "Naples"],
+      "notableFacilities": [
+        {
+          "name": "The Recovery Village",
+          "city": "Multiple Locations",
+          "description": "Network of comprehensive treatment facilities offering medical detox, residential, and outpatient services across Florida."
+        },
+        {
+          "name": "Caron Renaissance",
+          "city": "Boca Raton",
+          "description": "Extension of the renowned Caron Treatment Centers, offering gender-specific programming in a Florida setting."
+        },
+        {
+          "name": "Hanley Center",
+          "city": "West Palm Beach",
+          "description": "Nonprofit treatment center providing evidence-based care with strong outcomes and comprehensive aftercare."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$25,000-$50,000",
+        "outpatient": "$5,000-$12,000",
+        "notes": "Florida treatment costs vary widely, with South Florida facilities often commanding premium prices. Competition has created options at various price points. Many facilities accept insurance, and sliding scale options are available. Medicaid and state-funded programs serve eligible residents."
+      },
+      "faqs": [
+        {
+          "question": "Why is Florida a popular treatment destination?",
+          "answer": "Florida's warm climate, extensive treatment infrastructure, and recovering community make it attractive. The concentration of facilities creates competition and specialized options. Many people find that getting away from their home environment supports recovery."
+        },
+        {
+          "question": "What is the Marchman Act?",
+          "answer": "The Marchman Act allows family members, medical professionals, or courts to petition for involuntary assessment and treatment for someone with a substance use disorder who is unable or unwilling to seek help voluntarily and meets specific criteria regarding danger to self or others."
+        },
+        {
+          "question": "Is Florida treatment covered by out-of-state insurance?",
+          "answer": "Most insurance plans provide coverage for treatment in any state, though network status affects costs. Many Florida facilities work with out-of-state insurance. Verify coverage specifics with your insurance provider before traveling for treatment."
+        },
+        {
+          "question": "What should I look for in a Florida treatment center?",
+          "answer": "Verify DCF licensure and look for accreditation (Joint Commission or CARF). Research the facility's history and reviews. Understand all costs upfront. Be wary of aggressive marketing or promises that seem too good to be true. Quality facilities welcome questions about their programs."
+        },
+        {
+          "question": "Are there affordable options in Florida?",
+          "answer": "Yes, despite the luxury market, Florida has affordable options including state-funded programs, nonprofit facilities, and insurance-based treatment. Community mental health centers and faith-based organizations provide low-cost services."
+        }
+      ]
+    },
+    {
+      "slug": "north-carolina",
+      "name": "North Carolina",
+      "abbr": "NC",
+      "totalFacilities": 358,
+      "title": "Addiction Treatment Centers in North Carolina: Complete Guide",
+      "metaDescription": "Guide to addiction treatment in North Carolina including treatment options, state regulations, costs, and recovery resources across the Tar Heel State.",
+      "heroSubtitle": "From Blue Ridge mountain retreats to comprehensive programs across the Tar Heel State",
+      "overview": "North Carolina offers diverse addiction treatment options, from mountain retreats in the Blue Ridge to urban programs in Charlotte and the Research Triangle. With over 358 treatment facilities, the state provides comprehensive services addressing the opioid crisis affecting many communities. North Carolina has invested in expanding treatment access and has a growing network of recovery support services.",
+      "treatmentLaws": {
+        "title": "North Carolina Treatment Laws and Regulations",
+        "content": "The North Carolina Division of Health Service Regulation (DHSR) licenses addiction treatment facilities. The state has expanded Medicaid coverage and supports medication-assisted treatment programs. North Carolina's Alcoholism and Chemical Dependency Program (ACDP) provides state-funded treatment for uninsured residents. The state has enacted laws supporting treatment access and harm reduction.",
+        "keyPoints": [
+          "DHSR licenses treatment facilities",
+          "State-funded treatment through ACDP",
+          "Medicaid expansion increased access",
+          "MAT programs widely supported",
+          "Naloxone access laws in effect",
+          "Drug courts provide treatment alternatives"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 150 },
+        { "type": "Inpatient Rehab", "count": 80 },
+        { "type": "Detox Center", "count": 46 },
+        { "type": "Sober Living", "count": 50 },
+        { "type": "Dual Diagnosis", "count": 22 },
+        { "type": "Wilderness Therapy", "count": 10 }
+      ],
+      "topCities": ["Charlotte", "Raleigh", "Durham", "Greensboro", "Winston-Salem", "Asheville", "Fayetteville", "Wilmington", "High Point", "Cary"],
+      "notableFacilities": [
+        {
+          "name": "Fellowship Hall",
+          "city": "Greensboro",
+          "description": "Nonprofit treatment center providing evidence-based care for over 50 years. Known for accessible pricing and strong outcomes."
+        },
+        {
+          "name": "Pavillon",
+          "city": "Mill Spring",
+          "description": "Mountain retreat setting offering comprehensive treatment programs in a serene Blue Ridge environment."
+        },
+        {
+          "name": "Willingway of NC",
+          "city": "Multiple Locations",
+          "description": "Extension of the established Willingway treatment model, offering residential and outpatient services."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$15,000-$35,000",
+        "outpatient": "$3,000-$8,000",
+        "notes": "North Carolina treatment costs are moderate. Many nonprofit facilities offer sliding scale fees. State-funded programs through ACDP serve uninsured residents. Insurance coverage varies but parity laws ensure coverage for most plans."
+      },
+      "faqs": [
+        {
+          "question": "Does North Carolina Medicaid cover addiction treatment?",
+          "answer": "Yes, NC Medicaid covers substance use disorder treatment including assessment, outpatient services, intensive outpatient, and residential treatment. Medicaid expansion has increased access for many residents who previously lacked coverage."
+        },
+        {
+          "question": "What state-funded treatment options exist in North Carolina?",
+          "answer": "The ACDP provides funding for treatment of uninsured or underinsured residents. Local management entities (LMEs) coordinate access to state-funded services. Eligibility is based on income, residency, and clinical assessment."
+        },
+        {
+          "question": "Are there wilderness treatment programs in North Carolina?",
+          "answer": "Yes, North Carolina's mountains are home to several wilderness and outdoor therapy programs, particularly for adolescents and young adults. These programs combine traditional treatment with outdoor adventure activities."
+        },
+        {
+          "question": "How do I find treatment in rural North Carolina?",
+          "answer": "LMEs serve all counties and can connect residents with available services. Telehealth options have expanded access significantly. Some treatment centers provide transportation assistance. Faith-based programs serve many rural communities."
+        },
+        {
+          "question": "What treatment approaches are common in North Carolina?",
+          "answer": "NC facilities offer evidence-based approaches including cognitive-behavioral therapy, 12-step facilitation, motivational interviewing, and medication-assisted treatment. Holistic and wilderness-based approaches are also available at some facilities."
+        }
+      ]
+    },
+    {
+      "slug": "ohio",
+      "name": "Ohio",
+      "abbr": "OH",
+      "totalFacilities": 450,
+      "title": "Addiction Treatment Centers in Ohio: Complete Guide",
+      "metaDescription": "Comprehensive guide to addiction treatment in Ohio. Find rehab facilities, understand state programs, costs, and recovery resources across the Buckeye State.",
+      "heroSubtitle": "From Cleveland medical centers to statewide recovery support in the Buckeye State",
+      "overview": "Ohio has been heavily impacted by the opioid epidemic and has responded with significant investment in treatment infrastructure. With over 450 treatment facilities, the state offers comprehensive services from major medical center programs to community-based treatment. Ohio's ADAMHS boards coordinate local services, ensuring treatment access across urban and rural areas.",
+      "treatmentLaws": {
+        "title": "Ohio Treatment Laws and Regulations",
+        "content": "The Ohio Department of Mental Health and Addiction Services (OMHAS) certifies treatment facilities. Ohio expanded Medicaid coverage, dramatically increasing treatment access. The state supports medication-assisted treatment and has implemented innovative programs to address the opioid crisis. Casey's Law allows family members to petition for involuntary treatment.",
+        "keyPoints": [
+          "OMHAS certifies treatment facilities",
+          "Medicaid expansion significantly increased access",
+          "Casey's Law allows involuntary treatment petitions",
+          "Strong support for medication-assisted treatment",
+          "ADAMHS boards coordinate local services",
+          "Specialized programs for opioid addiction"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 180 },
+        { "type": "Inpatient Rehab", "count": 95 },
+        { "type": "Detox Center", "count": 55 },
+        { "type": "Sober Living", "count": 70 },
+        { "type": "Dual Diagnosis", "count": 35 },
+        { "type": "MAT Programs", "count": 15 }
+      ],
+      "topCities": ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron", "Dayton", "Canton", "Youngstown", "Parma", "Springfield"],
+      "notableFacilities": [
+        {
+          "name": "Rosary Hall at St. Vincent Charity",
+          "city": "Cleveland",
+          "description": "One of the oldest addiction treatment programs in the country, offering comprehensive hospital-based care since 1952."
+        },
+        {
+          "name": "Glenbeigh",
+          "city": "Rock Creek",
+          "description": "Nonprofit treatment center offering residential and outpatient services with a strong focus on family involvement."
+        },
+        {
+          "name": "Maryhaven",
+          "city": "Columbus",
+          "description": "Comprehensive treatment center offering the full continuum of care including specialized women's services."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$12,000-$30,000",
+        "outpatient": "$2,500-$7,000",
+        "notes": "Ohio treatment costs are moderate to affordable. Medicaid expansion means many residents qualify for covered treatment. County ADAMHS boards provide state-funded services. Numerous nonprofit facilities offer sliding scale fees."
+      },
+      "faqs": [
+        {
+          "question": "Does Ohio Medicaid cover addiction treatment?",
+          "answer": "Yes, Ohio Medicaid provides comprehensive coverage for addiction treatment including assessment, counseling, intensive outpatient, residential treatment, and medication-assisted treatment. Medicaid expansion has made treatment accessible to many more residents."
+        },
+        {
+          "question": "What is Casey's Law in Ohio?",
+          "answer": "Casey's Law allows a family member, friend, or physician to petition a probate court for involuntary treatment of someone with severe substance use disorder who is unable or unwilling to seek help. The law is named after Casey Wethington, who died of an overdose."
+        },
+        {
+          "question": "How do I access free treatment in Ohio?",
+          "answer": "ADAMHS boards in each county coordinate state-funded treatment for uninsured residents. Medicaid covers treatment for eligible individuals. Nonprofit facilities often offer sliding scale fees. Recovery housing and peer support services are available at no cost."
+        },
+        {
+          "question": "What is Ohio doing about the opioid crisis?",
+          "answer": "Ohio has invested significantly in treatment access, harm reduction (including naloxone distribution), medication-assisted treatment expansion, and recovery support services. The state has also pursued legal action against opioid manufacturers and distributors."
+        },
+        {
+          "question": "Are there specialized programs for opioid addiction in Ohio?",
+          "answer": "Yes, many facilities specialize in opioid addiction treatment, offering medication-assisted treatment with buprenorphine, methadone, or naltrexone. Ohio has expanded access to these evidence-based treatments significantly."
+        }
+      ]
+    },
+    {
+      "slug": "arizona",
+      "name": "Arizona",
+      "abbr": "AZ",
+      "totalFacilities": 380,
+      "title": "Addiction Treatment Centers in Arizona: Complete Guide",
+      "metaDescription": "Guide to addiction treatment in Arizona. Find rehab facilities, understand state regulations, costs, and recovery resources across the Grand Canyon State.",
+      "heroSubtitle": "From Sonoran desert retreats to Phoenix metro treatment centers in the Grand Canyon State",
+      "overview": "Arizona's desert landscape provides a unique healing environment that has attracted treatment centers serving clients from across the nation. With over 380 facilities, the state offers diverse options from medically intensive programs to holistic desert retreats. Arizona has addressed growing treatment needs with expanded services and innovative programming.",
+      "treatmentLaws": {
+        "title": "Arizona Treatment Laws and Regulations",
+        "content": "The Arizona Department of Health Services (ADHS) licenses behavioral health facilities including addiction treatment centers. Arizona's AHCCCS (Medicaid) program covers addiction treatment for eligible residents. The state supports medication-assisted treatment and has implemented harm reduction initiatives. Title 36 allows for court-ordered evaluation and treatment.",
+        "keyPoints": [
+          "ADHS licenses treatment facilities",
+          "AHCCCS covers addiction treatment",
+          "Title 36 provides involuntary treatment pathway",
+          "MAT programs widely available",
+          "Regional Behavioral Health Authorities coordinate care",
+          "Harm reduction initiatives supported"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 150 },
+        { "type": "Inpatient Rehab", "count": 85 },
+        { "type": "Detox Center", "count": 45 },
+        { "type": "Sober Living", "count": 60 },
+        { "type": "Dual Diagnosis", "count": 28 },
+        { "type": "Holistic Treatment", "count": 12 }
+      ],
+      "topCities": ["Phoenix", "Tucson", "Scottsdale", "Mesa", "Chandler", "Tempe", "Gilbert", "Glendale", "Sedona", "Prescott"],
+      "notableFacilities": [
+        {
+          "name": "Sierra Tucson",
+          "city": "Tucson",
+          "description": "Renowned residential treatment facility offering comprehensive care for addiction and co-occurring disorders in a desert mountain setting."
+        },
+        {
+          "name": "The Meadows",
+          "city": "Wickenburg",
+          "description": "Specialized treatment for trauma and addiction using the Meadows Model approach. Known for treating complex cases."
+        },
+        {
+          "name": "Cottonwood Tucson",
+          "city": "Tucson",
+          "description": "Comprehensive behavioral health treatment center offering addiction and mental health services in a healing desert environment."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$20,000-$45,000",
+        "outpatient": "$3,500-$10,000",
+        "notes": "Arizona treatment costs range from moderate to premium, with well-known destination facilities commanding higher prices. AHCCCS provides coverage for eligible residents. Many facilities accept insurance, and sliding scale options are available at some programs."
+      },
+      "faqs": [
+        {
+          "question": "Why is Arizona a popular treatment destination?",
+          "answer": "Arizona's desert climate, natural beauty, and concentration of quality treatment facilities make it attractive. Many people find the change of environment helpful for recovery. The state has a strong recovery community and varied treatment options."
+        },
+        {
+          "question": "Does AHCCCS cover addiction treatment?",
+          "answer": "Yes, Arizona's Medicaid program (AHCCCS) covers addiction treatment services including assessment, outpatient counseling, intensive outpatient, residential treatment, and medication-assisted treatment for eligible residents."
+        },
+        {
+          "question": "What holistic treatment options are available in Arizona?",
+          "answer": "Many Arizona facilities incorporate holistic elements including equine therapy, outdoor adventure programming, yoga, meditation, acupuncture, and Native American healing practices. The desert environment lends itself to nature-based therapies."
+        },
+        {
+          "question": "How do I access treatment in rural Arizona?",
+          "answer": "Regional Behavioral Health Authorities coordinate services across Arizona, including rural areas. Telehealth options have expanded access significantly. Tribal health programs serve Native American communities. Some facilities provide transportation assistance."
+        },
+        {
+          "question": "What treatment approaches are common in Arizona?",
+          "answer": "Arizona facilities offer evidence-based approaches along with innovative and holistic methods. Trauma-informed care, experiential therapy, equine-assisted therapy, and wilderness programming are particularly common in Arizona's treatment landscape."
+        }
+      ]
+    },
+    {
+      "slug": "virginia",
+      "name": "Virginia",
+      "abbr": "VA",
+      "totalFacilities": 310,
+      "title": "Addiction Treatment Centers in Virginia: Complete Guide",
+      "metaDescription": "Comprehensive guide to addiction treatment in Virginia. Find rehab facilities, understand state regulations, costs, and recovery resources across the Commonwealth.",
+      "heroSubtitle": "From Blue Ridge mountain programs to DC metro area treatment centers in the Commonwealth",
+      "overview": "Virginia offers diverse addiction treatment options across its varied geography, from Blue Ridge mountain retreats to urban programs in the DC metro area. With over 310 treatment facilities, the Commonwealth has responded to increasing treatment needs with expanded services. Virginia's proximity to Washington DC makes it accessible for many seeking quality treatment.",
+      "treatmentLaws": {
+        "title": "Virginia Treatment Laws and Regulations",
+        "content": "The Virginia Department of Behavioral Health and Developmental Services (DBHDS) licenses addiction treatment facilities. Virginia has expanded Medicaid coverage, increasing treatment access. Community Services Boards (CSBs) coordinate local mental health and addiction services. The state supports medication-assisted treatment and harm reduction approaches.",
+        "keyPoints": [
+          "DBHDS licenses treatment facilities",
+          "Medicaid expansion increased access",
+          "Community Services Boards coordinate local care",
+          "MAT programs widely supported",
+          "Emergency civil commitment available",
+          "Insurance parity laws in effect"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 130 },
+        { "type": "Inpatient Rehab", "count": 70 },
+        { "type": "Detox Center", "count": 35 },
+        { "type": "Sober Living", "count": 45 },
+        { "type": "Dual Diagnosis", "count": 20 },
+        { "type": "Executive Programs", "count": 10 }
+      ],
+      "topCities": ["Richmond", "Virginia Beach", "Norfolk", "Arlington", "Alexandria", "Roanoke", "Newport News", "Chesapeake", "Charlottesville", "Lynchburg"],
+      "notableFacilities": [
+        {
+          "name": "Farley Center",
+          "city": "Williamsburg",
+          "description": "Comprehensive treatment center offering medical detox, residential, and outpatient services in historic Virginia."
+        },
+        {
+          "name": "The Pavilion at Williamsburg Place",
+          "city": "Williamsburg",
+          "description": "Hospital-based treatment program offering psychiatric and addiction services with medical expertise."
+        },
+        {
+          "name": "Recovery Centers of America at Devon",
+          "city": "Devon",
+          "description": "Part of a national network offering comprehensive addiction treatment with a focus on accessibility."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$18,000-$40,000",
+        "outpatient": "$4,000-$10,000",
+        "notes": "Virginia treatment costs are moderate, with proximity to DC influencing prices in Northern Virginia. Medicaid expansion has increased access for many residents. Community Services Boards provide state-funded treatment options."
+      },
+      "faqs": [
+        {
+          "question": "Does Virginia Medicaid cover addiction treatment?",
+          "answer": "Yes, Virginia expanded Medicaid in 2019, significantly increasing coverage for addiction treatment. Services covered include assessment, outpatient treatment, intensive outpatient, residential treatment, and medication-assisted treatment."
+        },
+        {
+          "question": "How do Community Services Boards help with treatment?",
+          "answer": "CSBs are the entry point for public mental health and addiction services in Virginia. They provide assessment, referrals, case management, and some direct treatment services. Every region in Virginia has a CSB serving its residents."
+        },
+        {
+          "question": "Are there treatment options near Washington DC?",
+          "answer": "Yes, Northern Virginia has numerous treatment facilities within easy reach of DC. Many federal employees and DC-area residents utilize Virginia treatment options. Both luxury and accessible programs are available."
+        },
+        {
+          "question": "What state-funded options exist in Virginia?",
+          "answer": "CSBs coordinate state-funded treatment for uninsured or underinsured residents. SAMHSA block grants fund treatment services. Medicaid covers treatment for eligible residents. Waiting lists may exist for some services."
+        },
+        {
+          "question": "What is the process for involuntary treatment in Virginia?",
+          "answer": "Virginia allows emergency civil commitment for individuals with substance use disorder who are an imminent danger to themselves or others. The process involves evaluation at a CSB and a court hearing. Treatment can be ordered for up to 180 days."
+        }
+      ]
+    },
+    {
+      "slug": "new-york",
+      "name": "New York",
+      "abbr": "NY",
+      "totalFacilities": 520,
+      "title": "Addiction Treatment Centers in New York: Complete Guide",
+      "metaDescription": "Comprehensive guide to addiction treatment in New York. Find rehab facilities, understand state regulations, costs, and recovery resources across the Empire State.",
+      "heroSubtitle": "From Manhattan medical centers to upstate retreats in the Empire State",
+      "overview": "New York offers extensive addiction treatment options across its diverse landscape, from world-class medical centers in New York City to peaceful upstate retreats. With over 520 treatment facilities, the state provides comprehensive services at various price points. New York has been a leader in medication-assisted treatment and harm reduction approaches.",
+      "treatmentLaws": {
+        "title": "New York Treatment Laws and Regulations",
+        "content": "The New York State Office of Addiction Services and Supports (OASAS) regulates addiction treatment facilities. New York Medicaid provides comprehensive coverage for addiction treatment. The state has strong insurance parity laws and supports medication-assisted treatment. Kendra's Law allows for assisted outpatient treatment in certain cases.",
+        "keyPoints": [
+          "OASAS regulates treatment facilities",
+          "Medicaid provides comprehensive coverage",
+          "Strong insurance parity laws",
+          "Pioneer in medication-assisted treatment",
+          "Harm reduction approaches supported",
+          "Kendra's Law for assisted outpatient treatment"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 220 },
+        { "type": "Inpatient Rehab", "count": 110 },
+        { "type": "Detox Center", "count": 65 },
+        { "type": "Sober Living", "count": 75 },
+        { "type": "Dual Diagnosis", "count": 35 },
+        { "type": "MAT Programs", "count": 15 }
+      ],
+      "topCities": ["New York City", "Buffalo", "Rochester", "Syracuse", "Albany", "Yonkers", "Long Island", "White Plains", "Westchester", "Hudson Valley"],
+      "notableFacilities": [
+        {
+          "name": "Hazelden Betty Ford at New York",
+          "city": "New York City",
+          "description": "Outpatient center from the renowned treatment organization, offering comprehensive services in Manhattan."
+        },
+        {
+          "name": "St. Christopher's Inn",
+          "city": "Garrison",
+          "description": "Nonprofit residential treatment center in the Hudson Valley offering affordable long-term treatment."
+        },
+        {
+          "name": "Arms Acres",
+          "city": "Carmel",
+          "description": "Comprehensive treatment center offering detox, residential, and outpatient services in a peaceful Westchester setting."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$25,000-$50,000",
+        "outpatient": "$5,000-$15,000",
+        "notes": "New York City treatment costs are among the highest in the nation due to real estate and operational costs. Upstate facilities are generally more affordable. Medicaid provides excellent coverage, and many sliding scale options exist."
+      },
+      "faqs": [
+        {
+          "question": "Does New York Medicaid cover addiction treatment?",
+          "answer": "Yes, New York Medicaid provides comprehensive coverage for addiction treatment including assessment, outpatient services, intensive outpatient, residential treatment, medication-assisted treatment, and recovery support services."
+        },
+        {
+          "question": "What is OASAS and how does it help?",
+          "answer": "The Office of Addiction Services and Supports (OASAS) regulates treatment facilities, funds services, and maintains a treatment locator. OASAS certification ensures facilities meet quality standards. Their website provides resources for finding treatment."
+        },
+        {
+          "question": "Are there affordable options in New York City?",
+          "answer": "Yes, despite high costs, NYC has nonprofit and state-funded treatment options. Medicaid covers treatment at many facilities. Hospital-based programs accept insurance. OASAS can help identify sliding scale programs."
+        },
+        {
+          "question": "What harm reduction services are available in New York?",
+          "answer": "New York is a leader in harm reduction, offering syringe services, naloxone distribution, supervised consumption sites (in NYC), and low-threshold treatment options. These services often connect people to treatment when they're ready."
+        },
+        {
+          "question": "How do I access treatment in rural New York?",
+          "answer": "County mental health departments coordinate services in rural areas. Telehealth options have expanded access significantly. OASAS maintains a treatment locator covering all regions. Some facilities provide transportation assistance."
+        }
+      ]
+    },
+    {
+      "slug": "pennsylvania",
+      "name": "Pennsylvania",
+      "abbr": "PA",
+      "totalFacilities": 420,
+      "title": "Addiction Treatment Centers in Pennsylvania: Complete Guide",
+      "metaDescription": "Comprehensive guide to addiction treatment in Pennsylvania. Find rehab facilities, understand state regulations, costs, and recovery resources across the Keystone State.",
+      "heroSubtitle": "From Philadelphia medical programs to Pittsburgh recovery centers in the Keystone State",
+      "overview": "Pennsylvania has comprehensive addiction treatment resources across its major cities and rural communities. With over 420 treatment facilities, the state addresses significant treatment needs, particularly related to the opioid epidemic affecting many communities. Pennsylvania has invested heavily in treatment access and supports innovative approaches.",
+      "treatmentLaws": {
+        "title": "Pennsylvania Treatment Laws and Regulations",
+        "content": "The Pennsylvania Department of Drug and Alcohol Programs (DDAP) oversees addiction services. Pennsylvania expanded Medicaid coverage significantly, increasing treatment access. Single County Authorities (SCAs) coordinate local services. The state has implemented innovative opioid response programs and supports medication-assisted treatment.",
+        "keyPoints": [
+          "DDAP oversees addiction services",
+          "Medicaid expansion increased access significantly",
+          "Single County Authorities coordinate local care",
+          "Strong investment in opioid response",
+          "MAT programs widely supported",
+          "Act 106 provides treatment alternatives to incarceration"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 175 },
+        { "type": "Inpatient Rehab", "count": 90 },
+        { "type": "Detox Center", "count": 50 },
+        { "type": "Sober Living", "count": 60 },
+        { "type": "Dual Diagnosis", "count": 30 },
+        { "type": "MAT Programs", "count": 15 }
+      ],
+      "topCities": ["Philadelphia", "Pittsburgh", "Allentown", "Reading", "Erie", "Harrisburg", "Lancaster", "Scranton", "Bethlehem", "Chester County"],
+      "notableFacilities": [
+        {
+          "name": "Caron Treatment Centers",
+          "city": "Wernersville",
+          "description": "Renowned nonprofit treatment center offering comprehensive programs for adults, adolescents, and families since 1957."
+        },
+        {
+          "name": "Gateway Rehab",
+          "city": "Multiple Locations",
+          "description": "Network of treatment centers across Western Pennsylvania offering the full continuum of care."
+        },
+        {
+          "name": "Livengrin Foundation",
+          "city": "Bensalem",
+          "description": "Nonprofit treatment center in the Philadelphia area offering residential and outpatient services since 1966."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$15,000-$35,000",
+        "outpatient": "$3,000-$8,000",
+        "notes": "Pennsylvania treatment costs are moderate. Medicaid expansion has significantly increased access. Many nonprofit facilities offer affordable care. SCAs provide state-funded treatment for uninsured residents."
+      },
+      "faqs": [
+        {
+          "question": "Does Pennsylvania Medicaid cover addiction treatment?",
+          "answer": "Yes, Pennsylvania expanded Medicaid in 2015, dramatically increasing coverage for addiction treatment. Services covered include assessment, outpatient treatment, intensive outpatient, residential treatment, medication-assisted treatment, and recovery support."
+        },
+        {
+          "question": "What are Single County Authorities?",
+          "answer": "SCAs are the local points of contact for drug and alcohol services in Pennsylvania. They coordinate publicly funded treatment, provide assessments, manage waiting lists, and help connect residents with appropriate services."
+        },
+        {
+          "question": "How has Pennsylvania responded to the opioid crisis?",
+          "answer": "Pennsylvania declared opioid addiction a statewide disaster in 2018, enabling emergency response measures. The state expanded MAT access, distributed naloxone widely, implemented prescription drug monitoring, and invested in treatment capacity."
+        },
+        {
+          "question": "Are there free treatment options in Pennsylvania?",
+          "answer": "Yes, SCAs coordinate state-funded treatment for uninsured residents. Medicaid covers treatment for eligible individuals. Many nonprofit facilities offer sliding scale fees. Faith-based and community programs provide additional free options."
+        },
+        {
+          "question": "What treatment approaches are used in Pennsylvania?",
+          "answer": "Pennsylvania facilities offer evidence-based approaches including cognitive-behavioral therapy, 12-step facilitation, motivational interviewing, and medication-assisted treatment. The state particularly supports MAT as part of comprehensive treatment."
+        }
+      ]
+    },
+    {
+      "slug": "nevada",
+      "name": "Nevada",
+      "abbr": "NV",
+      "totalFacilities": 180,
+      "title": "Addiction Treatment Centers in Nevada: Complete Guide",
+      "metaDescription": "Guide to addiction treatment in Nevada. Find rehab facilities, understand state regulations, costs, and recovery resources in the Silver State.",
+      "heroSubtitle": "From Las Vegas recovery programs to Reno treatment centers in the Silver State",
+      "overview": "Nevada's treatment landscape serves both residents and visitors, with facilities concentrated in the Las Vegas and Reno metropolitan areas. With over 180 treatment facilities, the state addresses unique challenges related to the tourism and hospitality industry. Nevada has worked to expand treatment access and address gambling addiction alongside substance use disorders.",
+      "treatmentLaws": {
+        "title": "Nevada Treatment Laws and Regulations",
+        "content": "The Nevada Division of Public and Behavioral Health regulates addiction treatment facilities. Nevada Medicaid covers addiction treatment for eligible residents. The state supports medication-assisted treatment and has implemented harm reduction initiatives. Nevada law allows for court-ordered treatment in certain circumstances.",
+        "keyPoints": [
+          "DPBH regulates treatment facilities",
+          "Medicaid covers addiction treatment",
+          "Gambling addiction services available",
+          "MAT programs supported statewide",
+          "Court-ordered treatment available",
+          "Harm reduction initiatives expanding"
+        ]
+      },
+      "typeDistribution": [
+        { "type": "Outpatient Treatment", "count": 75 },
+        { "type": "Inpatient Rehab", "count": 40 },
+        { "type": "Detox Center", "count": 25 },
+        { "type": "Sober Living", "count": 25 },
+        { "type": "Dual Diagnosis", "count": 10 },
+        { "type": "Gambling Treatment", "count": 5 }
+      ],
+      "topCities": ["Las Vegas", "Henderson", "Reno", "North Las Vegas", "Sparks", "Carson City", "Elko", "Mesquite", "Boulder City", "Fernley"],
+      "notableFacilities": [
+        {
+          "name": "Resolutions Las Vegas",
+          "city": "Las Vegas",
+          "description": "Comprehensive treatment center offering medical detox, residential, and outpatient services in the Las Vegas area."
+        },
+        {
+          "name": "The Recovery Village Ridgefield",
+          "city": "Las Vegas",
+          "description": "Part of a national network offering full continuum of care with a focus on individualized treatment planning."
+        },
+        {
+          "name": "West Hills Hospital",
+          "city": "Reno",
+          "description": "Hospital-based treatment program offering psychiatric and addiction services in Northern Nevada."
+        }
+      ],
+      "topRatedFacilities": [],
+      "treatmentCosts": {
+        "average": "$18,000-$40,000",
+        "outpatient": "$3,500-$10,000",
+        "notes": "Nevada treatment costs are moderate. Some luxury options exist in the Las Vegas area. Medicaid covers treatment for eligible residents. State-funded options are available through the Division of Public and Behavioral Health."
+      },
+      "faqs": [
+        {
+          "question": "Does Nevada Medicaid cover addiction treatment?",
+          "answer": "Yes, Nevada Medicaid covers addiction treatment services including assessment, outpatient counseling, intensive outpatient, residential treatment, and medication-assisted treatment for eligible residents."
+        },
+        {
+          "question": "Are gambling addiction services available in Nevada?",
+          "answer": "Yes, Nevada recognizes gambling disorder and offers specialized treatment services. The Nevada Council on Problem Gambling provides resources and referrals. Many treatment centers address gambling alongside substance use disorders."
+        },
+        {
+          "question": "What treatment options exist outside Las Vegas?",
+          "answer": "Reno has substantial treatment resources for Northern Nevada. Rural areas are served through state-funded programs and telehealth. The Division of Public and Behavioral Health coordinates services across the state."
+        },
+        {
+          "question": "How does Nevada address addiction in the hospitality industry?",
+          "answer": "Some treatment facilities offer programs designed for hospitality workers, recognizing the unique challenges of the industry. Employee assistance programs in casinos and hotels provide referrals. Confidential treatment options are available."
+        },
+        {
+          "question": "What state-funded options exist in Nevada?",
+          "answer": "The Division of Public and Behavioral Health funds treatment services for uninsured residents. Rural clinics provide services in underserved areas. Sliding scale options exist at some facilities. Medicaid covers treatment for eligible individuals."
+        }
+      ]
+    }
+  ]
+}

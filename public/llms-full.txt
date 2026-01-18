@@ -1,0 +1,159 @@
+# RehabNearByMe.com - Full Documentation
+
+> The most comprehensive guide to rehabilitation and addiction treatment centers in the United States
+
+## About RehabNearByMe.com
+
+RehabNearByMe.com is the most extensive online directory of rehabilitation facilities and addiction treatment centers in the United States. The website provides detailed information about treatment facilities across all 50 states.
+
+The site is designed for:
+- People seeking addiction treatment for themselves
+- Family members looking for help for a loved one
+- Healthcare professionals seeking referral resources
+- Insurance providers researching treatment options
+
+## Facility Types
+
+### Inpatient Rehabilitation Centers
+Residential treatment facilities where patients live on-site during their recovery program. Typically 28-90 days or longer.
+
+### Outpatient Treatment Programs
+Treatment programs where patients attend sessions while living at home. Includes Intensive Outpatient Programs (IOP) and Partial Hospitalization Programs (PHP).
+
+### Detox Centers
+Medical detoxification facilities that help patients safely withdraw from substances under medical supervision.
+
+### Sober Living Homes
+Transitional housing for people in recovery who need a supportive, substance-free living environment.
+
+### Dual Diagnosis Treatment
+Facilities specializing in treating both addiction and co-occurring mental health disorders.
+
+### Luxury Rehab Centers
+High-end treatment facilities with premium amenities and personalized care.
+
+## Treatment Specializations
+
+- Alcohol Addiction
+- Opioid Addiction (Heroin, Fentanyl, Prescription Painkillers)
+- Cocaine Addiction
+- Methamphetamine Addiction
+- Prescription Drug Abuse (Benzodiazepines, Stimulants)
+- Marijuana Dependency
+- Mental Health & Co-occurring Disorders
+- Adolescent Programs
+- Veterans Programs
+- LGBTQ+ Friendly Programs
+
+## Navigation Structure
+
+### Main Pages
+- `/` - Homepage with search functionality and state overview
+- `/search` - Advanced search with filters by location, facility type, and treatment
+- `/compare` - Tool to compare up to 3 facilities side by side
+
+### Geographic Navigation
+- `/state/[name]` - Overview of all counties and cities within a state
+- `/county/[name]` - Overview of all cities within a county
+- `/city/[name]` - All facilities in a specific city
+
+### Detail Pages
+- `/facility/[slug]` - Complete information about a single facility
+- `/type/[type]` - All facilities of a specific type
+
+### Informational
+- `/guide` - Treatment guides and educational content
+- `/about` - About the platform
+- `/contact` - Contact information
+
+## Information Per Facility
+
+Each facility page may include:
+
+### Basic Information
+- Official name
+- Facility type(s)
+- Address (street, city, state, ZIP)
+- County
+
+### Contact Information
+- Phone number
+- Website
+- Hours of operation
+
+### Location
+- GPS coordinates
+- Interactive Google Maps
+- Directions
+
+### Reviews
+- Google Maps rating (1-5 stars)
+- Number of reviews
+- Recent reviews
+
+### Media
+- Photos of the facility
+- Virtual tour (if available)
+
+### Description
+- Detailed description of the facility
+- Treatment programs offered
+- Amenities and features
+- Insurance accepted
+
+## Frequently Asked Questions
+
+### How much does rehab cost?
+Costs vary widely depending on the type of facility and length of stay. Outpatient programs may cost $5,000-$15,000, while inpatient programs can range from $10,000 to $100,000+ for luxury facilities. Many facilities accept insurance.
+
+### How long does treatment last?
+Treatment duration varies by program type. Detox typically lasts 3-10 days, inpatient programs are usually 28-90 days, and outpatient programs can last several months.
+
+### What is the difference between inpatient and outpatient treatment?
+Inpatient treatment requires living at the facility during treatment, providing 24/7 care and a structured environment. Outpatient treatment allows patients to live at home while attending scheduled treatment sessions.
+
+### How do I find a rehab near me?
+Use the search function on /search and enter your city, state, or ZIP code. You can filter results by facility type, treatment specialization, and insurance accepted.
+
+### Do facilities accept insurance?
+Many facilities accept various insurance plans including private insurance, Medicaid, and Medicare. Check the facility details page or contact them directly to verify coverage.
+
+### What should I look for in a treatment facility?
+Consider: accreditation, staff credentials, treatment approaches offered, success rates, aftercare programs, insurance acceptance, location, and amenities.
+
+## US States Covered
+
+All 50 US states are covered, including:
+- California, Texas, Florida, New York (highest number of facilities)
+- And all other states with comprehensive coverage
+
+## Technical Information
+
+### Website
+- URL: https://rehabnearbyme.com
+- Framework: Next.js 16
+- Hosting: Vercel
+
+### SEO & Indexing
+- Sitemap: https://rehabnearbyme.com/sitemap.xml
+- Robots.txt: https://rehabnearbyme.com/robots.txt
+- Structured data: JSON-LD on all pages
+
+### API (Not Public)
+The website has internal API endpoints that are not intended for external use.
+
+## Contact
+
+- **Website**: https://rehabnearbyme.com
+- **Email**: info@rehabnearbyme.com
+- **Location**: United States
+
+## Legal
+
+RehabNearByMe.com is an independent informational website. We are not affiliated with specific treatment facilities, healthcare providers, or government agencies. The information on this website is compiled from public sources and is regularly updated.
+
+This website does not provide medical advice. If you or someone you know is experiencing a medical emergency, please call 911 or your local emergency services.
+
+## Last Update
+
+January 2026

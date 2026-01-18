@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.rehabnearbyme.com/sitemaps/sitemap-static.xml</loc>
+    <lastmod>2026-01-18</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rehabnearbyme.com/sitemaps/sitemap-states.xml</loc>
+    <lastmod>2026-01-18</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rehabnearbyme.com/sitemaps/sitemap-counties.xml</loc>
+    <lastmod>2026-01-18</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rehabnearbyme.com/sitemaps/sitemap-cities-1.xml</loc>
+    <lastmod>2026-01-18</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rehabnearbyme.com/sitemaps/sitemap-cities-2.xml</loc>
+    <lastmod>2026-01-18</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rehabnearbyme.com/sitemaps/sitemap-cities-3.xml</loc>
+    <lastmod>2026-01-18</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rehabnearbyme.com/sitemaps/sitemap-cities-4.xml</loc>
+    <lastmod>2026-01-18</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rehabnearbyme.com/sitemaps/sitemap-facilities-1.xml</loc>
+    <lastmod>2026-01-18</lastmod>
+  </sitemap>
+</sitemapindex>

@@ -1,0 +1,14 @@
+# Robots.txt for RehabNearByMe.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /cache/
+
+# Sitemap
+Sitemap: https://www.rehabnearbyme.com/sitemap.xml
+
+# LLMs.txt for AI assistants (ChatGPT, Claude, Perplexity, etc.)
+# See: https://llmstxt.org
+LLMs-Txt: https://www.rehabnearbyme.com/llms.txt
+LLMs-Full-Txt: https://www.rehabnearbyme.com/llms-full.txt

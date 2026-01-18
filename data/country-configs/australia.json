@@ -1,0 +1,107 @@
+{
+  "country": {
+    "name": "Australia",
+    "code": "AUS",
+    "iso2": "AU",
+    "iso3": "AUS",
+    "continent": "Oceania",
+    "language": "en",
+    "currency": "AUD",
+    "coordinate_bounds": {
+      "north": -10.06,
+      "south": -43.64,
+      "east": 153.64,
+      "west": 113.34
+    }
+  },
+  "administrative_divisions": {
+    "primary": "state",
+    "secondary": "local_government_area",
+    "tertiary": "suburb",
+    "types": ["state", "territory"]
+  },
+  "search_terms": {
+    "treatment_center": ["rehab", "rehabilitation centre", "treatment centre", "recovery centre", "detox centre"],
+    "addiction": ["drug rehab", "alcohol rehab", "addiction treatment", "substance abuse treatment"],
+    "special": ["inpatient rehab", "outpatient treatment", "sober living", "dual diagnosis treatment", "mental health treatment"]
+  },
+  "url_patterns": {
+    "state": "/state/{state-slug}",
+    "city": "/city/{city-slug}-{state-abbr}",
+    "facility": "/facility/{facility-slug}"
+  },
+  "states": [
+    {
+      "name": "New South Wales",
+      "abbr": "NSW",
+      "slug": "new-south-wales",
+      "type": "state",
+      "capital": "Sydney",
+      "priority": 1,
+      "major_cities": ["Sydney", "Newcastle", "Wollongong", "Central Coast", "Maitland", "Coffs Harbour", "Wagga Wagga", "Port Macquarie", "Tamworth", "Orange", "Dubbo", "Albury", "Bathurst", "Lismore", "Nowra", "Queanbeyan", "Armidale", "Goulburn", "Broken Hill", "Grafton", "Penrith", "Parramatta", "Blacktown", "Liverpool", "Campbelltown", "Bankstown", "Sutherland", "Hornsby", "Ryde", "Canterbury"]
+    },
+    {
+      "name": "Victoria",
+      "abbr": "VIC",
+      "slug": "victoria",
+      "type": "state",
+      "capital": "Melbourne",
+      "priority": 1,
+      "major_cities": ["Melbourne", "Geelong", "Ballarat", "Bendigo", "Shepparton", "Mildura", "Wodonga", "Warrnambool", "Traralgon", "Sunbury", "Wangaratta", "Horsham", "Echuca", "Sale", "Bairnsdale", "Moe", "Morwell", "Swan Hill", "Melton", "Frankston", "Dandenong", "Casey", "Monash", "Boroondara", "Knox"]
+    },
+    {
+      "name": "Queensland",
+      "abbr": "QLD",
+      "slug": "queensland",
+      "type": "state",
+      "capital": "Brisbane",
+      "priority": 1,
+      "major_cities": ["Brisbane", "Gold Coast", "Sunshine Coast", "Townsville", "Cairns", "Toowoomba", "Mackay", "Rockhampton", "Bundaberg", "Hervey Bay", "Gladstone", "Mount Isa", "Maryborough", "Gympie", "Warwick", "Ipswich", "Logan", "Redland", "Moreton Bay", "Noosa", "Caloundra", "Maroochydore", "Nambour", "Emerald", "Longreach"]
+    },
+    {
+      "name": "Western Australia",
+      "abbr": "WA",
+      "slug": "western-australia",
+      "type": "state",
+      "capital": "Perth",
+      "priority": 1,
+      "major_cities": ["Perth", "Mandurah", "Bunbury", "Rockingham", "Geraldton", "Albany", "Kalgoorlie", "Karratha", "Port Hedland", "Broome", "Busselton", "Esperance", "Carnarvon", "Northam", "Armadale", "Fremantle", "Joondalup", "Stirling", "Wanneroo", "Gosnells", "Canning", "Melville", "Belmont", "Subiaco", "Nedlands"]
+    },
+    {
+      "name": "South Australia",
+      "abbr": "SA",
+      "slug": "south-australia",
+      "type": "state",
+      "capital": "Adelaide",
+      "priority": 2,
+      "major_cities": ["Adelaide", "Mount Gambier", "Whyalla", "Murray Bridge", "Port Augusta", "Port Pirie", "Port Lincoln", "Victor Harbor", "Mount Barker", "Gawler", "Salisbury", "Playford", "Tea Tree Gully", "Marion", "Charles Sturt", "Onkaparinga", "Holdfast Bay", "Unley", "Burnside", "Norwood"]
+    },
+    {
+      "name": "Tasmania",
+      "abbr": "TAS",
+      "slug": "tasmania",
+      "type": "state",
+      "capital": "Hobart",
+      "priority": 2,
+      "major_cities": ["Hobart", "Launceston", "Devonport", "Burnie", "Kingston", "Ulverstone", "Wynyard", "George Town", "New Norfolk", "Bridgewater", "Glenorchy", "Clarence", "Brighton", "Sorell", "Huonville", "Queenstown", "Smithton", "Scottsdale", "Deloraine", "St Helens"]
+    },
+    {
+      "name": "Australian Capital Territory",
+      "abbr": "ACT",
+      "slug": "australian-capital-territory",
+      "type": "territory",
+      "capital": "Canberra",
+      "priority": 2,
+      "major_cities": ["Canberra", "Queanbeyan", "Belconnen", "Gungahlin", "Tuggeranong", "Woden Valley", "Weston Creek", "Molonglo Valley", "North Canberra", "South Canberra"]
+    },
+    {
+      "name": "Northern Territory",
+      "abbr": "NT",
+      "slug": "northern-territory",
+      "type": "territory",
+      "capital": "Darwin",
+      "priority": 3,
+      "major_cities": ["Darwin", "Alice Springs", "Palmerston", "Katherine", "Tennant Creek", "Nhulunbuy", "Jabiru", "Yulara", "Howard Springs", "Humpty Doo"]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "types": [
+    {
+      "slug": "inpatient-rehab",
+      "name": "Inpatient Rehabilitation",
+      "description": "Residential treatment programs where patients live at the facility 24/7, receiving intensive care and support in a structured environment.",
+      "search_terms": ["inpatient rehab", "residential rehab", "inpatient treatment", "live-in rehab", "24/7 treatment"]
+    },
+    {
+      "slug": "outpatient-treatment",
+      "name": "Outpatient Treatment",
+      "description": "Flexible treatment programs that allow patients to live at home while attending scheduled therapy sessions and treatment appointments.",
+      "search_terms": ["outpatient treatment", "outpatient rehab", "day treatment", "outpatient program", "OP treatment"]
+    },
+    {
+      "slug": "detox-center",
+      "name": "Detox Center",
+      "description": "Medical facilities specializing in safely managing withdrawal symptoms as the first step in addiction recovery.",
+      "search_terms": ["detox center", "detoxification", "medical detox", "drug detox", "alcohol detox", "withdrawal treatment"]
+    },
+    {
+      "slug": "residential-treatment",
+      "name": "Residential Treatment",
+      "description": "Long-term treatment facilities providing comprehensive care in a home-like environment for extended recovery periods.",
+      "search_terms": ["residential treatment", "long-term treatment", "residential care", "extended care", "long-term rehab"]
+    },
+    {
+      "slug": "partial-hospitalization",
+      "name": "Partial Hospitalization Program (PHP)",
+      "description": "Intensive day programs offering hospital-level care during the day while patients return home in the evenings.",
+      "search_terms": ["partial hospitalization", "PHP program", "day hospital", "partial hospital program", "intensive day treatment"]
+    },
+    {
+      "slug": "intensive-outpatient",
+      "name": "Intensive Outpatient Program (IOP)",
+      "description": "Structured outpatient programs providing more intensive treatment than standard outpatient care, typically 3-5 days per week.",
+      "search_terms": ["intensive outpatient", "IOP program", "IOP treatment", "intensive outpatient program", "step-down treatment"]
+    },
+    {
+      "slug": "sober-living",
+      "name": "Sober Living Home",
+      "description": "Transitional housing providing a drug and alcohol-free living environment for individuals in recovery.",
+      "search_terms": ["sober living", "sober house", "halfway house", "recovery residence", "transitional housing", "sober living home"]
+    },
+    {
+      "slug": "dual-diagnosis",
+      "name": "Dual Diagnosis Treatment",
+      "description": "Specialized treatment addressing both substance abuse and co-occurring mental health disorders simultaneously.",
+      "search_terms": ["dual diagnosis", "co-occurring disorders", "mental health and addiction", "dual diagnosis treatment", "comorbid treatment"]
+    },
+    {
+      "slug": "luxury-rehab",
+      "name": "Luxury Rehabilitation",
+      "description": "High-end treatment facilities offering premium amenities, private accommodations, and executive-level care.",
+      "search_terms": ["luxury rehab", "executive rehab", "high-end treatment", "private rehab", "luxury treatment center", "upscale rehab"]
+    },
+    {
+      "slug": "holistic-treatment",
+      "name": "Holistic Treatment",
+      "description": "Treatment programs incorporating alternative therapies like yoga, meditation, acupuncture, and nutrition alongside traditional treatment.",
+      "search_terms": ["holistic treatment", "holistic rehab", "alternative treatment", "natural treatment", "integrative treatment", "wellness rehab"]
+    },
+    {
+      "slug": "faith-based-rehab",
+      "name": "Faith-Based Rehabilitation",
+      "description": "Recovery programs incorporating spiritual practices and religious principles as part of the treatment approach.",
+      "search_terms": ["faith-based rehab", "christian rehab", "religious treatment", "spiritual rehab", "faith-based treatment", "church-based rehab"]
+    },
+    {
+      "slug": "adolescent-treatment",
+      "name": "Adolescent Treatment",
+      "description": "Specialized treatment programs designed specifically for teenagers and young adults struggling with addiction.",
+      "search_terms": ["adolescent treatment", "teen rehab", "youth treatment", "teenage addiction treatment", "young adult rehab", "adolescent rehab"]
+    },
+    {
+      "slug": "veterans-program",
+      "name": "Veterans Treatment Program",
+      "description": "Treatment programs specifically designed for military veterans, addressing trauma, PTSD, and addiction unique to their experiences.",
+      "search_terms": ["veterans program", "VA rehab", "military rehab", "veteran addiction treatment", "PTSD treatment", "veteran recovery"]
+    },
+    {
+      "slug": "medication-assisted",
+      "name": "Medication-Assisted Treatment (MAT)",
+      "description": "Treatment combining FDA-approved medications with counseling and behavioral therapies to treat substance use disorders.",
+      "search_terms": ["medication-assisted treatment", "MAT program", "suboxone treatment", "methadone clinic", "vivitrol treatment", "medically assisted treatment"]
+    }
+  ]
+}

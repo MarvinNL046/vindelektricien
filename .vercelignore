@@ -1,0 +1,16 @@
+# Development and script files
+scripts/
+data/discovery/
+data/*-backup-*.json
+data/*-progress.json
+data/backup-*.json
+data/brightdata-urls.json
+
+# Local cache
+public/cache/
+public/images/google/
+.playwright-mcp/
+
+# Dev files
+*.log
+.env.local

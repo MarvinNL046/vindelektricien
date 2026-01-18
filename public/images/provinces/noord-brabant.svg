@@ -1,0 +1,77 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky-nb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48C9B0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#76D7C4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="450" fill="url(#sky-nb)"/>
+
+  <!-- Clouds -->
+  <ellipse cx="200" cy="80" rx="70" ry="30" fill="white" opacity="0.7"/>
+  <ellipse cx="600" cy="60" rx="80" ry="35" fill="white" opacity="0.6"/>
+
+  <!-- Rolling hills background -->
+  <ellipse cx="200" cy="350" rx="300" ry="80" fill="#239B56" opacity="0.5"/>
+  <ellipse cx="600" cy="340" rx="350" ry="70" fill="#239B56" opacity="0.5"/>
+
+  <!-- Ground -->
+  <rect x="0" y="320" width="800" height="130" fill="#28B463"/>
+
+  <!-- Forest (Pine trees) -->
+  <g>
+    <!-- Tree 1 -->
+    <polygon points="100,320 70,200 130,200" fill="#145A32"/>
+    <polygon points="100,250 65,170 135,170" fill="#1D8348"/>
+    <polygon points="100,190 75,130 125,130" fill="#239B56"/>
+    <rect x="95" y="320" width="10" height="30" fill="#6D4C41"/>
+
+    <!-- Tree 2 -->
+    <polygon points="180,320 150,220 210,220" fill="#145A32"/>
+    <polygon points="180,270 145,180 215,180" fill="#1D8348"/>
+    <polygon points="180,210 155,150 205,150" fill="#239B56"/>
+    <rect x="175" y="320" width="10" height="25" fill="#6D4C41"/>
+
+    <!-- Tree 3 -->
+    <polygon points="650,320 615,190 685,190" fill="#145A32"/>
+    <polygon points="650,250 610,150 690,150" fill="#1D8348"/>
+    <polygon points="650,180 620,110 680,110" fill="#239B56"/>
+    <rect x="645" y="320" width="10" height="30" fill="#6D4C41"/>
+
+    <!-- Tree 4 -->
+    <polygon points="730,320 700,230 760,230" fill="#145A32"/>
+    <polygon points="730,280 695,190 765,190" fill="#1D8348"/>
+    <polygon points="730,220 705,160 755,160" fill="#239B56"/>
+    <rect x="725" y="320" width="10" height="25" fill="#6D4C41"/>
+  </g>
+
+  <!-- Eindhoven Tech element - Philips style building -->
+  <g transform="translate(350, 150)">
+    <rect x="0" y="50" width="120" height="120" fill="#2C3E50"/>
+    <rect x="10" y="60" width="30" height="40" fill="#85C1E9"/>
+    <rect x="50" y="60" width="30" height="40" fill="#85C1E9"/>
+    <rect x="85" y="60" width="25" height="100" fill="#85C1E9"/>
+    <!-- Light bulb icon -->
+    <circle cx="60" cy="130" r="20" fill="#F7DC6F" opacity="0.9"/>
+    <rect x="55" y="145" width="10" height="15" fill="#7F8C8D"/>
+  </g>
+
+  <!-- Deer silhouette -->
+  <g fill="#6D4C41" transform="translate(280, 280)">
+    <ellipse cx="30" cy="30" rx="25" ry="15"/>
+    <ellipse cx="55" cy="25" rx="10" ry="8"/>
+    <rect x="15" y="40" width="5" height="25"/>
+    <rect x="35" y="40" width="5" height="25"/>
+    <!-- Antlers -->
+    <line x1="60" y1="20" x2="70" y2="5" stroke="#6D4C41" stroke-width="3"/>
+    <line x1="68" y1="10" x2="75" y2="5" stroke="#6D4C41" stroke-width="2"/>
+    <line x1="60" y1="20" x2="55" y2="5" stroke="#6D4C41" stroke-width="3"/>
+    <line x1="57" y1="10" x2="50" y2="5" stroke="#6D4C41" stroke-width="2"/>
+  </g>
+
+  <!-- Province name overlay -->
+  <rect x="0" y="350" width="800" height="100" fill="black" opacity="0.4"/>
+  <text x="400" y="410" font-family="system-ui, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">Noord-Brabant</text>
+</svg>

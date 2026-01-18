@@ -1,0 +1,83 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky-gl" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#85C1E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4E6F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="450" fill="url(#sky-gl)"/>
+
+  <!-- Clouds -->
+  <ellipse cx="150" cy="70" rx="60" ry="28" fill="white" opacity="0.8"/>
+  <ellipse cx="650" cy="90" rx="75" ry="32" fill="white" opacity="0.7"/>
+
+  <!-- Veluwe hills in background -->
+  <ellipse cx="200" cy="320" rx="250" ry="60" fill="#7DCEA0" opacity="0.6"/>
+  <ellipse cx="600" cy="310" rx="300" ry="50" fill="#7DCEA0" opacity="0.5"/>
+
+  <!-- Ground - heather colors -->
+  <rect x="0" y="300" width="800" height="150" fill="#52BE80"/>
+
+  <!-- Heather patches -->
+  <ellipse cx="100" cy="350" rx="80" ry="20" fill="#9B59B6" opacity="0.4"/>
+  <ellipse cx="350" cy="370" rx="100" ry="25" fill="#8E44AD" opacity="0.3"/>
+  <ellipse cx="650" cy="355" rx="90" ry="22" fill="#9B59B6" opacity="0.4"/>
+
+  <!-- Oak trees -->
+  <g>
+    <!-- Tree 1 - Big oak -->
+    <ellipse cx="150" cy="230" rx="60" ry="50" fill="#1E8449"/>
+    <ellipse cx="180" cy="250" rx="50" ry="40" fill="#239B56"/>
+    <ellipse cx="120" cy="250" rx="45" ry="35" fill="#27AE60"/>
+    <rect x="140" y="270" width="20" height="50" fill="#6D4C41"/>
+
+    <!-- Tree 2 -->
+    <ellipse cx="680" cy="240" rx="55" ry="45" fill="#1E8449"/>
+    <ellipse cx="710" cy="260" rx="45" ry="35" fill="#239B56"/>
+    <ellipse cx="650" cy="260" rx="40" ry="30" fill="#27AE60"/>
+    <rect x="670" y="280" width="18" height="45" fill="#6D4C41"/>
+  </g>
+
+  <!-- Castle silhouette (Doorwerth style) -->
+  <g transform="translate(350, 140)" fill="#5D4037">
+    <!-- Main building -->
+    <rect x="0" y="80" width="100" height="80" fill="#6D4C41"/>
+    <!-- Towers -->
+    <rect x="-15" y="50" width="30" height="110" fill="#5D4037"/>
+    <rect x="85" y="50" width="30" height="110" fill="#5D4037"/>
+    <!-- Tower tops -->
+    <polygon points="0,50 -15,20 15,20" fill="#5D4037"/>
+    <polygon points="100,50 85,20 115,20" fill="#5D4037"/>
+    <!-- Windows -->
+    <rect x="10" y="100" width="15" height="20" fill="#2C3E50"/>
+    <rect x="40" y="100" width="15" height="20" fill="#2C3E50"/>
+    <rect x="70" y="100" width="15" height="20" fill="#2C3E50"/>
+    <!-- Gate -->
+    <rect x="35" y="130" width="30" height="30" rx="15" fill="#2C3E50"/>
+  </g>
+
+  <!-- Deer -->
+  <g fill="#8B4513" transform="translate(550, 300)">
+    <ellipse cx="0" cy="0" rx="20" ry="12"/>
+    <ellipse cx="20" cy="-5" rx="8" ry="6"/>
+    <rect x="-15" y="8" width="4" height="20"/>
+    <rect x="5" y="8" width="4" height="20"/>
+    <!-- Antlers -->
+    <line x1="25" y1="-8" x2="35" y2="-25" stroke="#8B4513" stroke-width="2"/>
+    <line x1="32" y1="-18" x2="40" y2="-22" stroke="#8B4513" stroke-width="2"/>
+  </g>
+
+  <!-- Wild boar -->
+  <g fill="#5D4037" transform="translate(250, 340)">
+    <ellipse cx="0" cy="0" rx="18" ry="10"/>
+    <ellipse cx="18" cy="-2" rx="8" ry="5"/>
+    <rect x="-12" y="6" width="4" height="12"/>
+    <rect x="6" y="6" width="4" height="12"/>
+  </g>
+
+  <!-- Province name overlay -->
+  <rect x="0" y="350" width="800" height="100" fill="black" opacity="0.4"/>
+  <text x="400" y="410" font-family="system-ui, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">Gelderland</text>
+</svg>

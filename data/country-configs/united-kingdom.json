@@ -1,0 +1,119 @@
+{
+  "country": {
+    "name": "United Kingdom",
+    "code": "GBR",
+    "iso2": "GB",
+    "iso3": "GBR",
+    "continent": "Europe",
+    "language": "en",
+    "currency": "GBP",
+    "coordinate_bounds": {
+      "north": 60.86,
+      "south": 49.87,
+      "east": 1.76,
+      "west": -8.65
+    }
+  },
+  "administrative_divisions": {
+    "primary": "country",
+    "secondary": "county",
+    "tertiary": "city",
+    "countries": ["England", "Scotland", "Wales", "Northern Ireland"]
+  },
+  "search_terms": {
+    "treatment_center": ["rehab", "rehabilitation centre", "treatment centre", "recovery centre", "detox centre"],
+    "addiction": ["drug rehab", "alcohol rehab", "addiction treatment", "substance abuse treatment"],
+    "special": ["inpatient rehab", "outpatient treatment", "sober living", "dual diagnosis treatment", "mental health treatment", "NHS addiction services"]
+  },
+  "url_patterns": {
+    "country": "/country/{country-slug}",
+    "county": "/county/{county-slug}",
+    "city": "/city/{city-slug}",
+    "facility": "/facility/{facility-slug}"
+  },
+  "regions": [
+    {
+      "name": "England",
+      "slug": "england",
+      "type": "country",
+      "priority": 1,
+      "regions": [
+        {
+          "name": "Greater London",
+          "slug": "greater-london",
+          "priority": 1,
+          "major_cities": ["London", "Westminster", "Croydon", "Barnet", "Ealing", "Enfield", "Bromley", "Lambeth", "Wandsworth", "Brent", "Lewisham", "Greenwich", "Tower Hamlets", "Hackney", "Islington", "Camden", "Southwark", "Hammersmith", "Kensington", "Richmond"]
+        },
+        {
+          "name": "South East England",
+          "slug": "south-east",
+          "priority": 1,
+          "major_cities": ["Brighton", "Reading", "Southampton", "Portsmouth", "Oxford", "Milton Keynes", "Slough", "Luton", "Crawley", "Maidstone", "Basingstoke", "Guildford", "Woking", "Canterbury", "Hastings", "Eastbourne", "Tunbridge Wells", "Aylesbury", "High Wycombe", "Chatham"]
+        },
+        {
+          "name": "South West England",
+          "slug": "south-west",
+          "priority": 1,
+          "major_cities": ["Bristol", "Plymouth", "Bournemouth", "Swindon", "Exeter", "Cheltenham", "Gloucester", "Bath", "Poole", "Taunton", "Torquay", "Weston-super-Mare", "Salisbury", "Truro", "Penzance", "Newquay", "Barnstaple", "Yeovil", "Weymouth", "Stroud"]
+        },
+        {
+          "name": "West Midlands",
+          "slug": "west-midlands",
+          "priority": 1,
+          "major_cities": ["Birmingham", "Coventry", "Wolverhampton", "Dudley", "Walsall", "Solihull", "West Bromwich", "Worcester", "Hereford", "Stoke-on-Trent", "Telford", "Shrewsbury", "Nuneaton", "Sutton Coldfield", "Tamworth", "Redditch", "Kidderminster", "Cannock", "Stafford", "Burton upon Trent"]
+        },
+        {
+          "name": "East Midlands",
+          "slug": "east-midlands",
+          "priority": 1,
+          "major_cities": ["Nottingham", "Leicester", "Derby", "Northampton", "Lincoln", "Mansfield", "Chesterfield", "Loughborough", "Kettering", "Corby", "Wellingborough", "Hinckley", "Grantham", "Boston", "Newark-on-Trent", "Worksop", "Ilkeston", "Long Eaton", "Melton Mowbray", "Coalville"]
+        },
+        {
+          "name": "East of England",
+          "slug": "east-of-england",
+          "priority": 1,
+          "major_cities": ["Norwich", "Cambridge", "Ipswich", "Peterborough", "Southend-on-Sea", "Colchester", "Chelmsford", "Basildon", "Luton", "Bedford", "Stevenage", "Watford", "Harlow", "Brentwood", "Braintree", "Lowestoft", "Great Yarmouth", "Kings Lynn", "Bury St Edmunds", "St Albans"]
+        },
+        {
+          "name": "North West England",
+          "slug": "north-west",
+          "priority": 1,
+          "major_cities": ["Manchester", "Liverpool", "Warrington", "Bolton", "Blackpool", "Preston", "Stockport", "Wigan", "Oldham", "Rochdale", "Salford", "Burnley", "Blackburn", "St Helens", "Bury", "Chester", "Lancaster", "Crewe", "Carlisle", "Barrow-in-Furness"]
+        },
+        {
+          "name": "Yorkshire and the Humber",
+          "slug": "yorkshire-and-humber",
+          "priority": 1,
+          "major_cities": ["Leeds", "Sheffield", "Bradford", "Kingston upon Hull", "York", "Huddersfield", "Doncaster", "Wakefield", "Rotherham", "Barnsley", "Halifax", "Harrogate", "Grimsby", "Scunthorpe", "Dewsbury", "Scarborough", "Keighley", "Bridlington", "Batley", "Pontefract"]
+        },
+        {
+          "name": "North East England",
+          "slug": "north-east",
+          "priority": 2,
+          "major_cities": ["Newcastle upon Tyne", "Sunderland", "Middlesbrough", "Gateshead", "Darlington", "Hartlepool", "Stockton-on-Tees", "South Shields", "Durham", "Washington", "North Shields", "Redcar", "Blyth", "Cramlington", "Whitley Bay", "Bishop Auckland", "Consett", "Peterlee", "Ashington", "Jarrow"]
+        }
+      ]
+    },
+    {
+      "name": "Scotland",
+      "slug": "scotland",
+      "type": "country",
+      "priority": 1,
+      "major_cities": ["Glasgow", "Edinburgh", "Aberdeen", "Dundee", "Paisley", "East Kilbride", "Livingston", "Hamilton", "Cumbernauld", "Dunfermline", "Kirkcaldy", "Ayr", "Perth", "Inverness", "Kilmarnock", "Coatbridge", "Greenock", "Glenrothes", "Falkirk", "Irvine", "Stirling", "Motherwell", "Dumfries", "St Andrews", "Fort William", "Oban"]
+    },
+    {
+      "name": "Wales",
+      "slug": "wales",
+      "type": "country",
+      "priority": 2,
+      "major_cities": ["Cardiff", "Swansea", "Newport", "Wrexham", "Barry", "Neath", "Port Talbot", "Bridgend", "Cwmbran", "Llanelli", "Merthyr Tydfil", "Rhyl", "Pontypridd", "Caerphilly", "Colwyn Bay", "Penarth", "Aberdare", "Aberystwyth", "Bangor", "Carmarthen", "Llandudno", "Porthcawl", "Haverfordwest", "Tenby"]
+    },
+    {
+      "name": "Northern Ireland",
+      "slug": "northern-ireland",
+      "type": "country",
+      "priority": 2,
+      "major_cities": ["Belfast", "Derry", "Lisburn", "Newtownabbey", "Bangor", "Craigavon", "Ballymena", "Newry", "Newtownards", "Carrickfergus", "Coleraine", "Antrim", "Omagh", "Larne", "Enniskillen", "Strabane", "Armagh", "Limavady", "Downpatrick", "Cookstown"]
+    }
+  ]
+}

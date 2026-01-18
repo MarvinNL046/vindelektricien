@@ -1,0 +1,22 @@
+{
+  "total_cemeteries": 6883,
+  "total_discovered": 3817,
+  "matched": 5053,
+  "updated": 4695,
+  "by_match_type": {
+    "exact_slug": 1588,
+    "cid_match": 3083,
+    "gps_proximity": 78,
+    "postcode_name": 15,
+    "gemeente_fuzzy": 289
+  },
+  "ratings_added": 118,
+  "opening_hours_added": 151,
+  "phones_added": 17,
+  "websites_added": 1636,
+  "gps_added": 209,
+  "photos_added": 4444,
+  "facilities_added": 4213,
+  "unmatched_discovered": 722,
+  "timestamp": "2025-12-17T07:08:04.326Z"
+}
