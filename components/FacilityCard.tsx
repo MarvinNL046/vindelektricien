@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MapPin, Phone, Building2, Star, Shield } from 'lucide-react';
+import { MapPin, Phone, Zap, Star, Shield, Clock } from 'lucide-react';
 import ProxiedImage from './ProxiedImage';
 
 interface Facility {
@@ -7,16 +7,17 @@ interface Facility {
   name: string;
   address?: string;
   city: string;
-  state?: string;
-  state_abbr?: string;
+  province?: string;
+  province_abbr?: string;
   rating?: number;
   review_count?: number;
   phone?: string;
-  facility_types?: string[];
-  insurance_accepted?: string[];
+  service_types?: string[];
+  certifications?: string[];
   photo_url?: string;
   photo?: string;
   description?: string;
+  has_emergency_service?: boolean;
 }
 
 interface FacilityCardProps {
@@ -33,11 +34,11 @@ export default function FacilityCard({ facility }: FacilityCardProps) {
     for (let i = 0; i < 5; i++) {
       if (i < fullStars) {
         stars.push(
-          <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
+          <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
         );
       } else if (i === fullStars && hasHalfStar) {
         stars.push(
-          <Star key={i} className="w-4 h-4 fill-amber-400/50 text-amber-400" />
+          <Star key={i} className="w-4 h-4 fill-yellow-400/50 text-yellow-400" />
         );
       } else {
         stars.push(
@@ -50,8 +51,8 @@ export default function FacilityCard({ facility }: FacilityCardProps) {
 
   return (
     <Link
-      href={`/facility/${facility.slug}`}
-      className="group block bg-card rounded-xl overflow-hidden shadow-sm border border-gray-200 hover:shadow-xl hover:border-teal-300 transition-all duration-300"
+      href={`/elektricien/${facility.slug}`}
+      className="group block bg-card rounded-xl overflow-hidden shadow-sm border border-gray-200 hover:shadow-xl hover:border-yellow-400 transition-all duration-300"
     >
       <div className="flex gap-6 p-6">
         {/* Image */}
@@ -68,42 +69,55 @@ export default function FacilityCard({ facility }: FacilityCardProps) {
 
         {/* Content */}
         <div className="flex-1 min-w-0">
-          <h2 className="text-xl font-semibold mb-2 truncate text-slate-800 group-hover:text-teal-600 transition-colors">
-            {facility.name}
-          </h2>
+          <div className="flex items-start justify-between gap-2">
+            <h2 className="text-xl font-semibold mb-2 truncate text-slate-800 group-hover:text-yellow-600 transition-colors">
+              {facility.name}
+            </h2>
+            {facility.has_emergency_service && (
+              <span className="flex-shrink-0 inline-flex items-center gap-1 px-2 py-1 text-xs font-medium rounded-full bg-red-50 text-red-700 border border-red-200">
+                <Clock className="w-3 h-3" />
+                24/7
+              </span>
+            )}
+          </div>
 
-          {/* Facility Type Badges */}
-          {facility.facility_types && facility.facility_types.length > 0 && (
+          {/* Service Type Badges */}
+          {facility.service_types && facility.service_types.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-3">
-              {facility.facility_types.slice(0, 3).map((type, index) => (
+              {facility.service_types.slice(0, 3).map((type, index) => (
                 <span
                   key={index}
-                  className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-teal-50 text-teal-700 border border-teal-200"
+                  className="inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium rounded-full bg-yellow-50 text-yellow-700 border border-yellow-200"
                 >
-                  <Building2 className="w-3 h-3" />
+                  <Zap className="w-3 h-3" />
                   <span className="capitalize">{type}</span>
                 </span>
               ))}
+              {facility.service_types.length > 3 && (
+                <span className="text-xs text-slate-500 self-center">
+                  +{facility.service_types.length - 3} meer
+                </span>
+              )}
             </div>
           )}
 
           <div className="space-y-2 text-sm text-muted-foreground">
             {/* Location */}
             <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-teal-600" />
+              <MapPin className="w-4 h-4 text-yellow-600" />
               <span className="text-slate-600">
                 {facility.address && `${facility.address}, `}
                 {facility.city}
-                {facility.state_abbr && `, ${facility.state_abbr}`}
-                {facility.state && !facility.state_abbr && `, ${facility.state}`}
+                {facility.province_abbr && `, ${facility.province_abbr}`}
+                {facility.province && !facility.province_abbr && `, ${facility.province}`}
               </span>
             </div>
 
             {/* Phone */}
             {facility.phone && (
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-teal-500" />
-                <span className="text-slate-600 hover:text-teal-600 transition-colors">
+                <Phone className="w-4 h-4 text-yellow-500" />
+                <span className="text-slate-600 hover:text-yellow-600 transition-colors">
                   {facility.phone}
                 </span>
               </div>
@@ -125,21 +139,21 @@ export default function FacilityCard({ facility }: FacilityCardProps) {
             )}
           </div>
 
-          {/* Insurance Badges */}
-          {facility.insurance_accepted && facility.insurance_accepted.length > 0 && (
+          {/* Certification Badges */}
+          {facility.certifications && facility.certifications.length > 0 && (
             <div className="flex flex-wrap items-center gap-2 mt-3">
-              <Shield className="w-4 h-4 text-indigo-500" />
-              {facility.insurance_accepted.slice(0, 3).map((insurance, index) => (
+              <Shield className="w-4 h-4 text-navy-700" />
+              {facility.certifications.slice(0, 3).map((cert, index) => (
                 <span
                   key={index}
-                  className="inline-flex px-2 py-0.5 text-xs font-medium rounded bg-indigo-50 text-indigo-700 border border-indigo-200"
+                  className="inline-flex px-2 py-0.5 text-xs font-medium rounded bg-navy-50 text-navy-700 border border-navy-200"
                 >
-                  {insurance}
+                  {cert}
                 </span>
               ))}
-              {facility.insurance_accepted.length > 3 && (
+              {facility.certifications.length > 3 && (
                 <span className="text-xs text-slate-500">
-                  +{facility.insurance_accepted.length - 3} more
+                  +{facility.certifications.length - 3} meer
                 </span>
               )}
             </div>

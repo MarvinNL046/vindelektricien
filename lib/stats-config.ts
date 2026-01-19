@@ -1,56 +1,56 @@
 /**
- * Central Statistics Configuration for RehabNearMe.com
+ * Central Statistics Configuration for VindElektricien.nl
  *
  * Update these values in ONE place when data changes.
  * All components and pages import from here.
  *
  * Last update: 2025-01-18
- * - Initial setup for addiction treatment facility directory
+ * - Initial setup for electrician directory in Netherlands
  */
 
 export const SITE_STATS = {
   // Display values (formatted for UI)
-  totalFacilitiesDisplay: '15,000',  // Estimated treatment facilities
-  totalFacilitiesExact: 15000,
+  totalFacilitiesDisplay: '1.500',  // Estimated electricians
+  totalFacilitiesExact: 1500,
 
   // Geographic coverage
-  totalStates: 50,
-  totalStatesWithDC: 51,  // 50 states + DC
-  totalCounties: 3143,    // US counties
+  totalProvinces: 12,
+  totalMunicipalities: 342,    // Dutch municipalities
+  totalCities: 2500,           // Approximate
 
   // Dynamic placeholder (when API hasn't loaded yet)
-  facilitiesPlaceholder: '15,000+',
+  facilitiesPlaceholder: '1.500+',
 
   // Site info
-  siteName: 'RehabNearMe',
-  siteUrl: 'https://www.rehabnearbyme.com',
-  country: 'United States',
-  countryShort: 'USA',
+  siteName: 'VindElektricien.nl',
+  siteUrl: 'https://www.vindelektricien.nl',
+  country: 'Nederland',
+  countryShort: 'NL',
 
-  // Treatment facility stats
-  inpatientCentersCount: 4500,
-  outpatientCentersCount: 8000,
-  detoxCentersCount: 2500,
-  soberLivingCount: 3000,
+  // Service stats
+  storingsdienstCount: 800,
+  installatieCount: 1200,
+  laadpaalCount: 600,
+  zonnepanelenCount: 500,
 
-  // Recovery statistics (SAMHSA data)
-  americansInRecovery: '23 million',
-  annualAdmissions: '1.5 million',
-  substanceUseDisorderRate: '10%',
+  // Industry statistics
+  electriciansInNL: '15.000',
+  annualInstallations: '500.000',
+  evChargersInstalled: '400.000',
 
-  // Top states by facility count
-  topStates: {
-    california: 2100,
-    florida: 1800,
-    texas: 1200,
-    newYork: 1100,
-    pennsylvania: 900,
+  // Top provinces by electrician count
+  topProvinces: {
+    noordHolland: 250,
+    zuidHolland: 280,
+    noordBrabant: 200,
+    gelderland: 180,
+    utrecht: 120,
   },
 
-  // Treatment types
-  treatmentTypesCount: 12,
-  insuranceProvidersAccepted: 500,
-  totalReviewsDisplay: '25,000+',
+  // Service types
+  serviceTypesCount: 8,
+  certificationsTracked: 10,
+  totalReviewsDisplay: '5.000+',
 } as const;
 
 /**
@@ -59,13 +59,13 @@ export const SITE_STATS = {
 export function getStatsDescription(variant: 'short' | 'long' | 'seo' = 'short'): string {
   switch (variant) {
     case 'short':
-      return `Find treatment facilities across all ${SITE_STATS.totalStates} states.`;
+      return `Vind elektriciens in alle ${SITE_STATS.totalProvinces} provincies.`;
     case 'long':
-      return `Search our comprehensive database of ${SITE_STATS.totalFacilitiesDisplay}+ addiction treatment centers, rehabilitation facilities, and detox programs across all ${SITE_STATS.totalStates} states in the ${SITE_STATS.country}.`;
+      return `Doorzoek onze uitgebreide database van ${SITE_STATS.totalFacilitiesDisplay}+ elektriciens, installateurs en storingsdiensten in alle ${SITE_STATS.totalProvinces} provincies van ${SITE_STATS.country}.`;
     case 'seo':
-      return `Find addiction treatment centers, rehab facilities, and detox programs near you. Search by state, city, or zip code. Get verified information, insurance details, and reviews for treatment centers across the ${SITE_STATS.country}.`;
+      return `Vind elektriciens bij jou in de buurt. Zoek op stad, provincie of postcode. Krijg geverifieerde informatie, diensten en contactgegevens van elektriciens door heel ${SITE_STATS.country}.`;
     default:
-      return `Find treatment facilities across all ${SITE_STATS.totalStates} states.`;
+      return `Vind elektriciens in alle ${SITE_STATS.totalProvinces} provincies.`;
   }
 }
 
@@ -73,33 +73,33 @@ export function getStatsDescription(variant: 'short' | 'long' | 'seo' = 'short')
  * Get CTA stats text for blog pages and promotional sections
  */
 export function getCtaStatsText(): string {
-  return `Search directly for treatment centers in our extensive database with more than ${SITE_STATS.totalFacilitiesDisplay} facilities.`;
+  return `Zoek direct naar elektriciens in onze uitgebreide database met meer dan ${SITE_STATS.totalFacilitiesDisplay} vakmannen.`;
 }
 
 /**
- * Get FAQ answer about facility count
+ * Get FAQ answer about electrician count
  */
 export function getFaqFacilitiesAnswer(): string {
-  return `The ${SITE_STATS.country} has approximately ${SITE_STATS.totalFacilitiesDisplay} addiction treatment facilities, including inpatient rehab centers, outpatient programs, detox centers, and sober living homes. These facilities are spread across all ${SITE_STATS.totalStates} states, offering various treatment approaches and specializations.`;
+  return `${SITE_STATS.country} heeft ongeveer ${SITE_STATS.electriciansInNL} geregistreerde elektriciens en installatiebedrijven. Onze database bevat ${SITE_STATS.totalFacilitiesDisplay}+ geverifieerde elektriciens, verspreid over alle ${SITE_STATS.totalProvinces} provincies, met diverse specialisaties van storingsdienst tot laadpaal installatie.`;
 }
 
 /**
  * Get "why us" feature text
  */
 export function getComprehensiveDataText(): string {
-  return `Information on treatment facilities across all ${SITE_STATS.totalStates} states with verified details, insurance information, and contact details.`;
+  return `Informatie over elektriciens in alle ${SITE_STATS.totalProvinces} provincies met geverifieerde gegevens, diensten en contactinformatie.`;
 }
 
 /**
- * Get states message for empty state pages
+ * Get provinces message for empty state pages
  */
-export function getStatesComingSoonText(): string {
-  return `We're actively adding treatment facility data for all ${SITE_STATS.totalStates} states. Check back soon for updates!`;
+export function getProvincesComingSoonText(): string {
+  return `We voegen actief elektriciens toe voor alle ${SITE_STATS.totalProvinces} provincies. Kom snel terug voor updates!`;
 }
 
 /**
- * Get recovery statistics text
+ * Get industry statistics text
  */
-export function getRecoveryStatsText(): string {
-  return `Over ${SITE_STATS.americansInRecovery} Americans are in recovery from addiction. With ${SITE_STATS.annualAdmissions} treatment admissions annually, finding the right facility is crucial for successful recovery.`;
+export function getIndustryStatsText(): string {
+  return `In Nederland zijn er meer dan ${SITE_STATS.electriciansInNL} actieve elektriciens. Jaarlijks worden er ${SITE_STATS.annualInstallations} elektrische installaties uitgevoerd en zijn er inmiddels ${SITE_STATS.evChargersInstalled} laadpalen geinstalleerd.`;
 }

@@ -26,7 +26,7 @@ const playfair = Playfair_Display({
 
 // PWA Viewport configuration
 export const viewport: Viewport = {
-  themeColor: "#1a1a2e",
+  themeColor: "#1e3a8a",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
@@ -34,32 +34,32 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.rehabnearbyme.com"),
-  title: "Rehab Near Me - Find Addiction Treatment Centers in the USA",
-  description: "Find drug and alcohol rehabilitation centers near you. Search by state, city, or zip code. Get info on inpatient, outpatient, and detox programs across the United States.",
-  keywords: "rehab near me, addiction treatment, drug rehab, alcohol rehab, detox centers, inpatient rehab, outpatient treatment, substance abuse, recovery centers, USA",
-  authors: [{ name: "Rehab Near Me" }],
+  metadataBase: new URL("https://www.vindelektricien.nl"),
+  title: "VindElektricien.nl - Vind een Elektricien bij jou in de Buurt",
+  description: "Vind snel een betrouwbare elektricien in jouw regio. Zoek op stad, provincie of postcode. Vergelijk elektriciens voor storingen, installaties, laadpalen en meer.",
+  keywords: "elektricien, elektricien bij mij in de buurt, elektricien zoeken, storingsdienst, laadpaal installatie, meterkast, zonnepanelen, elektrische installatie, Nederland",
+  authors: [{ name: "VindElektricien.nl" }],
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Rehab Near Me",
+    title: "VindElektricien",
   },
   formatDetection: {
     telephone: true,
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "https://www.rehabnearbyme.com",
-    title: "Rehab Near Me - Find Addiction Treatment Centers in the USA",
-    description: "Find drug and alcohol rehabilitation centers near you across the United States.",
-    siteName: "Rehab Near Me",
+    locale: "nl_NL",
+    url: "https://www.vindelektricien.nl",
+    title: "VindElektricien.nl - Vind een Elektricien bij jou in de Buurt",
+    description: "Vind snel een betrouwbare elektricien in jouw regio. Vergelijk elektriciens voor alle elektrische werkzaamheden.",
+    siteName: "VindElektricien.nl",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rehab Near Me - Find Addiction Treatment Centers in the USA",
-    description: "Find drug and alcohol rehabilitation centers near you across the United States.",
+    title: "VindElektricien.nl - Vind een Elektricien bij jou in de Buurt",
+    description: "Vind snel een betrouwbare elektricien in jouw regio. Vergelijk elektriciens voor alle elektrische werkzaamheden.",
   },
   robots: {
     index: true,
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.rehabnearbyme.com",
+    canonical: "https://www.vindelektricien.nl",
   },
 };
 
@@ -83,7 +83,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="nl">
       <head>
         {/* PWA Icons */}
         <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />

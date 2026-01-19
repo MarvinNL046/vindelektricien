@@ -19,161 +19,169 @@ export interface FooterGuide {
   description?: string;
 }
 
-// Treatment types section
-export const treatmentTypes: FooterGuide[] = [
+// Service types section (Diensten)
+export const serviceTypes: FooterGuide[] = [
   {
-    href: '/treatment/inpatient-rehab',
-    label: 'Inpatient Rehab',
-    description: 'Residential treatment programs'
+    href: '/dienst/storingen',
+    label: 'Storingen & Reparaties',
+    description: '24/7 hulp bij elektrische storingen'
   },
   {
-    href: '/treatment/outpatient-programs',
-    label: 'Outpatient Programs',
-    description: 'Flexible treatment while living at home'
+    href: '/dienst/installatie',
+    label: 'Installatie',
+    description: 'Nieuwe elektrische installaties'
   },
   {
-    href: '/treatment/detox-centers',
-    label: 'Detox Centers',
-    description: 'Medical detoxification services'
+    href: '/dienst/meterkast',
+    label: 'Meterkast & Groepenkast',
+    description: 'Vervangen en uitbreiden van meterkasten'
   },
   {
-    href: '/treatment/sober-living',
-    label: 'Sober Living Homes',
-    description: 'Transitional housing for recovery'
+    href: '/dienst/laadpaal',
+    label: 'Laadpaal Installatie',
+    description: 'Laadpunten voor elektrische voertuigen'
   },
   {
-    href: '/treatment/dual-diagnosis',
-    label: 'Dual Diagnosis',
-    description: 'Co-occurring mental health treatment'
+    href: '/dienst/zonnepanelen',
+    label: 'Zonnepanelen',
+    description: 'Installatie van zonnepanelen en omvormers'
   },
   {
-    href: '/treatment/luxury-rehab',
-    label: 'Luxury Rehab',
-    description: 'Premium treatment facilities'
+    href: '/dienst/domotica',
+    label: 'Domotica & Smart Home',
+    description: 'Slimme huisautomatisering'
   }
 ];
 
-// Addiction resources section
+// Backwards compatibility alias
+export const treatmentTypes = serviceTypes;
+
+// Information resources section (Informatie)
 export const resources: FooterGuide[] = [
   {
-    href: '/guides/alcohol-addiction',
-    label: 'Alcohol Addiction',
-    description: 'Understanding and treating alcoholism'
+    href: '/informatie/elektricien-kiezen',
+    label: 'Elektricien Kiezen',
+    description: 'Tips voor het kiezen van de juiste elektricien'
   },
   {
-    href: '/guides/opioid-addiction',
-    label: 'Opioid Addiction',
-    description: 'Heroin, fentanyl, and prescription opioid treatment'
+    href: '/informatie/kosten',
+    label: 'Kosten & Tarieven',
+    description: 'Wat kost een elektricien?'
   },
   {
-    href: '/guides/drug-addiction',
-    label: 'Drug Addiction',
-    description: 'Cocaine, meth, and substance abuse treatment'
+    href: '/informatie/certificeringen',
+    label: 'Certificeringen',
+    description: 'Erkend, VCA, NEN en meer'
   },
   {
-    href: '/guides/prescription-drugs',
-    label: 'Prescription Drug Abuse',
-    description: 'Benzodiazepine and prescription addiction'
+    href: '/informatie/storingen',
+    label: 'Storingen Oplossen',
+    description: 'Wat te doen bij stroomuitval'
   },
   {
-    href: '/guides/insurance-coverage',
-    label: 'Insurance Coverage',
-    description: 'Understanding rehab insurance options'
+    href: '/informatie/veiligheid',
+    label: 'Elektrische Veiligheid',
+    description: 'Veiligheidstips voor elektra'
   },
   {
-    href: '/guides/choosing-rehab',
-    label: 'Choosing a Rehab',
-    description: 'How to find the right treatment center'
+    href: '/informatie/energiebesparing',
+    label: 'Energiebesparing',
+    description: 'Bespaar op uw energiekosten'
   }
 ];
 
-// Support resources section
+// DIY and safety tips section
 export const support: FooterGuide[] = [
   {
-    href: '/guides/family-support',
-    label: 'Family Support',
-    description: 'Resources for loved ones'
+    href: '/informatie/noodgevallen',
+    label: 'Noodgevallen',
+    description: 'Wat te doen bij een elektrische noodsituatie'
   },
   {
-    href: '/guides/intervention',
-    label: 'Intervention Guide',
-    description: 'How to help someone get treatment'
+    href: '/informatie/verhuizen',
+    label: 'Verhuizen & Elektra',
+    description: 'Elektriciteit bij verhuizing'
   },
   {
-    href: '/guides/aftercare',
-    label: 'Aftercare & Relapse Prevention',
-    description: 'Maintaining long-term recovery'
+    href: '/informatie/verbouwen',
+    label: 'Verbouwen',
+    description: 'Elektrische planning bij verbouwingen'
   },
   {
-    href: '/guides/veterans-programs',
-    label: 'Veterans Programs',
-    description: 'Treatment for military veterans'
+    href: '/informatie/bedrijf',
+    label: 'Zakelijke Klanten',
+    description: 'Elektriciens voor bedrijven'
   },
   {
-    href: '/guides/teen-treatment',
-    label: 'Teen & Adolescent',
-    description: 'Youth addiction treatment programs'
+    href: '/informatie/subsidies',
+    label: 'Subsidies',
+    description: 'Subsidies voor verduurzaming'
   }
 ];
 
 // Static guides content (pillar pages)
 export const guides: FooterGuide[] = [
   {
-    href: '/guides/treatment-types',
-    label: 'Types of Treatment',
-    description: 'Understand different treatment options'
+    href: '/informatie/diensten-overzicht',
+    label: 'Diensten Overzicht',
+    description: 'Alle elektrische diensten uitgelegd'
   },
   {
-    href: '/guides/what-to-expect',
-    label: 'What to Expect in Rehab',
-    description: 'Guide to the treatment process'
+    href: '/informatie/wat-verwachten',
+    label: 'Wat te Verwachten',
+    description: 'Een elektricien inhuren: de stappen'
   },
   {
-    href: '/guides/paying-for-rehab',
-    label: 'Paying for Rehab',
-    description: 'Financial options and insurance'
+    href: '/informatie/prijzen',
+    label: 'Prijzen & Offertes',
+    description: 'Tarieven en offerteaanvragen'
   },
   {
-    href: '/guides/signs-of-addiction',
-    label: 'Signs of Addiction',
-    description: 'Recognizing substance abuse'
+    href: '/informatie/keuring',
+    label: 'NEN-keuringen',
+    description: 'Elektrische keuringen en inspecties'
   },
   {
-    href: '/guides/recovery-success',
-    label: 'Recovery Success Stories',
-    description: 'Inspiring stories of recovery'
+    href: '/informatie/verduurzamen',
+    label: 'Verduurzamen',
+    description: 'Uw huis elektrisch verduurzamen'
   }
 ];
 
 // Cache for footer data
-let statesCacheFooter: FooterState[] | null = null;
+let provincesCacheFooter: FooterState[] | null = null;
 let typesCacheFooter: FooterType[] | null = null;
 
 /**
- * Get top states by facility count
- * @param limit - Maximum number of states to return (default 8)
- * @returns Array of states sorted by facility count (descending)
+ * Get top provinces by facility count
+ * @param limit - Maximum number of provinces to return (default 8)
+ * @returns Array of provinces sorted by facility count (descending)
  */
 export async function getTopStatesByFacilityCount(limit: number = 8): Promise<FooterState[]> {
-  if (statesCacheFooter && statesCacheFooter.length >= limit) {
-    return statesCacheFooter.slice(0, limit);
+  return getTopProvincesByFacilityCount(limit);
+}
+
+export async function getTopProvincesByFacilityCount(limit: number = 8): Promise<FooterState[]> {
+  if (provincesCacheFooter && provincesCacheFooter.length >= limit) {
+    return provincesCacheFooter.slice(0, limit);
   }
 
   try {
     const facilities = await getAllFacilities();
 
-    // Count facilities per state
-    const stateCounts = new Map<string, number>();
+    // Count facilities per province
+    const provinceCounts = new Map<string, number>();
 
     for (const facility of facilities) {
-      if (facility.state && facility.state.trim()) {
-        const state = facility.state.trim();
-        stateCounts.set(state, (stateCounts.get(state) || 0) + 1);
+      const province = facility.province || (facility as unknown as { state?: string }).state;
+      if (province && province.trim()) {
+        const provinceName = province.trim();
+        provinceCounts.set(provinceName, (provinceCounts.get(provinceName) || 0) + 1);
       }
     }
 
     // Convert to array and sort by count
-    const sortedStates: FooterState[] = Array.from(stateCounts.entries())
+    const sortedProvinces: FooterState[] = Array.from(provinceCounts.entries())
       .map(([name, count]) => ({
         name,
         slug: createStateSlug(name),
@@ -182,11 +190,11 @@ export async function getTopStatesByFacilityCount(limit: number = 8): Promise<Fo
       .sort((a, b) => b.count - a.count);
 
     // Cache the full list
-    statesCacheFooter = sortedStates;
+    provincesCacheFooter = sortedProvinces;
 
-    return sortedStates.slice(0, limit);
+    return sortedProvinces.slice(0, limit);
   } catch (error) {
-    console.error('Error getting top states:', error);
+    console.error('Error getting top provinces:', error);
     return [];
   }
 }
@@ -271,16 +279,18 @@ function formatTypeName(name: string): string {
 /**
  * Get all footer data in a single call (for server components)
  */
-export async function getFooterData(stateLimit: number = 8, typeLimit: number = 8) {
-  const [topStates, topTypes] = await Promise.all([
-    getTopStatesByFacilityCount(stateLimit),
+export async function getFooterData(provinceLimit: number = 8, typeLimit: number = 8) {
+  const [topProvinces, topTypes] = await Promise.all([
+    getTopProvincesByFacilityCount(provinceLimit),
     getTopTypesByFacilityCount(typeLimit)
   ]);
 
   return {
-    states: topStates,
+    states: topProvinces,  // Backwards compatibility
+    provinces: topProvinces,
     types: topTypes,
-    treatmentTypes,
+    serviceTypes,
+    treatmentTypes: serviceTypes,  // Backwards compatibility
     resources,
     support,
     guides
@@ -291,6 +301,6 @@ export async function getFooterData(stateLimit: number = 8, typeLimit: number = 
  * Clear cache (useful for development/testing)
  */
 export function clearFooterCache() {
-  statesCacheFooter = null;
+  provincesCacheFooter = null;
   typesCacheFooter = null;
 }

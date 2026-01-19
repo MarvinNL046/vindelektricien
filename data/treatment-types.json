@@ -1,88 +1,64 @@
 {
   "types": [
     {
-      "slug": "inpatient-rehab",
-      "name": "Inpatient Rehabilitation",
-      "description": "Residential treatment programs where patients live at the facility 24/7, receiving intensive care and support in a structured environment.",
-      "search_terms": ["inpatient rehab", "residential rehab", "inpatient treatment", "live-in rehab", "24/7 treatment"]
+      "slug": "storingen-reparaties",
+      "name": "Storingen & Reparaties",
+      "description": "Snelle hulp bij elektrische storingen, kortsluiting, stroomuitval en reparatie van defecte apparatuur en bedrading.",
+      "search_terms": ["storing", "reparatie", "defect", "kapot", "stroom uitval", "kortsluiting", "elektriciteit probleem"]
     },
     {
-      "slug": "outpatient-treatment",
-      "name": "Outpatient Treatment",
-      "description": "Flexible treatment programs that allow patients to live at home while attending scheduled therapy sessions and treatment appointments.",
-      "search_terms": ["outpatient treatment", "outpatient rehab", "day treatment", "outpatient program", "OP treatment"]
+      "slug": "installatie",
+      "name": "Elektrische Installatie",
+      "description": "Complete elektrische installaties voor nieuwbouw, verbouwingen en uitbreidingen. Van stopcontacten tot complete bekabeling.",
+      "search_terms": ["installatie", "aanleggen", "nieuwbouw", "verbouwing", "bekabeling", "stopcontact"]
     },
     {
-      "slug": "detox-center",
-      "name": "Detox Center",
-      "description": "Medical facilities specializing in safely managing withdrawal symptoms as the first step in addiction recovery.",
-      "search_terms": ["detox center", "detoxification", "medical detox", "drug detox", "alcohol detox", "withdrawal treatment"]
+      "slug": "meterkast-groepenkast",
+      "name": "Meterkast / Groepenkast",
+      "description": "Vervanging, uitbreiding en modernisering van meterkasten en groepenkast. Inclusief aardlekschakelaars en automatische zekeringen.",
+      "search_terms": ["meterkast", "groepenkast", "zekeringkast", "aardlekschakelaar", "automaat", "zekeringen"]
     },
     {
-      "slug": "residential-treatment",
-      "name": "Residential Treatment",
-      "description": "Long-term treatment facilities providing comprehensive care in a home-like environment for extended recovery periods.",
-      "search_terms": ["residential treatment", "long-term treatment", "residential care", "extended care", "long-term rehab"]
+      "slug": "laadpaal-installatie",
+      "name": "Laadpaal Installatie",
+      "description": "Professionele installatie van laadpalen en laadpunten voor elektrische auto's thuis of op het bedrijf.",
+      "search_terms": ["laadpaal", "laadpunt", "elektrische auto", "EV opladen", "laadstation", "thuisladen"]
     },
     {
-      "slug": "partial-hospitalization",
-      "name": "Partial Hospitalization Program (PHP)",
-      "description": "Intensive day programs offering hospital-level care during the day while patients return home in the evenings.",
-      "search_terms": ["partial hospitalization", "PHP program", "day hospital", "partial hospital program", "intensive day treatment"]
+      "slug": "zonnepanelen",
+      "name": "Zonnepanelen Installatie",
+      "description": "Installatie van zonnepanelen (PV) en omvormers. Van dakinstallatie tot aansluiting op het elektriciteitsnet.",
+      "search_terms": ["zonnepanelen", "solar", "pv panelen", "omvormer", "zonne-energie", "duurzaam"]
     },
     {
-      "slug": "intensive-outpatient",
-      "name": "Intensive Outpatient Program (IOP)",
-      "description": "Structured outpatient programs providing more intensive treatment than standard outpatient care, typically 3-5 days per week.",
-      "search_terms": ["intensive outpatient", "IOP program", "IOP treatment", "intensive outpatient program", "step-down treatment"]
+      "slug": "domotica-smart-home",
+      "name": "Domotica & Smart Home",
+      "description": "Slimme huisautomatisering, van slimme verlichting tot complete smart home systemen en automatische zonwering.",
+      "search_terms": ["domotica", "smart home", "automatisering", "slimme verlichting", "huisautomatisering", "slim wonen"]
     },
     {
-      "slug": "sober-living",
-      "name": "Sober Living Home",
-      "description": "Transitional housing providing a drug and alcohol-free living environment for individuals in recovery.",
-      "search_terms": ["sober living", "sober house", "halfway house", "recovery residence", "transitional housing", "sober living home"]
+      "slug": "verlichting",
+      "name": "Verlichting",
+      "description": "Installatie en advies voor binnen- en buitenverlichting. LED-verlichting, spots, sfeerverlichting en tuinverlichting.",
+      "search_terms": ["verlichting", "led", "lampen", "spots", "buitenverlichting", "tuinverlichting", "sfeerverlichting"]
     },
     {
-      "slug": "dual-diagnosis",
-      "name": "Dual Diagnosis Treatment",
-      "description": "Specialized treatment addressing both substance abuse and co-occurring mental health disorders simultaneously.",
-      "search_terms": ["dual diagnosis", "co-occurring disorders", "mental health and addiction", "dual diagnosis treatment", "comorbid treatment"]
+      "slug": "bedrijfsinstallaties",
+      "name": "Bedrijfsinstallaties",
+      "description": "Zakelijke elektrische installaties voor kantoren, winkels, horeca en industrie. Inclusief noodverlichting en brandmeldinstallaties.",
+      "search_terms": ["bedrijf", "zakelijk", "kantoor", "industrieel", "winkel", "horeca", "noodverlichting"]
     },
     {
-      "slug": "luxury-rehab",
-      "name": "Luxury Rehabilitation",
-      "description": "High-end treatment facilities offering premium amenities, private accommodations, and executive-level care.",
-      "search_terms": ["luxury rehab", "executive rehab", "high-end treatment", "private rehab", "luxury treatment center", "upscale rehab"]
+      "slug": "spoed-24-7",
+      "name": "Spoed / 24-7 Service",
+      "description": "Noodservice voor acute elektrische problemen. 24 uur per dag, 7 dagen per week beschikbaar voor spoedgevallen.",
+      "search_terms": ["spoed", "nood", "24/7", "direct", "spoedgeval", "noodgeval", "acuut"]
     },
     {
-      "slug": "holistic-treatment",
-      "name": "Holistic Treatment",
-      "description": "Treatment programs incorporating alternative therapies like yoga, meditation, acupuncture, and nutrition alongside traditional treatment.",
-      "search_terms": ["holistic treatment", "holistic rehab", "alternative treatment", "natural treatment", "integrative treatment", "wellness rehab"]
-    },
-    {
-      "slug": "faith-based-rehab",
-      "name": "Faith-Based Rehabilitation",
-      "description": "Recovery programs incorporating spiritual practices and religious principles as part of the treatment approach.",
-      "search_terms": ["faith-based rehab", "christian rehab", "religious treatment", "spiritual rehab", "faith-based treatment", "church-based rehab"]
-    },
-    {
-      "slug": "adolescent-treatment",
-      "name": "Adolescent Treatment",
-      "description": "Specialized treatment programs designed specifically for teenagers and young adults struggling with addiction.",
-      "search_terms": ["adolescent treatment", "teen rehab", "youth treatment", "teenage addiction treatment", "young adult rehab", "adolescent rehab"]
-    },
-    {
-      "slug": "veterans-program",
-      "name": "Veterans Treatment Program",
-      "description": "Treatment programs specifically designed for military veterans, addressing trauma, PTSD, and addiction unique to their experiences.",
-      "search_terms": ["veterans program", "VA rehab", "military rehab", "veteran addiction treatment", "PTSD treatment", "veteran recovery"]
-    },
-    {
-      "slug": "medication-assisted",
-      "name": "Medication-Assisted Treatment (MAT)",
-      "description": "Treatment combining FDA-approved medications with counseling and behavioral therapies to treat substance use disorders.",
-      "search_terms": ["medication-assisted treatment", "MAT program", "suboxone treatment", "methadone clinic", "vivitrol treatment", "medically assisted treatment"]
+      "slug": "nen-keuringen",
+      "name": "NEN-keuringen",
+      "description": "Officiële NEN 1010 en NEN 3140 keuringen en inspecties. Veiligheidscertificaten voor woningen en bedrijfspanden.",
+      "search_terms": ["nen", "keuring", "inspectie", "certificaat", "veiligheid", "nen 1010", "nen 3140"]
     }
   ]
 }

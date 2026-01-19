@@ -24,16 +24,16 @@ export const verificationCodes = pgTable('verification_codes', {
   createdAt: timestamp('created_at').notNull().defaultNow(),
 });
 
-// Business claims table
+// Business claims table (Elektricien claims)
 export const businessClaims = pgTable('business_claims', {
   id: serial('id').primaryKey(),
   userId: integer('user_id').notNull().references(() => users.id),
   facilitySlug: varchar('facility_slug', { length: 255 }).notNull(),
   facilityName: varchar('facility_name', { length: 255 }).notNull(),
   status: varchar('status', { length: 50 }).notNull().default('pending'), // pending, approved, rejected
-  jobTitle: varchar('job_title', { length: 255 }), // manager, owner, employee
+  jobTitle: varchar('job_title', { length: 255 }), // eigenaar, medewerker, manager
   companyName: varchar('company_name', { length: 255 }),
-  message: text('message'), // Why they're claiming
+  message: text('message'), // Waarom claim
   verificationMethod: varchar('verification_method', { length: 50 }), // email, phone, document
   reviewedAt: timestamp('reviewed_at'),
   reviewedBy: integer('reviewed_by'),
@@ -64,7 +64,7 @@ export const sessions = pgTable('sessions', {
   createdAt: timestamp('created_at').notNull().defaultNow(),
 });
 
-// User-submitted facilities
+// User-submitted electricians (Elektriciens)
 export const userFacilities = pgTable('user_facilities', {
   id: serial('id').primaryKey(),
   userId: integer('user_id').notNull().references(() => users.id),
@@ -72,14 +72,14 @@ export const userFacilities = pgTable('user_facilities', {
   // Basic info
   name: varchar('name', { length: 255 }).notNull(),
   slug: varchar('slug', { length: 255 }).notNull().unique(),
-  type: varchar('type', { length: 100 }).notNull().default('treatment center'),
+  type: varchar('type', { length: 100 }).notNull().default('elektricien'),
 
-  // Location
+  // Location - Dutch geography
   address: varchar('address', { length: 255 }),
-  zipCode: varchar('zip_code', { length: 10 }),
+  postalCode: varchar('postal_code', { length: 10 }),
   city: varchar('city', { length: 100 }).notNull(),
-  county: varchar('county', { length: 100 }).notNull(),
-  state: varchar('state', { length: 50 }).notNull(),
+  municipality: varchar('municipality', { length: 100 }),  // Gemeente
+  province: varchar('province', { length: 50 }).notNull(),  // Provincie
   gpsCoordinates: varchar('gps_coordinates', { length: 50 }),
 
   // Contact
@@ -90,8 +90,10 @@ export const userFacilities = pgTable('user_facilities', {
   // Details
   description: text('description'),
   openingHours: text('opening_hours'),
-  amenities: text('amenities'), // comma separated
+  serviceTypes: text('service_types'), // JSON array - storingen, installatie, laadpaal, etc.
+  certifications: text('certifications'), // JSON array - Erkend, VCA, NEN
   yearEstablished: varchar('year_established', { length: 10 }),
+  hasEmergencyService: boolean('has_emergency_service').default(false), // 24/7 spoed
 
   // Photos (JSON array of URLs)
   photos: text('photos'), // JSON array

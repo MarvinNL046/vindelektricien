@@ -1,15 +1,15 @@
 {
-  "name": "Rehab Near Me",
-  "short_name": "Rehab",
-  "description": "Find rehabilitation and addiction treatment centers near you. Search for rehab facilities across the United States with ratings, reviews, and directions.",
+  "name": "VindElektricien.nl",
+  "short_name": "Elektricien",
+  "description": "Vind een elektricien bij jou in de buurt. Zoek naar elektriciens in heel Nederland met beoordelingen, diensten en contactgegevens.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1a1a2e",
-  "theme_color": "#1a1a2e",
+  "background_color": "#1e3a8a",
+  "theme_color": "#1e3a8a",
   "orientation": "portrait-primary",
   "scope": "/",
-  "lang": "en",
-  "categories": ["lifestyle", "utilities"],
+  "lang": "nl",
+  "categories": ["utilities", "lifestyle"],
   "icons": [
     {
       "src": "/icons/icon-72x72.png",
@@ -73,22 +73,22 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Search"
+      "label": "Zoeken"
     }
   ],
   "shortcuts": [
     {
-      "name": "Search",
-      "short_name": "Search",
-      "description": "Search for a rehab facility",
-      "url": "/search",
+      "name": "Zoeken",
+      "short_name": "Zoeken",
+      "description": "Zoek een elektricien",
+      "url": "/zoeken",
       "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
     },
     {
-      "name": "Near Me",
-      "short_name": "Nearby",
-      "description": "Find rehab facilities near me",
-      "url": "/search?nearby=true",
+      "name": "Storingen",
+      "short_name": "Storing",
+      "description": "Vind een storingsdienst",
+      "url": "/dienst/storingen",
       "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
     }
   ]

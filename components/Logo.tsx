@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Heart } from "lucide-react";
+import { Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface LogoProps {
@@ -38,18 +38,18 @@ export default function Logo({
 
   const variants = {
     light: {
-      iconBg: "bg-white/20 group-hover:bg-white/30",
-      icon: "text-white",
-      glow: "group-hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]",
+      iconBg: "bg-yellow-500/20 group-hover:bg-yellow-500/30",
+      icon: "text-yellow-400",
+      glow: "group-hover:shadow-[0_0_20px_rgba(234,179,8,0.4)]",
       textPrimary: "text-white",
-      textAccent: "text-teal-300",
+      textAccent: "text-yellow-400",
     },
     dark: {
-      iconBg: "bg-teal-600 group-hover:bg-teal-500",
-      icon: "text-white",
-      glow: "group-hover:shadow-[0_0_20px_rgba(13,148,136,0.5)]",
-      textPrimary: "text-teal-600",
-      textAccent: "text-gray-700",
+      iconBg: "bg-yellow-500 group-hover:bg-yellow-400",
+      icon: "text-navy-900",
+      glow: "group-hover:shadow-[0_0_20px_rgba(234,179,8,0.5)]",
+      textPrimary: "text-navy-900",
+      textAccent: "text-yellow-600",
     },
   };
 
@@ -65,7 +65,7 @@ export default function Logo({
         className
       )}
     >
-      {/* Heart Icon Container - symbolizing recovery/healing */}
+      {/* Lightning Bolt Icon Container - symbolizing electricity */}
       <div
         className={cn(
           currentSize.container,
@@ -83,13 +83,13 @@ export default function Logo({
             "absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100",
             "transition-opacity duration-300",
             variant === "light"
-              ? "bg-gradient-to-tr from-white/10 to-transparent"
-              : "bg-gradient-to-tr from-teal-400/20 to-transparent"
+              ? "bg-gradient-to-tr from-yellow-400/20 to-transparent"
+              : "bg-gradient-to-tr from-yellow-300/30 to-transparent"
           )}
         />
 
-        {/* Heart icon representing recovery and healing */}
-        <Heart
+        {/* Lightning bolt icon representing electricity */}
+        <Zap
           className={cn(
             currentSize.icon,
             currentVariant.icon,
@@ -115,7 +115,7 @@ export default function Logo({
               "transition-colors duration-300"
             )}
           >
-            Rehab
+            Vind
           </span>
           <span
             className={cn(
@@ -123,7 +123,7 @@ export default function Logo({
               "transition-colors duration-300"
             )}
           >
-            NearMe
+            Elektricien
           </span>
         </span>
       )}

@@ -3,31 +3,31 @@ import path from 'path';
 import { db, facilities } from './db';
 import { eq, ilike, or, desc, asc, sql, and, count } from 'drizzle-orm';
 
-// US Treatment Facility Interface
+// Dutch Electrician Interface
 export interface Facility {
   // Core identifiers
   id: string;
   name: string;
   slug: string;
 
-  // Location - US geography
+  // Location - Dutch geography
   address?: string;
   city: string;
-  county?: string;
-  state: string;
-  state_abbr: string;
-  zipCode?: string;
+  municipality?: string;  // Gemeente
+  province: string;       // Provincie (was state)
+  province_abbr: string;  // Afkorting
+  postalCode?: string;
   country: string;
   gps_coordinates?: string;
   latitude?: number;
   longitude?: number;
 
-  // Classification
+  // Classification - Electrician specific
   type: string;
   type_slug: string;
-  facility_types: string[];
-  treatment_types: string[];
-  insurance_accepted: string[];
+  service_types: string[];     // storingen, installatie, laadpaal, etc.
+  specializations: string[];   // particulier, zakelijk, industrieel
+  certifications: string[];    // Erkend, VCA, NEN, KOMO
 
   // Contact
   phone?: string;
@@ -37,8 +37,10 @@ export interface Facility {
   // Details
   description?: string;
   opening_hours?: string;
-  amenities?: string[];
+  services?: string[];
   year_established?: string;
+  has_emergency_service?: boolean;  // 24/7 spoed
+  work_area?: string[];            // Werkgebied
 
   // Google data
   rating?: number;
@@ -67,14 +69,12 @@ export interface Facility {
 export interface GeneratedContent {
   summary: string;
   about: string;
-  features: string[];
+  services: string[];
   accessibility: string;
   amenities: string[];
   visitor_tips: string[];
-  treatment_approach?: string;
-  success_stories?: string;
   local_context?: string;
-  state_info?: string;
+  province_info?: string;
   type_info?: string;
   practical_info?: string;
   directions?: string;
@@ -111,36 +111,45 @@ export interface EnrichedFacilityData {
 
 export interface FacilityWithContent extends Facility, EnrichedFacilityData {}
 
-// State interface
-export interface State {
+// Province interface (Dutch)
+export interface Province {
   name: string;
   abbr: string;
   slug: string;
-  counties?: number;
+  municipalities?: number;
   capital?: string;
   major_cities?: string[];
 }
 
-// Treatment type interface
-export interface TreatmentType {
+// Alias for backwards compatibility
+export type State = Province;
+
+// Service type interface
+export interface ServiceType {
   slug: string;
   name: string;
   description?: string;
   search_terms?: string[];
 }
 
-// Facility type interface
-export interface FacilityType {
+// Alias for backwards compatibility
+export type TreatmentType = ServiceType;
+
+// Electrician type interface
+export interface ElectricianType {
   slug: string;
   name: string;
   description?: string;
   search_terms?: string[];
 }
 
-// Cache for static data (states and types only)
-let statesCache: State[] | null = null;
-let treatmentTypesCache: TreatmentType[] | null = null;
-let facilityTypesCache: FacilityType[] | null = null;
+// Alias for backwards compatibility
+export type FacilityType = ElectricianType;
+
+// Cache for static data (provinces and types only)
+let provincesCache: Province[] | null = null;
+let serviceTypesCache: ServiceType[] | null = null;
+let electricianTypesCache: ElectricianType[] | null = null;
 
 // ===== HELPER: Map database row to Facility interface =====
 
@@ -151,25 +160,27 @@ function mapRowToFacility(row: typeof facilities.$inferSelect): Facility {
     slug: row.slug,
     address: row.address || undefined,
     city: row.city,
-    county: row.county || undefined,
-    state: row.state,
-    state_abbr: row.stateAbbr,
-    zipCode: row.zipCode || undefined,
+    municipality: row.municipality || undefined,
+    province: row.province,
+    province_abbr: row.provinceAbbr,
+    postalCode: row.postalCode || undefined,
     country: row.country,
     latitude: row.latitude ? parseFloat(row.latitude) : undefined,
     longitude: row.longitude ? parseFloat(row.longitude) : undefined,
     type: row.type,
     type_slug: row.typeSlug || row.type.toLowerCase().replace(/\s+/g, '-'),
-    facility_types: row.facilityTypes || [],
-    treatment_types: row.treatmentTypes || [],
-    insurance_accepted: row.insuranceAccepted || [],
+    service_types: row.serviceTypes || [],
+    specializations: row.specializations || [],
+    certifications: row.certifications || [],
     phone: row.phone || undefined,
     email: row.email || undefined,
     website: row.website || undefined,
     description: row.description || undefined,
     opening_hours: row.openingHours || undefined,
-    amenities: row.amenities || undefined,
+    services: row.services || undefined,
     year_established: row.yearEstablished || undefined,
+    has_emergency_service: row.hasEmergencyService || false,
+    work_area: row.workArea || undefined,
     rating: row.rating ? parseFloat(row.rating) : undefined,
     review_count: row.reviewCount || undefined,
     photo_url: row.photoUrl || undefined,
@@ -193,7 +204,7 @@ function mapRowToFacilityWithContent(row: typeof facilities.$inferSelect): Facil
     generated: row.generatedSummary ? {
       summary: row.generatedSummary || '',
       about: row.generatedAbout || '',
-      features: row.generatedFeatures || [],
+      services: row.generatedServices || [],
       accessibility: '',
       amenities: row.generatedAmenities || [],
       visitor_tips: row.generatedVisitorTips || [],
@@ -231,98 +242,126 @@ export async function getFacilityBySlug(slug: string): Promise<FacilityWithConte
   }
 }
 
-// ===== STATE FUNCTIONS =====
+// ===== PROVINCE FUNCTIONS =====
 
-export async function getAllStates(): Promise<State[]> {
-  if (statesCache) return statesCache;
+export async function getAllStates(): Promise<Province[]> {
+  return getAllProvinces();
+}
+
+export async function getAllProvinces(): Promise<Province[]> {
+  if (provincesCache) return provincesCache;
 
   try {
-    const statesPath = path.join(process.cwd(), 'data', 'states.json');
-    const content = await fs.readFile(statesPath, 'utf-8');
+    const provincesPath = path.join(process.cwd(), 'data', 'states.json');
+    const content = await fs.readFile(provincesPath, 'utf-8');
     const data = JSON.parse(content);
-    statesCache = data.states as State[];
-    return statesCache;
+    provincesCache = data.states as Province[];
+    return provincesCache;
   } catch (error) {
-    console.error('Error loading states:', error);
+    console.error('Error loading provinces:', error);
     return [];
   }
 }
 
-export async function getStateBySlug(slug: string): Promise<State | null> {
-  const states = await getAllStates();
-  return states.find(s => s.slug === slug) || null;
+export async function getStateBySlug(slug: string): Promise<Province | null> {
+  return getProvinceBySlug(slug);
 }
 
-export async function getStateByAbbr(abbr: string): Promise<State | null> {
-  const states = await getAllStates();
-  return states.find(s => s.abbr.toLowerCase() === abbr.toLowerCase()) || null;
+export async function getProvinceBySlug(slug: string): Promise<Province | null> {
+  const provinces = await getAllProvinces();
+  return provinces.find(s => s.slug === slug) || null;
 }
 
-export async function getFacilitiesByState(state: string): Promise<Facility[]> {
+export async function getStateByAbbr(abbr: string): Promise<Province | null> {
+  return getProvinceByAbbr(abbr);
+}
+
+export async function getProvinceByAbbr(abbr: string): Promise<Province | null> {
+  const provinces = await getAllProvinces();
+  return provinces.find(s => s.abbr.toLowerCase() === abbr.toLowerCase()) || null;
+}
+
+export async function getFacilitiesByState(province: string): Promise<Facility[]> {
+  return getFacilitiesByProvince(province);
+}
+
+export async function getFacilitiesByProvince(province: string): Promise<Facility[]> {
   try {
     const results = await db.select()
       .from(facilities)
       .where(
         or(
-          ilike(facilities.state, state),
-          ilike(facilities.stateAbbr, state)
+          ilike(facilities.province, province),
+          ilike(facilities.provinceAbbr, province)
         )
       );
     return results.map(mapRowToFacility);
   } catch (error) {
-    console.error('Error loading facilities by state:', error);
+    console.error('Error loading facilities by province:', error);
     return [];
   }
 }
 
-// ===== COUNTY FUNCTIONS =====
+// ===== MUNICIPALITY FUNCTIONS =====
 
 export async function getAllCounties(): Promise<string[]> {
-  try {
-    const results = await db.selectDistinct({ county: facilities.county })
-      .from(facilities)
-      .where(sql`${facilities.county} IS NOT NULL AND ${facilities.county} != ''`)
-      .orderBy(asc(facilities.county));
+  return getAllMunicipalities();
+}
 
-    return results.map(r => r.county!).filter(Boolean);
+export async function getAllMunicipalities(): Promise<string[]> {
+  try {
+    const results = await db.selectDistinct({ municipality: facilities.municipality })
+      .from(facilities)
+      .where(sql`${facilities.municipality} IS NOT NULL AND ${facilities.municipality} != ''`)
+      .orderBy(asc(facilities.municipality));
+
+    return results.map(r => r.municipality!).filter(Boolean);
   } catch (error) {
-    console.error('Error loading counties:', error);
+    console.error('Error loading municipalities:', error);
     return [];
   }
 }
 
-export async function getCountiesByState(state: string): Promise<string[]> {
+export async function getCountiesByState(province: string): Promise<string[]> {
+  return getMunicipalitiesByProvince(province);
+}
+
+export async function getMunicipalitiesByProvince(province: string): Promise<string[]> {
   try {
-    const results = await db.selectDistinct({ county: facilities.county })
+    const results = await db.selectDistinct({ municipality: facilities.municipality })
       .from(facilities)
       .where(
         and(
-          sql`${facilities.county} IS NOT NULL AND ${facilities.county} != ''`,
+          sql`${facilities.municipality} IS NOT NULL AND ${facilities.municipality} != ''`,
           or(
-            ilike(facilities.state, state),
-            ilike(facilities.stateAbbr, state)
+            ilike(facilities.province, province),
+            ilike(facilities.provinceAbbr, province)
           )
         )
       )
-      .orderBy(asc(facilities.county));
+      .orderBy(asc(facilities.municipality));
 
-    return results.map(r => r.county!).filter(Boolean);
+    return results.map(r => r.municipality!).filter(Boolean);
   } catch (error) {
-    console.error('Error loading counties by state:', error);
+    console.error('Error loading municipalities by province:', error);
     return [];
   }
 }
 
-export async function getFacilitiesByCounty(county: string, state?: string): Promise<Facility[]> {
-  try {
-    let whereClause = ilike(facilities.county, county);
+export async function getFacilitiesByCounty(municipality: string, province?: string): Promise<Facility[]> {
+  return getFacilitiesByMunicipality(municipality, province);
+}
 
-    if (state) {
+export async function getFacilitiesByMunicipality(municipality: string, province?: string): Promise<Facility[]> {
+  try {
+    let whereClause = ilike(facilities.municipality, municipality);
+
+    if (province) {
       whereClause = and(
         whereClause,
         or(
-          ilike(facilities.state, state),
-          ilike(facilities.stateAbbr, state)
+          ilike(facilities.province, province),
+          ilike(facilities.provinceAbbr, province)
         )
       )!;
     }
@@ -333,7 +372,7 @@ export async function getFacilitiesByCounty(county: string, state?: string): Pro
 
     return results.map(mapRowToFacility);
   } catch (error) {
-    console.error('Error loading facilities by county:', error);
+    console.error('Error loading facilities by municipality:', error);
     return [];
   }
 }
@@ -354,7 +393,11 @@ export async function getAllCities(): Promise<string[]> {
   }
 }
 
-export async function getCitiesByState(state: string): Promise<string[]> {
+export async function getCitiesByState(province: string): Promise<string[]> {
+  return getCitiesByProvince(province);
+}
+
+export async function getCitiesByProvince(province: string): Promise<string[]> {
   try {
     const results = await db.selectDistinct({ city: facilities.city })
       .from(facilities)
@@ -362,8 +405,8 @@ export async function getCitiesByState(state: string): Promise<string[]> {
         and(
           sql`${facilities.city} IS NOT NULL AND ${facilities.city} != ''`,
           or(
-            ilike(facilities.state, state),
-            ilike(facilities.stateAbbr, state)
+            ilike(facilities.province, province),
+            ilike(facilities.provinceAbbr, province)
           )
         )
       )
@@ -371,21 +414,21 @@ export async function getCitiesByState(state: string): Promise<string[]> {
 
     return results.map(r => r.city).filter(Boolean);
   } catch (error) {
-    console.error('Error loading cities by state:', error);
+    console.error('Error loading cities by province:', error);
     return [];
   }
 }
 
-export async function getFacilitiesByCity(city: string, state?: string): Promise<Facility[]> {
+export async function getFacilitiesByCity(city: string, province?: string): Promise<Facility[]> {
   try {
     let whereClause = ilike(facilities.city, city);
 
-    if (state) {
+    if (province) {
       whereClause = and(
         whereClause,
         or(
-          ilike(facilities.state, state),
-          ilike(facilities.stateAbbr, state)
+          ilike(facilities.province, province),
+          ilike(facilities.provinceAbbr, province)
         )
       )!;
     }
@@ -401,106 +444,150 @@ export async function getFacilitiesByCity(city: string, state?: string): Promise
   }
 }
 
-// ===== TREATMENT TYPE FUNCTIONS =====
+// ===== SERVICE TYPE FUNCTIONS =====
 
-export async function getAllTreatmentTypes(): Promise<TreatmentType[]> {
-  if (treatmentTypesCache) return treatmentTypesCache;
+export async function getAllTreatmentTypes(): Promise<ServiceType[]> {
+  return getAllServiceTypes();
+}
+
+export async function getAllServiceTypes(): Promise<ServiceType[]> {
+  if (serviceTypesCache) return serviceTypesCache;
 
   try {
     const typesPath = path.join(process.cwd(), 'data', 'treatment-types.json');
     const content = await fs.readFile(typesPath, 'utf-8');
     const data = JSON.parse(content);
-    treatmentTypesCache = data.types as TreatmentType[];
-    return treatmentTypesCache;
+    serviceTypesCache = data.types as ServiceType[];
+    return serviceTypesCache;
   } catch (error) {
-    console.error('Error loading treatment types:', error);
+    console.error('Error loading service types:', error);
     return [];
   }
 }
 
-export async function getTreatmentTypeBySlug(slug: string): Promise<TreatmentType | null> {
-  const types = await getAllTreatmentTypes();
+export async function getTreatmentTypeBySlug(slug: string): Promise<ServiceType | null> {
+  return getServiceTypeBySlug(slug);
+}
+
+export async function getServiceTypeBySlug(slug: string): Promise<ServiceType | null> {
+  const types = await getAllServiceTypes();
   return types.find(t => t.slug === slug) || null;
 }
 
-export async function getFacilitiesByTreatmentType(treatmentType: string): Promise<Facility[]> {
+export async function getFacilitiesByTreatmentType(serviceType: string): Promise<Facility[]> {
+  return getFacilitiesByServiceType(serviceType);
+}
+
+export async function getFacilitiesByServiceType(serviceType: string): Promise<Facility[]> {
   try {
     const results = await db.select()
       .from(facilities)
       .where(
-        sql`${treatmentType} = ANY(${facilities.treatmentTypes})`
+        sql`${serviceType} = ANY(${facilities.serviceTypes})`
       );
 
     return results.map(mapRowToFacility);
   } catch (error) {
-    console.error('Error loading facilities by treatment type:', error);
+    console.error('Error loading facilities by service type:', error);
     return [];
   }
 }
 
-// ===== FACILITY TYPE FUNCTIONS =====
+// ===== ELECTRICIAN TYPE FUNCTIONS =====
 
-export async function getAllFacilityTypes(): Promise<FacilityType[]> {
-  if (facilityTypesCache) return facilityTypesCache;
+export async function getAllFacilityTypes(): Promise<ElectricianType[]> {
+  return getAllElectricianTypes();
+}
+
+export async function getAllElectricianTypes(): Promise<ElectricianType[]> {
+  if (electricianTypesCache) return electricianTypesCache;
 
   try {
     const typesPath = path.join(process.cwd(), 'data', 'facility-types.json');
     const content = await fs.readFile(typesPath, 'utf-8');
     const data = JSON.parse(content);
-    facilityTypesCache = data.types as FacilityType[];
-    return facilityTypesCache;
+    electricianTypesCache = data.types as ElectricianType[];
+    return electricianTypesCache;
   } catch (error) {
-    console.error('Error loading facility types:', error);
+    console.error('Error loading electrician types:', error);
     return [];
   }
 }
 
-export async function getFacilityTypeBySlug(slug: string): Promise<FacilityType | null> {
-  const types = await getAllFacilityTypes();
+export async function getFacilityTypeBySlug(slug: string): Promise<ElectricianType | null> {
+  return getElectricianTypeBySlug(slug);
+}
+
+export async function getElectricianTypeBySlug(slug: string): Promise<ElectricianType | null> {
+  const types = await getAllElectricianTypes();
   return types.find(t => t.slug === slug) || null;
 }
 
-export async function getFacilitiesByFacilityType(facilityType: string): Promise<Facility[]> {
+export async function getFacilitiesByFacilityType(electricianType: string): Promise<Facility[]> {
+  return getFacilitiesByElectricianType(electricianType);
+}
+
+export async function getFacilitiesByElectricianType(electricianType: string): Promise<Facility[]> {
   try {
     const results = await db.select()
       .from(facilities)
       .where(
         or(
-          ilike(facilities.type, facilityType),
-          ilike(facilities.typeSlug, facilityType),
-          sql`${facilityType} = ANY(${facilities.facilityTypes})`
+          ilike(facilities.type, electricianType),
+          ilike(facilities.typeSlug, electricianType),
+          sql`${electricianType} = ANY(${facilities.specializations})`
         )
       );
 
     return results.map(mapRowToFacility);
   } catch (error) {
-    console.error('Error loading facilities by facility type:', error);
+    console.error('Error loading facilities by electrician type:', error);
     return [];
   }
 }
 
-// ===== INSURANCE FUNCTIONS =====
+// ===== CERTIFICATION FUNCTIONS =====
 
-export async function getFacilitiesByInsurance(insurance: string): Promise<Facility[]> {
+export async function getFacilitiesByCertification(certification: string): Promise<Facility[]> {
   try {
     const results = await db.select()
       .from(facilities)
       .where(
-        sql`${insurance} = ANY(${facilities.insuranceAccepted})`
+        sql`${certification} = ANY(${facilities.certifications})`
       );
 
     return results.map(mapRowToFacility);
   } catch (error) {
-    console.error('Error loading facilities by insurance:', error);
+    console.error('Error loading facilities by certification:', error);
+    return [];
+  }
+}
+
+// Legacy compatibility
+export async function getFacilitiesByInsurance(certification: string): Promise<Facility[]> {
+  return getFacilitiesByCertification(certification);
+}
+
+// ===== EMERGENCY SERVICE FUNCTION =====
+
+export async function getEmergencyElectricians(): Promise<Facility[]> {
+  try {
+    const results = await db.select()
+      .from(facilities)
+      .where(eq(facilities.hasEmergencyService, true));
+
+    return results.map(mapRowToFacility);
+  } catch (error) {
+    console.error('Error loading emergency electricians:', error);
     return [];
   }
 }
 
 // ===== SLUG UTILITIES =====
 
-export function createSlug(name: string, city: string, state_abbr?: string): string {
-  const base = state_abbr
-    ? `${name}-${city}-${state_abbr}`
+export function createSlug(name: string, city: string, province_abbr?: string): string {
+  const base = province_abbr
+    ? `${name}-${city}-${province_abbr}`
     : `${name}-${city}`;
 
   return base
@@ -511,15 +598,23 @@ export function createSlug(name: string, city: string, state_abbr?: string): str
     .replace(/^-+|-+$/g, '');
 }
 
-export function createStateSlug(state: string): string {
-  return state
+export function createStateSlug(province: string): string {
+  return createProvinceSlug(province);
+}
+
+export function createProvinceSlug(province: string): string {
+  return province
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^a-z0-9-]/g, '');
 }
 
-export function createCountySlug(county: string): string {
-  return county
+export function createCountySlug(municipality: string): string {
+  return createMunicipalitySlug(municipality);
+}
+
+export function createMunicipalitySlug(municipality: string): string {
+  return municipality
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^a-z0-9-]/g, '');
@@ -543,43 +638,57 @@ export function createTypeSlug(type: string): string {
 
 export async function getStats() {
   try {
-    const states = await getAllStates();
-    const treatmentTypes = await getAllTreatmentTypes();
-    const facilityTypes = await getAllFacilityTypes();
+    const provinces = await getAllProvinces();
+    const serviceTypes = await getAllServiceTypes();
+    const electricianTypes = await getAllElectricianTypes();
 
     // Use SQL aggregations for efficiency
     const [statsResult] = await db.select({
       totalFacilities: count(),
-      statesWithFacilities: sql<number>`COUNT(DISTINCT ${facilities.state})`,
+      provincesWithFacilities: sql<number>`COUNT(DISTINCT ${facilities.province})`,
       citiesWithFacilities: sql<number>`COUNT(DISTINCT ${facilities.city})`,
-      countiesWithFacilities: sql<number>`COUNT(DISTINCT ${facilities.county})`,
+      municipalitiesWithFacilities: sql<number>`COUNT(DISTINCT ${facilities.municipality})`,
       withRatings: sql<number>`COUNT(*) FILTER (WHERE ${facilities.rating} IS NOT NULL)`,
       withPhotos: sql<number>`COUNT(*) FILTER (WHERE ${facilities.photoUrl} IS NOT NULL)`,
+      withEmergencyService: sql<number>`COUNT(*) FILTER (WHERE ${facilities.hasEmergencyService} = true)`,
     }).from(facilities);
 
     return {
       total_facilities: Number(statsResult.totalFacilities),
-      total_states: states.length,
-      states_with_facilities: Number(statsResult.statesWithFacilities),
+      total_provinces: provinces.length,
+      provinces_with_facilities: Number(statsResult.provincesWithFacilities),
       cities_with_facilities: Number(statsResult.citiesWithFacilities),
-      counties_with_facilities: Number(statsResult.countiesWithFacilities),
-      total_treatment_types: treatmentTypes.length,
-      total_facility_types: facilityTypes.length,
+      municipalities_with_facilities: Number(statsResult.municipalitiesWithFacilities),
+      total_service_types: serviceTypes.length,
+      total_electrician_types: electricianTypes.length,
       with_ratings: Number(statsResult.withRatings),
       with_photos: Number(statsResult.withPhotos),
+      with_emergency_service: Number(statsResult.withEmergencyService),
+      // Legacy compatibility
+      total_states: provinces.length,
+      states_with_facilities: Number(statsResult.provincesWithFacilities),
+      counties_with_facilities: Number(statsResult.municipalitiesWithFacilities),
+      total_treatment_types: serviceTypes.length,
+      total_facility_types: electricianTypes.length,
     };
   } catch (error) {
     console.error('Error loading stats:', error);
     return {
       total_facilities: 0,
+      total_provinces: 0,
+      provinces_with_facilities: 0,
+      cities_with_facilities: 0,
+      municipalities_with_facilities: 0,
+      total_service_types: 0,
+      total_electrician_types: 0,
+      with_ratings: 0,
+      with_photos: 0,
+      with_emergency_service: 0,
       total_states: 0,
       states_with_facilities: 0,
-      cities_with_facilities: 0,
       counties_with_facilities: 0,
       total_treatment_types: 0,
       total_facility_types: 0,
-      with_ratings: 0,
-      with_photos: 0,
     };
   }
 }
@@ -587,9 +696,16 @@ export async function getStats() {
 // ===== SEARCH =====
 
 export async function searchFacilities(query: string, filters?: {
-  state?: string;
+  province?: string;
   type?: string;
   city?: string;
+  municipality?: string;
+  serviceType?: string;
+  electricianType?: string;
+  certification?: string;
+  hasEmergencyService?: boolean;
+  // Legacy compatibility
+  state?: string;
   county?: string;
   treatmentType?: string;
   facilityType?: string;
@@ -599,11 +715,13 @@ export async function searchFacilities(query: string, filters?: {
     // Build dynamic where conditions
     const conditions = [];
 
-    if (filters?.state) {
+    // Province filter (also check state for backwards compat)
+    const provinceFilter = filters?.province || filters?.state;
+    if (provinceFilter) {
       conditions.push(
         or(
-          ilike(facilities.state, filters.state),
-          ilike(facilities.stateAbbr, filters.state)
+          ilike(facilities.province, provinceFilter),
+          ilike(facilities.provinceAbbr, provinceFilter)
         )
       );
     }
@@ -621,26 +739,38 @@ export async function searchFacilities(query: string, filters?: {
       conditions.push(ilike(facilities.city, filters.city));
     }
 
-    if (filters?.county) {
-      conditions.push(ilike(facilities.county, filters.county));
+    // Municipality filter (also check county for backwards compat)
+    const municipalityFilter = filters?.municipality || filters?.county;
+    if (municipalityFilter) {
+      conditions.push(ilike(facilities.municipality, municipalityFilter));
     }
 
-    if (filters?.treatmentType) {
+    // Service type filter (also check treatmentType for backwards compat)
+    const serviceTypeFilter = filters?.serviceType || filters?.treatmentType;
+    if (serviceTypeFilter) {
       conditions.push(
-        sql`${filters.treatmentType} = ANY(${facilities.treatmentTypes})`
+        sql`${serviceTypeFilter} = ANY(${facilities.serviceTypes})`
       );
     }
 
-    if (filters?.facilityType) {
+    // Electrician type filter (also check facilityType for backwards compat)
+    const electricianTypeFilter = filters?.electricianType || filters?.facilityType;
+    if (electricianTypeFilter) {
       conditions.push(
-        sql`${filters.facilityType} = ANY(${facilities.facilityTypes})`
+        sql`${electricianTypeFilter} = ANY(${facilities.specializations})`
       );
     }
 
-    if (filters?.insurance) {
+    // Certification filter (also check insurance for backwards compat)
+    const certificationFilter = filters?.certification || filters?.insurance;
+    if (certificationFilter) {
       conditions.push(
-        sql`${filters.insurance} = ANY(${facilities.insuranceAccepted})`
+        sql`${certificationFilter} = ANY(${facilities.certifications})`
       );
+    }
+
+    if (filters?.hasEmergencyService) {
+      conditions.push(eq(facilities.hasEmergencyService, true));
     }
 
     // Add search query
@@ -650,10 +780,10 @@ export async function searchFacilities(query: string, filters?: {
         or(
           ilike(facilities.name, q),
           ilike(facilities.city, q),
-          ilike(facilities.county, q),
-          ilike(facilities.state, q),
+          ilike(facilities.municipality, q),
+          ilike(facilities.province, q),
           ilike(facilities.address, q),
-          ilike(facilities.zipCode, q)
+          ilike(facilities.postalCode, q)
         )
       );
     }
@@ -677,9 +807,9 @@ export async function searchFacilities(query: string, filters?: {
 
 // ===== NEARBY FACILITIES =====
 
-// Haversine distance calculation (fallback if no PostGIS)
+// Haversine distance calculation (kilometers for Netherlands)
 function haversineDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
-  const R = 3959; // Earth's radius in miles
+  const R = 6371; // Earth's radius in kilometers
   const dLat = (lat2 - lat1) * Math.PI / 180;
   const dLon = (lon2 - lon1) * Math.PI / 180;
   const a =
@@ -693,21 +823,18 @@ function haversineDistance(lat1: number, lon1: number, lat2: number, lon2: numbe
 export async function getNearbyFacilities(
   lat: number,
   lon: number,
-  radiusMiles: number = 25,
+  radiusKm: number = 25,
   limit: number = 20
 ): Promise<Array<Facility & { distance: number }>> {
   try {
-    // Use database query with Haversine formula in SQL
-    // This is more efficient than loading all facilities
     const results = await db.select()
       .from(facilities)
       .where(
         sql`${facilities.latitude} IS NOT NULL AND ${facilities.longitude} IS NOT NULL`
       )
-      .limit(1000); // Get a reasonable number to filter
+      .limit(1000);
 
-    // Calculate distances and filter client-side
-    // TODO: Enable PostGIS for better performance
+    // Calculate distances and filter
     const withDistance = results
       .map(row => ({
         ...mapRowToFacility(row),
@@ -717,7 +844,7 @@ export async function getNearbyFacilities(
           parseFloat(row.longitude!)
         )
       }))
-      .filter(c => c.distance <= radiusMiles)
+      .filter(c => c.distance <= radiusKm)
       .sort((a, b) => a.distance - b.distance)
       .slice(0, limit);
 
