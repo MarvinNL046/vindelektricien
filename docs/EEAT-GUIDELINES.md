@@ -1,6 +1,6 @@
-# RehabNearMe.com - E-E-A-T Implementation Guide
+# VindElektricien.nl - E-E-A-T Implementation Guide
 
-**Repository:** https://github.com/MarvinNL046/rehabnearbyme
+**Website:** https://vindelektricien.nl
 **Created:** 18-01-2026
 **Purpose:** Maximize Google Search visibility through E-E-A-T compliance
 
@@ -15,7 +15,7 @@ Google's E-E-A-T framework evaluates content quality:
 - **A**uthoritativeness - Recognition as a trusted source
 - **T**rustworthiness - Accuracy, honesty, and safety
 
-**Why it matters for RehabNearMe:** Addiction treatment is classified as **YMYL (Your Money or Your Life)** content, meaning Google applies stricter quality standards because incorrect information could harm users.
+**Why it matters for VindElektricien:** Electrical work involves safety concerns, making our content important for users making decisions about their home and business electrical needs. Quality content helps users find reliable electricians.
 
 ---
 
@@ -24,9 +24,9 @@ Google's E-E-A-T framework evaluates content quality:
 ### 1. User-Generated Content
 
 **Reviews & Testimonials:**
-- [ ] Enable verified user reviews on facility pages
+- [ ] Enable verified user reviews on electrician pages
 - [ ] Require email verification for reviewers
-- [ ] Add "Verified Patient" badge for confirmed stays
+- [ ] Add "Verified Customer" badge for confirmed jobs
 - [ ] Allow photo uploads with reviews
 - [ ] Display review dates prominently
 
@@ -34,10 +34,10 @@ Google's E-E-A-T framework evaluates content quality:
 ```tsx
 // Review component should show:
 - Reviewer name (or anonymous option)
-- "Verified Stay" badge if confirmed
+- "Verified Customer" badge if confirmed
 - Date of review
-- Treatment type received
-- Length of stay
+- Type of work performed
+- Electrician response
 - Would recommend (yes/no)
 - Detailed review text
 ```
@@ -45,24 +45,24 @@ Google's E-E-A-T framework evaluates content quality:
 ### 2. First-Person Experience Content
 
 **Blog Topics from Experience:**
-- [ ] "What My First Week in Rehab Was Like"
-- [ ] "How I Chose the Right Treatment Center"
-- [ ] "My Journey Through Detox: What to Expect"
-- [ ] "Life After Rehab: 1 Year Sober"
-- [ ] "Family's Perspective: Supporting a Loved One"
+- [ ] "Mijn ervaring met een meterkast vervanging"
+- [ ] "Hoe ik de juiste elektricien voor mijn laadpaal vond"
+- [ ] "Wat ik leerde over elektrische storingen"
+- [ ] "Tips voor het voorbereiden op een elektricien bezoek"
+- [ ] "Na de renovatie: mijn nieuwe elektrische installatie"
 
 **Guidelines:**
-- Partner with recovery advocates for authentic stories
-- Include author bio with recovery credentials
+- Partner with homeowners for authentic stories
+- Include author bio and location
 - Add disclaimer about individual experiences
 - Update content with follow-up stories
 
-### 3. Facility Visit Program
+### 3. Electrician Profiles
 
-- [ ] Visit and document facilities (photos, video)
-- [ ] Create "Staff Verified" badge for visited facilities
-- [ ] Publish facility tour content
-- [ ] Interview facility staff and patients (with consent)
+- [ ] Encourage electricians to add photos of their work
+- [ ] Create "Portfolio" sections on electrician pages
+- [ ] Collect case studies from verified electricians
+- [ ] Interview electricians about their expertise
 
 ---
 
@@ -74,33 +74,32 @@ Google's E-E-A-T framework evaluates content quality:
 
 | Expert Type | Role | Content |
 |-------------|------|---------|
-| Licensed Counselors (LCSW, LPC) | Article review, Q&A | Treatment approaches |
-| Medical Doctors (MD, DO) | Medical accuracy review | Detox, medications |
-| Addiction Specialists (CADC) | Primary content | Recovery programs |
-| Psychiatrists | Mental health content | Dual diagnosis |
-| Nutritionists | Wellness content | Recovery nutrition |
+| Certified Electricians | Article review, Q&A | Technical advice |
+| NEN Inspectors | Safety content review | Inspection guides |
+| Domotica Specialists | Smart home content | Smart home guides |
+| Solar Installers | Renewable energy content | Solar panel guides |
+| Industry Associations | Industry insights | Standards and regulations |
 
 **Expert Author Pages:**
-- [ ] Create /about/experts page
+- [ ] Create /over-ons/experts page
 - [ ] Individual expert bio pages
 - [ ] Link experts to their content
 - [ ] Display credentials prominently
-- [ ] Include license verification links
+- [ ] Include certification verification links
 
 **Schema Implementation:**
 ```json
 {
   "@type": "Person",
-  "name": "Dr. Jane Smith",
-  "jobTitle": "Addiction Medicine Specialist",
-  "credentials": ["MD", "FASAM"],
+  "name": "Jan de Vries",
+  "jobTitle": "Erkend Installateur",
+  "credentials": ["NEN 1010", "VCA-VOL"],
   "affiliation": {
     "@type": "Organization",
-    "name": "American Society of Addiction Medicine"
+    "name": "UNETO-VNI"
   },
   "sameAs": [
-    "https://linkedin.com/in/drjanesmith",
-    "https://npiregistry.cms.hhs.gov/..."
+    "https://linkedin.com/in/jandevries"
   ]
 }
 ```
@@ -109,7 +108,7 @@ Google's E-E-A-T framework evaluates content quality:
 
 **Every Article Must Include:**
 - [ ] Author name and credentials
-- [ ] Medical reviewer (for health content)
+- [ ] Technical reviewer (for technical content)
 - [ ] Publication date
 - [ ] Last reviewed/updated date
 - [ ] Sources and citations
@@ -119,33 +118,33 @@ Google's E-E-A-T framework evaluates content quality:
 ```markdown
 # Article Title
 
-**Written by:** [Author Name], [Credentials]
-**Medically Reviewed by:** [Reviewer Name], [Credentials]
-**Published:** [Date] | **Last Updated:** [Date]
+**Geschreven door:** [Author Name], [Credentials]
+**Technisch gecontroleerd door:** [Reviewer Name], [Credentials]
+**Gepubliceerd:** [Date] | **Laatst bijgewerkt:** [Date]
 
 [Content...]
 
-## Sources
+## Bronnen
 1. [Source with link]
 2. [Source with link]
 
 ---
-*This article was reviewed for medical accuracy by [Reviewer].*
+*Dit artikel is gecontroleerd op technische juistheid door [Reviewer].*
 ```
 
 ### 3. Educational Content
 
 **Create Comprehensive Guides:**
-- [x] Insurance & Payment Guide
-- [x] What to Expect in Treatment
-- [ ] Types of Addiction Treatment (detailed)
-- [ ] Understanding Withdrawal & Detox
-- [ ] Mental Health & Addiction (Dual Diagnosis)
-- [ ] Medication-Assisted Treatment (MAT)
-- [ ] Family Guide to Intervention
-- [ ] Relapse Prevention Strategies
-- [ ] Finding Treatment for Veterans
-- [ ] Teen & Adolescent Treatment
+- [x] Elektricien kiezen gids
+- [x] Storingen en reparaties gids
+- [x] Meterkast/groepenkast gids
+- [x] Laadpaal installatie gids
+- [x] Zonnepanelen installatie gids
+- [x] NEN-keuringen gids
+- [ ] Veilig werken met elektra gids
+- [ ] Energiebesparing tips
+- [ ] Domotica beginnersgids
+- [ ] Elektrische installatie bij verbouwing
 
 ---
 
@@ -156,50 +155,50 @@ Google's E-E-A-T framework evaluates content quality:
 **About Page Requirements:**
 - [ ] Company mission and values
 - [ ] Team bios with photos
-- [ ] Physical address (or registered agent)
+- [ ] KvK registration information
 - [ ] Contact information (email, phone)
 - [ ] Company history
 - [ ] Editorial guidelines
 - [ ] Partnerships and affiliations
 
 **Trust Badges:**
-- [ ] SAMHSA partnership/data source
-- [ ] LegitScript certification (if applicable)
-- [ ] BBB accreditation
 - [ ] SSL certificate (already implemented)
-- [ ] Privacy policy compliance
+- [ ] Privacy policy compliance (AVG)
+- [ ] Industry association partnerships
+- [ ] Quality mark affiliations
+- [ ] Verified business registration
 
 ### 2. External Authority Signals
 
 **Link Building Strategy:**
-- [ ] Guest posts on addiction recovery blogs
-- [ ] Partnerships with treatment associations
+- [ ] Guest posts on home improvement blogs
+- [ ] Partnerships with industry associations
 - [ ] Press releases for major updates
 - [ ] Expert quotes in media articles
-- [ ] Academic citations
+- [ ] Local news features
 
 **Desired Backlinks From:**
-- Government sites (.gov) - SAMHSA, NIH, CDC
-- Educational sites (.edu) - university addiction studies
-- Healthcare organizations - hospitals, medical associations
-- News outlets - health sections
-- Non-profits - addiction recovery organizations
+- Industry associations (UNETO-VNI, Techniek Nederland)
+- Government sites (RVO.nl for subsidies)
+- Consumer organizations (Consumentenbond)
+- Home improvement sites
+- Local business directories
 
 ### 3. Citations & References
 
 **Always Cite:**
-- SAMHSA (Substance Abuse and Mental Health Services Administration)
-- NIDA (National Institute on Drug Abuse)
-- CDC (Centers for Disease Control)
-- WHO (World Health Organization)
-- Peer-reviewed medical journals
-- State health departments
+- NEN (Nederlands Normalisatie-instituut)
+- RVO (Rijksdienst voor Ondernemend Nederland)
+- UNETO-VNI / Techniek Nederland
+- Netbeheer Nederland
+- Official manufacturer documentation
+- Government energy websites
 
 **Citation Format:**
 ```html
 <cite>
-  According to <a href="https://www.samhsa.gov/..." rel="noopener">SAMHSA</a>,
-  approximately 21 million Americans have at least one addiction...
+  Volgens de <a href="https://www.nen.nl/..." rel="noopener">NEN 1010 norm</a>,
+  moeten alle laagspanningsinstallaties voldoen aan...
 </cite>
 ```
 
@@ -211,49 +210,50 @@ Google's E-E-A-T framework evaluates content quality:
 
 **Fact-Checking Process:**
 1. Writer creates content with citations
-2. Medical expert reviews for accuracy
+2. Technical expert reviews for accuracy
 3. Editor checks sources and claims
 4. Legal review for compliance
 5. Publish with review date
 6. Schedule annual content audits
 
 **Correction Policy:**
-- [ ] Create /corrections page
+- [ ] Create /correcties page
 - [ ] Document all content corrections
 - [ ] Add correction notices to updated articles
 - [ ] Allow users to report inaccuracies
 
 ### 2. User Safety
 
-**Crisis Resources (Always Visible):**
+**Safety Information (Always Visible):**
 ```tsx
-// Crisis banner component - show on all pages
-<CrisisBanner>
-  If you're in crisis, call 988 (Suicide & Crisis Lifeline)
-  or text HOME to 741741 (Crisis Text Line)
-</CrisisBanner>
+// Safety banner component - show on relevant pages
+<SafetyBanner>
+  Bij elektrisch gevaar: schakel de hoofdschakelaar uit.
+  Bij brand of letsel: bel 112.
+  Werk nooit zelf aan elektrische installaties.
+</SafetyBanner>
 ```
 
 **Safety Disclaimers:**
-- [ ] Medical disclaimer on all health content
-- [ ] "Not a substitute for professional advice"
+- [ ] Safety disclaimer on all technical content
+- [ ] "Laat dit doen door een professional" notices
 - [ ] Emergency contact information
-- [ ] Overdose prevention resources
+- [ ] Link to fire safety resources
 
 ### 3. Privacy & Security
 
 **User Data Protection:**
-- [ ] Clear privacy policy
-- [ ] HIPAA-compliant contact forms
+- [ ] Clear privacy policy (AVG compliant)
+- [ ] Secure contact forms
 - [ ] No selling of user data
 - [ ] Cookie consent banner
 - [ ] Data deletion requests honored
 
 **Contact Form Disclaimer:**
 ```
-Your information is confidential. We will only use it to
-connect you with treatment resources. We never share your
-personal information with third parties without your consent.
+Uw gegevens worden vertrouwelijk behandeld. Wij gebruiken deze
+alleen om u in contact te brengen met elektriciens. Wij delen
+uw persoonlijke informatie niet met derden zonder uw toestemming.
 ```
 
 ### 4. Financial Transparency
@@ -267,9 +267,9 @@ personal information with third parties without your consent.
 **Example Disclosure:**
 ```html
 <aside class="disclosure">
-  RehabNearMe.com may receive compensation from treatment
-  facilities for featured placements. This does not influence
-  our editorial content or facility ratings.
+  VindElektricien.nl kan een vergoeding ontvangen van elektriciens
+  voor uitgelichte vermeldingen. Dit heeft geen invloed op onze
+  redactionele content of beoordelingen.
 </aside>
 ```
 
@@ -285,18 +285,34 @@ personal information with third parties without your consent.
 // Organization Schema
 {
   "@type": "Organization",
-  "name": "RehabNearMe.com",
-  "url": "https://rehabnearme.com",
-  "logo": "https://rehabnearme.com/logo.png",
+  "name": "VindElektricien.nl",
+  "url": "https://vindelektricien.nl",
+  "logo": "https://vindelektricien.nl/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-XXX-XXX-XXXX",
+    "email": "info@vindelektricien.nl",
     "contactType": "customer service"
   },
   "sameAs": [
-    "https://facebook.com/rehabnearme",
-    "https://twitter.com/rehabnearme"
+    "https://facebook.com/vindelektricien",
+    "https://linkedin.com/company/vindelektricien"
   ]
+}
+
+// LocalBusiness Schema for Electricians
+{
+  "@type": "Electrician",
+  "name": "...",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "...",
+    "addressRegion": "..."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "...",
+    "reviewCount": "..."
+  }
 }
 
 // Article Schema with Author
@@ -307,29 +323,15 @@ personal information with third parties without your consent.
     "@type": "Person",
     "name": "...",
     "credentials": "...",
-    "url": "/about/experts/..."
+    "url": "/over-ons/experts/..."
   },
   "reviewedBy": {
     "@type": "Person",
-    "name": "Dr. ...",
-    "credentials": "MD"
+    "name": "...",
+    "credentials": "Erkend Installateur"
   },
   "datePublished": "...",
   "dateModified": "..."
-}
-
-// MedicalWebPage Schema
-{
-  "@type": "MedicalWebPage",
-  "about": {
-    "@type": "MedicalCondition",
-    "name": "Substance Use Disorder"
-  },
-  "lastReviewed": "2026-01-18",
-  "reviewedBy": {
-    "@type": "Person",
-    "name": "..."
-  }
 }
 ```
 
@@ -339,16 +341,17 @@ personal information with third parties without your consent.
 
 | Content Type | Review Frequency |
 |--------------|------------------|
-| Facility data | Monthly |
-| Treatment guides | Quarterly |
-| Statistics/data | When new data released |
+| Electrician data | Monthly |
+| Price guides | Quarterly |
+| Technical guides | Annually |
 | Blog posts | Annually |
 | Expert bios | Annually |
+| Subsidy information | When regulations change |
 
 **Show Update Dates:**
 ```tsx
 <time dateTime="2026-01-18">
-  Last updated: January 18, 2026
+  Laatst bijgewerkt: 18 januari 2026
 </time>
 ```
 
@@ -415,8 +418,9 @@ Before publishing any content:
 
 - [Google Search Quality Rater Guidelines](https://guidelines.raterhub.com/)
 - [Google E-E-A-T Documentation](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
-- [SAMHSA Resources](https://www.samhsa.gov/)
-- [Schema.org Medical Types](https://schema.org/MedicalWebPage)
+- [NEN Normshop](https://www.nen.nl/)
+- [Schema.org LocalBusiness Types](https://schema.org/Electrician)
+- [RVO.nl - Energie subsidies](https://www.rvo.nl/)
 
 ---
 

@@ -1,762 +1,914 @@
 {
-  "stateGuides": [
+  "provincieGuides": [
     {
-      "slug": "california",
-      "name": "California",
-      "abbr": "CA",
-      "totalFacilities": 820,
-      "title": "Addiction Treatment Centers in California: Complete Guide",
-      "metaDescription": "Comprehensive guide to addiction treatment in California. Find rehab facilities, understand state laws, treatment costs, and recovery resources across the Golden State.",
-      "heroSubtitle": "Discover treatment options across the Golden State, from world-renowned facilities to community programs",
-      "overview": "California, the most populous state in the nation, offers an incredibly diverse range of addiction treatment options. From luxury facilities in Malibu to community-based programs in urban centers, California has over 820 treatment centers addressing substance use disorders. The state is known for pioneering innovative treatment approaches, including holistic therapies and evidence-based practices. California's Mediterranean climate and natural beauty provide healing environments that attract people from across the country seeking recovery.",
-      "treatmentLaws": {
-        "title": "California Treatment Laws and Regulations",
-        "content": "California has comprehensive regulations governing addiction treatment through the Department of Health Care Services (DHCS). The state licenses residential and outpatient treatment facilities, ensuring quality standards are met. California expanded Medicaid (Medi-Cal) coverage for addiction treatment, making services accessible to more residents. The state has been a leader in medication-assisted treatment (MAT) access and harm reduction approaches. California also has strong workplace protections for employees seeking treatment.",
+      "slug": "noord-holland",
+      "name": "Noord-Holland",
+      "abbr": "NH",
+      "totalElektricians": 850,
+      "title": "Elektriciens in Noord-Holland: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Noord-Holland. Overzicht van installateurs, storingsdiensten, laadpaal monteurs en NEN-keurmeesters in de provincie.",
+      "heroSubtitle": "Van Amsterdam tot Alkmaar - vind de beste elektricien in uw regio",
+      "overview": "Noord-Holland is de meest dichtbevolkte provincie van Nederland met een grote vraag naar elektrotechnische diensten. Van de historische grachtenpanden in Amsterdam tot moderne nieuwbouwwijken in Almere - overal zijn vakbekwame elektriciens nodig. De provincie telt meer dan 850 geregistreerde elektriciens die particulieren en bedrijven van dienst zijn met installaties, storingen, laadpalen en NEN-keuringen.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Noord-Holland moeten voldoen aan strenge Nederlandse normen. De NEN 1010 is de belangrijkste norm voor laagspanningsinstallaties. Veel elektriciens zijn aangesloten bij UNETO-VNI, de branchevereniging voor installatiebedrijven. Voor bepaalde werkzaamheden zoals laadpaalinstallaties zijn aanvullende certificeringen vereist.",
         "keyPoints": [
-          "DHCS licenses all addiction treatment facilities",
-          "Medi-Cal covers addiction treatment services",
-          "Strong workplace protections under CFRA for treatment",
-          "Medication-assisted treatment widely available",
-          "Harm reduction programs supported at state level",
-          "Parity laws ensure insurance coverage for treatment"
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering voor veilig werken",
+          "Erkend installateur registratie",
+          "Laadpaal installateur certificering (BOVAG/ElaadNL)",
+          "Periodieke NEN 3140 keuringen verplicht voor bedrijven",
+          "Zonnepaneel installatie certificering"
         ]
       },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 320 },
-        { "type": "Inpatient Rehab", "count": 185 },
-        { "type": "Detox Center", "count": 97 },
-        { "type": "Sober Living", "count": 120 },
-        { "type": "Dual Diagnosis", "count": 60 },
-        { "type": "Luxury Rehab", "count": 38 }
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 420 },
+        { "type": "Nieuwe Installaties", "count": 350 },
+        { "type": "Laadpaal Installatie", "count": 180 },
+        { "type": "Zonnepanelen", "count": 145 },
+        { "type": "Meterkast/Groepenkast", "count": 280 },
+        { "type": "NEN-keuringen", "count": 95 }
       ],
-      "topCities": ["Los Angeles", "San Diego", "San Francisco", "Orange County", "Sacramento", "San Jose", "Malibu", "Riverside", "Fresno", "Long Beach"],
-      "notableFacilities": [
+      "topCities": ["Amsterdam", "Haarlem", "Zaandam", "Alkmaar", "Hilversum", "Amstelveen", "Hoorn", "Purmerend", "Heerhugowaard", "Den Helder"],
+      "notableBedrijven": [
         {
-          "name": "Betty Ford Center",
-          "city": "Rancho Mirage",
-          "description": "One of America's most renowned addiction treatment facilities, founded by former First Lady Betty Ford. Offers comprehensive residential and outpatient programs with a focus on family involvement."
+          "name": "Elektrotechniek Amsterdam",
+          "city": "Amsterdam",
+          "description": "Groot installatiebedrijf met 24/7 storingsdienst, gespecialiseerd in monumentale panden en moderne nieuwbouw. Meer dan 30 jaar ervaring in de regio."
         },
         {
-          "name": "Promises Treatment Centers",
-          "city": "Malibu",
-          "description": "Luxury treatment facility offering individualized care in a serene coastal setting. Known for treating high-profile clients and offering extensive aftercare support."
+          "name": "Installatiebedrijf Kennemerland",
+          "city": "Haarlem",
+          "description": "Familiebedrijf gespecialiseerd in particuliere woningen en klein-zakelijke projecten. Erkend installateur met VCA-certificering."
         },
         {
-          "name": "Hazelden Betty Ford Foundation California",
-          "city": "Multiple Locations",
-          "description": "Part of the national organization that pioneered the Minnesota Model of treatment. Offers various programs including youth services and family programs."
+          "name": "Laadpaal Expert Noord-Holland",
+          "city": "Alkmaar",
+          "description": "Specialist in laadpaalinstallaties voor particulieren en bedrijven. Partner van alle grote laadpaalleveranciers."
         }
       ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$30,000-$60,000",
-        "outpatient": "$5,000-$15,000",
-        "notes": "California treatment costs are among the highest in the nation, particularly in areas like Malibu and Orange County. However, many facilities accept insurance, and Medi-Cal provides coverage for eligible residents. Sliding scale options and state-funded programs are available for those without insurance."
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€50-€75 per uur",
+        "emergency": "€85-€125 per uur",
+        "notes": "Tarieven in Noord-Holland liggen iets boven het landelijk gemiddelde, vooral in Amsterdam. Voorrijkosten variëren van €25 tot €50. Voor laadpaalinstallaties gelden vaste prijzen van €300-€800 exclusief laadpaal. Vraag altijd vooraf een offerte aan."
       },
       "faqs": [
         {
-          "question": "Does Medi-Cal cover addiction treatment in California?",
-          "answer": "Yes, Medi-Cal covers a comprehensive range of addiction treatment services including assessment, outpatient counseling, intensive outpatient programs, residential treatment, medication-assisted treatment, and recovery support services. The Drug Medi-Cal Organized Delivery System (DMC-ODS) coordinates these services."
+          "question": "Wat kost een elektricien in Noord-Holland?",
+          "answer": "Het gemiddelde uurtarief ligt tussen €50 en €75 per uur. Voor spoedklussen buiten kantooruren gelden hogere tarieven van €85-€125 per uur. Voorrijkosten bedragen meestal €25-€50. Vraag altijd vooraf een duidelijke offerte aan."
         },
         {
-          "question": "What are the best rehab centers in California?",
-          "answer": "California has numerous highly-rated facilities including Betty Ford Center, Promises Treatment Centers, Passages Malibu, and The Canyon at Peace Park. The best facility depends on individual needs, budget, and treatment preferences. Accredited facilities meeting DHCS standards are recommended."
+          "question": "Hoe vind ik een betrouwbare elektricien in Amsterdam?",
+          "answer": "Zoek naar elektriciens met een Erkend Installateur certificering en VCA-diploma. Controleer reviews op Google en vraag naar referenties. Op VindElektricien.nl vindt u geverifieerde elektriciens met beoordelingen van klanten."
         },
         {
-          "question": "Are there free rehab options in California?",
-          "answer": "Yes, California has state-funded treatment programs through county behavioral health departments. Medi-Cal covers treatment for eligible residents. Organizations like the Salvation Army and faith-based groups also offer free or low-cost treatment options."
+          "question": "Zijn er 24-uurs storingsdiensten in Noord-Holland?",
+          "answer": "Ja, veel elektriciens in Noord-Holland bieden 24/7 spoeddiensten aan voor elektrische storingen. Deze diensten zijn vooral beschikbaar in de grotere steden zoals Amsterdam, Haarlem en Alkmaar."
         },
         {
-          "question": "How do I find treatment in California?",
-          "answer": "Start by contacting your insurance provider or county behavioral health department. SAMHSA's national helpline (1-800-662-4357) provides referrals. Our directory allows you to search by location, treatment type, and insurance accepted."
+          "question": "Kan ik subsidie krijgen voor een laadpaal in Noord-Holland?",
+          "answer": "Diverse gemeenten in Noord-Holland bieden subsidies voor laadpaalinstallaties. Daarnaast zijn er landelijke regelingen via de Rijksdienst voor Ondernemend Nederland (RVO). Een erkend installateur kan u adviseren over de mogelijkheden."
         },
         {
-          "question": "What types of treatment are available in California?",
-          "answer": "California offers the full spectrum of treatment options: medical detox, inpatient/residential treatment, partial hospitalization (PHP), intensive outpatient (IOP), standard outpatient, sober living homes, and medication-assisted treatment. Specialty programs serve specific populations including adolescents, veterans, and those with co-occurring disorders."
+          "question": "Hoe vaak moet mijn elektrische installatie gekeurd worden?",
+          "answer": "Voor particuliere woningen is er geen wettelijke keuringsverplichting, maar een periodieke keuring elke 5-10 jaar is aan te raden. Bedrijven zijn verplicht hun installatie te laten keuren conform NEN 3140, meestal jaarlijks of tweejaarlijks."
         }
       ]
     },
     {
-      "slug": "texas",
-      "name": "Texas",
-      "abbr": "TX",
-      "totalFacilities": 724,
-      "title": "Addiction Treatment Centers in Texas: Complete Guide",
-      "metaDescription": "Complete guide to addiction treatment in Texas covering treatment options, state regulations, costs, and resources across the Lone Star State.",
-      "heroSubtitle": "From Houston medical centers to rural recovery programs across the Lone Star State",
-      "overview": "Texas, the second-largest state by population, has over 724 addiction treatment facilities serving diverse communities. The state's major metropolitan areas—Houston, Dallas, San Antonio, and Austin—have numerous treatment options, while rural areas are served by a network of community programs. Texas has invested in expanding treatment access, particularly for opioid addiction, and has a strong network of faith-based recovery programs.",
-      "treatmentLaws": {
-        "title": "Texas Treatment Laws and Regulations",
-        "content": "The Texas Health and Human Services Commission (HHSC) oversees addiction treatment facility licensing. Texas requires facilities to meet specific staffing, safety, and treatment standards. The state has expanded Medicaid coverage for some treatment services and supports medication-assisted treatment programs. Texas law provides workplace protections for employees seeking treatment for substance use disorders.",
+      "slug": "zuid-holland",
+      "name": "Zuid-Holland",
+      "abbr": "ZH",
+      "totalElektricians": 920,
+      "title": "Elektriciens in Zuid-Holland: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Zuid-Holland. Overzicht van installateurs in Rotterdam, Den Haag, Leiden en omstreken.",
+      "heroSubtitle": "Van Rotterdam tot Den Haag - vakbekwame elektriciens in uw regio",
+      "overview": "Zuid-Holland is de dichtstbevolkte provincie van Nederland en het economische hart van de Randstad. Met grote steden als Rotterdam, Den Haag en Leiden is er een enorme vraag naar elektrotechnische diensten. Van havengebonden industriële installaties tot particuliere woningen - de ruim 920 elektriciens in de provincie bedienen een diverse markt.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Zuid-Holland werken volgens dezelfde landelijke normen, maar de industriële sector in het Rijnmondgebied kent aanvullende eisen. ATEX-certificering is vaak vereist voor werk in de petrochemische industrie. De Haagse kantorenmarkt vraagt om gespecialiseerde kennis van bedrijfsinstallaties.",
         "keyPoints": [
-          "HHSC licenses all substance abuse treatment facilities",
-          "State funding available through local mental health authorities",
-          "Workplace protections under Texas Labor Code",
-          "Medication-assisted treatment (MAT) programs expanding",
-          "Faith-based programs widely available",
-          "Insurance parity laws in effect"
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "ATEX-certificering voor explosiegevaarlijke omgevingen",
+          "VCA-VOL voor leidinggevenden",
+          "Scope 12 certificering voor zonnepanelen",
+          "NEN 3140 keuringsbevoegdheid",
+          "Industriële automatisering certificeringen"
         ]
       },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 290 },
-        { "type": "Inpatient Rehab", "count": 150 },
-        { "type": "Detox Center", "count": 89 },
-        { "type": "Sober Living", "count": 95 },
-        { "type": "Dual Diagnosis", "count": 55 },
-        { "type": "Faith-Based", "count": 45 }
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 460 },
+        { "type": "Nieuwe Installaties", "count": 380 },
+        { "type": "Laadpaal Installatie", "count": 195 },
+        { "type": "Zonnepanelen", "count": 160 },
+        { "type": "Meterkast/Groepenkast", "count": 310 },
+        { "type": "Industriele Installaties", "count": 120 }
       ],
-      "topCities": ["Houston", "Dallas", "San Antonio", "Austin", "Fort Worth", "El Paso", "Plano", "Arlington", "Corpus Christi", "Lubbock"],
-      "notableFacilities": [
+      "topCities": ["Rotterdam", "Den Haag", "Leiden", "Dordrecht", "Zoetermeer", "Delft", "Schiedam", "Vlaardingen", "Gouda", "Alphen aan den Rijn"],
+      "notableBedrijven": [
         {
-          "name": "La Hacienda Treatment Center",
-          "city": "Hunt",
-          "description": "Located in the scenic Texas Hill Country, La Hacienda has been treating addiction for over 50 years. Known for its family program and comprehensive aftercare planning."
+          "name": "Elektra Rotterdam",
+          "city": "Rotterdam",
+          "description": "Groot installatiebedrijf gespecialiseerd in zowel particulier als industrieel werk. Actief in de Rotterdamse haven en woningbouw."
         },
         {
-          "name": "The Right Step",
-          "city": "Multiple Locations",
-          "description": "Network of treatment centers across Texas offering medical detox, residential treatment, and outpatient services. Accepts most insurance plans."
+          "name": "Den Haag Elektrotechniek",
+          "city": "Den Haag",
+          "description": "Specialist in kantoorgebouwen en overheidsinstanties. Meer dan 40 medewerkers en 24/7 storingsdienst."
         },
         {
-          "name": "Memorial Hermann Prevention and Recovery Center",
-          "city": "Houston",
-          "description": "Major hospital-based treatment program offering comprehensive addiction services integrated with medical care."
+          "name": "Groene Stroom Installaties",
+          "city": "Leiden",
+          "description": "Gespecialiseerd in duurzame energie: zonnepanelen, laadpalen en batterijopslag. Erkend Scope 12 installateur."
         }
       ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$20,000-$40,000",
-        "outpatient": "$3,000-$10,000",
-        "notes": "Texas treatment costs are moderate compared to coastal states. Many facilities accept insurance, and local mental health authorities provide state-funded treatment for those who qualify. Faith-based programs often offer free or low-cost options."
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€48-€72 per uur",
+        "emergency": "€80-€120 per uur",
+        "notes": "De prijzen in Zuid-Holland zijn vergelijkbaar met het landelijk gemiddelde, met iets hogere tarieven in Den Haag en Rotterdam centrum. Industriële projecten worden vaak op projectbasis geoffreerd."
       },
       "faqs": [
         {
-          "question": "What treatment options are available in Texas?",
-          "answer": "Texas offers comprehensive treatment options including medical detox, inpatient rehabilitation, partial hospitalization, intensive outpatient programs, outpatient counseling, sober living, and medication-assisted treatment. Programs serve general populations and specialized groups."
+          "question": "Wat zijn de gemiddelde tarieven voor elektriciens in Rotterdam?",
+          "answer": "Het gemiddelde uurtarief in Rotterdam ligt tussen €48 en €72 per uur voor reguliere werkzaamheden. Spoedtarieven buiten kantooruren kunnen oplopen tot €80-€120 per uur. Industriële projecten worden vaak apart geoffreerd."
         },
         {
-          "question": "Is there free addiction treatment in Texas?",
-          "answer": "Yes, Texas provides state-funded treatment through local mental health authorities. Faith-based programs like Teen Challenge offer free treatment. County-funded programs serve residents without insurance. Qualifying for these programs typically requires an assessment."
+          "question": "Waar vind ik een elektricien voor mijn bedrijfspand in Den Haag?",
+          "answer": "Op VindElektricien.nl kunt u filteren op zakelijke dienstverlening. Zoek naar elektriciens met ervaring in kantoorgebouwen en de benodigde certificeringen zoals NEN 3140 keuringsbevoegdheid."
         },
         {
-          "question": "Does Texas Medicaid cover addiction treatment?",
-          "answer": "Texas Medicaid covers limited addiction treatment services. Coverage includes assessment, outpatient counseling, and some residential services for eligible populations. Coverage has expanded in recent years but remains more limited than some states."
+          "question": "Zijn er elektriciens gespecialiseerd in de Rotterdamse haven?",
+          "answer": "Ja, diverse elektriciens in de regio Rotterdam zijn gespecialiseerd in industriële installaties en beschikken over ATEX-certificeringen voor werk in explosiegevaarlijke omgevingen."
         },
         {
-          "question": "What are the top rehab centers in Texas?",
-          "answer": "Notable facilities include La Hacienda, The Right Step network, Greenhouse Treatment Center, Origins Recovery Center, and university-affiliated programs. The best choice depends on individual needs, location, and insurance coverage."
+          "question": "Hoe lang duurt het plaatsen van een laadpaal in Zuid-Holland?",
+          "answer": "Een standaard laadpaalinstallatie duurt 2-4 uur. Bij complexere situaties, zoals verzwaring van de aansluiting, kan dit oplopen tot een dag. De meeste installateurs plannen binnen 1-2 weken."
         },
         {
-          "question": "How do I access treatment in rural Texas?",
-          "answer": "Local mental health authorities serve all Texas counties, including rural areas. Telehealth options have expanded access significantly. Some treatment centers offer transportation. Faith-based programs are available in many rural communities."
+          "question": "Kan ik mijn groepenkast laten vervangen in een monumentaal pand?",
+          "answer": "Ja, veel elektriciens hebben ervaring met monumentale panden. Zij kennen de specifieke eisen en kunnen advies geven over het combineren van moderne elektra met historische elementen."
         }
       ]
     },
     {
-      "slug": "florida",
-      "name": "Florida",
+      "slug": "noord-brabant",
+      "name": "Noord-Brabant",
+      "abbr": "NB",
+      "totalElektricians": 680,
+      "title": "Elektriciens in Noord-Brabant: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Noord-Brabant. Van Eindhoven tot Breda - installateurs, storingsdiensten en laadpaal specialisten.",
+      "heroSubtitle": "Van Brainport Eindhoven tot West-Brabant - elektriciens in uw regio",
+      "overview": "Noord-Brabant combineert hightech industrie met landelijk gebied. De Brainport regio rond Eindhoven kent veel vraag naar geavanceerde elektrotechniek, terwijl in het westen en oosten de particuliere markt domineert. Met meer dan 680 elektriciens biedt de provincie een breed scala aan diensten.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "De hightech industrie in Brabant stelt hoge eisen aan elektriciens. Naast de standaard certificeringen zijn vaak aanvullende opleidingen vereist voor cleanrooms, datacenter-installaties en industriële automatisering.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "Cleanroom certificering voor hightech industrie",
+          "VCA certificering vereist bij bedrijven",
+          "PLC/industriële automatisering kennis",
+          "Datacenter installatie expertise",
+          "Smart building/domotica certificeringen"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 340 },
+        { "type": "Nieuwe Installaties", "count": 280 },
+        { "type": "Laadpaal Installatie", "count": 145 },
+        { "type": "Zonnepanelen", "count": 130 },
+        { "type": "Meterkast/Groepenkast", "count": 220 },
+        { "type": "Industriele/Hightech", "count": 85 }
+      ],
+      "topCities": ["Eindhoven", "Tilburg", "Breda", "s-Hertogenbosch", "Helmond", "Roosendaal", "Oss", "Bergen op Zoom", "Veldhoven", "Waalwijk"],
+      "notableBedrijven": [
+        {
+          "name": "Elektrotechniek Eindhoven",
+          "city": "Eindhoven",
+          "description": "Specialist in hightech installaties en cleanrooms. Werkt voor grote technologiebedrijven in de Brainport regio."
+        },
+        {
+          "name": "Brabant Elektra Service",
+          "city": "Tilburg",
+          "description": "All-round installatiebedrijf met focus op particulieren en MKB. 24/7 storingsdienst in heel Midden-Brabant."
+        },
+        {
+          "name": "West-Brabant Installaties",
+          "city": "Breda",
+          "description": "Familiebedrijf met meer dan 50 jaar ervaring. Gespecialiseerd in nieuwbouw en renovatie projecten."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€45-€68 per uur",
+        "emergency": "€75-€110 per uur",
+        "notes": "Tarieven in Noord-Brabant liggen iets onder het Randstad niveau. De hightech sector heeft wel hogere tarieven voor gespecialiseerd werk. Particuliere klussen zijn vaak voordeliger dan in de grote steden."
+      },
+      "faqs": [
+        {
+          "question": "Zijn er elektriciens gespecialiseerd in hightech in Eindhoven?",
+          "answer": "Ja, de Brainport regio heeft diverse elektriciens die gespecialiseerd zijn in cleanrooms, datacenters en industriële automatisering. Zij beschikken over aanvullende certificeringen en ervaring bij grote technologiebedrijven."
+        },
+        {
+          "question": "Wat kost een elektricien in Brabant?",
+          "answer": "Het gemiddelde uurtarief ligt tussen €45 en €68 per uur, iets onder het landelijk gemiddelde. Spoedtarieven bedragen €75-€110 per uur. Gespecialiseerd hightech werk kent hogere tarieven."
+        },
+        {
+          "question": "Kan ik in Brabant subsidie krijgen voor zonnepanelen?",
+          "answer": "Ja, naast de landelijke SDE++ regeling bieden diverse Brabantse gemeenten aanvullende subsidies. Vraag uw installateur naar de mogelijkheden in uw gemeente."
+        },
+        {
+          "question": "Hoe snel kan een elektricien bij een storing zijn?",
+          "answer": "In de steden zijn 24/7 storingsdiensten beschikbaar met aanrijtijden van 30-60 minuten. In het buitengebied kan dit oplopen tot 1-2 uur. Plan niet-urgente reparaties vooraf voor lagere tarieven."
+        },
+        {
+          "question": "Waar vind ik een elektricien voor smart home installaties?",
+          "answer": "Zoek op VindElektricien.nl naar elektriciens met domotica-expertise. Vooral in de Brainport regio zijn veel elektriciens gespecialiseerd in slimme huisautomatisering."
+        }
+      ]
+    },
+    {
+      "slug": "gelderland",
+      "name": "Gelderland",
+      "abbr": "GE",
+      "totalElektricians": 580,
+      "title": "Elektriciens in Gelderland: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Gelderland. Van Arnhem en Nijmegen tot de Veluwe - installateurs en storingsdiensten bij u in de buurt.",
+      "heroSubtitle": "Van de steden tot de Veluwe - vakbekwame elektriciens in Gelderland",
+      "overview": "Gelderland is de grootste provincie van Nederland met een mix van steden en uitgestrekt platteland. De steden Arnhem en Nijmegen hebben een grote vraag naar elektriciens, terwijl op de Veluwe en in de Achterhoek de afstanden groter zijn. Ruim 580 elektriciens bedienen deze diverse markt.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Gelderland werken volgens de landelijke NEN-normen. Door de agrarische sector in delen van de provincie is er ook vraag naar specialistische kennis van stallenbouw en agrarische installaties.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "Agrarische installatie expertise",
+          "VCA certificering",
+          "Erkend installateur status",
+          "NEN 3140 keuringen",
+          "Zonnepaneel en laadpaal certificeringen"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 290 },
+        { "type": "Nieuwe Installaties", "count": 240 },
+        { "type": "Laadpaal Installatie", "count": 125 },
+        { "type": "Zonnepanelen", "count": 110 },
+        { "type": "Meterkast/Groepenkast", "count": 190 },
+        { "type": "Agrarisch", "count": 45 }
+      ],
+      "topCities": ["Arnhem", "Nijmegen", "Apeldoorn", "Ede", "Doetinchem", "Harderwijk", "Zutphen", "Tiel", "Wageningen", "Zevenaar"],
+      "notableBedrijven": [
+        {
+          "name": "Elektro Arnhem",
+          "city": "Arnhem",
+          "description": "All-round installatiebedrijf actief in Arnhem en omgeving. Specialist in woningen en utiliteit."
+        },
+        {
+          "name": "Nijmegen Elektrotechniek",
+          "city": "Nijmegen",
+          "description": "Modern bedrijf met focus op duurzame energie en smart home oplossingen. Erkend Scope 12 installateur."
+        },
+        {
+          "name": "Veluwe Installaties",
+          "city": "Apeldoorn",
+          "description": "Groot werkgebied op de Veluwe. Gespecialiseerd in particulier en agrarisch werk."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€42-€65 per uur",
+        "emergency": "€70-€105 per uur",
+        "notes": "Gelderland kent gematigde tarieven, onder het Randstad niveau. Let op voorrijkosten in het buitengebied die hoger kunnen uitvallen door grotere afstanden."
+      },
+      "faqs": [
+        {
+          "question": "Zijn er elektriciens in het buitengebied van de Veluwe?",
+          "answer": "Ja, diverse elektriciens bedienen de Veluwe. De aanrijtijden en voorrijkosten kunnen wel hoger zijn dan in de steden. Plan werkzaamheden indien mogelijk vooruit."
+        },
+        {
+          "question": "Wat kost een elektricien in Arnhem of Nijmegen?",
+          "answer": "Tarieven liggen tussen €42 en €65 per uur voor regulier werk. Spoedtarieven bedragen €70-€105 per uur. De steden zijn voordeliger dan het buitengebied qua voorrijkosten."
+        },
+        {
+          "question": "Zijn er elektriciens voor agrarische bedrijven?",
+          "answer": "Ja, met name in de Achterhoek en op de Veluwe zijn elektriciens gespecialiseerd in agrarische installaties, waaronder stallenbouw, melkrobots en zonnepanelen op bedrijfsdaken."
+        },
+        {
+          "question": "Kan ik een laadpaal laten plaatsen in Gelderland?",
+          "answer": "Ja, steeds meer elektriciens in Gelderland zijn gecertificeerd voor laadpaalinstallaties. Zowel in de steden als in het buitengebied zijn installateurs beschikbaar."
+        },
+        {
+          "question": "Hoe vind ik een elektricien voor mijn vakantiewoning op de Veluwe?",
+          "answer": "Via VindElektricien.nl kunt u zoeken op locatie. Veel elektriciens op de Veluwe hebben ervaring met recreatiewoningen en vakantieparken."
+        }
+      ]
+    },
+    {
+      "slug": "limburg",
+      "name": "Limburg",
+      "abbr": "LI",
+      "totalElektricians": 380,
+      "title": "Elektriciens in Limburg: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Limburg. Van Maastricht tot Venlo - installateurs, storingsdiensten en specialisten bij u in de buurt.",
+      "heroSubtitle": "Van Maastricht tot Venlo - vakbekwame elektriciens in het zuiden",
+      "overview": "Limburg kenmerkt zich door historische steden, moderne industrie en uitgestrekt buitengebied. Van de internationale bedrijven rond Venlo tot de monumentale binnenstad van Maastricht - de ruim 380 elektriciens in de provincie bedienen een gevarieerde markt met specifieke expertise.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Limburg werken volgens dezelfde landelijke normen als elders in Nederland. De grensligging zorgt soms voor internationale projecten waarbij kennis van Belgische of Duitse normen nuttig kan zijn.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering",
+          "Erkend installateur status",
+          "Kennis internationale normen (BE/DE)",
+          "Monumentaal pand expertise in Maastricht",
+          "Industriele installaties (Chemelot)"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 190 },
+        { "type": "Nieuwe Installaties", "count": 155 },
+        { "type": "Laadpaal Installatie", "count": 85 },
+        { "type": "Zonnepanelen", "count": 75 },
+        { "type": "Meterkast/Groepenkast", "count": 125 },
+        { "type": "Industrieel", "count": 45 }
+      ],
+      "topCities": ["Maastricht", "Venlo", "Heerlen", "Sittard-Geleen", "Roermond", "Weert", "Kerkrade", "Venray", "Brunssum", "Landgraaf"],
+      "notableBedrijven": [
+        {
+          "name": "Elektrotechniek Maastricht",
+          "city": "Maastricht",
+          "description": "Specialist in monumentale panden en renovaties. Kennis van historische gebouwen en moderne oplossingen."
+        },
+        {
+          "name": "Venlo Elektra",
+          "city": "Venlo",
+          "description": "Actief in de logistieke sector en distributiecentra. Ervaring met internationale bedrijven."
+        },
+        {
+          "name": "Limburg Installatie Service",
+          "city": "Sittard-Geleen",
+          "description": "All-round dienstverlening met expertise in de chemische industrie (Chemelot)."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€40-€62 per uur",
+        "emergency": "€68-€100 per uur",
+        "notes": "Limburg kent de laagste tarieven van de Randstad provincies. Industrieel werk bij Chemelot kent wel specifieke tarieven. Let op dat sommige elektriciens ook over de grens werken."
+      },
+      "faqs": [
+        {
+          "question": "Wat zijn de tarieven voor elektriciens in Limburg?",
+          "answer": "Uurtarieven liggen tussen €40 en €62 per uur, onder het landelijk gemiddelde. Spoedtarieven bedragen €68-€100 per uur. Industrieel gespecialiseerd werk kent hogere tarieven."
+        },
+        {
+          "question": "Zijn er elektriciens voor monumentale panden in Maastricht?",
+          "answer": "Ja, diverse elektriciens in Maastricht zijn gespecialiseerd in monumentale panden. Zij hebben ervaring met het combineren van historische elementen en moderne elektra."
+        },
+        {
+          "question": "Kan ik een Duitse of Belgische elektricien inhuren?",
+          "answer": "Dat kan, maar let op dat zij voldoen aan Nederlandse normen (NEN 1010). Nederlandse elektriciens in de grensregio hebben vaak kennis van zowel Nederlandse als buitenlandse normen."
+        },
+        {
+          "question": "Zijn er industriele elektriciens bij Chemelot?",
+          "answer": "Ja, diverse elektriciens in de regio Sittard-Geleen zijn gespecialiseerd in industriele installaties en beschikken over de benodigde certificeringen voor werk op chemische locaties."
+        },
+        {
+          "question": "Hoe snel is een storingsdienst beschikbaar in Limburg?",
+          "answer": "In de steden zijn 24/7 storingsdiensten beschikbaar met aanrijtijden van 30-60 minuten. In het heuvelland en buitengebied kan dit langer duren."
+        }
+      ]
+    },
+    {
+      "slug": "overijssel",
+      "name": "Overijssel",
+      "abbr": "OV",
+      "totalElektricians": 420,
+      "title": "Elektriciens in Overijssel: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Overijssel. Van Zwolle en Enschede tot het platteland - installateurs en storingsdiensten bij u in de buurt.",
+      "heroSubtitle": "Van Zwolle tot Twente - vakbekwame elektriciens in Overijssel",
+      "overview": "Overijssel biedt een mix van steden en uitgestrekt platteland. De steden Zwolle, Enschede, Deventer en Hengelo hebben een grote concentratie van elektriciens, terwijl het landelijk gebied bediend wordt door regionale installateurs. Ruim 420 elektriciens zijn actief in de provincie.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Overijssel werken volgens de landelijke NEN-normen. De industriele historie van Twente zorgt voor specifieke expertise in de maakindustrie.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering",
+          "Industriele automatisering",
+          "Agrarische installatie expertise",
+          "Erkend installateur status",
+          "Duurzame energie certificeringen"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 210 },
+        { "type": "Nieuwe Installaties", "count": 175 },
+        { "type": "Laadpaal Installatie", "count": 90 },
+        { "type": "Zonnepanelen", "count": 80 },
+        { "type": "Meterkast/Groepenkast", "count": 140 },
+        { "type": "Industrieel/Agrarisch", "count": 55 }
+      ],
+      "topCities": ["Zwolle", "Enschede", "Deventer", "Hengelo", "Almelo", "Kampen", "Hardenberg", "Oldenzaal", "Rijssen", "Raalte"],
+      "notableBedrijven": [
+        {
+          "name": "Elektro Zwolle",
+          "city": "Zwolle",
+          "description": "Groot installatiebedrijf met werkgebied in heel Noord-Overijssel. Actief in woningbouw en utiliteit."
+        },
+        {
+          "name": "Twente Elektrotechniek",
+          "city": "Enschede",
+          "description": "Specialist in industriele installaties met wortels in de Twentse maakindustrie."
+        },
+        {
+          "name": "Salland Installaties",
+          "city": "Deventer",
+          "description": "Familiebedrijf met focus op particulieren en MKB. Duurzame energie specialist."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€42-€63 per uur",
+        "emergency": "€70-€105 per uur",
+        "notes": "Tarieven in Overijssel liggen onder het Randstad niveau. Twente kent iets lagere tarieven dan de regio Zwolle. Agrarische klussen hebben vaak vaste projectprijzen."
+      },
+      "faqs": [
+        {
+          "question": "Wat kost een elektricien in Zwolle of Enschede?",
+          "answer": "Uurtarieven liggen tussen €42 en €63 per uur. Spoedtarieven bedragen €70-€105 per uur. Enschede en Twente zijn over het algemeen iets voordeliger dan Zwolle."
+        },
+        {
+          "question": "Zijn er elektriciens voor de industrie in Twente?",
+          "answer": "Ja, de industriele historie van Twente heeft gezorgd voor veel expertise op het gebied van industriele installaties en automatisering."
+        },
+        {
+          "question": "Kan ik een elektricien vinden voor mijn boerderij?",
+          "answer": "Ja, met name in het landelijk gebied van Salland en Twente zijn elektriciens gespecialiseerd in agrarische installaties."
+        },
+        {
+          "question": "Hoe lang duurt het vervangen van een meterkast?",
+          "answer": "Een standaard meterkastvervanging duurt 4-8 uur, afhankelijk van de complexiteit. Bij oude installaties kan het langer duren. Vraag vooraf een inspectie en offerte aan."
+        },
+        {
+          "question": "Zijn er elektriciens beschikbaar in de avond of weekend?",
+          "answer": "Ja, diverse elektriciens bieden avond- en weekenddiensten aan tegen meerprijs. Voor spoedgevallen zijn 24/7 storingsdiensten beschikbaar in de grotere steden."
+        }
+      ]
+    },
+    {
+      "slug": "utrecht",
+      "name": "Utrecht",
+      "abbr": "UT",
+      "totalElektricians": 450,
+      "title": "Elektriciens in Utrecht: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Utrecht. Van de stad Utrecht tot Amersfoort en omstreken - installateurs en storingsdiensten.",
+      "heroSubtitle": "Van Utrecht stad tot Amersfoort - elektriciens in het hart van Nederland",
+      "overview": "De provincie Utrecht ligt centraal in Nederland en heeft een sterke mix van stedelijke en landelijke gebieden. De stad Utrecht is een bruisend centrum met veel vraag naar elektriciens, terwijl de omliggende plaatsen zoals Amersfoort, Nieuwegein en Zeist ook goed bediend worden. Ruim 450 elektriciens zijn actief in de provincie.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Utrecht werken volgens de landelijke NEN-normen. De vele monumentale panden in de binnenstad van Utrecht vragen om specifieke expertise.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering",
+          "Monumentale panden expertise",
+          "Erkend installateur status",
+          "Duurzame energie certificeringen",
+          "Smart building expertise"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 225 },
+        { "type": "Nieuwe Installaties", "count": 185 },
+        { "type": "Laadpaal Installatie", "count": 100 },
+        { "type": "Zonnepanelen", "count": 90 },
+        { "type": "Meterkast/Groepenkast", "count": 150 },
+        { "type": "Domotica", "count": 40 }
+      ],
+      "topCities": ["Utrecht", "Amersfoort", "Veenendaal", "Nieuwegein", "Zeist", "Houten", "Woerden", "IJsselstein", "Soest", "Bilthoven"],
+      "notableBedrijven": [
+        {
+          "name": "Elektrotechniek Utrecht",
+          "city": "Utrecht",
+          "description": "Groot bedrijf met expertise in zowel particulier als zakelijk werk. Specialist in monumentale binnenstad."
+        },
+        {
+          "name": "Amersfoort Elektra",
+          "city": "Amersfoort",
+          "description": "All-round installatiebedrijf met 24/7 storingsdienst. Actief in nieuwbouw en renovatie."
+        },
+        {
+          "name": "Duurzaam Utrecht",
+          "city": "Nieuwegein",
+          "description": "Specialist in duurzame energie: zonnepanelen, laadpalen en warmtepompen. Erkend Scope 12 installateur."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€48-€70 per uur",
+        "emergency": "€78-€115 per uur",
+        "notes": "Utrecht kent Randstad-niveau tarieven. De stad Utrecht is iets duurder dan de omliggende plaatsen. Monumentale panden kunnen meerwerk opleveren."
+      },
+      "faqs": [
+        {
+          "question": "Wat kost een elektricien in Utrecht?",
+          "answer": "Tarieven liggen tussen €48 en €70 per uur, vergelijkbaar met andere Randstad steden. Spoedtarieven bedragen €78-€115 per uur. Monumentale panden kunnen extra kosten met zich meebrengen."
+        },
+        {
+          "question": "Zijn er elektriciens voor de Utrechtse binnenstad?",
+          "answer": "Ja, diverse elektriciens hebben ervaring met de monumentale panden in de Utrechtse binnenstad. Zij kennen de specifieke uitdagingen en regelgeving."
+        },
+        {
+          "question": "Kan ik snel een elektricien krijgen voor een storing?",
+          "answer": "Ja, in de stad Utrecht en Amersfoort zijn 24/7 storingsdiensten beschikbaar met korte aanrijtijden. Bel voor spoedgevallen de storingslijn."
+        },
+        {
+          "question": "Hoeveel kost een laadpaal installatie in Utrecht?",
+          "answer": "Een laadpaalinstallatie kost €300-€800 exclusief de laadpaal zelf, afhankelijk van de situatie. Bij verzwaring van de aansluiting kunnen extra kosten gelden."
+        },
+        {
+          "question": "Waar vind ik een domotica specialist in Utrecht?",
+          "answer": "Op VindElektricien.nl kunt u filteren op domotica expertise. Meerdere elektriciens in de regio Utrecht zijn gespecialiseerd in smart home installaties."
+        }
+      ]
+    },
+    {
+      "slug": "friesland",
+      "name": "Friesland",
+      "abbr": "FR",
+      "totalElektricians": 240,
+      "title": "Elektriciens in Friesland: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Friesland. Van Leeuwarden tot de Waddeneilanden - installateurs en storingsdiensten.",
+      "heroSubtitle": "Van Leeuwarden tot de eilanden - elektriciens in Friesland",
+      "overview": "Friesland is een uitgestrekte provincie met een mix van steden, dorpen en eilanden. Leeuwarden is het centrum met de meeste elektriciens, maar ook in plaatsen als Drachten, Heerenveen en Sneek zijn goede installateurs te vinden. De Waddeneilanden worden bediend vanuit het vasteland. Ruim 240 elektriciens zijn actief in de provincie.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Friesland werken volgens de landelijke NEN-normen. De agrarische sector en recreatieve eilanden zorgen voor specifieke expertise.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering",
+          "Agrarische installatie expertise",
+          "Recreatiewoningen/vakantieparken",
+          "Erkend installateur status",
+          "Zonnepaneel en laadpaal certificeringen"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 120 },
+        { "type": "Nieuwe Installaties", "count": 100 },
+        { "type": "Laadpaal Installatie", "count": 50 },
+        { "type": "Zonnepanelen", "count": 45 },
+        { "type": "Meterkast/Groepenkast", "count": 80 },
+        { "type": "Agrarisch", "count": 35 }
+      ],
+      "topCities": ["Leeuwarden", "Drachten", "Heerenveen", "Sneek", "Harlingen", "Dokkum", "Franeker", "Wolvega", "Joure", "Bolsward"],
+      "notableBedrijven": [
+        {
+          "name": "Elektro Leeuwarden",
+          "city": "Leeuwarden",
+          "description": "Grootste installatiebedrijf in Friesland met werkgebied in de hele provincie inclusief eilanden."
+        },
+        {
+          "name": "Zuidoost Friesland Elektra",
+          "city": "Heerenveen",
+          "description": "Actief in Heerenveen, Joure en omgeving. Specialist in nieuwbouw en renovatie."
+        },
+        {
+          "name": "Wadden Installaties",
+          "city": "Harlingen",
+          "description": "Specialist voor de Waddeneilanden. Regelmatige service op Terschelling, Vlieland en Ameland."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€40-€60 per uur",
+        "emergency": "€68-€100 per uur",
+        "notes": "Friese tarieven liggen onder het landelijk gemiddelde. Op de Waddeneilanden gelden hogere tarieven door transport en reistijd. Plan klussen op de eilanden goed vooruit."
+      },
+      "faqs": [
+        {
+          "question": "Zijn er elektriciens op de Waddeneilanden?",
+          "answer": "Er zijn enkele elektriciens gevestigd op de grotere eilanden, maar veel werk wordt gedaan door installateurs vanaf het vasteland. Plan werkzaamheden goed vooruit in verband met bootverbindingen."
+        },
+        {
+          "question": "Wat kost een elektricien in Friesland?",
+          "answer": "Uurtarieven liggen tussen €40 en €60 per uur, onder het landelijk gemiddelde. Op de eilanden gelden hogere tarieven van €60-€85 per uur door extra reistijd en transport."
+        },
+        {
+          "question": "Kan ik een elektricien vinden voor mijn boot?",
+          "answer": "Ja, diverse elektriciens in de havenplaatsen hebben ervaring met scheepselektra. Zoek specifiek naar jachtelektra specialisten."
+        },
+        {
+          "question": "Zijn er elektriciens voor agrarische bedrijven?",
+          "answer": "Ja, Friesland heeft veel elektriciens met agrarische expertise, met name voor melkveebedrijven, stallen en zonnepanelen op bedrijfsdaken."
+        },
+        {
+          "question": "Hoe snel kan een storingsdienst komen?",
+          "answer": "In Leeuwarden en omgeving zijn aanrijtijden van 30-60 minuten gebruikelijk. In het buitengebied en op de eilanden kan dit langer duren."
+        }
+      ]
+    },
+    {
+      "slug": "groningen",
+      "name": "Groningen",
+      "abbr": "GR",
+      "totalElektricians": 210,
+      "title": "Elektriciens in Groningen: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Groningen. Van de stad tot het Hogeland - installateurs en storingsdiensten bij u in de buurt.",
+      "heroSubtitle": "Van de Martinistad tot het Hogeland - elektriciens in Groningen",
+      "overview": "De provincie Groningen heeft een compacte stad omgeven door uitgestrekt platteland. De stad Groningen concentreert veel elektriciens, terwijl het Hogeland, Westerkwartier en Oost-Groningen bediend worden door regionale installateurs. Ruim 210 elektriciens zijn actief in de provincie.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Groningen werken volgens de landelijke NEN-normen. De aardbevingsproblematiek heeft gezorgd voor specifieke expertise in schadeherstel en versterking van installaties.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering",
+          "Aardbevingsbestendige installaties",
+          "Agrarische expertise",
+          "Erkend installateur status",
+          "Duurzame energie certificeringen"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 105 },
+        { "type": "Nieuwe Installaties", "count": 85 },
+        { "type": "Laadpaal Installatie", "count": 45 },
+        { "type": "Zonnepanelen", "count": 40 },
+        { "type": "Meterkast/Groepenkast", "count": 70 },
+        { "type": "Aardbevingsherstel", "count": 25 }
+      ],
+      "topCities": ["Groningen", "Hoogezand", "Veendam", "Stadskanaal", "Winschoten", "Delfzijl", "Leek", "Appingedam", "Bedum", "Zuidhorn"],
+      "notableBedrijven": [
+        {
+          "name": "Elektro Groningen",
+          "city": "Groningen",
+          "description": "Groot installatiebedrijf in de stad Groningen met 24/7 storingsdienst. Actief in woningbouw en utiliteit."
+        },
+        {
+          "name": "Oost-Groningen Elektra",
+          "city": "Veendam",
+          "description": "Regional installatiebedrijf met expertise in aardbevingsherstel en versterking."
+        },
+        {
+          "name": "Het Hogeland Installaties",
+          "city": "Bedum",
+          "description": "Specialist in agrarische en particuliere installaties in Noord-Groningen."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€38-€58 per uur",
+        "emergency": "€65-€95 per uur",
+        "notes": "Groningen kent de laagste tarieven van Nederland. Aardbevingsherstel wordt vaak vergoed via de NCG (Nationaal Coordinator Groningen). Let op voorrijkosten in het buitengebied."
+      },
+      "faqs": [
+        {
+          "question": "Wat zijn de tarieven voor elektriciens in Groningen?",
+          "answer": "Groningen kent lage tarieven van €38-€58 per uur. Spoedtarieven liggen rond €65-€95 per uur. Dit is onder het landelijk gemiddelde."
+        },
+        {
+          "question": "Zijn er elektriciens die werken aan aardbevingsschade?",
+          "answer": "Ja, diverse elektriciens in Oost-Groningen hebben ervaring met aardbevingsherstel en versterkingsprojecten. Dit werk wordt vaak vergoed via de NCG."
+        },
+        {
+          "question": "Kan ik een elektricien vinden op het Hogeland?",
+          "answer": "Ja, hoewel de dichtheid lager is dan in de stad, zijn er elektriciens actief op het Hogeland. Voorrijkosten kunnen hoger zijn door de afstanden."
+        },
+        {
+          "question": "Zijn er 24-uurs storingsdiensten in Groningen?",
+          "answer": "Ja, in de stad Groningen zijn 24/7 storingsdiensten beschikbaar. In het buitengebied kan de aanrijtijd langer zijn."
+        },
+        {
+          "question": "Hoeveel kost zonnepanelen installatie in Groningen?",
+          "answer": "De installatie van zonnepanelen kost gemiddeld €200-€400 per kWp aan arbeidskosten. Een gemiddeld systeem van 10 panelen kost €400-€800 aan installatie exclusief materialen."
+        }
+      ]
+    },
+    {
+      "slug": "drenthe",
+      "name": "Drenthe",
+      "abbr": "DR",
+      "totalElektricians": 160,
+      "title": "Elektriciens in Drenthe: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Drenthe. Van Assen en Emmen tot het platteland - installateurs en storingsdiensten.",
+      "heroSubtitle": "Van Assen tot Emmen - vakbekwame elektriciens in Drenthe",
+      "overview": "Drenthe is een landelijke provincie met verspreide bebouwing. De steden Assen, Emmen en Hoogeveen hebben de meeste elektriciens, terwijl het uitgestrekte platteland bediend wordt door regionale installateurs. Ruim 160 elektriciens zijn actief in de provincie.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Drenthe werken volgens de landelijke NEN-normen. De provincie kent veel recreatiewoningen en agrarische bedrijven waarvoor specifieke expertise gevraagd wordt.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering",
+          "Agrarische installatie expertise",
+          "Recreatiewoningen/vakantieparken",
+          "Erkend installateur status",
+          "Duurzame energie certificeringen"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 80 },
+        { "type": "Nieuwe Installaties", "count": 65 },
+        { "type": "Laadpaal Installatie", "count": 35 },
+        { "type": "Zonnepanelen", "count": 30 },
+        { "type": "Meterkast/Groepenkast", "count": 55 },
+        { "type": "Agrarisch/Recreatie", "count": 25 }
+      ],
+      "topCities": ["Assen", "Emmen", "Hoogeveen", "Meppel", "Coevorden", "Roden", "Beilen", "Borger", "Zuidlaren", "Gieten"],
+      "notableBedrijven": [
+        {
+          "name": "Elektro Assen",
+          "city": "Assen",
+          "description": "Grootste installatiebedrijf in Drenthe met werkgebied in de hele provincie."
+        },
+        {
+          "name": "Emmen Elektrotechniek",
+          "city": "Emmen",
+          "description": "All-round dienstverlening met focus op particulieren en MKB in Zuidoost-Drenthe."
+        },
+        {
+          "name": "Drenthe Duurzaam",
+          "city": "Hoogeveen",
+          "description": "Specialist in zonnepanelen en laadpalen. Actief bij particulieren en agrarische bedrijven."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€38-€55 per uur",
+        "emergency": "€62-€90 per uur",
+        "notes": "Drenthe kent lage tarieven. Het uitgestrekte werkgebied zorgt wel voor hogere voorrijkosten. Combineer klussen waar mogelijk om kosten te besparen."
+      },
+      "faqs": [
+        {
+          "question": "Wat kost een elektricien in Drenthe?",
+          "answer": "Uurtarieven liggen tussen €38 en €55 per uur, onder het landelijk gemiddelde. Spoedtarieven bedragen €62-€90 per uur. Let op voorrijkosten in het buitengebied."
+        },
+        {
+          "question": "Zijn er elektriciens voor vakantieparken?",
+          "answer": "Ja, diverse elektriciens hebben ervaring met recreatiewoningen en vakantieparken. Zij kennen de specifieke eisen voor seizoensgebonden gebruik."
+        },
+        {
+          "question": "Kan ik een laadpaal laten plaatsen in het buitengebied?",
+          "answer": "Ja, laadpaalinstallaties zijn ook mogelijk in het buitengebied. Let wel op dat de netaansluiting voldoende capaciteit heeft."
+        },
+        {
+          "question": "Hoe lang duurt het voordat een elektricien kan komen?",
+          "answer": "In de steden Assen en Emmen zijn aanrijtijden van 30-60 minuten gebruikelijk. In het buitengebied kan dit oplopen tot 1-2 uur."
+        },
+        {
+          "question": "Zijn er elektriciens voor agrarische bedrijven?",
+          "answer": "Ja, Drenthe heeft elektriciens gespecialiseerd in agrarische installaties, waaronder stallen, melkrobots en zonnepanelen op bedrijfsdaken."
+        }
+      ]
+    },
+    {
+      "slug": "zeeland",
+      "name": "Zeeland",
+      "abbr": "ZE",
+      "totalElektricians": 140,
+      "title": "Elektriciens in Zeeland: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Zeeland. Van Middelburg tot Goes en de eilanden - installateurs en storingsdiensten.",
+      "heroSubtitle": "Van Walcheren tot Zeeuws-Vlaanderen - elektriciens aan de kust",
+      "overview": "Zeeland is een waterrijke provincie met meerdere eilanden en schiereilanden. Middelburg, Vlissingen en Goes zijn de belangrijkste centra, terwijl ook Zeeuws-Vlaanderen goed bediend wordt. De kustligging zorgt voor specifieke uitdagingen zoals zoute omstandigheden. Ruim 140 elektriciens zijn actief in de provincie.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Zeeland werken volgens de landelijke NEN-normen. De kustomgeving vereist aandacht voor corrosiebestendigheid en de recreatiesector vraagt om specifieke expertise.",
+        "keyPoints": [
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering",
+          "Maritieme/corrosiebestendige installaties",
+          "Recreatiewoningen/campings",
+          "Erkend installateur status",
+          "Agrarische expertise"
+        ]
+      },
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 70 },
+        { "type": "Nieuwe Installaties", "count": 55 },
+        { "type": "Laadpaal Installatie", "count": 30 },
+        { "type": "Zonnepanelen", "count": 25 },
+        { "type": "Meterkast/Groepenkast", "count": 45 },
+        { "type": "Maritiem/Recreatie", "count": 20 }
+      ],
+      "topCities": ["Middelburg", "Vlissingen", "Goes", "Terneuzen", "Hulst", "Zierikzee", "Veere", "Tholen", "Kapelle", "Domburg"],
+      "notableBedrijven": [
+        {
+          "name": "Elektro Walcheren",
+          "city": "Middelburg",
+          "description": "Grootste installatiebedrijf op Walcheren met expertise in zowel particulier als recreatief werk."
+        },
+        {
+          "name": "Zeeuws-Vlaanderen Elektra",
+          "city": "Terneuzen",
+          "description": "Actief in heel Zeeuws-Vlaanderen met industriele en particuliere dienstverlening."
+        },
+        {
+          "name": "Kust Installaties",
+          "city": "Vlissingen",
+          "description": "Specialist in maritieme installaties en recreatiewoningen. Ervaring met zeelucht-bestendige oplossingen."
+        }
+      ],
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€42-€62 per uur",
+        "emergency": "€70-€105 per uur",
+        "notes": "Zeeuwse tarieven liggen rond het landelijk gemiddelde. In het toeristenseizoen kunnen wachttijden langer zijn. Maritieme installaties kennen vaak hogere tarieven."
+      },
+      "faqs": [
+        {
+          "question": "Zijn er elektriciens die ervaring hebben met zeelucht?",
+          "answer": "Ja, Zeeuwse elektriciens hebben ervaring met de uitdagingen van de kustomgeving. Zij adviseren over corrosiebestendige materialen en installatiemethoden."
+        },
+        {
+          "question": "Wat kost een elektricien in Zeeland?",
+          "answer": "Uurtarieven liggen tussen €42 en €62 per uur. Spoedtarieven bedragen €70-€105 per uur. Maritieme specialisten kunnen hogere tarieven hanteren."
+        },
+        {
+          "question": "Kan ik een elektricien vinden voor mijn vakantiewoning?",
+          "answer": "Ja, veel Zeeuwse elektriciens hebben ervaring met recreatiewoningen en campings. Plan werkzaamheden buiten het hoogseizoen voor snellere service."
+        },
+        {
+          "question": "Zijn er 24-uurs storingsdiensten in Zeeland?",
+          "answer": "Ja, in de grotere plaatsen zijn storingsdiensten beschikbaar. Op de kleinere eilanden kan de beschikbaarheid beperkter zijn."
+        },
+        {
+          "question": "Werken elektriciens ook in Zeeuws-Vlaanderen?",
+          "answer": "Ja, Zeeuws-Vlaanderen heeft eigen elektriciens en wordt ook bediend vanuit Middelburg/Goes. De tunnel zorgt voor goede bereikbaarheid."
+        }
+      ]
+    },
+    {
+      "slug": "flevoland",
+      "name": "Flevoland",
       "abbr": "FL",
-      "totalFacilities": 650,
-      "title": "Addiction Treatment Centers in Florida: Complete Guide",
-      "metaDescription": "Comprehensive guide to addiction treatment in Florida. Find rehab facilities, understand Florida's treatment landscape, costs, and recovery resources.",
-      "heroSubtitle": "From South Florida's treatment hub to statewide recovery resources in the Sunshine State",
-      "overview": "Florida has become one of America's major addiction treatment destinations, with over 650 facilities concentrated particularly in South Florida. The state's warm climate and relaxed atmosphere create an appealing recovery environment. Florida has invested heavily in treatment infrastructure following the opioid crisis and offers a wide range of options from luxury beachfront facilities to community-based programs.",
-      "treatmentLaws": {
-        "title": "Florida Treatment Laws and Regulations",
-        "content": "The Florida Department of Children and Families (DCF) licenses addiction treatment facilities. Following industry reforms, Florida strengthened regulations to ensure quality care and prevent unethical practices. The state requires accreditation for certain facilities and has implemented patient brokering laws. Florida Medicaid covers addiction treatment for eligible residents.",
+      "totalElektricians": 130,
+      "title": "Elektriciens in Flevoland: Complete Gids",
+      "metaDescription": "Vind betrouwbare elektriciens in Flevoland. Van Almere en Lelystad tot de Noordoostpolder - installateurs en storingsdiensten.",
+      "heroSubtitle": "Van Almere tot de Noordoostpolder - elektriciens in de nieuwste provincie",
+      "overview": "Flevoland is de jongste provincie van Nederland met veel nieuwbouw en moderne infrastructuur. Almere en Lelystad zijn de grootste steden, terwijl de Noordoostpolder een agrarisch karakter heeft. De relatief jonge bebouwing betekent vaak moderne installaties. Ruim 130 elektriciens zijn actief in de provincie.",
+      "regulations": {
+        "title": "Regelgeving en Certificeringen",
+        "content": "Elektriciens in Flevoland werken volgens de landelijke NEN-normen. De moderne nieuwbouw vraagt om kennis van de nieuwste technieken en duurzame installaties.",
         "keyPoints": [
-          "DCF licenses all substance abuse treatment facilities",
-          "Patient brokering laws protect consumers",
-          "Marchman Act allows involuntary treatment in emergencies",
-          "Florida Medicaid covers treatment services",
-          "Accreditation required for some facility levels",
-          "Strong consumer protection regulations"
+          "NEN 1010 norm voor laagspanningsinstallaties",
+          "VCA certificering",
+          "Nieuwbouw specialist",
+          "Duurzame energie certificeringen",
+          "Smart home/domotica",
+          "Agrarische expertise (NOP)"
         ]
       },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 260 },
-        { "type": "Inpatient Rehab", "count": 140 },
-        { "type": "Detox Center", "count": 85 },
-        { "type": "Sober Living", "count": 100 },
-        { "type": "Dual Diagnosis", "count": 45 },
-        { "type": "Luxury Rehab", "count": 20 }
+      "serviceDistribution": [
+        { "type": "Storingen & Reparaties", "count": 65 },
+        { "type": "Nieuwe Installaties", "count": 55 },
+        { "type": "Laadpaal Installatie", "count": 30 },
+        { "type": "Zonnepanelen", "count": 25 },
+        { "type": "Meterkast/Groepenkast", "count": 40 },
+        { "type": "Domotica", "count": 15 }
       ],
-      "topCities": ["Miami", "Fort Lauderdale", "West Palm Beach", "Tampa", "Orlando", "Jacksonville", "Delray Beach", "Boca Raton", "Sarasota", "Naples"],
-      "notableFacilities": [
+      "topCities": ["Almere", "Lelystad", "Emmeloord", "Dronten", "Zeewolde", "Urk", "Biddinghuizen", "Swifterbant", "Nagele", "Marknesse"],
+      "notableBedrijven": [
         {
-          "name": "The Recovery Village",
-          "city": "Multiple Locations",
-          "description": "Network of comprehensive treatment facilities offering medical detox, residential, and outpatient services across Florida."
+          "name": "Elektro Almere",
+          "city": "Almere",
+          "description": "Groot installatiebedrijf gespecialiseerd in nieuwbouw. 24/7 storingsdienst in heel Almere."
         },
         {
-          "name": "Caron Renaissance",
-          "city": "Boca Raton",
-          "description": "Extension of the renowned Caron Treatment Centers, offering gender-specific programming in a Florida setting."
+          "name": "Lelystad Elektrotechniek",
+          "city": "Lelystad",
+          "description": "All-round dienstverlening met focus op duurzame installaties en smart home."
         },
         {
-          "name": "Hanley Center",
-          "city": "West Palm Beach",
-          "description": "Nonprofit treatment center providing evidence-based care with strong outcomes and comprehensive aftercare."
+          "name": "NOP Installaties",
+          "city": "Emmeloord",
+          "description": "Specialist in de Noordoostpolder met expertise in agrarische en particuliere installaties."
         }
       ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$25,000-$50,000",
-        "outpatient": "$5,000-$12,000",
-        "notes": "Florida treatment costs vary widely, with South Florida facilities often commanding premium prices. Competition has created options at various price points. Many facilities accept insurance, and sliding scale options are available. Medicaid and state-funded programs serve eligible residents."
+      "topRatedBedrijven": [],
+      "prices": {
+        "average": "€45-€65 per uur",
+        "emergency": "€75-€110 per uur",
+        "notes": "Flevolandse tarieven liggen iets onder Randstad niveau. Almere is duurder dan Lelystad en de Noordoostpolder. Nieuwbouwprojecten worden vaak op projectbasis geoffreerd."
       },
       "faqs": [
         {
-          "question": "Why is Florida a popular treatment destination?",
-          "answer": "Florida's warm climate, extensive treatment infrastructure, and recovering community make it attractive. The concentration of facilities creates competition and specialized options. Many people find that getting away from their home environment supports recovery."
+          "question": "Wat kost een elektricien in Almere?",
+          "answer": "Uurtarieven in Almere liggen tussen €45 en €65 per uur. Dit is iets onder het Amsterdam niveau. Spoedtarieven bedragen €75-€110 per uur."
         },
         {
-          "question": "What is the Marchman Act?",
-          "answer": "The Marchman Act allows family members, medical professionals, or courts to petition for involuntary assessment and treatment for someone with a substance use disorder who is unable or unwilling to seek help voluntarily and meets specific criteria regarding danger to self or others."
+          "question": "Zijn er elektriciens gespecialiseerd in nieuwbouw?",
+          "answer": "Ja, Flevoland heeft veel elektriciens met nieuwbouw expertise door de vele nieuwbouwwijken. Zij kennen de nieuwste technieken en normen."
         },
         {
-          "question": "Is Florida treatment covered by out-of-state insurance?",
-          "answer": "Most insurance plans provide coverage for treatment in any state, though network status affects costs. Many Florida facilities work with out-of-state insurance. Verify coverage specifics with your insurance provider before traveling for treatment."
+          "question": "Kan ik een smart home systeem laten installeren?",
+          "answer": "Ja, diverse elektriciens in Flevoland zijn gespecialiseerd in domotica en smart home systemen. De moderne woningen lenen zich goed voor slimme installaties."
         },
         {
-          "question": "What should I look for in a Florida treatment center?",
-          "answer": "Verify DCF licensure and look for accreditation (Joint Commission or CARF). Research the facility's history and reviews. Understand all costs upfront. Be wary of aggressive marketing or promises that seem too good to be true. Quality facilities welcome questions about their programs."
+          "question": "Zijn er elektriciens in de Noordoostpolder?",
+          "answer": "Ja, Emmeloord en omgeving hebben lokale elektriciens. Zij bedienen zowel de agrarische sector als particulieren."
         },
         {
-          "question": "Are there affordable options in Florida?",
-          "answer": "Yes, despite the luxury market, Florida has affordable options including state-funded programs, nonprofit facilities, and insurance-based treatment. Community mental health centers and faith-based organizations provide low-cost services."
-        }
-      ]
-    },
-    {
-      "slug": "north-carolina",
-      "name": "North Carolina",
-      "abbr": "NC",
-      "totalFacilities": 358,
-      "title": "Addiction Treatment Centers in North Carolina: Complete Guide",
-      "metaDescription": "Guide to addiction treatment in North Carolina including treatment options, state regulations, costs, and recovery resources across the Tar Heel State.",
-      "heroSubtitle": "From Blue Ridge mountain retreats to comprehensive programs across the Tar Heel State",
-      "overview": "North Carolina offers diverse addiction treatment options, from mountain retreats in the Blue Ridge to urban programs in Charlotte and the Research Triangle. With over 358 treatment facilities, the state provides comprehensive services addressing the opioid crisis affecting many communities. North Carolina has invested in expanding treatment access and has a growing network of recovery support services.",
-      "treatmentLaws": {
-        "title": "North Carolina Treatment Laws and Regulations",
-        "content": "The North Carolina Division of Health Service Regulation (DHSR) licenses addiction treatment facilities. The state has expanded Medicaid coverage and supports medication-assisted treatment programs. North Carolina's Alcoholism and Chemical Dependency Program (ACDP) provides state-funded treatment for uninsured residents. The state has enacted laws supporting treatment access and harm reduction.",
-        "keyPoints": [
-          "DHSR licenses treatment facilities",
-          "State-funded treatment through ACDP",
-          "Medicaid expansion increased access",
-          "MAT programs widely supported",
-          "Naloxone access laws in effect",
-          "Drug courts provide treatment alternatives"
-        ]
-      },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 150 },
-        { "type": "Inpatient Rehab", "count": 80 },
-        { "type": "Detox Center", "count": 46 },
-        { "type": "Sober Living", "count": 50 },
-        { "type": "Dual Diagnosis", "count": 22 },
-        { "type": "Wilderness Therapy", "count": 10 }
-      ],
-      "topCities": ["Charlotte", "Raleigh", "Durham", "Greensboro", "Winston-Salem", "Asheville", "Fayetteville", "Wilmington", "High Point", "Cary"],
-      "notableFacilities": [
-        {
-          "name": "Fellowship Hall",
-          "city": "Greensboro",
-          "description": "Nonprofit treatment center providing evidence-based care for over 50 years. Known for accessible pricing and strong outcomes."
-        },
-        {
-          "name": "Pavillon",
-          "city": "Mill Spring",
-          "description": "Mountain retreat setting offering comprehensive treatment programs in a serene Blue Ridge environment."
-        },
-        {
-          "name": "Willingway of NC",
-          "city": "Multiple Locations",
-          "description": "Extension of the established Willingway treatment model, offering residential and outpatient services."
-        }
-      ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$15,000-$35,000",
-        "outpatient": "$3,000-$8,000",
-        "notes": "North Carolina treatment costs are moderate. Many nonprofit facilities offer sliding scale fees. State-funded programs through ACDP serve uninsured residents. Insurance coverage varies but parity laws ensure coverage for most plans."
-      },
-      "faqs": [
-        {
-          "question": "Does North Carolina Medicaid cover addiction treatment?",
-          "answer": "Yes, NC Medicaid covers substance use disorder treatment including assessment, outpatient services, intensive outpatient, and residential treatment. Medicaid expansion has increased access for many residents who previously lacked coverage."
-        },
-        {
-          "question": "What state-funded treatment options exist in North Carolina?",
-          "answer": "The ACDP provides funding for treatment of uninsured or underinsured residents. Local management entities (LMEs) coordinate access to state-funded services. Eligibility is based on income, residency, and clinical assessment."
-        },
-        {
-          "question": "Are there wilderness treatment programs in North Carolina?",
-          "answer": "Yes, North Carolina's mountains are home to several wilderness and outdoor therapy programs, particularly for adolescents and young adults. These programs combine traditional treatment with outdoor adventure activities."
-        },
-        {
-          "question": "How do I find treatment in rural North Carolina?",
-          "answer": "LMEs serve all counties and can connect residents with available services. Telehealth options have expanded access significantly. Some treatment centers provide transportation assistance. Faith-based programs serve many rural communities."
-        },
-        {
-          "question": "What treatment approaches are common in North Carolina?",
-          "answer": "NC facilities offer evidence-based approaches including cognitive-behavioral therapy, 12-step facilitation, motivational interviewing, and medication-assisted treatment. Holistic and wilderness-based approaches are also available at some facilities."
-        }
-      ]
-    },
-    {
-      "slug": "ohio",
-      "name": "Ohio",
-      "abbr": "OH",
-      "totalFacilities": 450,
-      "title": "Addiction Treatment Centers in Ohio: Complete Guide",
-      "metaDescription": "Comprehensive guide to addiction treatment in Ohio. Find rehab facilities, understand state programs, costs, and recovery resources across the Buckeye State.",
-      "heroSubtitle": "From Cleveland medical centers to statewide recovery support in the Buckeye State",
-      "overview": "Ohio has been heavily impacted by the opioid epidemic and has responded with significant investment in treatment infrastructure. With over 450 treatment facilities, the state offers comprehensive services from major medical center programs to community-based treatment. Ohio's ADAMHS boards coordinate local services, ensuring treatment access across urban and rural areas.",
-      "treatmentLaws": {
-        "title": "Ohio Treatment Laws and Regulations",
-        "content": "The Ohio Department of Mental Health and Addiction Services (OMHAS) certifies treatment facilities. Ohio expanded Medicaid coverage, dramatically increasing treatment access. The state supports medication-assisted treatment and has implemented innovative programs to address the opioid crisis. Casey's Law allows family members to petition for involuntary treatment.",
-        "keyPoints": [
-          "OMHAS certifies treatment facilities",
-          "Medicaid expansion significantly increased access",
-          "Casey's Law allows involuntary treatment petitions",
-          "Strong support for medication-assisted treatment",
-          "ADAMHS boards coordinate local services",
-          "Specialized programs for opioid addiction"
-        ]
-      },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 180 },
-        { "type": "Inpatient Rehab", "count": 95 },
-        { "type": "Detox Center", "count": 55 },
-        { "type": "Sober Living", "count": 70 },
-        { "type": "Dual Diagnosis", "count": 35 },
-        { "type": "MAT Programs", "count": 15 }
-      ],
-      "topCities": ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron", "Dayton", "Canton", "Youngstown", "Parma", "Springfield"],
-      "notableFacilities": [
-        {
-          "name": "Rosary Hall at St. Vincent Charity",
-          "city": "Cleveland",
-          "description": "One of the oldest addiction treatment programs in the country, offering comprehensive hospital-based care since 1952."
-        },
-        {
-          "name": "Glenbeigh",
-          "city": "Rock Creek",
-          "description": "Nonprofit treatment center offering residential and outpatient services with a strong focus on family involvement."
-        },
-        {
-          "name": "Maryhaven",
-          "city": "Columbus",
-          "description": "Comprehensive treatment center offering the full continuum of care including specialized women's services."
-        }
-      ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$12,000-$30,000",
-        "outpatient": "$2,500-$7,000",
-        "notes": "Ohio treatment costs are moderate to affordable. Medicaid expansion means many residents qualify for covered treatment. County ADAMHS boards provide state-funded services. Numerous nonprofit facilities offer sliding scale fees."
-      },
-      "faqs": [
-        {
-          "question": "Does Ohio Medicaid cover addiction treatment?",
-          "answer": "Yes, Ohio Medicaid provides comprehensive coverage for addiction treatment including assessment, counseling, intensive outpatient, residential treatment, and medication-assisted treatment. Medicaid expansion has made treatment accessible to many more residents."
-        },
-        {
-          "question": "What is Casey's Law in Ohio?",
-          "answer": "Casey's Law allows a family member, friend, or physician to petition a probate court for involuntary treatment of someone with severe substance use disorder who is unable or unwilling to seek help. The law is named after Casey Wethington, who died of an overdose."
-        },
-        {
-          "question": "How do I access free treatment in Ohio?",
-          "answer": "ADAMHS boards in each county coordinate state-funded treatment for uninsured residents. Medicaid covers treatment for eligible individuals. Nonprofit facilities often offer sliding scale fees. Recovery housing and peer support services are available at no cost."
-        },
-        {
-          "question": "What is Ohio doing about the opioid crisis?",
-          "answer": "Ohio has invested significantly in treatment access, harm reduction (including naloxone distribution), medication-assisted treatment expansion, and recovery support services. The state has also pursued legal action against opioid manufacturers and distributors."
-        },
-        {
-          "question": "Are there specialized programs for opioid addiction in Ohio?",
-          "answer": "Yes, many facilities specialize in opioid addiction treatment, offering medication-assisted treatment with buprenorphine, methadone, or naltrexone. Ohio has expanded access to these evidence-based treatments significantly."
-        }
-      ]
-    },
-    {
-      "slug": "arizona",
-      "name": "Arizona",
-      "abbr": "AZ",
-      "totalFacilities": 380,
-      "title": "Addiction Treatment Centers in Arizona: Complete Guide",
-      "metaDescription": "Guide to addiction treatment in Arizona. Find rehab facilities, understand state regulations, costs, and recovery resources across the Grand Canyon State.",
-      "heroSubtitle": "From Sonoran desert retreats to Phoenix metro treatment centers in the Grand Canyon State",
-      "overview": "Arizona's desert landscape provides a unique healing environment that has attracted treatment centers serving clients from across the nation. With over 380 facilities, the state offers diverse options from medically intensive programs to holistic desert retreats. Arizona has addressed growing treatment needs with expanded services and innovative programming.",
-      "treatmentLaws": {
-        "title": "Arizona Treatment Laws and Regulations",
-        "content": "The Arizona Department of Health Services (ADHS) licenses behavioral health facilities including addiction treatment centers. Arizona's AHCCCS (Medicaid) program covers addiction treatment for eligible residents. The state supports medication-assisted treatment and has implemented harm reduction initiatives. Title 36 allows for court-ordered evaluation and treatment.",
-        "keyPoints": [
-          "ADHS licenses treatment facilities",
-          "AHCCCS covers addiction treatment",
-          "Title 36 provides involuntary treatment pathway",
-          "MAT programs widely available",
-          "Regional Behavioral Health Authorities coordinate care",
-          "Harm reduction initiatives supported"
-        ]
-      },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 150 },
-        { "type": "Inpatient Rehab", "count": 85 },
-        { "type": "Detox Center", "count": 45 },
-        { "type": "Sober Living", "count": 60 },
-        { "type": "Dual Diagnosis", "count": 28 },
-        { "type": "Holistic Treatment", "count": 12 }
-      ],
-      "topCities": ["Phoenix", "Tucson", "Scottsdale", "Mesa", "Chandler", "Tempe", "Gilbert", "Glendale", "Sedona", "Prescott"],
-      "notableFacilities": [
-        {
-          "name": "Sierra Tucson",
-          "city": "Tucson",
-          "description": "Renowned residential treatment facility offering comprehensive care for addiction and co-occurring disorders in a desert mountain setting."
-        },
-        {
-          "name": "The Meadows",
-          "city": "Wickenburg",
-          "description": "Specialized treatment for trauma and addiction using the Meadows Model approach. Known for treating complex cases."
-        },
-        {
-          "name": "Cottonwood Tucson",
-          "city": "Tucson",
-          "description": "Comprehensive behavioral health treatment center offering addiction and mental health services in a healing desert environment."
-        }
-      ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$20,000-$45,000",
-        "outpatient": "$3,500-$10,000",
-        "notes": "Arizona treatment costs range from moderate to premium, with well-known destination facilities commanding higher prices. AHCCCS provides coverage for eligible residents. Many facilities accept insurance, and sliding scale options are available at some programs."
-      },
-      "faqs": [
-        {
-          "question": "Why is Arizona a popular treatment destination?",
-          "answer": "Arizona's desert climate, natural beauty, and concentration of quality treatment facilities make it attractive. Many people find the change of environment helpful for recovery. The state has a strong recovery community and varied treatment options."
-        },
-        {
-          "question": "Does AHCCCS cover addiction treatment?",
-          "answer": "Yes, Arizona's Medicaid program (AHCCCS) covers addiction treatment services including assessment, outpatient counseling, intensive outpatient, residential treatment, and medication-assisted treatment for eligible residents."
-        },
-        {
-          "question": "What holistic treatment options are available in Arizona?",
-          "answer": "Many Arizona facilities incorporate holistic elements including equine therapy, outdoor adventure programming, yoga, meditation, acupuncture, and Native American healing practices. The desert environment lends itself to nature-based therapies."
-        },
-        {
-          "question": "How do I access treatment in rural Arizona?",
-          "answer": "Regional Behavioral Health Authorities coordinate services across Arizona, including rural areas. Telehealth options have expanded access significantly. Tribal health programs serve Native American communities. Some facilities provide transportation assistance."
-        },
-        {
-          "question": "What treatment approaches are common in Arizona?",
-          "answer": "Arizona facilities offer evidence-based approaches along with innovative and holistic methods. Trauma-informed care, experiential therapy, equine-assisted therapy, and wilderness programming are particularly common in Arizona's treatment landscape."
-        }
-      ]
-    },
-    {
-      "slug": "virginia",
-      "name": "Virginia",
-      "abbr": "VA",
-      "totalFacilities": 310,
-      "title": "Addiction Treatment Centers in Virginia: Complete Guide",
-      "metaDescription": "Comprehensive guide to addiction treatment in Virginia. Find rehab facilities, understand state regulations, costs, and recovery resources across the Commonwealth.",
-      "heroSubtitle": "From Blue Ridge mountain programs to DC metro area treatment centers in the Commonwealth",
-      "overview": "Virginia offers diverse addiction treatment options across its varied geography, from Blue Ridge mountain retreats to urban programs in the DC metro area. With over 310 treatment facilities, the Commonwealth has responded to increasing treatment needs with expanded services. Virginia's proximity to Washington DC makes it accessible for many seeking quality treatment.",
-      "treatmentLaws": {
-        "title": "Virginia Treatment Laws and Regulations",
-        "content": "The Virginia Department of Behavioral Health and Developmental Services (DBHDS) licenses addiction treatment facilities. Virginia has expanded Medicaid coverage, increasing treatment access. Community Services Boards (CSBs) coordinate local mental health and addiction services. The state supports medication-assisted treatment and harm reduction approaches.",
-        "keyPoints": [
-          "DBHDS licenses treatment facilities",
-          "Medicaid expansion increased access",
-          "Community Services Boards coordinate local care",
-          "MAT programs widely supported",
-          "Emergency civil commitment available",
-          "Insurance parity laws in effect"
-        ]
-      },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 130 },
-        { "type": "Inpatient Rehab", "count": 70 },
-        { "type": "Detox Center", "count": 35 },
-        { "type": "Sober Living", "count": 45 },
-        { "type": "Dual Diagnosis", "count": 20 },
-        { "type": "Executive Programs", "count": 10 }
-      ],
-      "topCities": ["Richmond", "Virginia Beach", "Norfolk", "Arlington", "Alexandria", "Roanoke", "Newport News", "Chesapeake", "Charlottesville", "Lynchburg"],
-      "notableFacilities": [
-        {
-          "name": "Farley Center",
-          "city": "Williamsburg",
-          "description": "Comprehensive treatment center offering medical detox, residential, and outpatient services in historic Virginia."
-        },
-        {
-          "name": "The Pavilion at Williamsburg Place",
-          "city": "Williamsburg",
-          "description": "Hospital-based treatment program offering psychiatric and addiction services with medical expertise."
-        },
-        {
-          "name": "Recovery Centers of America at Devon",
-          "city": "Devon",
-          "description": "Part of a national network offering comprehensive addiction treatment with a focus on accessibility."
-        }
-      ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$18,000-$40,000",
-        "outpatient": "$4,000-$10,000",
-        "notes": "Virginia treatment costs are moderate, with proximity to DC influencing prices in Northern Virginia. Medicaid expansion has increased access for many residents. Community Services Boards provide state-funded treatment options."
-      },
-      "faqs": [
-        {
-          "question": "Does Virginia Medicaid cover addiction treatment?",
-          "answer": "Yes, Virginia expanded Medicaid in 2019, significantly increasing coverage for addiction treatment. Services covered include assessment, outpatient treatment, intensive outpatient, residential treatment, and medication-assisted treatment."
-        },
-        {
-          "question": "How do Community Services Boards help with treatment?",
-          "answer": "CSBs are the entry point for public mental health and addiction services in Virginia. They provide assessment, referrals, case management, and some direct treatment services. Every region in Virginia has a CSB serving its residents."
-        },
-        {
-          "question": "Are there treatment options near Washington DC?",
-          "answer": "Yes, Northern Virginia has numerous treatment facilities within easy reach of DC. Many federal employees and DC-area residents utilize Virginia treatment options. Both luxury and accessible programs are available."
-        },
-        {
-          "question": "What state-funded options exist in Virginia?",
-          "answer": "CSBs coordinate state-funded treatment for uninsured or underinsured residents. SAMHSA block grants fund treatment services. Medicaid covers treatment for eligible residents. Waiting lists may exist for some services."
-        },
-        {
-          "question": "What is the process for involuntary treatment in Virginia?",
-          "answer": "Virginia allows emergency civil commitment for individuals with substance use disorder who are an imminent danger to themselves or others. The process involves evaluation at a CSB and a court hearing. Treatment can be ordered for up to 180 days."
-        }
-      ]
-    },
-    {
-      "slug": "new-york",
-      "name": "New York",
-      "abbr": "NY",
-      "totalFacilities": 520,
-      "title": "Addiction Treatment Centers in New York: Complete Guide",
-      "metaDescription": "Comprehensive guide to addiction treatment in New York. Find rehab facilities, understand state regulations, costs, and recovery resources across the Empire State.",
-      "heroSubtitle": "From Manhattan medical centers to upstate retreats in the Empire State",
-      "overview": "New York offers extensive addiction treatment options across its diverse landscape, from world-class medical centers in New York City to peaceful upstate retreats. With over 520 treatment facilities, the state provides comprehensive services at various price points. New York has been a leader in medication-assisted treatment and harm reduction approaches.",
-      "treatmentLaws": {
-        "title": "New York Treatment Laws and Regulations",
-        "content": "The New York State Office of Addiction Services and Supports (OASAS) regulates addiction treatment facilities. New York Medicaid provides comprehensive coverage for addiction treatment. The state has strong insurance parity laws and supports medication-assisted treatment. Kendra's Law allows for assisted outpatient treatment in certain cases.",
-        "keyPoints": [
-          "OASAS regulates treatment facilities",
-          "Medicaid provides comprehensive coverage",
-          "Strong insurance parity laws",
-          "Pioneer in medication-assisted treatment",
-          "Harm reduction approaches supported",
-          "Kendra's Law for assisted outpatient treatment"
-        ]
-      },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 220 },
-        { "type": "Inpatient Rehab", "count": 110 },
-        { "type": "Detox Center", "count": 65 },
-        { "type": "Sober Living", "count": 75 },
-        { "type": "Dual Diagnosis", "count": 35 },
-        { "type": "MAT Programs", "count": 15 }
-      ],
-      "topCities": ["New York City", "Buffalo", "Rochester", "Syracuse", "Albany", "Yonkers", "Long Island", "White Plains", "Westchester", "Hudson Valley"],
-      "notableFacilities": [
-        {
-          "name": "Hazelden Betty Ford at New York",
-          "city": "New York City",
-          "description": "Outpatient center from the renowned treatment organization, offering comprehensive services in Manhattan."
-        },
-        {
-          "name": "St. Christopher's Inn",
-          "city": "Garrison",
-          "description": "Nonprofit residential treatment center in the Hudson Valley offering affordable long-term treatment."
-        },
-        {
-          "name": "Arms Acres",
-          "city": "Carmel",
-          "description": "Comprehensive treatment center offering detox, residential, and outpatient services in a peaceful Westchester setting."
-        }
-      ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$25,000-$50,000",
-        "outpatient": "$5,000-$15,000",
-        "notes": "New York City treatment costs are among the highest in the nation due to real estate and operational costs. Upstate facilities are generally more affordable. Medicaid provides excellent coverage, and many sliding scale options exist."
-      },
-      "faqs": [
-        {
-          "question": "Does New York Medicaid cover addiction treatment?",
-          "answer": "Yes, New York Medicaid provides comprehensive coverage for addiction treatment including assessment, outpatient services, intensive outpatient, residential treatment, medication-assisted treatment, and recovery support services."
-        },
-        {
-          "question": "What is OASAS and how does it help?",
-          "answer": "The Office of Addiction Services and Supports (OASAS) regulates treatment facilities, funds services, and maintains a treatment locator. OASAS certification ensures facilities meet quality standards. Their website provides resources for finding treatment."
-        },
-        {
-          "question": "Are there affordable options in New York City?",
-          "answer": "Yes, despite high costs, NYC has nonprofit and state-funded treatment options. Medicaid covers treatment at many facilities. Hospital-based programs accept insurance. OASAS can help identify sliding scale programs."
-        },
-        {
-          "question": "What harm reduction services are available in New York?",
-          "answer": "New York is a leader in harm reduction, offering syringe services, naloxone distribution, supervised consumption sites (in NYC), and low-threshold treatment options. These services often connect people to treatment when they're ready."
-        },
-        {
-          "question": "How do I access treatment in rural New York?",
-          "answer": "County mental health departments coordinate services in rural areas. Telehealth options have expanded access significantly. OASAS maintains a treatment locator covering all regions. Some facilities provide transportation assistance."
-        }
-      ]
-    },
-    {
-      "slug": "pennsylvania",
-      "name": "Pennsylvania",
-      "abbr": "PA",
-      "totalFacilities": 420,
-      "title": "Addiction Treatment Centers in Pennsylvania: Complete Guide",
-      "metaDescription": "Comprehensive guide to addiction treatment in Pennsylvania. Find rehab facilities, understand state regulations, costs, and recovery resources across the Keystone State.",
-      "heroSubtitle": "From Philadelphia medical programs to Pittsburgh recovery centers in the Keystone State",
-      "overview": "Pennsylvania has comprehensive addiction treatment resources across its major cities and rural communities. With over 420 treatment facilities, the state addresses significant treatment needs, particularly related to the opioid epidemic affecting many communities. Pennsylvania has invested heavily in treatment access and supports innovative approaches.",
-      "treatmentLaws": {
-        "title": "Pennsylvania Treatment Laws and Regulations",
-        "content": "The Pennsylvania Department of Drug and Alcohol Programs (DDAP) oversees addiction services. Pennsylvania expanded Medicaid coverage significantly, increasing treatment access. Single County Authorities (SCAs) coordinate local services. The state has implemented innovative opioid response programs and supports medication-assisted treatment.",
-        "keyPoints": [
-          "DDAP oversees addiction services",
-          "Medicaid expansion increased access significantly",
-          "Single County Authorities coordinate local care",
-          "Strong investment in opioid response",
-          "MAT programs widely supported",
-          "Act 106 provides treatment alternatives to incarceration"
-        ]
-      },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 175 },
-        { "type": "Inpatient Rehab", "count": 90 },
-        { "type": "Detox Center", "count": 50 },
-        { "type": "Sober Living", "count": 60 },
-        { "type": "Dual Diagnosis", "count": 30 },
-        { "type": "MAT Programs", "count": 15 }
-      ],
-      "topCities": ["Philadelphia", "Pittsburgh", "Allentown", "Reading", "Erie", "Harrisburg", "Lancaster", "Scranton", "Bethlehem", "Chester County"],
-      "notableFacilities": [
-        {
-          "name": "Caron Treatment Centers",
-          "city": "Wernersville",
-          "description": "Renowned nonprofit treatment center offering comprehensive programs for adults, adolescents, and families since 1957."
-        },
-        {
-          "name": "Gateway Rehab",
-          "city": "Multiple Locations",
-          "description": "Network of treatment centers across Western Pennsylvania offering the full continuum of care."
-        },
-        {
-          "name": "Livengrin Foundation",
-          "city": "Bensalem",
-          "description": "Nonprofit treatment center in the Philadelphia area offering residential and outpatient services since 1966."
-        }
-      ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$15,000-$35,000",
-        "outpatient": "$3,000-$8,000",
-        "notes": "Pennsylvania treatment costs are moderate. Medicaid expansion has significantly increased access. Many nonprofit facilities offer affordable care. SCAs provide state-funded treatment for uninsured residents."
-      },
-      "faqs": [
-        {
-          "question": "Does Pennsylvania Medicaid cover addiction treatment?",
-          "answer": "Yes, Pennsylvania expanded Medicaid in 2015, dramatically increasing coverage for addiction treatment. Services covered include assessment, outpatient treatment, intensive outpatient, residential treatment, medication-assisted treatment, and recovery support."
-        },
-        {
-          "question": "What are Single County Authorities?",
-          "answer": "SCAs are the local points of contact for drug and alcohol services in Pennsylvania. They coordinate publicly funded treatment, provide assessments, manage waiting lists, and help connect residents with appropriate services."
-        },
-        {
-          "question": "How has Pennsylvania responded to the opioid crisis?",
-          "answer": "Pennsylvania declared opioid addiction a statewide disaster in 2018, enabling emergency response measures. The state expanded MAT access, distributed naloxone widely, implemented prescription drug monitoring, and invested in treatment capacity."
-        },
-        {
-          "question": "Are there free treatment options in Pennsylvania?",
-          "answer": "Yes, SCAs coordinate state-funded treatment for uninsured residents. Medicaid covers treatment for eligible individuals. Many nonprofit facilities offer sliding scale fees. Faith-based and community programs provide additional free options."
-        },
-        {
-          "question": "What treatment approaches are used in Pennsylvania?",
-          "answer": "Pennsylvania facilities offer evidence-based approaches including cognitive-behavioral therapy, 12-step facilitation, motivational interviewing, and medication-assisted treatment. The state particularly supports MAT as part of comprehensive treatment."
-        }
-      ]
-    },
-    {
-      "slug": "nevada",
-      "name": "Nevada",
-      "abbr": "NV",
-      "totalFacilities": 180,
-      "title": "Addiction Treatment Centers in Nevada: Complete Guide",
-      "metaDescription": "Guide to addiction treatment in Nevada. Find rehab facilities, understand state regulations, costs, and recovery resources in the Silver State.",
-      "heroSubtitle": "From Las Vegas recovery programs to Reno treatment centers in the Silver State",
-      "overview": "Nevada's treatment landscape serves both residents and visitors, with facilities concentrated in the Las Vegas and Reno metropolitan areas. With over 180 treatment facilities, the state addresses unique challenges related to the tourism and hospitality industry. Nevada has worked to expand treatment access and address gambling addiction alongside substance use disorders.",
-      "treatmentLaws": {
-        "title": "Nevada Treatment Laws and Regulations",
-        "content": "The Nevada Division of Public and Behavioral Health regulates addiction treatment facilities. Nevada Medicaid covers addiction treatment for eligible residents. The state supports medication-assisted treatment and has implemented harm reduction initiatives. Nevada law allows for court-ordered treatment in certain circumstances.",
-        "keyPoints": [
-          "DPBH regulates treatment facilities",
-          "Medicaid covers addiction treatment",
-          "Gambling addiction services available",
-          "MAT programs supported statewide",
-          "Court-ordered treatment available",
-          "Harm reduction initiatives expanding"
-        ]
-      },
-      "typeDistribution": [
-        { "type": "Outpatient Treatment", "count": 75 },
-        { "type": "Inpatient Rehab", "count": 40 },
-        { "type": "Detox Center", "count": 25 },
-        { "type": "Sober Living", "count": 25 },
-        { "type": "Dual Diagnosis", "count": 10 },
-        { "type": "Gambling Treatment", "count": 5 }
-      ],
-      "topCities": ["Las Vegas", "Henderson", "Reno", "North Las Vegas", "Sparks", "Carson City", "Elko", "Mesquite", "Boulder City", "Fernley"],
-      "notableFacilities": [
-        {
-          "name": "Resolutions Las Vegas",
-          "city": "Las Vegas",
-          "description": "Comprehensive treatment center offering medical detox, residential, and outpatient services in the Las Vegas area."
-        },
-        {
-          "name": "The Recovery Village Ridgefield",
-          "city": "Las Vegas",
-          "description": "Part of a national network offering full continuum of care with a focus on individualized treatment planning."
-        },
-        {
-          "name": "West Hills Hospital",
-          "city": "Reno",
-          "description": "Hospital-based treatment program offering psychiatric and addiction services in Northern Nevada."
-        }
-      ],
-      "topRatedFacilities": [],
-      "treatmentCosts": {
-        "average": "$18,000-$40,000",
-        "outpatient": "$3,500-$10,000",
-        "notes": "Nevada treatment costs are moderate. Some luxury options exist in the Las Vegas area. Medicaid covers treatment for eligible residents. State-funded options are available through the Division of Public and Behavioral Health."
-      },
-      "faqs": [
-        {
-          "question": "Does Nevada Medicaid cover addiction treatment?",
-          "answer": "Yes, Nevada Medicaid covers addiction treatment services including assessment, outpatient counseling, intensive outpatient, residential treatment, and medication-assisted treatment for eligible residents."
-        },
-        {
-          "question": "Are gambling addiction services available in Nevada?",
-          "answer": "Yes, Nevada recognizes gambling disorder and offers specialized treatment services. The Nevada Council on Problem Gambling provides resources and referrals. Many treatment centers address gambling alongside substance use disorders."
-        },
-        {
-          "question": "What treatment options exist outside Las Vegas?",
-          "answer": "Reno has substantial treatment resources for Northern Nevada. Rural areas are served through state-funded programs and telehealth. The Division of Public and Behavioral Health coordinates services across the state."
-        },
-        {
-          "question": "How does Nevada address addiction in the hospitality industry?",
-          "answer": "Some treatment facilities offer programs designed for hospitality workers, recognizing the unique challenges of the industry. Employee assistance programs in casinos and hotels provide referrals. Confidential treatment options are available."
-        },
-        {
-          "question": "What state-funded options exist in Nevada?",
-          "answer": "The Division of Public and Behavioral Health funds treatment services for uninsured residents. Rural clinics provide services in underserved areas. Sliding scale options exist at some facilities. Medicaid covers treatment for eligible individuals."
+          "question": "Hoe snel kan een storing verholpen worden?",
+          "answer": "In Almere zijn 24/7 storingsdiensten beschikbaar met korte aanrijtijden. In Lelystad en de NOP kan dit iets langer duren."
         }
       ]
     }

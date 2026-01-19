@@ -1,322 +1,393 @@
 {
   "topics": [
     {
-      "slug": "treatment-etiquette",
-      "title": "Treatment Etiquette: A Guide to Respectful Visits and Support",
-      "description": "Learn proper etiquette for visiting someone in treatment, supporting a loved one's recovery, and understanding boundaries in addiction treatment settings.",
-      "excerpt": "Understanding treatment etiquette helps you support loved ones in recovery while respecting their healing process and facility guidelines.",
-      "category": "Visitor Guide",
-      "author": "Rehab Near Me Editorial Team",
+      "slug": "elektricien-kiezen",
+      "title": "De Juiste Elektricien Kiezen: Complete Gids",
+      "description": "Leer hoe u een betrouwbare elektricien kiest. Tips over certificeringen, prijzen vergelijken, offertes aanvragen en waar u op moet letten.",
+      "excerpt": "Het kiezen van de juiste elektricien is belangrijk voor veilig en vakkundig werk. Deze gids helpt u bij het maken van de beste keuze.",
+      "category": "Keuzehulp",
+      "author": "VindElektricien.nl Redactie",
       "datePublished": "2024-12-20",
-      "dateModified": "2024-12-26",
+      "dateModified": "2026-01-18",
+      "readTime": "10 min",
+      "keywords": ["elektricien kiezen", "betrouwbare elektricien", "erkend installateur", "elektricien vinden", "installateur kiezen", "elektricien tips"],
+      "sections": [
+        {
+          "id": "certificeringen",
+          "title": "Belangrijke Certificeringen",
+          "anchor": "belangrijke-certificeringen"
+        },
+        {
+          "id": "offertes",
+          "title": "Offertes Vergelijken",
+          "anchor": "offertes-vergelijken"
+        },
+        {
+          "id": "reviews",
+          "title": "Reviews en Referenties",
+          "anchor": "reviews-en-referenties"
+        },
+        {
+          "id": "vragen",
+          "title": "Vragen om te Stellen",
+          "anchor": "vragen-om-te-stellen"
+        },
+        {
+          "id": "rode-vlaggen",
+          "title": "Rode Vlaggen",
+          "anchor": "rode-vlaggen"
+        },
+        {
+          "id": "garantie",
+          "title": "Garantie en Nazorg",
+          "anchor": "garantie-en-nazorg"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Waar moet ik op letten bij het kiezen van een elektricien?",
+          "answer": "Let op certificeringen (Erkend Installateur, VCA), vraag om meerdere offertes, controleer reviews en referenties, vraag naar garantie op het werk, en zorg dat de offerte duidelijk en gespecificeerd is. Een goede elektricien denkt mee en geeft advies."
+        },
+        {
+          "question": "Wat is een Erkend Installateur?",
+          "answer": "Een Erkend Installateur is geregistreerd bij het erkend installateurssysteem en voldoet aan strenge kwaliteitseisen. Zij zijn opgeleid, werken volgens NEN-normen en hun werk is verzekerd. Dit biedt extra zekerheid over de kwaliteit."
+        },
+        {
+          "question": "Hoeveel offertes moet ik aanvragen?",
+          "answer": "Vraag minimaal 2-3 offertes aan om prijzen en aanpak te vergelijken. Let niet alleen op de prijs maar ook op de specificaties, materialen, garantie en het vertrouwen dat de elektricien uitstraalt."
+        },
+        {
+          "question": "Moet een elektricien verzekerd zijn?",
+          "answer": "Ja, een professionele elektricien moet een bedrijfsaansprakelijkheidsverzekering hebben. Deze dekt schade die ontstaat door werkzaamheden. Vraag hier altijd naar en vraag eventueel om een bewijs."
+        },
+        {
+          "question": "Hoe weet ik of een prijs eerlijk is?",
+          "answer": "Vergelijk meerdere offertes en let op wat er wel en niet is inbegrepen. Extreem lage prijzen kunnen wijzen op besparing op kwaliteit of verborgen kosten. Een gedetailleerde offerte met specificaties geeft meer zekerheid."
+        }
+      ]
+    },
+    {
+      "slug": "elektrische-storingen",
+      "title": "Elektrische Storingen: Herkennen en Oplossen",
+      "description": "Complete gids over elektrische storingen: hoe herkent u ze, wanneer moet u een professional bellen, en wat kunt u zelf veilig doen.",
+      "excerpt": "Elektrische storingen kunnen vervelend en gevaarlijk zijn. Leer hoe u problemen herkent en wanneer u een elektricien moet bellen.",
+      "category": "Problemen & Oplossingen",
+      "author": "VindElektricien.nl Redactie",
+      "datePublished": "2024-12-20",
+      "dateModified": "2026-01-18",
       "readTime": "12 min",
-      "keywords": ["treatment etiquette", "visiting rehab", "supporting recovery", "addiction support", "family visitation", "treatment facility rules"],
+      "keywords": ["elektrische storing", "stroom uitgevallen", "groep springt eruit", "kortsluiting", "elektricien spoed", "storing verhelpen"],
       "sections": [
         {
-          "id": "visiting-hours",
-          "title": "Visiting Hours and Rules",
-          "anchor": "visiting-hours-and-rules"
+          "id": "veelvoorkomend",
+          "title": "Veelvoorkomende Storingen",
+          "anchor": "veelvoorkomende-storingen"
         },
         {
-          "id": "what-to-bring",
-          "title": "What to Bring",
-          "anchor": "what-to-bring"
+          "id": "zelf-doen",
+          "title": "Wat Kunt U Zelf Doen",
+          "anchor": "wat-kunt-u-zelf-doen"
         },
         {
-          "id": "communication",
-          "title": "Communication Guidelines",
-          "anchor": "communication-guidelines"
+          "id": "wanneer-bellen",
+          "title": "Wanneer Bellen",
+          "anchor": "wanneer-elektricien-bellen"
         },
         {
-          "id": "support-tips",
-          "title": "How to Be Supportive",
-          "anchor": "how-to-be-supportive"
+          "id": "spoed",
+          "title": "Spoedgevallen",
+          "anchor": "spoed-situaties"
         },
         {
-          "id": "boundaries",
-          "title": "Understanding Boundaries",
-          "anchor": "understanding-boundaries"
-        },
-        {
-          "id": "children",
-          "title": "Bringing Children to Visits",
-          "anchor": "bringing-children-to-visits"
+          "id": "preventie",
+          "title": "Storingen Voorkomen",
+          "anchor": "storingen-voorkomen"
         }
       ],
       "faqs": [
         {
-          "question": "Can I visit someone in rehab?",
-          "answer": "Most treatment facilities have scheduled visiting hours, typically on weekends. Some facilities restrict visits during the first week or two to allow patients to focus on initial treatment. Always check with the specific facility about their visitation policies."
+          "question": "Wat moet ik doen als een groep steeds uitvalt?",
+          "answer": "Controleer eerst welke apparaten op die groep zijn aangesloten. Koppel apparaten los en reset de groep. Als de groep direct weer uitvalt, is er mogelijk een defect in de bedrading en moet u een elektricien bellen. Als het na enige tijd weer gebeurt, is er waarschijnlijk overbelasting."
         },
         {
-          "question": "What should I bring when visiting?",
-          "answer": "Bring only approved items—most facilities have restricted item lists. Typically allowed: comfortable clothes, approved toiletries, books without drug/alcohol themes, family photos, and encouraging letters. Not allowed: outside food, medications, electronics, or anything containing alcohol."
+          "question": "Is een brandlucht bij stopcontacten gevaarlijk?",
+          "answer": "Ja, een brandlucht of verkleuringen bij stopcontacten wijst op oververhitting en is potentieel gevaarlijk. Schakel de groep direct uit en bel een elektricien. Gebruik het stopcontact niet meer tot het is gecontroleerd."
         },
         {
-          "question": "Can I bring my phone when visiting?",
-          "answer": "Policies vary by facility. Many allow visitors to keep phones but restrict photography or recording. Some facilities ask visitors to leave phones in lockers. Check the specific facility's policy before your visit."
+          "question": "Waarom flikkert mijn verlichting?",
+          "answer": "Flikkerend licht kan verschillende oorzaken hebben: een losse lamp, een slecht contact in de fitting, problemen in de bedrading, of netspanningsproblemen. Als het bij meerdere lampen voorkomt of aanhoudt, laat het dan controleren door een elektricien."
         },
         {
-          "question": "What if my loved one doesn't want visitors?",
-          "answer": "Respect their wishes. Some people need space during early recovery to focus on treatment without outside pressures. Continue showing support through approved methods like letters, and let them know you're ready to visit when they are."
+          "question": "Wat kost een storingsdienst?",
+          "answer": "Storingsdiensten buiten kantooruren kosten doorgaans €75-€125 per uur, plus voorrijkosten van €35-€75. Binnen kantooruren zijn tarieven lager. Vraag vooraf naar de kosten en laat een inschatting maken van de werkzaamheden."
         },
         {
-          "question": "How do I talk to someone in treatment?",
-          "answer": "Focus on their progress and well-being rather than outside problems. Avoid discussing stressful topics, especially family conflicts or financial issues. Be encouraging but avoid making promises you can't keep. Let them guide the conversation about their treatment."
+          "question": "Kan ik zelf de meterkast resetten?",
+          "answer": "Ja, u kunt veilig de aardlekschakelaar of groepen terugzetten. Zet eerst apparaten uit voordat u reset. Als een groep direct weer uitvalt, is er een probleem dat een elektricien moet onderzoeken. Werk nooit in de meterkast met open panelen."
         }
       ]
     },
     {
-      "slug": "finding-treatment",
-      "title": "Finding the Right Treatment Center: A Complete Guide",
-      "description": "Step-by-step guide to finding addiction treatment including insurance verification, assessing needs, evaluating facilities, and making informed decisions.",
-      "excerpt": "Finding the right treatment center can feel overwhelming. This guide walks you through the process of identifying your needs and evaluating options.",
-      "category": "Planning Guide",
-      "author": "Rehab Near Me Editorial Team",
+      "slug": "meterkast-groepenkast",
+      "title": "Meterkast en Groepenkast: Alles wat u moet weten",
+      "description": "Uitgebreide informatie over meterkasten en groepenkasten: wanneer vervangen, kosten, normen en wat u kunt verwachten.",
+      "excerpt": "De meterkast is het hart van uw elektrische installatie. Leer wanneer vervanging nodig is en wat u kunt verwachten.",
+      "category": "Installaties",
+      "author": "VindElektricien.nl Redactie",
       "datePublished": "2024-12-20",
-      "dateModified": "2024-12-26",
+      "dateModified": "2026-01-18",
       "readTime": "14 min",
-      "keywords": ["finding treatment", "choosing rehab", "treatment center selection", "addiction treatment options", "rehab research", "treatment planning"],
+      "keywords": ["meterkast", "groepenkast", "meterkast vervangen", "groepenkast kosten", "NEN 1010", "aardlekschakelaar", "groepen uitbreiden"],
       "sections": [
         {
-          "id": "assess-needs",
-          "title": "Assessing Treatment Needs",
-          "anchor": "assessing-treatment-needs"
+          "id": "onderdelen",
+          "title": "Onderdelen van de Meterkast",
+          "anchor": "onderdelen-meterkast"
         },
         {
-          "id": "treatment-levels",
-          "title": "Understanding Levels of Care",
-          "anchor": "understanding-levels-of-care"
+          "id": "wanneer-vervangen",
+          "title": "Wanneer Vervangen",
+          "anchor": "wanneer-vervangen"
         },
         {
-          "id": "insurance",
-          "title": "Insurance and Payment Options",
-          "anchor": "insurance-and-payment-options"
+          "id": "kosten",
+          "title": "Kosten Meterkast Vervangen",
+          "anchor": "kosten-meterkast"
         },
         {
-          "id": "evaluating",
-          "title": "Evaluating Facilities",
-          "anchor": "evaluating-facilities"
+          "id": "groepen",
+          "title": "Groepen en Capaciteit",
+          "anchor": "groepen-en-capaciteit"
         },
         {
-          "id": "questions",
-          "title": "Questions to Ask",
-          "anchor": "questions-to-ask"
+          "id": "normen",
+          "title": "Normen en Veiligheid",
+          "anchor": "normen-en-veiligheid"
+        },
+        {
+          "id": "procedure",
+          "title": "De Vervangingsprocedure",
+          "anchor": "vervangingsprocedure"
         }
       ],
       "faqs": [
         {
-          "question": "How do I know what type of treatment is needed?",
-          "answer": "A professional assessment can determine the appropriate level of care based on substance use history, medical needs, mental health status, and support system. Most facilities offer free phone assessments. Factors include severity of addiction, history of withdrawal, and presence of co-occurring disorders."
+          "question": "Hoe weet ik of mijn meterkast verouderd is?",
+          "answer": "Tekenen van een verouderde meterkast: stoppendraaien in plaats van automaten, ontbreken van aardlekschakelaar, verkleuringen of brandsporen, onvoldoende groepen voor modern gebruik, of een leeftijd van meer dan 25-30 jaar. Bij twijfel laat u het keuren."
         },
         {
-          "question": "How much does rehab cost?",
-          "answer": "Costs vary widely: outpatient programs may cost $5,000-$10,000, standard inpatient $20,000-$30,000 for 30 days, and luxury facilities $30,000-$100,000+. Many insurance plans cover treatment under mental health parity laws. Free and sliding-scale options exist for those without coverage."
+          "question": "Wat kost een nieuwe meterkast?",
+          "answer": "Een nieuwe meterkast inclusief installatie kost gemiddeld €800-€2.000 voor een standaard woning, afhankelijk van het aantal groepen en de complexiteit. Een luxe kast met meer groepen of een verzwaring kan oplopen tot €2.500-€4.000."
         },
         {
-          "question": "Does insurance cover addiction treatment?",
-          "answer": "The Mental Health Parity and Addiction Equity Act requires most insurance plans to cover addiction treatment similar to other medical conditions. Coverage varies by plan—verify your specific benefits with your insurance provider or have the treatment facility check for you."
+          "question": "Moet mijn meterkast een aardlekschakelaar hebben?",
+          "answer": "Ja, een aardlekschakelaar (30mA) is verplicht voor nieuwe installaties en sterk aanbevolen voor bestaande. Deze beschermt tegen elektrocutie. Moderne installaties hebben vaak meerdere aardlekschakelaars voor betere bescherming."
         },
         {
-          "question": "How do I know if a treatment center is legitimate?",
-          "answer": "Look for accreditation from organizations like The Joint Commission or CARF. Verify licensing with your state's health department. Check for licensed medical and clinical staff. Be wary of facilities that guarantee outcomes or pressure you into immediate decisions."
+          "question": "Hoeveel groepen heb ik nodig?",
+          "answer": "Een moderne woning heeft minimaal 8-12 groepen nodig. Richtlijn: aparte groepen voor verlichting, stopcontacten, keukenapparatuur, wasmachine/droger, CV/boiler, en eventueel laadpaal. Neem reserve groepen mee voor toekomstige uitbreiding."
         },
         {
-          "question": "Should I choose a local facility or travel for treatment?",
-          "answer": "Both have advantages. Local facilities allow family involvement and easier aftercare transitions. Traveling removes you from triggers and negative influences. The best choice depends on your specific situation, support system, and treatment needs."
+          "question": "Hoe lang duurt het vervangen van een meterkast?",
+          "answer": "Het vervangen van een meterkast duurt gemiddeld 4-8 uur, afhankelijk van de complexiteit en of er bedrading vervangen moet worden. Bij een volledige renovatie met nieuwe bedrading kan het 1-2 dagen duren."
         }
       ]
     },
     {
-      "slug": "treatment-costs",
-      "title": "Understanding Treatment Costs: A Complete Price Guide",
-      "description": "Comprehensive breakdown of addiction treatment costs including insurance coverage, payment options, free resources, and how to get help affording treatment.",
-      "excerpt": "Understanding treatment costs helps you make informed decisions and access the care you need. This guide breaks down all expenses and funding options.",
-      "category": "Planning Guide",
-      "author": "Rehab Near Me Editorial Team",
+      "slug": "laadpaal-installatie",
+      "title": "Laadpaal Installatie: Complete Handleiding",
+      "description": "Alles over het installeren van een laadpaal thuis: kosten, subsidies, vermogen, installatie-eisen en het kiezen van de juiste laadpaal.",
+      "excerpt": "Een laadpaal thuis biedt gemak en lagere laadkosten. Ontdek alles over installatie, kosten en subsidies.",
+      "category": "Duurzame Energie",
+      "author": "VindElektricien.nl Redactie",
       "datePublished": "2024-12-20",
-      "dateModified": "2024-12-26",
+      "dateModified": "2026-01-18",
       "readTime": "15 min",
-      "keywords": ["treatment costs", "rehab expenses", "addiction treatment cost", "insurance coverage", "payment options", "affordable treatment"],
+      "keywords": ["laadpaal installatie", "thuislader", "elektrische auto", "laadpaal kosten", "laadpaal subsidie", "laadpaal thuis", "laadpaal vermogen"],
       "sections": [
         {
-          "id": "cost-breakdown",
-          "title": "Average Costs by Treatment Type",
-          "anchor": "average-costs-by-treatment-type"
+          "id": "soorten",
+          "title": "Soorten Laadpalen",
+          "anchor": "soorten-laadpalen"
         },
         {
-          "id": "insurance",
-          "title": "Insurance Coverage",
-          "anchor": "insurance-coverage"
+          "id": "vermogen",
+          "title": "Laadvermogen Kiezen",
+          "anchor": "laadvermogen-kiezen"
         },
         {
-          "id": "payment-options",
-          "title": "Payment Options",
-          "anchor": "payment-options"
+          "id": "installatie",
+          "title": "Het Installatieproces",
+          "anchor": "installatieproces"
         },
         {
-          "id": "free-resources",
-          "title": "Free and Low-Cost Options",
-          "anchor": "free-and-low-cost-options"
+          "id": "kosten",
+          "title": "Kosten en Subsidies",
+          "anchor": "kosten-en-subsidies"
         },
         {
-          "id": "financial-assistance",
-          "title": "Financial Assistance Programs",
-          "anchor": "financial-assistance-programs"
+          "id": "verzwaring",
+          "title": "Aansluiting Verzwaren",
+          "anchor": "aansluiting-verzwaren"
         },
         {
-          "id": "cost-comparison",
-          "title": "Cost Comparison Table",
-          "anchor": "cost-comparison-table"
+          "id": "slim-laden",
+          "title": "Slim Laden",
+          "anchor": "slim-laden"
         }
       ],
       "faqs": [
         {
-          "question": "What is the average cost of rehab?",
-          "answer": "Costs vary significantly: Outpatient programs average $5,000-$10,000 for a full program. Standard inpatient (30 days) averages $20,000-$30,000. Luxury facilities range from $30,000-$100,000+ per month. Many people pay far less than these amounts due to insurance coverage."
+          "question": "Wat kost een laadpaal installatie thuis?",
+          "answer": "Een laadpaal zelf kost €400-€1.500, de installatie €300-€800. Totaal dus €700-€2.300 voor een standaardinstallatie. Bij verzwaring van de aansluiting (extra kosten €300-€1.000) of lange kabelafstanden kan het duurder worden."
         },
         {
-          "question": "Is there free addiction treatment?",
-          "answer": "Yes, free and low-cost treatment exists. SAMHSA's treatment locator can help find state-funded programs. Salvation Army, faith-based organizations, and some nonprofits offer free treatment. Medicaid covers treatment for eligible individuals in many states."
+          "question": "Moet mijn aansluiting verzwaard worden voor een laadpaal?",
+          "answer": "Niet altijd. Met een 1-fase 25A aansluiting kunt u laden tot 3,7 kW. Voor sneller laden (7,4-22 kW) is vaak een 3-fase aansluiting nodig. Slim laden kan verzwaring soms voorkomen door te laden wanneer er capaciteit is."
         },
         {
-          "question": "What does insurance typically cover?",
-          "answer": "Most insurance covers detox, inpatient rehabilitation, and outpatient treatment. Coverage details vary by plan—some cover 30 days inpatient, others may cover 60-90 days. Verify your specific benefits and any prior authorization requirements."
+          "question": "Is er subsidie voor een laadpaal?",
+          "answer": "Ja, diverse gemeenten bieden subsidies voor laadpalen. Daarnaast zijn er landelijke regelingen. Bedragen variëren van €200 tot €1.000. Vraag uw installateur naar de mogelijkheden of kijk op RVO.nl."
         },
         {
-          "question": "Can I finance addiction treatment?",
-          "answer": "Many facilities offer payment plans or work with healthcare financing companies. Options include medical credit cards, personal loans, and facility payment plans. Some facilities offer sliding scale fees based on income."
+          "question": "Kan ik een laadpaal zelf installeren?",
+          "answer": "Nee, een laadpaal moet geinstalleerd worden door een erkend installateur. Dit is vereist voor de veiligheid, garantie en eventuele subsidies. De installateur zorgt ook voor de aansluiting op de meterkast."
         },
         {
-          "question": "Is treatment worth the cost?",
-          "answer": "Studies show addiction treatment is cost-effective compared to untreated addiction. The cost of addiction—medical care, legal issues, lost productivity, family impact—far exceeds treatment costs. Treatment is an investment in health and future."
+          "question": "Hoe lang duurt het installeren van een laadpaal?",
+          "answer": "Een standaardinstallatie duurt 2-4 uur. Bij complexere situaties (lange kabelafstanden, verzwaring aansluiting, grondwerk) kan het langer duren. De meeste installateurs plannen binnen 1-2 weken."
         }
       ]
     },
     {
-      "slug": "inpatient-vs-outpatient",
-      "title": "Inpatient vs Outpatient Treatment: Making the Right Choice",
-      "description": "Compare inpatient and outpatient addiction treatment options including effectiveness, costs, time requirements, and factors to consider when choosing.",
-      "excerpt": "Choosing between inpatient and outpatient treatment is a crucial decision. This comprehensive comparison helps you make an informed choice.",
-      "category": "Planning Guide",
-      "author": "Rehab Near Me Editorial Team",
+      "slug": "zonnepanelen-installatie",
+      "title": "Zonnepanelen Installatie: Van Offerte tot Oplevering",
+      "description": "Uitgebreide gids over zonnepanelen: kosten, terugverdientijd, installatie, subsidies en het kiezen van een goede installateur.",
+      "excerpt": "Zonnepanelen zijn een slimme investering. Leer alles over installatie, kosten en opbrengsten.",
+      "category": "Duurzame Energie",
+      "author": "VindElektricien.nl Redactie",
       "datePublished": "2024-12-20",
-      "dateModified": "2024-12-26",
-      "readTime": "13 min",
-      "keywords": ["inpatient vs outpatient", "residential treatment", "outpatient treatment", "treatment comparison", "level of care", "choosing treatment"],
-      "sections": [
-        {
-          "id": "pros-cons",
-          "title": "Pros and Cons Comparison",
-          "anchor": "pros-and-cons-comparison"
-        },
-        {
-          "id": "who-needs-what",
-          "title": "Who Needs Which Level",
-          "anchor": "who-needs-which-level"
-        },
-        {
-          "id": "effectiveness",
-          "title": "Treatment Effectiveness",
-          "anchor": "treatment-effectiveness"
-        },
-        {
-          "id": "cost-comparison",
-          "title": "Cost Comparison",
-          "anchor": "cost-comparison"
-        },
-        {
-          "id": "hybrid-options",
-          "title": "Hybrid and Step-Down Options",
-          "anchor": "hybrid-and-step-down-options"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Is inpatient treatment more effective than outpatient?",
-          "answer": "Effectiveness depends on matching the level of care to individual needs. Inpatient is more effective for severe addictions, those needing medical detox, or lacking stable support systems. Outpatient works well for less severe cases with strong support. The right level of care matters more than inpatient vs outpatient."
-        },
-        {
-          "question": "Can I work during outpatient treatment?",
-          "answer": "Yes, outpatient treatment is designed to allow work and family responsibilities. Intensive outpatient (IOP) requires more hours but often offers evening sessions. Standard outpatient is highly compatible with work schedules."
-        },
-        {
-          "question": "How do I know which level I need?",
-          "answer": "Factors include: severity of addiction, need for medical detox, presence of co-occurring mental health issues, stability of home environment, previous treatment attempts, and family/work obligations. A professional assessment provides personalized recommendations."
-        },
-        {
-          "question": "What if I fail outpatient treatment?",
-          "answer": "Struggling in outpatient may indicate need for a higher level of care. This isn't failure—it's valuable information. Many people start with outpatient and step up to inpatient if needed. Honest assessment and adjustment is part of the process."
-        },
-        {
-          "question": "Is there something between inpatient and outpatient?",
-          "answer": "Yes, Partial Hospitalization Programs (PHP) bridge the gap with full-day treatment (5-7 days/week) while returning home at night. This provides intensive care without full residential stay. Many use PHP as a step-down from inpatient."
-        }
-      ]
-    },
-    {
-      "slug": "family-support",
-      "title": "Supporting a Loved One Through Addiction: A Family Guide",
-      "description": "Guide for families of people struggling with addiction covering how to help, setting boundaries, intervention approaches, and self-care for family members.",
-      "excerpt": "Supporting a loved one through addiction is challenging. This guide helps families navigate recovery, set healthy boundaries, and care for themselves.",
-      "category": "Family Guide",
-      "author": "Rehab Near Me Editorial Team",
-      "datePublished": "2024-12-20",
-      "dateModified": "2024-12-26",
+      "dateModified": "2026-01-18",
       "readTime": "16 min",
-      "keywords": ["family support addiction", "helping addicted loved one", "family intervention", "addiction family guide", "codependency", "family recovery"],
+      "keywords": ["zonnepanelen installatie", "zonnepanelen kosten", "solar panels", "terugverdientijd", "zonnepanelen subsidie", "omvormer", "Scope 12"],
       "sections": [
         {
-          "id": "understanding",
-          "title": "Understanding Addiction as a Disease",
-          "anchor": "understanding-addiction-as-disease"
+          "id": "soorten",
+          "title": "Soorten Zonnepanelen",
+          "anchor": "soorten-zonnepanelen"
         },
         {
-          "id": "communication",
-          "title": "Effective Communication",
-          "anchor": "effective-communication"
+          "id": "capaciteit",
+          "title": "Hoeveel Panelen Nodig",
+          "anchor": "hoeveel-panelen"
         },
         {
-          "id": "boundaries",
-          "title": "Setting Healthy Boundaries",
-          "anchor": "setting-healthy-boundaries"
+          "id": "installatie",
+          "title": "Het Installatieproces",
+          "anchor": "installatieproces"
         },
         {
-          "id": "intervention",
-          "title": "Intervention Approaches",
-          "anchor": "intervention-approaches"
+          "id": "kosten",
+          "title": "Kosten en Terugverdientijd",
+          "anchor": "kosten-terugverdientijd"
         },
         {
-          "id": "self-care",
-          "title": "Family Self-Care",
-          "anchor": "family-self-care"
+          "id": "installateur",
+          "title": "De Juiste Installateur",
+          "anchor": "installateur-kiezen"
         },
         {
-          "id": "resources",
-          "title": "Family Support Resources",
-          "anchor": "family-support-resources"
+          "id": "onderhoud",
+          "title": "Onderhoud en Garantie",
+          "anchor": "onderhoud-garantie"
         }
       ],
       "faqs": [
         {
-          "question": "How do I talk to someone about their addiction?",
-          "answer": "Choose a calm, private moment when they're sober. Use 'I' statements to express concern without blame ('I'm worried about you' rather than 'You have a problem'). Be specific about behaviors you've observed. Express love and offer support without ultimatums in initial conversations."
+          "question": "Wat kosten zonnepanelen in 2026?",
+          "answer": "De kosten voor een compleet systeem liggen tussen €4.000 en €10.000 voor een gemiddelde woning (8-16 panelen). Dit is inclusief panelen, omvormer, montage en aansluiting. Prijzen zijn de laatste jaren gedaald."
         },
         {
-          "question": "What is enabling and how do I stop?",
-          "answer": "Enabling is protecting someone from the consequences of their addiction—paying their bills, making excuses, providing housing without conditions. Stopping enabling means allowing natural consequences while still loving the person. It's painful but often necessary for them to recognize the need for help."
+          "question": "Wat is de terugverdientijd van zonnepanelen?",
+          "answer": "De terugverdientijd ligt momenteel tussen 5 en 8 jaar, afhankelijk van uw energieverbruik, orientatie van het dak, en lokale energieprijzen. Na de terugverdientijd profiteert u nog 15-20 jaar van gratis stroom."
         },
         {
-          "question": "Should I do an intervention?",
-          "answer": "Interventions can be effective when done properly with professional guidance. They work best when the family is unified, prepared with treatment options, and ready to follow through on stated consequences. Working with a professional interventionist improves success rates."
+          "question": "Wat is een Scope 12 installateur?",
+          "answer": "Scope 12 is een certificering voor installateurs van zonnepanelen. Het garandeert dat de installateur opgeleid is in het veilig en correct aansluiten van zonnestroomsystemen. Kies altijd een Scope 12 gecertificeerde installateur."
         },
         {
-          "question": "How do I take care of myself?",
-          "answer": "Join a family support group like Al-Anon or Nar-Anon. Consider your own therapy to process emotions and learn healthy coping. Set boundaries to protect your wellbeing. Remember that your loved one's recovery is their responsibility—you can support but not control it."
+          "question": "Heb ik een vergunning nodig voor zonnepanelen?",
+          "answer": "In de meeste gevallen niet. Zonnepanelen op een schuin dak zijn meestal vergunningsvrij. Bij monumentale panden, platte daken met opstandmontage, of panelen in de tuin kan wel een vergunning nodig zijn. Check bij uw gemeente."
         },
         {
-          "question": "What if they refuse treatment?",
-          "answer": "You cannot force an adult into treatment (except in some emergency situations). Continue expressing love and concern while maintaining boundaries. Let them know treatment options are available when they're ready. Sometimes reaching 'rock bottom' is necessary before someone seeks help."
+          "question": "Kan mijn dak zonnepanelen dragen?",
+          "answer": "De meeste daken kunnen zonnepanelen dragen. Zonnepanelen wegen ongeveer 12-20 kg per m2. Bij oudere daken of twijfel laat u het controleren door een dakspecialist. De installateur beoordeelt dit tijdens de intake."
+        }
+      ]
+    },
+    {
+      "slug": "nen-keuringen",
+      "title": "NEN-keuringen: Wat, Wanneer en Waarom",
+      "description": "Alles over elektrische keuringen: NEN 1010, NEN 3140, wanneer verplicht, kosten en wat er gecontroleerd wordt.",
+      "excerpt": "Elektrische keuringen zorgen voor veiligheid en zijn soms verplicht. Leer wat keuringen inhouden en wanneer u ze nodig heeft.",
+      "category": "Veiligheid & Keuringen",
+      "author": "VindElektricien.nl Redactie",
+      "datePublished": "2024-12-20",
+      "dateModified": "2026-01-18",
+      "readTime": "11 min",
+      "keywords": ["NEN keuring", "NEN 1010", "NEN 3140", "elektrakeuring", "installatie keuring", "periodieke keuring", "keuringsrapport"],
+      "sections": [
+        {
+          "id": "soorten",
+          "title": "Soorten Keuringen",
+          "anchor": "soorten-keuringen"
+        },
+        {
+          "id": "wanneer",
+          "title": "Wanneer Verplicht",
+          "anchor": "wanneer-verplicht"
+        },
+        {
+          "id": "wat",
+          "title": "Wat Wordt Gecontroleerd",
+          "anchor": "wat-wordt-gecontroleerd"
+        },
+        {
+          "id": "kosten",
+          "title": "Kosten van Keuringen",
+          "anchor": "kosten-keuringen"
+        },
+        {
+          "id": "rapport",
+          "title": "Het Keuringsrapport",
+          "anchor": "keuringsrapport"
+        },
+        {
+          "id": "afkeuring",
+          "title": "Na Afkeuring",
+          "anchor": "na-afkeuring"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is een elektrakeuring verplicht voor particulieren?",
+          "answer": "Voor particuliere woningen is er geen wettelijke keuringsverplichting. Wel is een keuring sterk aanbevolen bij aankoop van een woning, na een renovatie, of als de installatie ouder is dan 20 jaar. Sommige verzekeraars eisen een keuring."
+        },
+        {
+          "question": "Wat is het verschil tussen NEN 1010 en NEN 3140?",
+          "answer": "NEN 1010 is de norm voor het aanleggen van installaties en de basis voor keuringen. NEN 3140 richt zich op de periodieke keuring van bestaande installaties en het veilig werken aan installaties, vooral voor bedrijven."
+        },
+        {
+          "question": "Wat kost een elektrakeuring?",
+          "answer": "Een keuring voor een woning kost €150-€350, afhankelijk van de grootte en complexiteit. Bedrijfskeuringen zijn duurder, €200-€600 of meer. De keuring resulteert in een keuringsrapport met eventuele aanbevelingen."
+        },
+        {
+          "question": "Hoe vaak moet een bedrijf gekeurd worden?",
+          "answer": "Bedrijven zijn verplicht hun installatie periodiek te laten keuren conform NEN 3140. De frequentie hangt af van het risicoprofiel: kantoren meestal elke 3-5 jaar, industrie vaak jaarlijks. De RI&E bepaalt de frequentie."
+        },
+        {
+          "question": "Wat gebeurt er als mijn installatie wordt afgekeurd?",
+          "answer": "Bij afkeuring ontvangt u een rapport met de gebreken. Kleine gebreken kunt u laten repareren, daarna volgt een herkeuring. Bij ernstige gebreken kan direct herstel noodzakelijk zijn. De keuringsinstantie adviseert over de vervolgstappen."
         }
       ]
     }

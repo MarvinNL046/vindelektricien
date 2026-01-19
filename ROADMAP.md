@@ -1,121 +1,125 @@
-# RehabNearMe.com - Project Roadmap
+# VindElektricien.nl - Project Roadmap
 
-**Repository:** https://github.com/MarvinNL046/rehabnearbyme
-**Last Updated:** 18-01-2026 18:45u
+**Website:** https://vindelektricien.nl
+**Last Updated:** 19-01-2026
 **Status:** Development Phase
 
 ---
 
 ## Project Overview
 
-RehabNearMe.com is a comprehensive directory of addiction treatment and rehabilitation centers across the United States. The platform helps individuals and families find appropriate treatment facilities based on location, treatment type, and insurance coverage.
+VindElektricien.nl is a comprehensive directory of electricians (elektriciens) across the Netherlands. The platform helps Dutch consumers and businesses find qualified electricians based on location, service type, and certifications.
 
 ---
 
 ## Completed Tasks
 
-### Phase 1: Site Transformation (Completed)
-- [x] Transform codebase from cemetery directory to rehab directory
-- [x] Update all components, pages, and APIs for rehab context
-- [x] Remove all Dutch content and cemetery references
-- [x] Create new drizzle schema with facilities table
-- [x] Add indexes and relations to database schema
+### Phase 1: Project Setup (Completed)
+- [x] Set up Next.js project with App Router
+- [x] Configure Tailwind CSS and shadcn/ui
+- [x] Set up Drizzle ORM with database schema
+- [x] Create base components and layouts
+- [x] Implement Dutch language throughout
 
-### Phase 2: Design Overhaul (Completed)
-- [x] Update color theme: forest green/gold → teal/coral
-- [x] Update Logo component with Heart icon
-- [x] Redesign homepage hero section
-- [x] Update all components with new color scheme
-- [x] Update Header and Footer for rehab branding
-- [x] Add SAMHSA helpline banner (verified: 1-800-662-4357)
+### Phase 2: Design & Branding (Completed)
+- [x] Update color theme: Yellow/Blue for electrical branding
+- [x] Update Logo component with lightning bolt icon
+- [x] Design homepage hero section
+- [x] Create responsive navigation
+- [x] Update Header and Footer for electrician branding
 
 ### Phase 3: Content & Pages (Completed)
-- [x] Create /guide/insurance page
-- [x] Create /guide/what-to-expect page
-- [x] Update affiliate and premium content components
-- [x] Fix broken internal links
-- [x] Fix missing image references
+- [x] Create province guide pages (all 12 provinces)
+- [x] Create topic guides (elektricien kiezen, storingen, etc.)
+- [x] Create service type guides (laadpaal, zonnepanelen, etc.)
+- [x] Write comprehensive FAQ content
+- [x] Dutch content throughout all guides
 
-### Phase 4: Developer Tooling (Completed)
-- [x] Create health check script (scripts/check-health.ts)
-- [x] Install missing dependencies (sharp, chalk, openai, etc.)
+### Phase 4: Documentation (Completed)
+- [x] Create CLAUDE.md project guide
+- [x] Create E-E-A-T guidelines document
+- [x] Create monetization strategy document
+- [x] Clean up all legacy references
 
 ---
 
 ## Pending Tasks
 
 ### Phase 5: Data & Scraping (High Priority)
-- [ ] **Set up Neon PostgreSQL database**
-  - Create new database instance
+- [ ] **Set up Database**
+  - Create Neon/Supabase PostgreSQL instance
   - Configure DATABASE_URL in .env.local
   - Run drizzle migrations
 
-- [ ] **Facility Data Collection**
-  - [ ] Update discovery script for SAMHSA API integration
-  - [ ] Scrape treatment facilities from Google Places
-  - [ ] Import SAMHSA treatment locator data
-  - [ ] Enrich facility data with GPT (descriptions, features)
-  - [ ] Add facility photos from Google Places
+- [ ] **Electrician Data Collection**
+  - [ ] Update discovery script for Google Places API
+  - [ ] Scrape electricians by city/province
+  - [ ] Enrich data with GPT (descriptions, specializations)
+  - [ ] Add electrician photos
+  - [ ] Verify contact information
 
 - [ ] **Data Quality**
-  - [ ] Verify facility contact information
-  - [ ] Add insurance acceptance data
-  - [ ] Add treatment type classifications
-  - [ ] Generate SEO content for each facility
+  - [ ] Add certification data (Erkend, VCA, etc.)
+  - [ ] Add service type classifications
+  - [ ] Generate SEO content for each electrician
+  - [ ] Implement data validation
 
 ### Phase 6: Core Features (Medium Priority)
 - [ ] **Search & Filtering**
-  - [ ] Implement location-based search (city, state, zip)
-  - [ ] Add treatment type filters
-  - [ ] Add insurance filter
-  - [ ] Add amenity filters
+  - [ ] Implement location-based search (city, province, postal code)
+  - [ ] Add service type filters (storingen, laadpaal, etc.)
+  - [ ] Add certification filters
+  - [ ] Add specialization filters
   - [ ] Implement sorting (rating, distance, name)
 
 - [ ] **User Features**
-  - [ ] Enable user authentication (currently disabled)
   - [ ] User reviews and ratings
-  - [ ] Save/bookmark facilities
-  - [ ] Contact facility form
-  - [ ] Insurance verification requests
+  - [ ] Save/bookmark electricians
+  - [ ] Contact electrician form
+  - [ ] Request quote functionality
+  - [ ] Compare electricians feature
 
-- [ ] **Facility Owner Features**
+- [ ] **Electrician Features**
   - [ ] Claim listing functionality
-  - [ ] Dashboard for facility owners
-  - [ ] Edit facility information
+  - [ ] Dashboard for electricians
+  - [ ] Edit business information
   - [ ] Respond to reviews
-  - [ ] Upload photos
+  - [ ] Upload portfolio photos
+  - [ ] Service area management
 
 ### Phase 7: SEO & Marketing (Medium Priority)
 - [ ] **SEO Optimization**
-  - [ ] Generate state landing pages with content
+  - [ ] Generate province landing pages with unique content
   - [ ] Generate city landing pages
-  - [ ] Generate treatment type landing pages
-  - [ ] Create blog content about addiction/recovery
+  - [ ] Generate service type landing pages
+  - [ ] Create blog content about electrical topics
   - [ ] Submit sitemap to Google Search Console
   - [ ] Set up Google Analytics
 
 - [ ] **Schema Markup**
-  - [ ] Add LocalBusiness schema to facility pages
+  - [ ] Add LocalBusiness/Electrician schema
   - [ ] Add BreadcrumbList schema
   - [ ] Add FAQPage schema to guide pages
   - [ ] Add Review schema
+  - [ ] Add Organization schema
 
 ### Phase 8: Monetization (Low Priority)
 - [ ] **Advertising**
   - [ ] Set up Google AdSense
   - [ ] Configure ad placements
-  - [ ] Add affiliate partnerships (insurance, interventionists)
+  - [ ] Add affiliate partnerships (laadpalen, zonnepanelen)
 
 - [ ] **Premium Features**
   - [ ] Featured listing upgrades
-  - [ ] Lead generation for facilities
-  - [ ] Premium facility profiles
+  - [ ] Lead generation system
+  - [ ] Premium electrician profiles
+  - [ ] Subscription management (Mollie/Stripe)
 
 ### Phase 9: Deployment & Launch (High Priority)
 - [ ] **Vercel Deployment**
   - [ ] Connect GitHub repository
   - [ ] Configure environment variables
-  - [ ] Set up custom domain (rehabnearme.com)
+  - [ ] Set up custom domain (vindelektricien.nl)
   - [ ] Configure SSL certificate
   - [ ] Set up preview deployments
 
@@ -129,9 +133,8 @@ RehabNearMe.com is a comprehensive directory of addiction treatment and rehabili
 
 ## Technical Debt
 
-- [ ] Fix npm audit vulnerabilities (7 found)
-- [ ] Update Node.js to v22+ (required by @react-email packages)
-- [ ] Review and remove unused exports (111 flagged)
+- [ ] Fix any npm audit vulnerabilities
+- [ ] Review and remove unused exports
 - [ ] Add TypeScript strict mode
 - [ ] Add unit tests for critical functions
 - [ ] Add E2E tests with Playwright
@@ -145,17 +148,11 @@ RehabNearMe.com is a comprehensive directory of addiction treatment and rehabili
 # Database
 DATABASE_URL=postgresql://...
 
-# Authentication
-JWT_SECRET=your-secret-key
-
 # Google APIs
 GOOGLE_PLACES_API_KEY=your-api-key
 
 # OpenAI (for content enrichment)
 OPENAI_API_KEY=your-api-key
-
-# Email (Resend)
-RESEND_API_KEY=your-api-key
 
 # Analytics
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
@@ -170,7 +167,7 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 npm install
 
 # Run development server
-npm run dev -- -p 3003
+npm run dev
 
 # Run health check
 npx tsx scripts/check-health.ts
@@ -184,10 +181,50 @@ npm run build
 
 ---
 
+## Geographic Structure
+
+The site is organized by Dutch geography:
+
+```
+/ (homepage)
+├── /provincie/[province]     # 12 provinces
+│   ├── noord-holland
+│   ├── zuid-holland
+│   ├── noord-brabant
+│   ├── gelderland
+│   ├── limburg
+│   ├── overijssel
+│   ├── utrecht
+│   ├── friesland
+│   ├── groningen
+│   ├── drenthe
+│   ├── zeeland
+│   └── flevoland
+├── /gemeente/[municipality]  # Municipalities
+├── /stad/[city]              # Cities
+└── /elektricien/[slug]       # Individual electricians
+```
+
+---
+
+## Service Types
+
+Main service categories for filtering:
+
+- Storingen & Reparaties (Faults & Repairs)
+- Nieuwe Installaties (New Installations)
+- Meterkast/Groepenkast (Electrical Panel)
+- Laadpaal Installatie (EV Charger Installation)
+- Zonnepanelen (Solar Panels)
+- NEN-keuringen (NEN Inspections)
+- Domotica/Smart Home (Home Automation)
+- Bedrijfsinstallaties (Commercial Installations)
+
+---
+
 ## Contact
 
-For questions or contributions, please open an issue on GitHub:
-https://github.com/MarvinNL046/rehabnearbyme/issues
+For questions or contributions, please open an issue on GitHub.
 
 ---
 

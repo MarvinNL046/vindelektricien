@@ -1,470 +1,548 @@
 {
   "types": [
     {
-      "slug": "inpatient-rehab",
-      "typeSlug": "inpatient-rehab",
-      "title": "Inpatient Rehabilitation Centers",
-      "subtitle": "Understanding Residential Treatment Programs",
-      "metaTitle": "Inpatient Rehab Centers Guide | Residential Treatment in the USA",
-      "metaDescription": "Complete guide to inpatient rehabilitation centers in the United States. Learn about residential treatment programs, what to expect, and how to choose the right facility.",
-      "heroImage": "/images/guides/inpatient-rehab-hero.jpg",
+      "slug": "storingen-reparaties",
+      "typeSlug": "storingen-reparaties",
+      "title": "Storingsdiensten & Reparaties",
+      "subtitle": "Snelle hulp bij elektrische problemen",
+      "metaTitle": "Elektricien Storingsdienst | 24/7 Storingen & Reparaties",
+      "metaDescription": "Vind een elektricien voor storingen en reparaties. 24/7 beschikbaar voor noodgevallen, kortsluiting, stroomuitval en elektrische defecten.",
+      "heroImage": "/images/guides/storingen-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Inpatient Rehabilitation?",
-          "content": "Inpatient rehabilitation centers, also known as residential treatment facilities, provide 24-hour care in a structured environment for individuals struggling with addiction or substance use disorders. These facilities offer comprehensive treatment programs that remove patients from their everyday environment, allowing them to focus entirely on recovery without the distractions and triggers of daily life.\n\nResidential treatment typically lasts 28 to 90 days, though some programs may be shorter or longer depending on individual needs. During this time, patients live at the facility and participate in a structured schedule of therapies, counseling sessions, and activities designed to address the physical, psychological, and social aspects of addiction.\n\nInpatient programs are particularly beneficial for individuals with severe addictions, those who have relapsed after outpatient treatment, or anyone who needs a safe, supportive environment away from negative influences. The immersive nature of residential treatment allows for intensive therapy and the development of strong coping skills."
+          "title": "Wat is een Storingsdienst?",
+          "content": "Een storingsdienst biedt snelle hulp bij elektrische problemen die direct aandacht vereisen. Of het nu gaat om een stroomuitval, een groep die steeds uitschakelt, of een brandende geur bij een stopcontact - een storingselektricien komt ter plaatse om het probleem te diagnosticeren en op te lossen.\n\nDe meeste storingsdiensten zijn 24 uur per dag, 7 dagen per week beschikbaar voor noodgevallen. Buiten kantooruren gelden hogere tarieven, maar voor urgente situaties is snelle hulp essentieel.\n\nStoringselektriciens zijn getraind in het snel opsporen van problemen en het veilig herstellen van de stroomvoorziening. Zij hebben de benodigde meetapparatuur en reserveonderdelen bij zich om de meeste problemen ter plaatse op te lossen."
         },
         "history": {
-          "title": "Evolution of Residential Treatment",
-          "content": "The concept of residential treatment for addiction has evolved significantly over the past century. Early treatment facilities were often associated with hospitals or psychiatric institutions, but the modern approach to addiction treatment emerged in the mid-20th century with the development of the therapeutic community model.\n\nThe Minnesota Model, developed in the 1950s at Hazelden and other pioneering facilities, revolutionized addiction treatment by combining professional medical care with the peer support principles of Alcoholics Anonymous. This integrated approach became the foundation for many modern inpatient programs.\n\nToday's inpatient rehabilitation centers incorporate evidence-based practices, including cognitive-behavioral therapy, medication-assisted treatment, and holistic approaches. The field continues to advance with new research into addiction neuroscience and personalized treatment approaches."
+          "title": "Wanneer een Storingsdienst Bellen",
+          "content": "Niet elke elektrische storing vereist direct een spoeddienst. Het is belangrijk om te weten wanneer u direct moet bellen en wanneer het kan wachten tot reguliere werkuren.\n\nBel direct bij: rookontwikkeling of brandgeur bij stopcontacten of de meterkast, vonken bij het gebruik van apparaten, volledige stroomuitval zonder duidelijke oorzaak, of als groepen steeds blijven uitvallen na resetten.\n\nU kunt wachten bij: een enkel stopcontact dat niet werkt, een lamp die niet brandt, of planmatige vervangingen. Deze problemen kunt u tijdens reguliere werkuren laten oplossen tegen lagere tarieven."
         },
         "characteristics": {
-          "title": "Key Features of Inpatient Programs",
+          "title": "Veelvoorkomende Storingen",
           "items": [
             {
-              "title": "24/7 Medical Supervision",
-              "description": "Round-the-clock medical and clinical staff ensure patient safety, especially during detoxification. Medical professionals can address complications and adjust treatment plans as needed."
+              "title": "Groep Valt Steeds Uit",
+              "description": "Een groep die herhaaldelijk uitschakelt wijst vaak op overbelasting, een defect apparaat, of een probleem in de bedrading. De elektricien spoort de oorzaak op met meetapparatuur."
             },
             {
-              "title": "Structured Daily Schedule",
-              "description": "Patients follow a consistent routine that includes individual therapy, group sessions, meals, physical activities, and rest. This structure helps establish healthy habits and reduces anxiety."
+              "title": "Aardlekschakelaar Slaat Uit",
+              "description": "Een aardlekschakelaar die uitslaat beschermt tegen elektrocutie. Dit kan wijzen op een defect apparaat, vochtproblemen, of isolatieproblemen in de bedrading."
             },
             {
-              "title": "Individual and Group Therapy",
-              "description": "A combination of one-on-one counseling with licensed therapists and group therapy sessions helps patients understand their addiction, develop coping skills, and build peer support networks."
+              "title": "Volledige Stroomuitval",
+              "description": "Wanneer alle stroom uitvalt, controleer eerst of buren ook geen stroom hebben. Is het alleen uw woning, dan is er een probleem in uw installatie of hoofdaansluiting."
             },
             {
-              "title": "Family Programs",
-              "description": "Many facilities offer family therapy sessions and education programs, recognizing that addiction affects the entire family unit and that family support is crucial for long-term recovery."
+              "title": "Brandgeur of Vonken",
+              "description": "Dit is een noodsituatie. Schakel direct de stroom uit via de hoofdschakelaar en bel een storingsdienst. Niet zelf aan de installatie werken."
             },
             {
-              "title": "Aftercare Planning",
-              "description": "Discharge planning begins early in treatment, ensuring patients have a solid plan for continuing care, support groups, and resources after leaving the facility."
+              "title": "Stopcontact Werkt Niet",
+              "description": "Een enkel niet-werkend stopcontact kan wijzen op een los contact, defecte bedrading, of een probleem met de groep waar het op aangesloten is."
             },
             {
-              "title": "Comfortable Living Environment",
-              "description": "Modern facilities provide comfortable accommodations, nutritious meals, and amenities that support physical and mental well-being during the recovery process."
+              "title": "Flikkerend Licht",
+              "description": "Flikkerend licht kan onschuldig zijn (lamp aan vervanging toe) of wijzen op een los contact of spanningsprobleem dat onderzocht moet worden."
             }
           ]
         },
         "howToFind": {
-          "title": "How to Find Inpatient Treatment",
-          "content": "Finding the right inpatient rehabilitation center involves several considerations. Start by consulting with healthcare providers, insurance companies, or addiction specialists who can provide referrals. Our comprehensive directory allows you to search for facilities by location, specialization, and amenities.\n\nWhen evaluating facilities, consider accreditation status (look for Joint Commission or CARF accreditation), treatment approaches offered, staff credentials, and success rates if available. Many facilities offer virtual tours or initial consultations to help families make informed decisions.\n\nInsurance coverage varies widely, so contact your provider to understand your benefits. Many facilities also offer payment plans or can help connect patients with financing options for treatment."
+          "title": "Een Storingsdienst Vinden",
+          "content": "Op VindElektricien.nl kunt u elektriciens vinden die storingsdiensten aanbieden in uw regio. Let bij het kiezen op:\n\n- Beschikbaarheid: is er 24/7 service of alleen overdag?\n- Reactietijd: hoe snel kunnen zij ter plaatse zijn?\n- Tarieven: vraag vooraf naar uurtarieven en voorrijkosten\n- Certificeringen: werk met erkende installateurs\n\nBij een echte noodsituatie (brand, gevaar) bel altijd eerst 112. Schakel de hoofdschakelaar uit als dat veilig kan en wacht buiten als er rookontwikkeling is."
         },
         "visiting": {
-          "title": "What to Expect During Treatment",
-          "content": "Upon admission to an inpatient facility, patients typically undergo a comprehensive assessment that includes medical evaluation, psychiatric screening, and addiction history. This assessment informs the development of an individualized treatment plan.\n\nThe first phase often involves medically supervised detoxification if needed, followed by the therapeutic phase of treatment. Patients participate in various therapies and activities throughout the day, with scheduled breaks and recreational time.\n\nFamily members may visit during designated hours, and many programs include family therapy sessions or family weekends. Communication policies vary by facility, with some limiting phone and internet access to help patients focus on recovery.\n\nAs patients progress through treatment, they gradually take on more responsibility and may participate in off-site activities or community meetings as part of preparing for discharge."
+          "title": "Wat te Verwachten",
+          "content": "Wanneer een storingselektricien arriveert, zal deze eerst de situatie beoordelen en vragen stellen over wat er is gebeurd. Met meetapparatuur wordt de oorzaak opgespoord.\n\nDe elektricien informeert u over de diagnose, de benodigde reparatie, en de geschatte kosten voordat met het werk wordt begonnen. Voor eenvoudige problemen is de reparatie vaak binnen een uur klaar.\n\nBij complexere problemen kan aanvullend werk nodig zijn, mogelijk op een later moment. De elektricien zorgt er altijd voor dat de situatie veilig is voordat hij vertrekt.\n\nNa afloop ontvangt u een werkbon of factuur met een beschrijving van het probleem en de uitgevoerde werkzaamheden."
         }
       },
       "faqs": [
         {
-          "question": "How long does inpatient treatment typically last?",
-          "answer": "Standard inpatient programs are 28-30 days, but many individuals benefit from 60-90 day programs. The appropriate length depends on the severity of addiction, presence of co-occurring disorders, and individual progress. Longer treatment is generally associated with better outcomes."
+          "question": "Wat kost een storingsdienst?",
+          "answer": "Tarieven variëren: binnen kantooruren €50-€75 per uur, buiten kantooruren en weekend €75-€125 per uur. Voorrijkosten bedragen €25-€75. Vraag vooraf een indicatie van de totale kosten."
         },
         {
-          "question": "What should I bring to inpatient rehab?",
-          "answer": "Most facilities provide a packing list that typically includes comfortable clothing, toiletries, insurance information, and any prescribed medications. Items like electronics, jewelry, and outside food are often restricted. Contact the facility directly for their specific guidelines."
+          "question": "Hoe snel kan een elektricien er zijn?",
+          "answer": "In stedelijke gebieden zijn aanrijtijden van 30-60 minuten gebruikelijk voor spoedgevallen. In het buitengebied kan dit langer duren. Niet-urgente storingen kunnen vaak dezelfde of volgende dag gepland worden."
         },
         {
-          "question": "Is inpatient treatment covered by insurance?",
-          "answer": "Many insurance plans cover at least a portion of inpatient treatment under the Mental Health Parity and Addiction Equity Act. Coverage varies by plan, so contact your insurance provider to verify benefits. Most facilities have staff who can help verify insurance coverage."
+          "question": "Wat kan ik zelf doen bij een storing?",
+          "answer": "U kunt veilig de aardlekschakelaar of groepen resetten. Koppel apparaten los voor u reset. Bij brandgeur of vonken: niet zelf handelen, schakel de hoofdschakelaar uit en bel een professional."
         },
         {
-          "question": "Can I continue working during inpatient treatment?",
-          "answer": "Inpatient treatment requires full-time residence at the facility, so continuing regular work is not possible. However, FMLA may protect your job, and many employers support employees seeking treatment. Discuss options with your HR department before admission."
+          "question": "Is een storing altijd een noodgeval?",
+          "answer": "Nee, niet alle storingen zijn noodgevallen. Een enkel niet-werkend stopcontact kan wachten tot reguliere werkuren. Brandgeur, vonken, of volledige stroomuitval zijn wel redenen voor spoed."
         },
         {
-          "question": "What happens after inpatient treatment?",
-          "answer": "Aftercare typically includes stepping down to outpatient treatment, attending support group meetings (like AA or NA), continuing individual therapy, and possibly residing in a sober living home. The transition plan is developed during treatment to ensure continuity of care."
+          "question": "Moet ik thuis zijn voor de elektricien?",
+          "answer": "Ja, u moet aanwezig zijn om toegang te geven en informatie te verstrekken over het probleem. De elektricien heeft ook uw toestemming nodig voor werkzaamheden."
         }
       ]
     },
     {
-      "slug": "outpatient-programs",
-      "typeSlug": "outpatient-program",
-      "title": "Outpatient Treatment Programs",
-      "subtitle": "Flexible Recovery Options While Maintaining Daily Life",
-      "metaTitle": "Outpatient Treatment Programs Guide | Flexible Addiction Recovery",
-      "metaDescription": "Comprehensive guide to outpatient treatment programs for addiction recovery. Learn about IOP, PHP, and standard outpatient options that allow you to maintain work and family responsibilities.",
-      "heroImage": "/images/guides/outpatient-hero.jpg",
+      "slug": "nieuwe-installaties",
+      "typeSlug": "nieuwe-installaties",
+      "title": "Nieuwe Elektrische Installaties",
+      "subtitle": "Vakkundige aanleg van uw elektrische installatie",
+      "metaTitle": "Elektrische Installatie Aanleggen | Nieuwbouw & Renovatie",
+      "metaDescription": "Laat uw elektrische installatie vakkundig aanleggen. Voor nieuwbouw, renovatie en uitbreiding. Erkende installateurs voor veilig en normconform werk.",
+      "heroImage": "/images/guides/installatie-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Outpatient Treatment?",
-          "content": "Outpatient treatment programs provide addiction recovery services while allowing patients to live at home and maintain many of their daily responsibilities. These programs range from intensive outpatient programs (IOP) requiring multiple sessions per week to standard outpatient care with weekly appointments.\n\nOutpatient treatment is ideal for individuals with less severe addictions, strong support systems at home, or those stepping down from residential treatment. It offers flexibility for people who cannot take extended time away from work, school, or family obligations.\n\nThe structure of outpatient programs varies significantly. Intensive outpatient programs typically involve 9-20 hours of treatment per week, while standard outpatient care may consist of one or two sessions weekly. This flexibility allows treatment to be tailored to individual needs and circumstances."
+          "title": "Nieuwe Elektrische Installaties",
+          "content": "Een nieuwe elektrische installatie is nodig bij nieuwbouw, grondige renovatie, of uitbreiding van bestaande installaties. Professionele aanleg door een erkend installateur garandeert veiligheid, betrouwbaarheid en naleving van de NEN 1010 norm.\n\nEen moderne installatie biedt voldoende capaciteit voor hedendaags gebruik: apparaten, verlichting, laadpaal, en eventueel zonnepanelen. Vooruitdenken bij de aanleg voorkomt dure aanpassingen later.\n\nDe installateur adviseert over het aantal groepen, de plaatsing van stopcontacten en schakelaars, en eventuele voorzieningen voor smart home of duurzame energie."
         },
         "history": {
-          "title": "Development of Outpatient Services",
-          "content": "Outpatient addiction treatment has expanded significantly since the 1970s, driven by research showing that many individuals can successfully recover without residential care. The development of community mental health centers and the recognition that addiction is a chronic condition led to more accessible treatment options.\n\nThe passage of the Mental Health Parity and Addiction Equity Act in 2008 increased insurance coverage for outpatient services, making treatment more accessible. The COVID-19 pandemic accelerated the adoption of telehealth options, further expanding outpatient treatment possibilities.\n\nToday, outpatient programs incorporate evidence-based practices including cognitive-behavioral therapy, motivational interviewing, and medication-assisted treatment. The continuum of care model recognizes outpatient treatment as an essential component of long-term recovery."
+          "title": "Plannen en Ontwerpen",
+          "content": "Een goede elektrische installatie begint met een doordacht plan. De installateur bespreekt uw wensen en behoeften: waar komen stopcontacten, hoeveel lichtpunten wilt u, zijn er speciale apparaten die extra vermogen nodig hebben?\n\nOp basis hiervan wordt een installatieplan gemaakt met alle groepen, bekabeling en aansluitpunten. Dit plan vormt de basis voor een offerte en zorgt ervoor dat beide partijen weten wat er komt.\n\nBij nieuwbouw wordt de installateur vaak al in een vroeg stadium betrokken om mee te denken over de indeling. Bij renovatie moet rekening gehouden worden met bestaande situaties."
         },
         "characteristics": {
-          "title": "Types of Outpatient Programs",
+          "title": "Onderdelen van een Installatie",
           "items": [
             {
-              "title": "Partial Hospitalization Program (PHP)",
-              "description": "The most intensive outpatient option, PHP typically requires 5-7 days per week, 4-6 hours per day. Patients return home each evening but receive structured treatment similar to inpatient care during the day."
+              "title": "Meterkast/Groepenkast",
+              "description": "Het hart van uw installatie met de hoofdschakelaar, aardlekschakelaars en groepen. Een moderne kast heeft voldoende ruimte voor uitbreiding."
             },
             {
-              "title": "Intensive Outpatient Program (IOP)",
-              "description": "IOP typically involves 3-5 sessions per week, 3-4 hours per session. This level of care allows patients to work or attend school while still receiving substantial treatment support."
+              "title": "Bekabeling",
+              "description": "De bedrading door uw woning, meestal in buizen of kabelgoten. Moderne installaties gebruiken minimaal 2,5mm2 voor stopcontacten en 1,5mm2 voor verlichting."
             },
             {
-              "title": "Standard Outpatient",
-              "description": "The least intensive option, standard outpatient involves one to two sessions per week. This is often appropriate for maintenance after completing more intensive treatment or for individuals with mild addiction."
+              "title": "Stopcontacten",
+              "description": "Wandcontactdozen voor het aansluiten van apparaten. Denk goed na over aantallen en plaatsing - later bijplaatsen is kostbaar."
             },
             {
-              "title": "Evening and Weekend Programs",
-              "description": "Many facilities offer flexible scheduling with evening or weekend sessions to accommodate work and family schedules, making treatment accessible to more people."
+              "title": "Schakelaars",
+              "description": "Voor bediening van verlichting. Moderne opties zijn dimmers, bewegingssensoren en slimme schakelaars."
             },
             {
-              "title": "Telehealth Options",
-              "description": "Virtual outpatient sessions via video conferencing provide treatment access for those in rural areas or with transportation barriers. Many programs now offer hybrid models combining in-person and virtual sessions."
+              "title": "Aarding",
+              "description": "Essentieel voor veiligheid. Alle metalen delen en apparaten worden verbonden met de aarde om elektrocutie te voorkomen."
             },
             {
-              "title": "Specialized Programs",
-              "description": "Some outpatient programs specialize in particular populations (adolescents, women, veterans) or specific addictions (opioids, alcohol), providing targeted treatment approaches."
+              "title": "Voorzieningen",
+              "description": "Aansluitingen voor specifieke apparaten zoals inductiekookplaat, wasmachine, laadpaal of zonnepanelen."
             }
           ]
         },
         "howToFind": {
-          "title": "Finding the Right Outpatient Program",
-          "content": "Selecting an outpatient program involves considering your schedule, the severity of your addiction, insurance coverage, and personal preferences. Our directory helps you search for programs by location, hours of operation, and treatment specializations.\n\nLook for programs with licensed clinicians, evidence-based treatment approaches, and good reviews from former patients. Many programs offer free assessments to determine the appropriate level of care.\n\nInsurance typically covers outpatient treatment, but verify benefits and any requirements like prior authorization. Some programs offer sliding scale fees or payment plans for those without adequate insurance coverage."
+          "title": "Een Installateur Kiezen",
+          "content": "Voor een nieuwe installatie kiest u een erkend installateur die werkt volgens NEN 1010. Op VindElektricien.nl vindt u installateurs in uw regio.\n\nVraag meerdere offertes aan en vergelijk niet alleen prijs maar ook specificaties. Een goede offerte geeft precies aan wat er geleverd wordt: aantal groepen, type materialen, garanties.\n\nControleer reviews en vraag eventueel naar referenties. Een installatie is een grote investering - neem de tijd voor de juiste keuze."
         },
         "visiting": {
-          "title": "What to Expect in Outpatient Treatment",
-          "content": "Outpatient treatment typically begins with a comprehensive assessment to determine the appropriate level of care and develop an individualized treatment plan. You'll meet with counselors, therapists, and possibly medical staff to establish your treatment goals.\n\nSessions typically include a combination of individual therapy, group therapy, and educational sessions about addiction and recovery. You'll learn coping skills, relapse prevention strategies, and healthy lifestyle habits while building a support network with peers in recovery.\n\nBetween sessions, you'll be responsible for applying what you've learned in your daily life. This might include completing homework assignments, attending support group meetings, or practicing new coping skills. Progress is regularly assessed, and your treatment plan may be adjusted as needed."
+          "title": "Het Installatieproces",
+          "content": "Na akkoord op de offerte start het installatieproces. Bij nieuwbouw wordt eerst de voorbekabeling aangebracht, later de afwerking.\n\nBij renovatie wordt vaak gewerkt met nieuwe leidingen naast of in plaats van bestaande. De installateur informeert u over wat wel en niet mogelijk is binnen uw budget.\n\nTijdens het werk is er regelmatig overleg. Wijzigingen kunnen invloed hebben op de planning en kosten. Na afloop wordt de installatie getest en krijgt u uitleg over de werking.\n\nEen erkend installateur levert een installatieverklaring af als bewijs dat de installatie voldoet aan de normen."
         }
       },
       "faqs": [
         {
-          "question": "How do I know if outpatient treatment is right for me?",
-          "answer": "Outpatient treatment may be appropriate if you have a stable living situation, support at home, no need for medical detox, and can commit to attending scheduled sessions. A professional assessment can help determine the right level of care for your situation."
+          "question": "Wat kost een nieuwe elektrische installatie?",
+          "answer": "Kosten variëren sterk: voor een gemiddelde woning €3.000-€8.000 voor een complete installatie. De prijs hangt af van de grootte, het aantal groepen en stopcontacten, en de gewenste afwerking."
         },
         {
-          "question": "Can I work while in outpatient treatment?",
-          "answer": "Yes, outpatient treatment is designed to accommodate work and other responsibilities. Many programs offer flexible scheduling, including evening and weekend options. Intensive programs require more time but can often work around employment."
+          "question": "Hoeveel groepen heb ik nodig?",
+          "answer": "Een moderne woning heeft minimaal 8-12 groepen nodig. Reken met aparte groepen voor verlichting, stopcontacten per verdieping, zware apparaten, en reservegroepen voor toekomstige uitbreiding."
         },
         {
-          "question": "How long does outpatient treatment last?",
-          "answer": "Treatment duration varies based on individual needs. IOP typically lasts 8-12 weeks, while standard outpatient may continue for several months to a year. Many people benefit from ongoing maintenance sessions even after completing a formal program."
+          "question": "Hoe lang duurt het aanleggen van een installatie?",
+          "answer": "Voor een gemiddelde woning 3-5 werkdagen voor een complete installatie. Bij nieuwbouw is dit verspreid over meerdere momenten: voorbekabeling en afmontage."
         },
         {
-          "question": "Is outpatient treatment effective?",
-          "answer": "Research shows outpatient treatment is effective for many individuals, particularly those with less severe addictions or strong support systems. Success rates are comparable to inpatient treatment when the appropriate level of care is matched to individual needs."
+          "question": "Wat is een installatieverklaring?",
+          "answer": "Een installatieverklaring is een document waarin de installateur verklaart dat de installatie voldoet aan NEN 1010. Dit document is belangrijk voor verzekeringen en bij verkoop van de woning."
         },
         {
-          "question": "What if I relapse during outpatient treatment?",
-          "answer": "Relapse is often part of the recovery process. If you relapse during outpatient treatment, your care team will work with you to adjust your treatment plan. This might include increasing session frequency or considering a higher level of care temporarily."
+          "question": "Kan ik zelf meehelpen om kosten te besparen?",
+          "answer": "Beperkt. Schilderwerk en sleuven frezen kunt u zelf doen. Het daadwerkelijke elektrawerk moet door een gekwalificeerde installateur uitgevoerd worden voor veiligheid en garantie."
         }
       ]
     },
     {
-      "slug": "detox-centers",
-      "typeSlug": "detox-center",
-      "title": "Detoxification Centers",
-      "subtitle": "Medical Support for Safe Withdrawal",
-      "metaTitle": "Detox Centers Guide | Medical Detoxification Services in the USA",
-      "metaDescription": "Complete guide to detox centers in the United States. Learn about medical detoxification, what to expect during withdrawal, and how to find the right facility.",
-      "heroImage": "/images/guides/detox-hero.jpg",
+      "slug": "laadpaal-installatie",
+      "typeSlug": "laadpaal-installatie",
+      "title": "Laadpaal Installatie",
+      "subtitle": "Thuis laden voor uw elektrische auto",
+      "metaTitle": "Laadpaal Installatie Thuis | Erkende Laadpaal Installateurs",
+      "metaDescription": "Laat een laadpaal installeren door een erkend installateur. Advies over vermogen, subsidies en slimme laadoplossingen voor uw elektrische auto.",
+      "heroImage": "/images/guides/laadpaal-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Medical Detoxification?",
-          "content": "Medical detoxification is the process of safely managing withdrawal symptoms when someone stops using alcohol or drugs. Detox centers provide 24-hour medical supervision to ensure safety and comfort during this critical first phase of recovery.\n\nWithdrawal can be dangerous, even life-threatening, depending on the substance and severity of dependence. Medical detox provides medications to ease symptoms, monitoring for complications, and support to help patients through the challenging initial days of sobriety.\n\nDetoxification is typically the first step in addiction treatment, not a complete treatment in itself. After completing detox, patients should transition to ongoing treatment—either inpatient rehabilitation or outpatient programs—to address the psychological and behavioral aspects of addiction."
+          "title": "Thuis Laden met een Laadpaal",
+          "content": "Een laadpaal thuis biedt het comfort van laden terwijl uw auto geparkeerd staat. Geen wachten bij publieke laadpalen en lagere kosten per kWh - vooral als u laadt op daluren of met eigen zonnestroom.\n\nEen laadpaal moet geinstalleerd worden door een erkend installateur. Deze zorgt voor een veilige aansluiting op uw meterkast en adviseert over het juiste laadvermogen voor uw situatie.\n\nModerne laadpalen zijn 'slim' en kunnen communiceren met uw energiemanagementsysteem, laden op de goedkoopste momenten, of prioriteit geven aan zonnestroom."
         },
         "history": {
-          "title": "Evolution of Detoxification Services",
-          "content": "The understanding of withdrawal as a medical condition requiring professional intervention has evolved significantly. Historically, withdrawal was often managed without medical support, leading to unnecessary suffering and sometimes death, particularly from alcohol withdrawal.\n\nThe development of medications like benzodiazepines for alcohol withdrawal and buprenorphine for opioid withdrawal has made detox safer and more comfortable. Medical protocols have been refined to minimize complications and improve patient outcomes.\n\nToday's detox centers utilize evidence-based protocols, including standardized withdrawal assessment tools and medication algorithms. The integration of behavioral support during detox helps prepare patients for ongoing treatment."
+          "title": "Soorten Laadpalen",
+          "content": "Er zijn verschillende soorten laadpalen met verschillende vermogens. De keuze hangt af van uw auto, uw netaansluiting, en hoe snel u wilt laden.\n\nEen 1-fase laadpaal (3,7 kW) volstaat voor veel gebruikers en werkt op een standaard aansluiting. Voor sneller laden is een 3-fase laadpaal nodig (7,4 tot 22 kW), waarvoor vaak een zwaardere aansluiting vereist is.\n\nSlimme laadpalen bieden extra functies: app-bediening, laadschema's, integratie met zonnepanelen, en inzicht in laadkosten. De meerprijs verdient zich vaak terug."
         },
         "characteristics": {
-          "title": "Key Features of Detox Centers",
+          "title": "Overwegingen bij Laadpaal Keuze",
           "items": [
             {
-              "title": "24/7 Medical Monitoring",
-              "description": "Continuous monitoring of vital signs and withdrawal symptoms ensures patient safety. Medical staff can intervene immediately if complications arise."
+              "title": "Laadvermogen",
+              "description": "Kies een vermogen passend bij uw gebruik. 3,7 kW volstaat voor nachtladen, 7,4-11 kW voor sneller laden. Houd rekening met wat uw auto aankan."
             },
             {
-              "title": "Medication Management",
-              "description": "Physicians prescribe medications to reduce withdrawal symptoms, prevent seizures, and ease discomfort. Medication protocols are tailored to the substance and individual patient needs."
+              "title": "Netaansluiting",
+              "description": "Controleer of uw aansluiting het extra vermogen aankan. Bij verzwaring zijn extra kosten gemoeid. Slim laden kan verzwaring soms voorkomen."
             },
             {
-              "title": "Comfortable Environment",
-              "description": "Modern detox facilities provide comfortable accommodations to help patients rest and recover. A calm, supportive environment contributes to successful completion of detox."
+              "title": "Locatie",
+              "description": "De laadpaal komt bij uw parkeerplaats. De afstand tot de meterkast bepaalt deels de installatiekosten door de benodigde kabel."
             },
             {
-              "title": "Nutritional Support",
-              "description": "Proper nutrition and hydration are essential during detox. Many facilities provide nutritious meals and supplements to support physical recovery."
+              "title": "Slimme Functies",
+              "description": "App-bediening, laadschema's, load balancing en integratie met zonnepanelen verhogen het comfort en kunnen geld besparen."
             },
             {
-              "title": "Mental Health Support",
-              "description": "Counselors and mental health professionals provide emotional support during the vulnerable detox period. Initial assessments may identify co-occurring mental health conditions."
+              "title": "Subsidie",
+              "description": "Diverse gemeenten en landelijke regelingen bieden subsidie voor laadpalen. Informeer naar de mogelijkheden voor u bestelt."
             },
             {
-              "title": "Treatment Planning",
-              "description": "During detox, staff work with patients to develop plans for continuing treatment. This ensures a smooth transition to the next phase of care."
+              "title": "Merk en Garantie",
+              "description": "Kies een betrouwbaar merk met goede garantievoorwaarden. De installateur kan adviseren over geschikte opties."
             }
           ]
         },
         "howToFind": {
-          "title": "Finding a Detox Center",
-          "content": "When searching for a detox center, consider the substances involved, as different facilities may specialize in specific types of withdrawal. Our directory allows you to filter by location and specialization.\n\nLook for facilities with licensed medical staff, including physicians experienced in addiction medicine. Accreditation from organizations like the Joint Commission indicates quality standards are met.\n\nVerify insurance coverage before admission when possible. Many detox centers offer phone assessments to help determine if their services are appropriate for your situation."
+          "title": "Een Laadpaal Installateur Vinden",
+          "content": "Niet elke elektricien is gecertificeerd voor laadpaalinstallaties. Zoek op VindElektricien.nl naar installateurs met laadpaal-expertise in uw regio.\n\nEen goede installateur:\n- Komt eerst langs voor een inspectie\n- Adviseert over vermogen en type laadpaal\n- Informeert over eventuele verzwaring\n- Kent de subsidieregeling\n- Levert een complete offerte\n\nVergelijk meerdere offertes en let op wat er wel en niet is inbegrepen."
         },
         "visiting": {
-          "title": "What to Expect During Detox",
-          "content": "Detox typically begins with a medical assessment, including physical examination, lab tests, and evaluation of substance use history. This information guides the treatment approach.\n\nThe duration of detox varies by substance: alcohol detox typically takes 3-7 days, opioid detox 5-7 days, and benzodiazepine detox may take longer. Withdrawal symptoms peak within the first few days and gradually subside.\n\nDuring detox, patients receive medications as needed to manage symptoms. Staff regularly assess withdrawal severity and adjust treatment accordingly. Support from counselors helps patients cope with the emotional aspects of early sobriety.\n\nAs physical withdrawal symptoms resolve, the focus shifts to preparing for ongoing treatment. Staff will discuss options and help arrange the next level of care."
+          "title": "Het Installatieproces",
+          "content": "De installatie begint met een inspectie van uw meterkast en de beoogde locatie. De installateur controleert of uw aansluiting geschikt is en adviseert zo nodig over verzwaring.\n\nDe daadwerkelijke installatie duurt 2-4 uur bij een standaardsituatie. Er wordt een kabel getrokken van de meterkast naar de laadpaal, een aparte groep geplaatst, en de laadpaal gemonteerd en aangesloten.\n\nNa installatie wordt de laadpaal getest en ontvangt u uitleg over de werking. Als er een app bij hoort, helpt de installateur met de configuratie.\n\nU ontvangt een installatieverklaring als bewijs van correcte aanleg. Dit is vaak vereist voor subsidies en voor de garantie."
         }
       },
       "faqs": [
         {
-          "question": "Is medical detox necessary for everyone?",
-          "answer": "Not everyone requires medical detox, but it is essential for alcohol, benzodiazepines, and severe opioid dependence due to potentially dangerous withdrawal symptoms. A medical professional can assess your situation and recommend the appropriate level of care."
+          "question": "Wat kost een laadpaal inclusief installatie?",
+          "answer": "Een laadpaal kost €400-€1.500, de installatie €300-€800. Totaal €700-€2.300 voor een standaardinstallatie. Bij verzwaring van de aansluiting komen extra kosten bij."
         },
         {
-          "question": "How long does detox take?",
-          "answer": "Detox duration varies by substance: alcohol (3-7 days), opioids (5-7 days), benzodiazepines (1-4 weeks for acute withdrawal). Individual factors like length of use and overall health also affect duration."
+          "question": "Moet mijn aansluiting verzwaard worden?",
+          "answer": "Niet altijd. Met een standaard 1-fase aansluiting kunt u laden tot 3,7 kW. Voor sneller laden (7,4-22 kW) is vaak een 3-fase aansluiting nodig. Slim laden kan verzwaring soms voorkomen."
         },
         {
-          "question": "Can I detox at home?",
-          "answer": "Home detox can be dangerous, especially for alcohol and benzodiazepines, which can cause life-threatening seizures. Even when not physically dangerous, medical supervision improves comfort and completion rates. Always consult a medical professional."
+          "question": "Hoe lang duurt het opladen?",
+          "answer": "Dit hangt af van uw auto en het laadvermogen. Met 3,7 kW laadt een gemiddelde auto in 8-12 uur vol. Met 11 kW in 3-4 uur. Voor nachtladen volstaat meestal een lager vermogen."
         },
         {
-          "question": "Does insurance cover detox?",
-          "answer": "Most insurance plans cover medical detox as it is considered medically necessary. Coverage details vary by plan, so verify benefits before admission. Many facilities have staff who can help with insurance verification."
+          "question": "Is er subsidie beschikbaar?",
+          "answer": "Ja, diverse gemeenten en landelijke regelingen bieden subsidie voor laadpalen. Bedragen varieren van €200 tot €1.000. Vraag uw installateur of kijk op RVO.nl."
         },
         {
-          "question": "What happens after detox?",
-          "answer": "Detox addresses physical dependence but not the underlying addiction. Continuing treatment through inpatient or outpatient programs is essential for lasting recovery. Your detox facility should help arrange the next level of care."
+          "question": "Kan ik laden met mijn zonnepanelen?",
+          "answer": "Ja, een slimme laadpaal kan prioriteit geven aan zonnestroom. Dit maximaliseert eigenverbruik en minimaliseert kosten. Vraag naar laadpalen met solar-integratie."
         }
       ]
     },
     {
-      "slug": "sober-living",
-      "typeSlug": "sober-living",
-      "title": "Sober Living Homes",
-      "subtitle": "Transitional Housing for Sustained Recovery",
-      "metaTitle": "Sober Living Homes Guide | Transitional Recovery Housing in the USA",
-      "metaDescription": "Complete guide to sober living homes in the United States. Learn about transitional housing options, house rules, and how to find supportive recovery communities.",
-      "heroImage": "/images/guides/sober-living-hero.jpg",
+      "slug": "zonnepanelen",
+      "typeSlug": "zonnepanelen",
+      "title": "Zonnepanelen Installatie",
+      "subtitle": "Duurzame energie van uw eigen dak",
+      "metaTitle": "Zonnepanelen Laten Plaatsen | Erkende Scope 12 Installateurs",
+      "metaDescription": "Laat zonnepanelen installeren door een Scope 12 gecertificeerde installateur. Advies over opbrengst, kosten, terugverdientijd en subsidies.",
+      "heroImage": "/images/guides/zonnepanelen-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Sober Living?",
-          "content": "Sober living homes are substance-free living environments for individuals recovering from addiction. These residences provide a bridge between intensive treatment and independent living, offering structure and peer support during the vulnerable early recovery period.\n\nUnlike treatment centers, sober living homes do not provide clinical treatment on-site. Residents typically attend outpatient programs, work or attend school, and participate in support group meetings while living in a supportive, substance-free community.\n\nSober living emphasizes personal responsibility while providing accountability structures. Residents must follow house rules, which typically include maintaining sobriety, contributing to household duties, and participating in house meetings. This combination of freedom and structure helps individuals practice living sober before returning to fully independent living."
+          "title": "Zonnepanelen: Uw Eigen Energiecentrale",
+          "content": "Zonnepanelen zetten zonlicht om in elektriciteit voor uw woning. Dit verlaagt uw energierekening en maakt u minder afhankelijk van energieprijzen. Na de terugverdientijd profiteert u jaren van gratis stroom.\n\nDe installatie moet uitgevoerd worden door een Scope 12 gecertificeerde installateur. Deze is opgeleid in het veilig aansluiten van zonnestroomsystemen en garandeert een correcte installatie.\n\nModerne zonnepanelen hebben een levensduur van 25-30 jaar met minimaal onderhoud. De investering verdient zich gemiddeld in 5-8 jaar terug."
         },
         "history": {
-          "title": "Origins of Recovery Housing",
-          "content": "Recovery housing has roots in the early days of Alcoholics Anonymous, when members often opened their homes to others seeking sobriety. The Oxford House model, established in 1975, pioneered the democratically-run, self-supporting recovery home concept.\n\nOver the decades, sober living has evolved to include various models from peer-run houses to more structured environments with professional oversight. Research has consistently shown that recovery housing improves outcomes, particularly when combined with ongoing treatment.\n\nToday, the National Alliance for Recovery Residences (NARR) provides standards and certification for recovery housing, helping to ensure quality and accountability in this growing sector of addiction services."
+          "title": "Soorten Zonnepanelen",
+          "content": "Er zijn verschillende types zonnepanelen met elk hun eigenschappen. Monokristallijne panelen zijn het meest efficiënt en populair voor woningen. Polykristallijne panelen zijn iets goedkoper maar ook minder efficiënt.\n\nNaast de panelen is een omvormer nodig die de opgewekte gelijkstroom omzet in wisselstroom. Kies voor een string-omvormer of micro-omvormers afhankelijk van uw situatie.\n\nVoor optimale opbrengst zijn oriëntatie (het liefst zuid) en hellingshoek (30-35 graden) belangrijk. Schaduw van bomen of andere gebouwen vermindert de opbrengst."
         },
         "characteristics": {
-          "title": "Types of Sober Living",
+          "title": "Componenten van een Zonnestroomsysteem",
           "items": [
             {
-              "title": "Level 1: Peer-Run Homes",
-              "description": "Democratically operated homes where residents manage the household. Minimal structure with basic requirements for sobriety and participation in household responsibilities."
+              "title": "Zonnepanelen",
+              "description": "De panelen zelf, bevestigd op het dak met een montagesysteem. Moderne panelen leveren 350-450 Wp per stuk."
             },
             {
-              "title": "Level 2: Monitored Homes",
-              "description": "House manager provides oversight and accountability. More structure including regular drug testing and house meetings. May have staff on-site part-time."
+              "title": "Omvormer",
+              "description": "Zet gelijkstroom om in wisselstroom voor huishoudelijk gebruik. Kies voor een betrouwbaar merk met goede garantie."
             },
             {
-              "title": "Level 3: Supervised Homes",
-              "description": "Professional staff provide support and structure. Clinical services may be provided on-site or coordinated through partnerships. More intensive support for those who need it."
+              "title": "Montagesysteem",
+              "description": "Bevestigt de panelen veilig op het dak. Bij schuine daken plat op de dakpannen, bij platte daken op ballast of frames."
             },
             {
-              "title": "Level 4: Integrated Homes",
-              "description": "Licensed facilities combining housing with clinical services. Most structured option with professional treatment integrated into daily living."
+              "title": "Bekabeling",
+              "description": "Verbindt de panelen met de omvormer en de omvormer met de meterkast. Moet bestand zijn tegen weer en UV."
             },
             {
-              "title": "Gender-Specific Homes",
-              "description": "Many sober living homes are gender-specific, providing a comfortable environment and reducing potential distractions during early recovery."
+              "title": "Slimme Meter",
+              "description": "Registreert zowel verbruik als teruglevering. De meeste woningen hebben al een slimme meter."
             },
             {
-              "title": "Specialized Populations",
-              "description": "Some homes serve specific populations such as young adults, veterans, or individuals with co-occurring mental health conditions."
+              "title": "Monitoring",
+              "description": "App of portal waarmee u de opbrengst kunt volgen. Nuttig voor het signaleren van storingen."
             }
           ]
         },
         "howToFind": {
-          "title": "Finding a Sober Living Home",
-          "content": "When searching for sober living, consider location (proximity to work, treatment, and support meetings), cost, level of structure needed, and any specialized needs. Our directory helps you search for verified recovery residences.\n\nLook for homes that are NARR-certified or meet state licensing requirements where applicable. Visit the home if possible, meet current residents, and understand all house rules and fees before committing.\n\nCosts vary significantly by location and amenities. Many sober living homes charge weekly or monthly rent, and some accept insurance or offer scholarships. Be wary of homes that seem too good to be true or have unclear policies."
+          "title": "Een Zonnepaneel Installateur Vinden",
+          "content": "Zoek een installateur met Scope 12 certificering - dit garandeert vakkundige aanleg van zonnestroomsystemen. Op VindElektricien.nl vindt u gecertificeerde installateurs in uw regio.\n\nEen goede installateur:\n- Komt langs voor een dakschouw\n- Berekent de verwachte opbrengst\n- Adviseert over het optimale systeem\n- Regelt eventuele vergunningen\n- Geeft garantie op materiaal en arbeid\n\nVraag meerdere offertes en vergelijk prijs per Wp, garantievoorwaarden en de kwaliteit van de componenten."
         },
         "visiting": {
-          "title": "Life in Sober Living",
-          "content": "Sober living homes typically require residents to maintain sobriety (verified through drug testing), pay rent on time, follow house rules, attend house meetings, and contribute to household chores. Many require participation in outside support activities like 12-step meetings.\n\nResidents often share bedrooms and common areas, fostering community while keeping costs affordable. House meetings provide a forum for addressing issues, celebrating recovery milestones, and building peer support.\n\nLength of stay varies from a few months to over a year. Research suggests longer stays in sober living are associated with better outcomes. The goal is to gradually transition to independent living when ready.\n\nMany sober living residents work, attend school, or participate in outpatient treatment during the day. Evenings and weekends may include required meetings, social activities with housemates, and personal time."
+          "title": "Het Installatieproces",
+          "content": "Na een positieve dakschouw en akkoord op de offerte wordt de installatie gepland. Typisch duurt de installatie 1-2 dagen voor een gemiddeld systeem.\n\nEerst wordt het montagesysteem bevestigd, daarna de panelen gemonteerd. De bekabeling gaat naar de omvormer, die aangesloten wordt op uw meterkast.\n\nNa installatie wordt het systeem getest en aangemeld bij de netbeheerder. U ontvangt uitleg over de monitoring en wat te doen bij storingen.\n\nDe installateur levert een installatieverklaring en de garantiedocumenten. Bewaar deze goed voor eventuele claims."
         }
       },
       "faqs": [
         {
-          "question": "How much does sober living cost?",
-          "answer": "Costs vary widely by location and amenities, typically ranging from $500 to $3,000+ per month. Basic peer-run homes are generally more affordable, while higher-level homes with more services cost more. Some homes accept insurance or offer payment assistance."
+          "question": "Wat kosten zonnepanelen?",
+          "answer": "Een compleet systeem voor een gemiddelde woning (8-16 panelen) kost €4.000-€10.000 inclusief installatie. Dit is inclusief panelen, omvormer, montage en aansluiting."
         },
         {
-          "question": "How long should I stay in sober living?",
-          "answer": "Research suggests longer stays (6+ months) are associated with better outcomes. Most residents stay 3-12 months. The appropriate length depends on your individual progress, support system, and readiness for independent living."
+          "question": "Wat is de terugverdientijd?",
+          "answer": "De terugverdientijd ligt tussen 5-8 jaar, afhankelijk van energieprijzen, uw verbruik en het systeemrendement. Daarna profiteert u nog 15-20 jaar van gratis stroom."
         },
         {
-          "question": "Can I work while living in sober living?",
-          "answer": "Yes, most sober living homes expect residents to work, attend school, or engage in structured activities during the day. This supports the transition to independent living while maintaining a stable, supportive home environment."
+          "question": "Heb ik een vergunning nodig?",
+          "answer": "Meestal niet voor zonnepanelen op een schuin dak. Bij monumentale panden, platte daken met opstandmontage, of systemen in de tuin kan een vergunning nodig zijn."
         },
         {
-          "question": "What happens if someone relapses?",
-          "answer": "Policies vary by home. Some homes require immediate departure after any substance use, while others offer a chance to return to treatment and try again. Understanding the relapse policy before moving in is important."
+          "question": "Wat is Scope 12?",
+          "answer": "Scope 12 is een certificering voor installateurs van zonnepanelen. Het garandeert dat de installateur opgeleid is in het veilig aansluiten van zonnestroomsystemen."
         },
         {
-          "question": "Do I need to come from treatment to enter sober living?",
-          "answer": "Not always. While many residents transition from inpatient or outpatient treatment, some homes accept individuals who are committed to sobriety regardless of treatment history. Each home has its own admission requirements."
+          "question": "Hoeveel panelen heb ik nodig?",
+          "answer": "Dit hangt af van uw verbruik. Een gemiddeld huishouden (3.500 kWh) heeft 8-10 panelen nodig. Uw installateur berekent het optimale aantal voor uw situatie."
         }
       ]
     },
     {
-      "slug": "dual-diagnosis",
-      "typeSlug": "dual-diagnosis",
-      "title": "Dual Diagnosis Treatment Centers",
-      "subtitle": "Integrated Care for Addiction and Mental Health",
-      "metaTitle": "Dual Diagnosis Treatment Guide | Co-Occurring Disorder Treatment",
-      "metaDescription": "Comprehensive guide to dual diagnosis treatment for co-occurring addiction and mental health disorders. Learn about integrated treatment approaches and how to find specialized care.",
-      "heroImage": "/images/guides/dual-diagnosis-hero.jpg",
+      "slug": "meterkast-groepenkast",
+      "typeSlug": "meterkast-groepenkast",
+      "title": "Meterkast & Groepenkast Vervangen",
+      "subtitle": "Een veilige en moderne meterkast",
+      "metaTitle": "Meterkast Vervangen | Groepenkast Vernieuwen door Elektricien",
+      "metaDescription": "Laat uw verouderde meterkast of groepenkast vervangen door een erkend installateur. Voor meer veiligheid, capaciteit en gemoedsrust.",
+      "heroImage": "/images/guides/meterkast-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Dual Diagnosis?",
-          "content": "Dual diagnosis, also called co-occurring disorders, refers to the presence of both a substance use disorder and a mental health condition. Common combinations include addiction with depression, anxiety, bipolar disorder, PTSD, or other psychiatric conditions.\n\nResearch shows that about half of people with a substance use disorder also have a mental health condition, and vice versa. These conditions often interact, with each potentially worsening the other if not treated together.\n\nDual diagnosis treatment centers specialize in addressing both conditions simultaneously through integrated care. This approach recognizes that treating only one condition while ignoring the other often leads to poor outcomes and relapse."
+          "title": "De Meterkast: Hart van uw Installatie",
+          "content": "De meterkast is het centrale punt van uw elektrische installatie. Hier komt de stroom binnen en wordt verdeeld over de verschillende groepen in uw woning. Een moderne meterkast biedt veiligheid door aardlekschakelaars en voldoende capaciteit voor hedendaags gebruik.\n\nOudere meterkasten met stoppendraaien of zonder aardlekschakelaar vormen een veiligheidsrisico. Vervanging brengt uw installatie op niveau en voorkomt problemen.\n\nBij vervanging is het verstandig om meteen voldoende reservegroepen mee te nemen voor toekomstige uitbreidingen zoals een laadpaal of extra apparaten."
         },
         "history": {
-          "title": "Evolution of Integrated Treatment",
-          "content": "Historically, addiction and mental health treatment were provided separately, often by different systems that didn't communicate. Individuals with co-occurring disorders often fell through the cracks, receiving inadequate care for both conditions.\n\nThe recognition of dual diagnosis as a distinct treatment need emerged in the 1980s. Research demonstrated that integrated treatment—addressing both conditions together with a unified approach—produces better outcomes than treating conditions separately.\n\nToday, SAMHSA and other leading organizations promote integrated treatment as the evidence-based standard for co-occurring disorders. Many treatment facilities now offer specialized dual diagnosis programs with trained staff who can address the complex interplay between addiction and mental health."
+          "title": "Wanneer Vervangen?",
+          "content": "Er zijn verschillende redenen om uw meterkast te vervangen:\n\n- Stoppendraaien: verouderde technologie met brandrisico\n- Geen aardlekschakelaar: gevaar voor elektrocutie\n- Te weinig groepen: overbelasting en trips\n- Verkleuringen/brandsporen: teken van problemen\n- Leeftijd >25-30 jaar: materialen verouderen\n- Uitbreiding: laadpaal, zonnepanelen, etc.\n\nBij twijfel laat u uw installatie keuren. Een erkend installateur adviseert over de noodzaak van vervanging."
         },
         "characteristics": {
-          "title": "Key Features of Dual Diagnosis Treatment",
+          "title": "Onderdelen van de Meterkast",
           "items": [
             {
-              "title": "Comprehensive Assessment",
-              "description": "Thorough evaluation of both substance use and mental health symptoms to develop an accurate diagnosis and individualized treatment plan."
+              "title": "Hoofdschakelaar",
+              "description": "Schakelt alle stroom in uw woning uit. Essentieel voor onderhoud en noodgevallen."
             },
             {
-              "title": "Integrated Treatment Team",
-              "description": "Psychiatrists, therapists, and addiction counselors work together, sharing information and coordinating care to address the whole person."
+              "title": "Aardlekschakelaar(s)",
+              "description": "Beschermt tegen elektrocutie door de stroom te onderbreken bij een aardlek. Moderne kasten hebben vaak meerdere."
             },
             {
-              "title": "Medication Management",
-              "description": "Psychiatric medications for mental health conditions are carefully managed alongside any medications used in addiction treatment, ensuring safety and effectiveness."
+              "title": "Installatieautomaten",
+              "description": "Beveiligen de groepen tegen overbelasting en kortsluiting. Vervangen de oude stoppendraaien."
             },
             {
-              "title": "Specialized Therapies",
-              "description": "Evidence-based therapies like CBT, DBT, and trauma-informed approaches address both addiction and mental health symptoms simultaneously."
+              "title": "Klemmenstroken",
+              "description": "Verbindingspunten voor de bedrading naar de groepen in uw woning."
             },
             {
-              "title": "Education and Skills",
-              "description": "Patients learn about the relationship between their conditions and develop skills to manage both addiction triggers and mental health symptoms."
+              "title": "Aardingsrail",
+              "description": "Verbindt alle aardleidingen met de aarde voor veiligheid."
             },
             {
-              "title": "Long-term Planning",
-              "description": "Aftercare planning ensures continued treatment for both conditions, including medication management, therapy, and support groups."
+              "title": "DIN-rail",
+              "description": "De rail waarop alle componenten gemonteerd worden voor een georganiseerde opbouw."
             }
           ]
         },
         "howToFind": {
-          "title": "Finding Dual Diagnosis Treatment",
-          "content": "When searching for dual diagnosis treatment, look for facilities that explicitly offer integrated care for co-occurring disorders. Our directory allows you to filter by this specialization.\n\nVerify that the facility has psychiatrists on staff or as consultants, as proper medication management is often essential for dual diagnosis patients. Ask about the specific mental health conditions they treat and their experience with your particular combination of conditions.\n\nInsurance coverage for dual diagnosis treatment is often good due to parity laws, but verify benefits for both mental health and substance abuse treatment."
+          "title": "Een Installateur Vinden",
+          "content": "Het vervangen van een meterkast is specialistisch werk voor een erkend installateur. Op VindElektricien.nl vindt u gekwalificeerde installateurs in uw regio.\n\nVraag meerdere offertes aan. Een goede offerte vermeldt:\n- Type en merk van de kast\n- Aantal groepen inclusief reserve\n- Wel of niet nieuwe bekabeling\n- Garantievoorwaarden\n- Installatieverklaring\n\nVergelijk niet alleen prijs maar ook de kwaliteit van de componenten."
         },
         "visiting": {
-          "title": "What to Expect in Treatment",
-          "content": "Dual diagnosis treatment typically begins with thorough assessment of both conditions. You may meet with a psychiatrist for evaluation and potential medication, in addition to addiction counselors.\n\nTreatment addresses both conditions throughout your stay. You might participate in addiction-focused groups, mental health therapy, and sessions that explore how your conditions interact. Medications for both conditions are coordinated.\n\nThe pace of treatment may differ from standard programs, as stabilizing mental health symptoms takes time. Be patient with the process—addressing both conditions properly leads to better long-term outcomes.\n\nAftercare planning emphasizes continuity for both conditions, including ongoing psychiatric care, therapy, support groups for addiction, and possibly peer support for mental health."
+          "title": "De Vervangingsprocedure",
+          "content": "Bij vervanging komt de installateur eerst langs voor inspectie. Hij beoordeelt de huidige situatie en bespreekt uw wensen. Op basis hiervan volgt een offerte.\n\nDe vervanging zelf duurt 4-8 uur, afhankelijk van de complexiteit. Tijdens het werk is er geen stroom - plan dit in. De installateur verwijdert de oude kast, plaatst de nieuwe en sluit alles aan.\n\nNa installatie test de installateur alle groepen en controleert de werking. U krijgt uitleg over de nieuwe kast: wat doet welke schakelaar, hoe reset u na een storing.\n\nU ontvangt een installatieverklaring als bewijs dat de installatie voldoet aan de normen. Dit is belangrijk voor verzekeringen en bij verkoop."
         }
       },
       "faqs": [
         {
-          "question": "Why do addiction and mental health problems often occur together?",
-          "answer": "Several factors contribute: common risk factors (genetics, trauma, stress), self-medication (using substances to cope with mental health symptoms), and substance effects on brain chemistry that can trigger or worsen psychiatric symptoms."
+          "question": "Wat kost een nieuwe meterkast?",
+          "answer": "Een nieuwe meterkast inclusief installatie kost €800-€2.000 voor een standaard woning. De prijs hangt af van het aantal groepen, het type kast, en of bedrading vervangen moet worden."
         },
         {
-          "question": "Which condition should be treated first?",
-          "answer": "Neither—integrated treatment addresses both simultaneously. Trying to treat one condition while ignoring the other often fails because the conditions are interconnected and can trigger each other."
+          "question": "Hoeveel groepen heb ik nodig?",
+          "answer": "Een moderne woning heeft 8-12 groepen nodig: verlichting, stopcontacten, keuken, wasmachine, CV, etc. Neem 2-4 reserve groepen mee voor toekomstige uitbreiding."
         },
         {
-          "question": "Can I take psychiatric medication in addiction treatment?",
-          "answer": "Yes, many psychiatric medications are appropriate and necessary for dual diagnosis patients. A psychiatrist experienced with addiction can prescribe medications that help mental health while supporting recovery goals."
+          "question": "Hoe lang duurt de vervanging?",
+          "answer": "De vervanging duurt gemiddeld 4-8 uur. Bij complexere situaties of als bedrading vervangen moet worden, kan het langer duren."
         },
         {
-          "question": "Is dual diagnosis treatment more expensive?",
-          "answer": "Dual diagnosis treatment may cost more due to the additional psychiatric services required, but proper treatment of both conditions is more cost-effective long-term than repeated failed treatments of only one condition."
+          "question": "Is vervanging verplicht?",
+          "answer": "Er is geen wettelijke verplichting, maar verzekeraars kunnen eisen stellen. Bij problemen (brand, elektrocutie) kan een verouderde installatie leiden tot afwijzing van claims."
         },
         {
-          "question": "How do I know if I have a dual diagnosis?",
-          "answer": "Professional assessment is needed for diagnosis. Signs that suggest co-occurring disorders include mental health symptoms that persist during sobriety, using substances to cope with emotions, and difficulty staying sober despite treatment."
+          "question": "Kan ik groepen laten bijplaatsen?",
+          "answer": "Als uw huidige kast ruimte heeft, kunnen groepen bijgeplaatst worden. Is er geen ruimte of is de kast verouderd, dan is vervanging verstandiger."
         }
       ]
     },
     {
-      "slug": "luxury-rehab",
-      "typeSlug": "luxury-rehab",
-      "title": "Luxury Rehabilitation Centers",
-      "subtitle": "Premium Treatment in Exclusive Settings",
-      "metaTitle": "Luxury Rehab Centers Guide | Executive Treatment Programs",
-      "metaDescription": "Guide to luxury and executive rehabilitation centers offering premium addiction treatment with upscale amenities, privacy, and personalized care.",
-      "heroImage": "/images/guides/luxury-rehab-hero.jpg",
+      "slug": "nen-keuringen",
+      "typeSlug": "nen-keuringen",
+      "title": "NEN-keuringen",
+      "subtitle": "Periodieke controle van uw elektrische installatie",
+      "metaTitle": "NEN Keuring Elektrische Installatie | NEN 1010 & NEN 3140",
+      "metaDescription": "Laat uw elektrische installatie keuren volgens NEN 1010 of NEN 3140. Voor particulieren en bedrijven. Veiligheid en compliance verzekerd.",
+      "heroImage": "/images/guides/keuring-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Luxury Rehabilitation?",
-          "content": "Luxury rehabilitation centers provide addiction treatment in upscale, resort-like settings with premium amenities and highly personalized care. These facilities cater to executives, professionals, celebrities, and others who desire privacy and comfort during treatment.\n\nBeyond comfortable accommodations, luxury rehab often features low staff-to-client ratios ensuring individualized attention, alternative therapies like equine therapy or adventure therapy, and amenities such as gourmet meals, fitness facilities, and spa services.\n\nWhile the setting is luxurious, the clinical treatment at quality facilities is based on the same evidence-based practices used in standard programs. The difference lies in the privacy, comfort, and additional services that support recovery in an exclusive environment."
+          "title": "Waarom een Elektrakeuring?",
+          "content": "Een elektrakeuring controleert of uw installatie veilig is en voldoet aan de geldende normen. Dit voorkomt brand- en elektrocutiegevaar en geeft gemoedsrust over de staat van uw installatie.\n\nVoor bedrijven is periodieke keuring vaak verplicht. Voor particulieren is het niet verplicht maar wel sterk aanbevolen, vooral bij oudere woningen of na aankoop.\n\nDe keuring resulteert in een rapport met eventuele gebreken en aanbevelingen. Ernstige gebreken moeten hersteld worden, waarna een herkeuring volgt."
         },
         "history": {
-          "title": "Rise of Premium Treatment",
-          "content": "Luxury rehabilitation emerged as a distinct sector in the 1980s and 1990s as celebrities seeking treatment wanted privacy and comfort beyond what standard facilities offered. Pioneering facilities in destinations like Malibu and Arizona created a new model of addiction treatment.\n\nThe executive rehab concept developed to serve professionals who needed to maintain some work connectivity during treatment. These programs offer amenities like private offices, secure internet access, and flexible scheduling.\n\nToday, luxury rehabilitation has expanded globally, with high-end facilities on every continent. While expensive, these programs provide an option for those who can afford premium care and might otherwise avoid treatment due to privacy concerns or unwillingness to accept basic accommodations."
+          "title": "Soorten Keuringen",
+          "content": "Er zijn verschillende keuringsnormen voor verschillende situaties:\n\n**NEN 1010**: De basis norm voor laagspanningsinstallaties. Keuringen toetsen of de installatie voldoet aan deze norm.\n\n**NEN 3140**: Specifiek gericht op periodieke keuringen en veilig werken aan installaties. Vooral relevant voor bedrijven.\n\n**Scoopkeuringen**: Specifieke keuringen voor bepaalde toepassingen, zoals Scope 12 voor zonnepanelen.\n\nDe keurmeester bepaalt welke norm van toepassing is op uw situatie."
         },
         "characteristics": {
-          "title": "Features of Luxury Treatment",
+          "title": "Wat Wordt Gecontroleerd",
           "items": [
             {
-              "title": "Private Accommodations",
-              "description": "Private or semi-private rooms, often suite-style, with upscale furnishings and amenities. Some facilities offer separate cottages or villas."
+              "title": "Meterkast",
+              "description": "Staat, ouderdom, aanwezigheid aardlekschakelaar, juiste dimensionering van automaten."
             },
             {
-              "title": "Low Client-to-Staff Ratio",
-              "description": "More individualized attention with fewer clients per therapist. Some facilities offer nearly one-on-one staffing ratios."
+              "title": "Bekabeling",
+              "description": "Isolatieweerstand, doorverbindingen, juiste doorsnede, beschadigingen."
             },
             {
-              "title": "Gourmet Nutrition",
-              "description": "Chef-prepared meals tailored to individual preferences and nutritional needs. Many facilities offer organic, farm-to-table cuisine."
+              "title": "Aarding",
+              "description": "Aardingsweerstand, verbindingen, continuïteit van aardleidingen."
             },
             {
-              "title": "Alternative Therapies",
-              "description": "Equine therapy, adventure therapy, art therapy, yoga, meditation, and other holistic approaches complement traditional treatment methods."
+              "title": "Stopcontacten en Schakelaars",
+              "description": "Staat, bevestiging, correcte aansluiting, kinderbeveiliging."
             },
             {
-              "title": "Fitness and Wellness",
-              "description": "Full gym facilities, personal trainers, pools, tennis courts, and spa services support physical recovery and stress relief."
+              "title": "Vaste Apparaten",
+              "description": "Aansluiting van kookplaat, boiler, wasmachine etc."
             },
             {
-              "title": "Beautiful Locations",
-              "description": "Scenic settings—beaches, mountains, or countryside—provide a peaceful, inspiring environment for recovery."
+              "title": "Documentatie",
+              "description": "Aanwezigheid van eerdere rapporten, installatietekeningen, installatieverklaringen."
             }
           ]
         },
         "howToFind": {
-          "title": "Choosing a Luxury Facility",
-          "content": "When evaluating luxury programs, look beyond the amenities to the clinical program. Verify accreditation, staff credentials, and treatment approaches. Beautiful settings mean nothing without effective treatment.\n\nAsk about privacy policies if confidentiality is a concern. Understand what amenities are included in the base price versus those with additional charges. Request detailed information about the daily schedule and clinical programming.\n\nLuxury treatment is typically private pay, as costs far exceed insurance reimbursement. Be prepared for rates ranging from $30,000 to $100,000+ per month. Some facilities offer financing options."
+          "title": "Een Keurmeester Vinden",
+          "content": "Keuringen worden uitgevoerd door gecertificeerde keurmeesters. Op VindElektricien.nl vindt u keuringsinstanties en elektriciens met keuringsbevoegdheid.\n\nVoor particulieren volstaat vaak een keuring door een erkend installateur. Bedrijven kunnen een onafhankelijke keuringsinstantie nodig hebben.\n\nInformeer vooraf naar de kosten en wat er wel/niet in de keuring is inbegrepen. Een standaard woningkeuring duurt 1-2 uur."
         },
         "visiting": {
-          "title": "What to Expect",
-          "content": "The luxury rehab experience begins with concierge-level intake, often including private transportation from the airport. The comprehensive assessment process leads to a highly individualized treatment plan.\n\nDaily life includes clinical programming—individual therapy, groups, educational sessions—along with wellness activities and time to enjoy the facility's amenities. The schedule is typically less rigid than standard programs, with more free time.\n\nStaff attention to individual needs is a hallmark of luxury care. From dietary preferences to scheduling accommodation for business needs (in executive programs), the experience is tailored to each client.\n\nDespite the luxurious setting, the work of recovery remains challenging. The comfort of the environment is meant to support, not distract from, the hard work of addressing addiction."
+          "title": "Het Keuringsproces",
+          "content": "De keurmeester komt langs met meetapparatuur. Hij inspecteert visueel en voert metingen uit aan isolatieweerstand, aardingsweerstand en lekstromen.\n\nAlle bevindingen worden genoteerd in een keuringsrapport. Dit rapport vermeldt goedgekeurde onderdelen, gebreken en aanbevelingen.\n\nGebreken worden ingedeeld naar ernst. Ernstige gebreken (direct gevaar) moeten direct hersteld worden. Minder ernstige gebreken krijgen een termijn voor herstel.\n\nNa herstel van gebreken volgt een herkeuring om te verifiëren dat alles in orde is. U ontvangt dan een definitief keuringsrapport."
         }
       },
       "faqs": [
         {
-          "question": "Is luxury rehab more effective than standard treatment?",
-          "answer": "Research doesn't show that luxury amenities themselves improve outcomes. However, the lower staff ratios and individualized care may benefit some people. The best program is one you'll fully engage with—if luxury amenities help you commit to treatment, that matters."
+          "question": "Is een keuring verplicht voor particulieren?",
+          "answer": "Nee, er is geen wettelijke verplichting voor particuliere woningen. Het is wel sterk aanbevolen bij aankoop, na renovatie, of als de installatie ouder is dan 20 jaar. Sommige verzekeraars eisen een keuring."
         },
         {
-          "question": "How much does luxury rehab cost?",
-          "answer": "Luxury programs typically cost $30,000 to $100,000+ per month. Some ultra-luxury facilities charge even more. These costs are usually out-of-pocket as they exceed insurance coverage."
+          "question": "Hoe vaak moet een bedrijf gekeurd worden?",
+          "answer": "Dit hangt af van het risicoprofiel. Kantoren meestal elke 3-5 jaar, industrie vaak jaarlijks. De RI&E (risico-inventarisatie) bepaalt de frequentie."
         },
         {
-          "question": "Can I work during executive rehab?",
-          "answer": "Executive programs are designed to allow some work connectivity with private offices, secure internet, and flexible scheduling. However, the focus should remain on recovery—unlimited work access may undermine treatment."
+          "question": "Wat kost een keuring?",
+          "answer": "Een woningkeuring kost €150-€350 afhankelijk van grootte en complexiteit. Bedrijfskeuringen zijn duurder: €200-€600 of meer afhankelijk van de omvang."
         },
         {
-          "question": "Is privacy guaranteed at luxury facilities?",
-          "answer": "Reputable luxury facilities have strict privacy policies, but no facility can guarantee absolute privacy. Discuss specific concerns and review policies before admission. HIPAA protections apply regardless of facility type."
+          "question": "Wat als mijn installatie wordt afgekeurd?",
+          "answer": "U ontvangt een rapport met de gebreken. Kleine gebreken kunt u laten herstellen door een elektricien. Na herstel volgt een herkeuring. Bij ernstige gebreken kan direct actie noodzakelijk zijn."
         },
         {
-          "question": "What should I look for in a luxury program?",
-          "answer": "Clinical quality should be the priority: accreditation, staff credentials, evidence-based treatment approaches. Once you've verified clinical excellence, then compare amenities, location, and other luxury features."
+          "question": "Kan de elektricien direct repareren?",
+          "answer": "Dat hangt ervan af. Bij kleine gebreken kan de elektricien die vaak direct verhelpen. Bij grotere problemen moet apart een offerte gemaakt worden. De keuring en reparatie worden apart gefactureerd."
+        }
+      ]
+    },
+    {
+      "slug": "domotica-smart-home",
+      "typeSlug": "domotica-smart-home",
+      "title": "Domotica & Smart Home",
+      "subtitle": "Slimme technologie voor uw woning",
+      "metaTitle": "Domotica Installatie | Smart Home Elektricien",
+      "metaDescription": "Laat een smart home systeem installeren door een specialist. Slimme verlichting, thermostaat, beveiliging en automatisering van uw woning.",
+      "heroImage": "/images/guides/domotica-hero.jpg",
+      "sections": {
+        "introduction": {
+          "title": "Wat is Domotica?",
+          "content": "Domotica, of huisautomatisering, maakt uw woning slim door apparaten en systemen met elkaar te verbinden en automatisch te laten reageren. Van verlichting die aangaat bij beweging tot een thermostaat die leert van uw gedrag.\n\nEen domotica-systeem biedt comfort, energiebesparing en extra veiligheid. Via een app bedient u alles, ook van afstand. Scenario's automatiseren complexe handelingen met één druk op de knop.\n\nDe installatie kan variëren van eenvoudige slimme apparaten tot volledig geïntegreerde systemen. Een specialist helpt u de juiste keuze te maken voor uw wensen en budget."
+        },
+        "history": {
+          "title": "Mogelijkheden van Smart Home",
+          "content": "Domotica biedt talloze mogelijkheden:\n\n**Verlichting**: Dimmen, kleuren aanpassen, automatische schema's, bewegingsdetectie.\n\n**Klimaat**: Slimme thermostaat, zonwering, vloerverwarming per kamer regelen.\n\n**Beveiliging**: Camera's, bewegingsmelders, rookmelders, automatische verlichting bij afwezigheid.\n\n**Entertainment**: Multiroom audio, geïntegreerde tv-systemen.\n\n**Energie**: Inzicht in verbruik, zonnepaneel-integratie, slim laden van auto's.\n\nSystemen variëren van losse apparaten (Philips Hue, Nest) tot volledig bekabelde systemen (KNX, Loxone)."
+        },
+        "characteristics": {
+          "title": "Types Smart Home Systemen",
+          "items": [
+            {
+              "title": "Draadloos (WiFi/Zigbee/Z-Wave)",
+              "description": "Eenvoudig toe te voegen aan bestaande woningen. Apparaten communiceren draadloos. Geschikt voor stapsgewijze uitbreiding."
+            },
+            {
+              "title": "Bekabeld (KNX/Loxone)",
+              "description": "Professionele systemen met eigen bekabeling. Betrouwbaarder en uitgebreider, ideaal voor nieuwbouw of renovatie."
+            },
+            {
+              "title": "Hybrid",
+              "description": "Combinatie van bekabeld en draadloos. Biedt flexibiliteit met de betrouwbaarheid van een bekabelde basis."
+            },
+            {
+              "title": "Stembesturing",
+              "description": "Integratie met Google Assistant, Amazon Alexa of Apple HomeKit voor spraakbediening."
+            },
+            {
+              "title": "Centrale Hub",
+              "description": "Een centraal punt dat alle apparaten verbindt en automatiseringen mogelijk maakt."
+            },
+            {
+              "title": "App Bediening",
+              "description": "Bedien alles via smartphone of tablet, ook op afstand."
+            }
+          ]
+        },
+        "howToFind": {
+          "title": "Een Domotica Specialist Vinden",
+          "content": "Niet elke elektricien is specialist in domotica. Zoek op VindElektricien.nl naar installateurs met smart home expertise.\n\nEen goede domotica-installateur:\n- Luistert naar uw wensen\n- Adviseert over geschikte systemen\n- Installeert en configureert het systeem\n- Geeft uitleg over de bediening\n- Biedt ondersteuning na installatie\n\nBij complexere systemen is een adviesgesprek vooraf essentieel om de juiste keuzes te maken."
+        },
+        "visiting": {
+          "title": "Installatie en Configuratie",
+          "content": "De installatie begint met een inventarisatie van uw wensen. Wat wilt u automatiseren? Welke apparaten moeten verbonden worden? Wat is uw budget?\n\nOp basis hiervan adviseert de specialist over het geschikte systeem. Bij nieuwbouw kan gekozen worden voor een volledig bekabeld systeem. Bij bestaande woningen is draadloos vaak praktischer.\n\nDe fysieke installatie omvat het plaatsen van componenten, bekabeling (indien nodig) en de configuratie van het systeem. Dit kan enkele uren tot meerdere dagen duren afhankelijk van de omvang.\n\nNa installatie krijgt u uitleg over de bediening. De specialist helpt met het instellen van scenario's en automatiseringen. Vaak is er na-ondersteuning beschikbaar voor aanpassingen."
+        }
+      },
+      "faqs": [
+        {
+          "question": "Wat kost een smart home systeem?",
+          "answer": "Dit varieert enorm. Enkele slimme apparaten kosten €100-€500. Een volledig geïntegreerd systeem voor een woning kan €5.000-€20.000 kosten of meer afhankelijk van de complexiteit."
+        },
+        {
+          "question": "Kan ik stapsgewijs beginnen?",
+          "answer": "Ja, met draadloze systemen kunt u klein beginnen en uitbreiden. Start bijvoorbeeld met slimme verlichting en voeg later een thermostaat en andere apparaten toe."
+        },
+        {
+          "question": "Welk systeem is het beste?",
+          "answer": "Dit hangt af van uw wensen. Voor nieuwbouw is KNX of Loxone ideaal. Voor bestaande woningen zijn Philips Hue, Google Home of Apple HomeKit ecosystemen populair."
+        },
+        {
+          "question": "Is domotica veilig?",
+          "answer": "Mits correct geïnstalleerd en geconfigureerd, ja. Gebruik sterke wachtwoorden, houd firmware up-to-date, en kies voor bekende merken met goede beveiligingsreputatie."
+        },
+        {
+          "question": "Kan ik het zelf installeren?",
+          "answer": "Eenvoudige slimme apparaten kunt u zelf installeren. Voor bekabelde systemen of complexere installaties is een specialist noodzakelijk."
         }
       ]
     }

@@ -1,6 +1,6 @@
-# RehabNearMe.com - Monetization Strategy
+# VindElektricien.nl - Monetization Strategy
 
-**Repository:** https://github.com/MarvinNL046/rehabnearbyme
+**Website:** https://vindelektricien.nl
 **Created:** 18-01-2026
 **Status:** Planning Phase
 
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-RehabNearMe.com operates in the addiction treatment directory space, a high-value vertical with significant monetization potential. This document outlines multiple revenue streams while maintaining ethical standards and user trust.
+VindElektricien.nl operates in the electrician directory space in the Netherlands. This document outlines multiple revenue streams while maintaining ethical standards and user trust. The Dutch market for electrical services is growing due to the energy transition (laadpalen, zonnepanelen) and home renovations.
 
 ---
 
@@ -16,23 +16,23 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 
 ### 1. Pay-Per-Lead (PPL) - Primary Revenue
 
-**Model:** Facilities pay for qualified leads (contact form submissions, phone calls)
+**Model:** Electricians pay for qualified leads (contact form submissions, phone calls)
 
 | Lead Type | Estimated CPL | Notes |
 |-----------|---------------|-------|
-| Contact Form | $50-150 | Basic inquiry |
-| Phone Call (30s+) | $75-200 | Tracked via call tracking |
-| Insurance Verified | $150-300 | Pre-qualified lead |
-| Admission Inquiry | $200-500 | High intent |
+| Contact Form | €10-25 | Basic inquiry |
+| Phone Call (30s+) | €15-35 | Tracked via call tracking |
+| Laadpaal Inquiry | €25-50 | High-value service |
+| Project Request | €30-60 | Larger projects |
 
 **Implementation:**
-- [ ] Integrate call tracking (CallRail, Invoca)
-- [ ] Create lead capture forms on facility pages
+- [ ] Integrate call tracking (CallRail, Ringostat)
+- [ ] Create lead capture forms on electrician pages
 - [ ] Build CRM for lead management
-- [ ] Set up facility dashboard for lead access
+- [ ] Set up electrician dashboard for lead access
 - [ ] Implement lead quality scoring
 
-**Projected Revenue:** $50,000-200,000/month at scale
+**Projected Revenue:** €10,000-50,000/month at scale
 
 ---
 
@@ -42,30 +42,30 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 
 | Tier | Price/Month | Features |
 |------|-------------|----------|
-| **Basic** | Free | Standard listing, basic info |
-| **Enhanced** | $299/mo | Logo, photos, extended description |
-| **Premium** | $599/mo | Top placement, highlighted, badge |
-| **Enterprise** | $999/mo | Multiple locations, analytics, dedicated support |
+| **Basis** | Free | Standard listing, basic info |
+| **Uitgelicht** | €49/mo | Logo, photos, extended description |
+| **Premium** | €99/mo | Top placement, highlighted, badge |
+| **Pro** | €199/mo | Multiple locations, analytics, priority leads |
 
 **Features by Tier:**
 
-**Enhanced ($299/mo):**
-- Custom facility logo
-- Up to 10 photos
+**Uitgelicht (€49/mo):**
+- Custom company logo
+- Up to 10 photos of work
 - Extended description (2000 chars)
-- Treatment programs details
-- Staff profiles
-- Response to reviews
+- Service list display
+- Certification badges
+- Respond to reviews
 
-**Premium ($599/mo):**
-- Everything in Enhanced
-- "Featured" badge
+**Premium (€99/mo):**
+- Everything in Uitgelicht
+- "Aanbevolen" badge
 - Top 3 placement in search results
-- Priority in city/state pages
+- Priority in city/province pages
 - Click-through analytics
 - Lead source tracking
 
-**Enterprise ($999/mo):**
+**Pro (€199/mo):**
 - Everything in Premium
 - Multiple location management
 - API access for lead integration
@@ -73,7 +73,7 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 - Quarterly performance reviews
 - Custom landing pages
 
-**Projected Revenue:** $20,000-100,000/month with 100-500 paying facilities
+**Projected Revenue:** €5,000-30,000/month with 100-300 paying electricians
 
 ---
 
@@ -81,19 +81,19 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 
 **Strategic Placements:**
 - Above search results (728x90 leaderboard)
-- Sidebar on facility pages (300x250)
+- Sidebar on electrician pages (300x250)
 - In-article on guide pages (native)
 - Footer banner (728x90)
 
-**Expected RPM:** $15-40 (health/medical niche)
+**Expected RPM:** €10-25 (home services niche)
 
 **Traffic Projections:**
 | Monthly Visitors | Ad Revenue |
 |------------------|------------|
-| 10,000 | $150-400 |
-| 50,000 | $750-2,000 |
-| 100,000 | $1,500-4,000 |
-| 500,000 | $7,500-20,000 |
+| 10,000 | €100-250 |
+| 50,000 | €500-1,250 |
+| 100,000 | €1,000-2,500 |
+| 250,000 | €2,500-6,250 |
 
 **Implementation:**
 - [ ] Apply for AdSense approval
@@ -110,19 +110,19 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 
 | Partner Type | Commission Model | Estimated Revenue |
 |--------------|------------------|-------------------|
-| Insurance Verification Services | $25-50/verification | $5,000-20,000/mo |
-| Intervention Services | $100-300/referral | $2,000-10,000/mo |
-| Recovery Apps (Sober Grid, etc.) | $5-15/install | $1,000-5,000/mo |
-| Recovery Books (Amazon) | 4-8% of sale | $500-2,000/mo |
-| Sober Living Directories | $50-100/referral | $2,000-8,000/mo |
-| Drug Testing Kits | 10-20% of sale | $500-2,000/mo |
+| Laadpaal Leveranciers | €25-75/sale | €2,000-8,000/mo |
+| Zonnepaneel Aanbieders | €50-150/lead | €3,000-10,000/mo |
+| Gereedschap Webshops | 5-10% of sale | €500-2,000/mo |
+| Energy Comparison Sites | €5-15/lead | €1,000-3,000/mo |
+| Verzekeringen | €10-30/lead | €500-2,000/mo |
+| Smart Home Products | 5-8% of sale | €500-1,500/mo |
 
 **Implementation:**
-- [x] Create AffiliateBottomBar component
-- [x] Create AffiliateSection component
-- [ ] Sign up for affiliate programs
+- [ ] Create Affiliate components
+- [ ] Sign up for affiliate programs (Bol.com, Coolblue, laadpaal leveranciers)
 - [ ] Implement tracking pixels
 - [ ] Create dedicated landing pages
+- [ ] Write comparison content
 
 ---
 
@@ -132,13 +132,13 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 
 | Content Type | Price | Deliverables |
 |--------------|-------|--------------|
-| Blog Post | $500-1,500 | 1000+ word article, SEO optimized |
-| Guide Sponsorship | $1,000-3,000 | Logo + mention in guide |
-| Newsletter Mention | $250-750 | Featured in email blast |
-| Facility Spotlight | $750-2,000 | Detailed facility profile |
+| Blog Post | €200-500 | 1000+ word article, SEO optimized |
+| Guide Sponsorship | €400-1,000 | Logo + mention in guide |
+| Newsletter Mention | €100-300 | Featured in email blast |
+| Electrician Spotlight | €300-750 | Detailed company profile |
 
 **Guidelines:**
-- All sponsored content marked as "Sponsored"
+- All sponsored content marked as "Gesponsord"
 - Must meet editorial standards
 - No false claims allowed
 - Subject to editorial review
@@ -147,37 +147,37 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 
 ### 6. Data & API Access
 
-**For Researchers & Healthcare Organizations:**
+**For Industry Partners & Researchers:**
 
 | Package | Price | Access |
 |---------|-------|--------|
-| Basic API | $99/mo | 1,000 requests, basic data |
-| Professional | $299/mo | 10,000 requests, full data |
+| Basic API | €49/mo | 1,000 requests, basic data |
+| Professional | €149/mo | 10,000 requests, full data |
 | Enterprise | Custom | Unlimited, raw data access |
 
 **Data Products:**
-- Treatment facility database
+- Electrician database
 - Geographic coverage analysis
-- Treatment type trends
-- Insurance acceptance data
+- Service type trends
+- Pricing benchmarks
 
 ---
 
 ## Ethical Considerations
 
 ### What We Will NOT Do:
-- Accept payment to manipulate search rankings
-- Allow false or misleading facility information
+- Accept payment to manipulate search rankings unfairly
+- Allow false or misleading electrician information
 - Share user data without consent
-- Promote facilities with compliance issues
+- Promote electricians with known safety issues
 - Accept kickbacks for referrals without disclosure
 
 ### Transparency Commitments:
 - Clear disclosure of paid placements
 - Honest reviews and ratings
-- Equal opportunity for all facilities to be listed
+- Equal opportunity for all electricians to be listed
 - Free basic listings always available
-- User privacy protection
+- User privacy protection (AVG compliant)
 
 ---
 
@@ -187,22 +187,22 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 
 | Revenue Stream | Monthly Target | Annual |
 |----------------|----------------|--------|
-| Featured Listings | $15,000 | $180,000 |
-| Pay-Per-Lead | $25,000 | $300,000 |
-| AdSense | $2,000 | $24,000 |
-| Affiliates | $3,000 | $36,000 |
-| **Total** | **$45,000** | **$540,000** |
+| Featured Listings | €3,000 | €36,000 |
+| Pay-Per-Lead | €5,000 | €60,000 |
+| AdSense | €500 | €6,000 |
+| Affiliates | €1,000 | €12,000 |
+| **Total** | **€9,500** | **€114,000** |
 
 ### Year 2 Goals (Growth)
 
 | Revenue Stream | Monthly Target | Annual |
 |----------------|----------------|--------|
-| Featured Listings | $50,000 | $600,000 |
-| Pay-Per-Lead | $100,000 | $1,200,000 |
-| AdSense | $10,000 | $120,000 |
-| Affiliates | $10,000 | $120,000 |
-| Sponsored Content | $5,000 | $60,000 |
-| **Total** | **$175,000** | **$2,100,000** |
+| Featured Listings | €15,000 | €180,000 |
+| Pay-Per-Lead | €25,000 | €300,000 |
+| AdSense | €2,000 | €24,000 |
+| Affiliates | €5,000 | €60,000 |
+| Sponsored Content | €2,000 | €24,000 |
+| **Total** | **€49,000** | **€588,000** |
 
 ---
 
@@ -214,28 +214,28 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 3. Implement basic lead capture
 
 ### Phase 2 (Month 4-6)
-1. Launch PPL program with 10 pilot facilities
+1. Launch PPL program with 20 pilot electricians
 2. Sign affiliate partnerships
-3. Build facility dashboard
+3. Build electrician dashboard
 
 ### Phase 3 (Month 7-12)
-1. Scale PPL to 100+ facilities
+1. Scale PPL to 100+ electricians
 2. Launch call tracking
-3. Implement insurance verification affiliate
+3. Implement laadpaal/zonnepaneel affiliate partnerships
 4. Launch API product
 
 ---
 
 ## Competitive Analysis
 
-| Competitor | Primary Revenue | Estimated Revenue |
-|------------|-----------------|-------------------|
-| Rehabs.com | PPL, Ads | $5-10M/year |
-| AddictionCenter.com | PPL, Featured | $10-20M/year |
-| DrugAbuse.com | Ads, Affiliate | $2-5M/year |
-| SAMHSA (gov) | N/A (free) | N/A |
+| Competitor | Primary Revenue | Notes |
+|------------|-----------------|-------|
+| Werkspot.nl | PPL, Commissions | Large player, established |
+| Zoofy.nl | Service fees | Direct booking model |
+| Google Ads | PPC | Direct competition for visibility |
+| Marktplaats | Listings | General marketplace |
 
-**Our Advantage:** Modern tech stack, better UX, local SEO focus, transparent practices.
+**Our Advantage:** Focused on electricians only, local SEO focus, comprehensive guides, Dutch market expertise, transparent practices.
 
 ---
 
@@ -244,18 +244,18 @@ RehabNearMe.com operates in the addiction treatment directory space, a high-valu
 - **Traffic:** Monthly visitors, page views, bounce rate
 - **Leads:** Form submissions, phone calls, quality score
 - **Revenue:** RPM, CPL, MRR from subscriptions
-- **Facilities:** Active listings, paying customers, churn rate
+- **Electricians:** Active listings, paying customers, churn rate
 - **SEO:** Rankings, organic traffic, domain authority
 
 ---
 
 ## Next Steps
 
-1. [ ] Validate pricing with facility owners
-2. [ ] Build payment integration (Stripe)
+1. [ ] Validate pricing with electricians
+2. [ ] Build payment integration (Mollie/Stripe)
 3. [ ] Create sales materials
-4. [ ] Hire sales representative
-5. [ ] Launch beta with 20 facilities
+4. [ ] Start outreach to electricians
+5. [ ] Launch beta with 20 electricians
 
 ---
 
