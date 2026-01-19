@@ -1,52 +1,62 @@
-# RehabNearByMe.com
+# VindElektricien.nl
 
-A comprehensive online directory for finding rehabilitation and addiction treatment centers in the United States.
+Een uitgebreide online gids voor het vinden van elektriciens in Nederland.
 
 ## Project Status
 
-Active development - building a comprehensive database of treatment facilities.
+Actieve ontwikkeling - bouwen aan een complete database van elektriciens.
 
 ## Tech Stack
 
 - **Framework**: Next.js 16 (App Router)
-- **Language**: TypeScript
+- **Taal**: TypeScript
 - **Styling**: Tailwind CSS
-- **UI Components**: shadcn/ui
+- **UI Componenten**: shadcn/ui
 - **Database**: Supabase / Drizzle ORM
 
-## Development
+## Ontwikkeling
 
 ```bash
-# Install dependencies
+# Installeer dependencies
 npm install
 
-# Run development server
+# Start development server
 npm run dev
 
-# Build for production
+# Build voor productie
 npm run build
 
-# Start production server
+# Start productie server
 npm run start
 ```
 
-## Project Structure
+## Project Structuur
 
 ```
 ├── app/                    # Next.js app directory
-│   ├── facility/          # Facility detail pages
-│   ├── city/              # City overview pages
-│   ├── county/            # County overview pages
-│   ├── state/             # State overview pages
-│   └── search/            # Search functionality
-├── components/            # React components
-├── data/                  # Database files
-├── public/               # Static assets
-└── docs/                 # Documentation
-    └── archive/          # Archived documentation
+│   ├── elektricien/       # Elektricien detail paginas
+│   ├── stad/              # Stad overzichtspaginas
+│   ├── gemeente/          # Gemeente overzichtspaginas
+│   ├── provincie/         # Provincie overzichtspaginas
+│   └── zoeken/            # Zoekfunctionaliteit
+├── components/            # React componenten
+├── data/                  # Database bestanden
+├── public/               # Statische assets
+└── docs/                 # Documentatie
 ```
+
+## Diensten
+
+- Storingen & Reparaties
+- Elektrische Installaties
+- Meterkast / Groepenkast
+- Laadpaal Installatie
+- Zonnepanelen
+- Domotica / Smart Home
+- Verlichting
+- Bedrijfsinstallaties
 
 ## Contact
 
-- Website: https://rehabnearbyme.com
-- Email: info@rehabnearbyme.com
+- Website: https://vindelektricien.nl
+- E-mail: info@vindelektricien.nl

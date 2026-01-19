@@ -15,12 +15,12 @@ interface BaseTemplateProps {
   children: React.ReactNode;
 }
 
-// Brand colors - Teal/Coral Healing Theme
+// Brand colors - Yellow/Navy Electrician Theme
 const colors = {
-  primary: '#0D9488',      // Teal
-  primaryLight: '#14B8A6',
-  accent: '#F97316',       // Coral/Orange
-  accentLight: '#FB923C',
+  primary: '#1E3A8A',      // Navy blue
+  primaryLight: '#2563EB',
+  accent: '#EAB308',       // Yellow
+  accentLight: '#FCD34D',
   background: '#F8FAFC',   // Clean white
   foreground: '#334155',   // Dark slate gray
   muted: '#64748B',
@@ -38,8 +38,8 @@ export const BaseTemplate = ({ preview, children }: BaseTemplateProps) => {
           {/* Header */}
           <Section style={header}>
             <Text style={logoText}>
-              <span style={{ color: colors.white }}>Rehab</span>
-              <span style={{ color: colors.accent }}>NearMe</span>
+              <span style={{ color: colors.white }}>Vind</span>
+              <span style={{ color: colors.accent }}>Elektricien</span>
             </Text>
           </Section>
 
@@ -51,23 +51,23 @@ export const BaseTemplate = ({ preview, children }: BaseTemplateProps) => {
           {/* Footer */}
           <Section style={footer}>
             <Text style={footerText}>
-              &copy; {new Date().getFullYear()} Rehab Near Me
+              &copy; {new Date().getFullYear()} VindElektricien.nl
             </Text>
             <Text style={footerLinks}>
-              <Link href="https://www.rehabnearbyme.com" style={link}>
+              <Link href="https://www.vindelektricien.nl" style={link}>
                 Website
               </Link>
               {' • '}
-              <Link href="https://www.rehabnearbyme.com/contact" style={link}>
+              <Link href="https://www.vindelektricien.nl/contact" style={link}>
                 Contact
               </Link>
               {' • '}
-              <Link href="https://www.rehabnearbyme.com/privacy" style={link}>
+              <Link href="https://www.vindelektricien.nl/privacy" style={link}>
                 Privacy
               </Link>
             </Text>
             <Text style={footerDisclaimer}>
-              This is an automated message from rehabnearbyme.com
+              Dit is een automatisch bericht van vindelektricien.nl
             </Text>
           </Section>
         </Container>
@@ -90,7 +90,7 @@ const container = {
   maxWidth: '600px',
   borderRadius: '12px',
   overflow: 'hidden' as const,
-  boxShadow: '0 4px 20px rgba(13, 148, 136, 0.08)',
+  boxShadow: '0 4px 20px rgba(30, 58, 138, 0.08)',
 };
 
 const header = {

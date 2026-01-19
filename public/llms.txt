@@ -1,30 +1,30 @@
-# RehabNearByMe.com
+# VindElektricien.nl
 
-> The most comprehensive guide to rehabilitation and addiction treatment centers in the United States
+> De meest complete gids voor het vinden van elektriciens in Nederland
 
-## Summary
+## Samenvatting
 
-RehabNearByMe.com is an extensive directory of rehabilitation facilities and addiction treatment centers across all 50 US states. The site helps visitors find information about treatment options for addiction recovery, mental health support, and substance abuse treatment.
+VindElektricien.nl is een uitgebreide gids voor het vinden van elektriciens in heel Nederland. De site helpt bezoekers informatie te vinden over elektrische diensten, van storingen en installaties tot laadpalen en zonnepanelen.
 
-## Key Data
+## Kerngegevens
 
-- Thousands of treatment facilities
-- All 50 states covered
-- Multiple facility types: Inpatient, Outpatient, Detox, Sober Living
-- Includes reviews, ratings, and contact information
+- Honderden elektriciens
+- Alle 12 provincies
+- Diverse diensten: Storingen, Installatie, Laadpaal, Zonnepanelen
+- Inclusief reviews, beoordelingen en contactinformatie
 
-## Main Pages
+## Hoofdpaginas
 
-- /search - Search by location, facility name, or treatment type
-- /compare - Compare up to 3 facilities
-- /state/[name] - Browse by state
-- /facility/[slug] - Facility detail pages
+- /zoeken - Zoek op locatie, naam of dienst
+- /vergelijken - Vergelijk elektriciens
+- /provincie/[naam] - Zoek per provincie
+- /elektricien/[slug] - Elektricien detailpaginas
 
 ## Contact
 
-- Website: https://rehabnearbyme.com
-- Email: info@rehabnearbyme.com
+- Website: https://vindelektricien.nl
+- E-mail: info@vindelektricien.nl
 
-## More Information
+## Meer Informatie
 
-See /llms-full.txt for comprehensive documentation.
+Zie /llms-full.txt voor uitgebreide documentatie.

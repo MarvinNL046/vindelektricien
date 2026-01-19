@@ -1,75 +1,63 @@
-# Facility Data Filtering Documentation
+# Elektricien Data Filtering Documentatie
 
-## Overview
-This document explains the filtering process implemented to ensure only actual rehabilitation facilities are included in the dataset, removing non-facility businesses that appeared in the raw data.
+## Overzicht
+Dit document beschrijft het filterproces om te verzekeren dat alleen echte elektriciens en installatiebedrijven in de dataset worden opgenomen.
 
-## Problem
-The original dataset may contain entries that are not actual rehab facilities. These could include:
-- Medical practices that don't offer addiction treatment
-- General hospitals without specialized rehab programs
-- Non-treatment businesses with rehab-related words in their names
-- Wellness spas or fitness centers
+## Probleem
+De originele dataset kan bedrijven bevatten die geen elektriciens zijn:
+- Algemene aannemers zonder elektra-specialisatie
+- Bouwbedrijven
+- Klussenbedrijven zonder elektra-focus
 
-## Solution
-We implemented a comprehensive filtering system that:
-1. Identifies and excludes non-facility businesses based on keywords
-2. Identifies and excludes non-treatment services
-3. Preserves actual rehabilitation and treatment facilities
-4. Uses positive identification for facility-related keywords
+## Oplossing
+We implementeren een filtersysteem dat:
+1. Niet-elektriciens identificeert en uitsluit
+2. Echte elektriciens en installatiebedrijven bewaart
+3. Bedrijven met relevante certificeringen includeert
 
-## Filtering Rules
+## Filterregels
 
-### Excluded Keywords (Non-Facility Businesses)
-- **Non-treatment medical**: general hospital, urgent care, primary care, dental
-- **Wellness/fitness**: spa, gym, fitness, yoga studio, meditation center
-- **General businesses**: hotel, motel, restaurant, cafe
+### Uitgesloten Bedrijfstypes
+- Algemene aannemers
+- Schilders
+- Loodgieters (tenzij ook elektricien)
+- Hoveniers
 
-### Included Facility Keywords
-- rehab, rehabilitation, treatment center, recovery
-- Specific types: inpatient, outpatient, detox
-- Programs: addiction, substance abuse, mental health
-- General: treatment facility, recovery center
+### Geincludeerde Bedrijfstypes
+- Elektricien
+- Elektrotechnisch installatiebedrijf
+- Elektrische installateur
+- Installatiebedrijf (met elektra-diensten)
 
-### Special Handling
-- **Treatment Centers**: Included by default
-- **Mixed names**: If a business name contains both excluded and facility keywords, facility keywords take precedence
+### Speciale Behandeling
+- **Gecombineerde Installateurs**: Bedrijven die zowel elektra als andere diensten leveren worden opgenomen
+- **Certificeringen**: Bedrijven met Erkend, VCA of NEN-certificering worden opgenomen
 
-## Results
-- **Original entries**: 6,548
-- **Filtered entries**: 3,861 (actual facilities)
-- **Removed entries**: 2,687 (non-facility businesses)
+## Implementatie
 
-## Implementation
+### Filter Script
+`scripts/filter-facilities.ts` - Kan onafhankelijk worden uitgevoerd
 
-### Standalone Filter Script
-`scripts/filter-non-facilities.ts` - Can be run independently to filter data
-
-### Integrated Filtering
-The filtering logic is integrated into:
-- `scripts/process-facility-data.ts`
-- `scripts/process-all-data.ts`
-
-### Usage
+### Gebruik
 ```bash
-# Run standalone filter
-npx tsx scripts/filter-non-facilities.ts
+# Filter uitvoeren
+npx tsx scripts/filter-facilities.ts
 
-# Process facility data with filtering
-npx tsx scripts/process-all-data.ts facility data/facilities.csv
+# Data verwerken met filtering
+npx tsx scripts/process-all-data.ts
 
-# Build production data
+# Productie data bouwen
 npm run build-data
 ```
 
-## Files Created
-- `data/facilities-filtered.csv` - Filtered facility data
-- `data/removed-entries.json` - List of removed entries for review
-- `data/facilities-processed.json` - Processed facility data
-- `public/data/facilities.json` - Production-ready data
+## Bestanden
+- `data/elektriciens-filtered.json` - Gefilterde data
+- `data/removed-entries.json` - Verwijderde entries ter controle
+- `public/data/elektriciens.json` - Productie data
 
-## Maintenance
-To update filtering rules:
-1. Edit the keyword arrays in the filter functions
-2. Test with sample data to ensure no valid facilities are excluded
-3. Review `removed-entries.json` to verify filtering accuracy
-4. Update this documentation with any changes
+## Onderhoud
+Om filterregels bij te werken:
+1. Bewerk de keyword arrays in de filterfuncties
+2. Test met voorbeelddata
+3. Controleer `removed-entries.json`
+4. Update deze documentatie

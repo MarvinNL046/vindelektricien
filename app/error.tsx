@@ -23,20 +23,20 @@ export default function Error({
           <AlertTriangle className="w-8 h-8 text-red-600" />
         </div>
 
-        <h1 className="text-2xl font-bold mb-4">Something Went Wrong</h1>
+        <h1 className="text-2xl font-bold mb-4">Er Ging Iets Mis</h1>
 
         <p className="text-muted-foreground mb-8">
-          We apologize, an error occurred while loading this page.
-          Please try again or return to the homepage.
+          Onze excuses, er is een fout opgetreden bij het laden van deze pagina.
+          Probeer het opnieuw of ga terug naar de homepage.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={reset}
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-colors"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-yellow-500 text-navy-900 rounded-lg font-medium hover:bg-yellow-400 transition-colors"
           >
             <RotateCcw className="w-5 h-5" />
-            Try Again
+            Probeer Opnieuw
           </button>
 
           <Link
@@ -44,26 +44,26 @@ export default function Error({
             className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-gray-300 rounded-lg font-medium hover:bg-gray-50 transition-colors"
           >
             <Home className="w-5 h-5" />
-            Go to Homepage
+            Naar Homepage
           </Link>
         </div>
 
         <div className="mt-8 pt-8 border-t">
           <p className="text-sm text-muted-foreground mb-4">
-            Or search for a treatment center directly:
+            Of zoek direct naar een elektricien:
           </p>
           <Link
-            href="/search"
-            className="inline-flex items-center gap-2 text-primary hover:underline"
+            href="/zoeken"
+            className="inline-flex items-center gap-2 text-yellow-600 hover:underline"
           >
             <Search className="w-4 h-4" />
-            Search
+            Zoeken
           </Link>
         </div>
 
         {error.digest && (
           <p className="mt-8 text-xs text-muted-foreground">
-            Error code: {error.digest}
+            Foutcode: {error.digest}
           </p>
         )}
       </div>

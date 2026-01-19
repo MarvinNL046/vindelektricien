@@ -43,7 +43,7 @@ export default function FeedbackRibbon() {
       // Prepare data in API-expected format
       const feedbackData: FeedbackData = {
         page_url: window.location.pathname,
-        page_title: document.title || 'Rehab Near Me',
+        page_title: document.title || 'VindElektricien.nl',
       };
 
       // Determine type based on what was provided
@@ -110,7 +110,7 @@ export default function FeedbackRibbon() {
       }`}>
         <div className="w-80 max-h-[600px] p-6 overflow-y-auto">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-semibold">Your Opinion Matters!</h3>
+            <h3 className="text-lg font-semibold">Uw mening telt!</h3>
             <button
               onClick={() => setIsOpen(false)}
               className="text-gray-400 hover:text-gray-600 transition-colors"
@@ -124,16 +124,16 @@ export default function FeedbackRibbon() {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-teal-100 rounded-full mb-4">
                 <Check className="w-8 h-8 text-teal-600" />
               </div>
-              <p className="text-lg font-medium text-teal-600">Thank you!</p>
+              <p className="text-lg font-medium text-teal-600">Bedankt!</p>
               <p className="text-sm text-gray-600 mt-2">
-                Your feedback helps us improve the website.
+                Uw feedback helpt ons de website te verbeteren.
               </p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  How satisfied are you with this page?
+                  Hoe tevreden bent u met deze pagina?
                 </label>
                 <div className="flex gap-1 justify-center">
                   {[1, 2, 3, 4, 5].map((star) => (
@@ -155,13 +155,13 @@ export default function FeedbackRibbon() {
 
               <div>
                 <label htmlFor="ribbon-feedback" className="block text-sm font-medium text-gray-700 mb-2">
-                  Do you have suggestions for improvement?
+                  Heeft u suggesties voor verbetering?
                 </label>
                 <textarea
                   id="ribbon-feedback"
                   value={feedback}
                   onChange={(e) => setFeedback(e.target.value)}
-                  placeholder="Share your ideas with us..."
+                  placeholder="Deel uw ideeën met ons..."
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent resize-none text-sm"
                   rows={4}
                   disabled={isSubmitting}
@@ -175,11 +175,11 @@ export default function FeedbackRibbon() {
                   className="w-full flex items-center justify-center gap-2"
                 >
                   <Send className="w-4 h-4" />
-                  {isSubmitting ? 'Sending...' : 'Submit Feedback'}
+                  {isSubmitting ? 'Verzenden...' : 'Verstuur Feedback'}
                 </Button>
 
                 <p className="text-xs text-gray-500 text-center">
-                  100% anonymous & secure
+                  100% anoniem & veilig
                 </p>
               </div>
             </form>

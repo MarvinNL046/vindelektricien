@@ -1,159 +1,168 @@
-# RehabNearByMe.com - Full Documentation
+# VindElektricien.nl - Volledige Documentatie
 
-> The most comprehensive guide to rehabilitation and addiction treatment centers in the United States
+> De meest complete gids voor het vinden van elektriciens in Nederland
 
-## About RehabNearByMe.com
+## Over VindElektricien.nl
 
-RehabNearByMe.com is the most extensive online directory of rehabilitation facilities and addiction treatment centers in the United States. The website provides detailed information about treatment facilities across all 50 states.
+VindElektricien.nl is de meest uitgebreide online gids voor het vinden van elektriciens in Nederland. De website biedt gedetailleerde informatie over elektriciens in alle 12 provincies.
 
-The site is designed for:
-- People seeking addiction treatment for themselves
-- Family members looking for help for a loved one
-- Healthcare professionals seeking referral resources
-- Insurance providers researching treatment options
+De site is ontworpen voor:
+- Particulieren die een elektricien zoeken
+- Huiseigenaren met een storing of klus
+- Bedrijven die een bedrijfselektricien nodig hebben
+- Vastgoedprofessionals die elektrawerk laten uitvoeren
 
-## Facility Types
+## Diensten
 
-### Inpatient Rehabilitation Centers
-Residential treatment facilities where patients live on-site during their recovery program. Typically 28-90 days or longer.
+### Storingen & Reparaties
+24/7 storingsdienst voor elektrische problemen. Kortsluiting, stroomuitval, aardlek.
 
-### Outpatient Treatment Programs
-Treatment programs where patients attend sessions while living at home. Includes Intensive Outpatient Programs (IOP) and Partial Hospitalization Programs (PHP).
+### Installatie
+Nieuwe elektrische installaties voor particulier en zakelijk.
 
-### Detox Centers
-Medical detoxification facilities that help patients safely withdraw from substances under medical supervision.
+### Meterkast & Groepenkast
+Vervanging en uitbreiding van meterkasten en groepenkaststen.
 
-### Sober Living Homes
-Transitional housing for people in recovery who need a supportive, substance-free living environment.
+### Laadpaal Installatie
+Installatie van laadpalen voor elektrische auto's. Alle merken.
 
-### Dual Diagnosis Treatment
-Facilities specializing in treating both addiction and co-occurring mental health disorders.
+### Zonnepanelen
+Installatie van zonnepanelen en aansluiting op de groepenkast.
 
-### Luxury Rehab Centers
-High-end treatment facilities with premium amenities and personalized care.
+### Domotica / Smart Home
+Slimme huisautomatisering en domotica-installaties.
 
-## Treatment Specializations
+### Verlichting
+Van LED-verlichting tot sierverlichting en buitenverlichting.
 
-- Alcohol Addiction
-- Opioid Addiction (Heroin, Fentanyl, Prescription Painkillers)
-- Cocaine Addiction
-- Methamphetamine Addiction
-- Prescription Drug Abuse (Benzodiazepines, Stimulants)
-- Marijuana Dependency
-- Mental Health & Co-occurring Disorders
-- Adolescent Programs
-- Veterans Programs
-- LGBTQ+ Friendly Programs
+### Bedrijfsinstallaties
+Elektrische installaties voor bedrijven en industrie.
 
-## Navigation Structure
+## Specialisaties
 
-### Main Pages
-- `/` - Homepage with search functionality and state overview
-- `/search` - Advanced search with filters by location, facility type, and treatment
-- `/compare` - Tool to compare up to 3 facilities side by side
+- Particulier
+- Zakelijk / MKB
+- Industrieel
+- Noodservice 24/7
+- NEN-keuringen
 
-### Geographic Navigation
-- `/state/[name]` - Overview of all counties and cities within a state
-- `/county/[name]` - Overview of all cities within a county
-- `/city/[name]` - All facilities in a specific city
+## Certificeringen
 
-### Detail Pages
-- `/facility/[slug]` - Complete information about a single facility
-- `/type/[type]` - All facilities of a specific type
+- Erkend installateur
+- VCA gecertificeerd
+- NEN 1010 / NEN 3140
+- KOMO gecertificeerd
 
-### Informational
-- `/guide` - Treatment guides and educational content
-- `/about` - About the platform
-- `/contact` - Contact information
+## Navigatiestructuur
 
-## Information Per Facility
+### Hoofdpaginas
+- `/` - Homepage met zoekfunctie en provincie-overzicht
+- `/zoeken` - Geavanceerd zoeken met filters
+- `/vergelijken` - Vergelijk elektriciens
 
-Each facility page may include:
+### Geografische Navigatie
+- `/provincie/[naam]` - Overzicht per provincie
+- `/gemeente/[naam]` - Overzicht per gemeente
+- `/stad/[naam]` - Alle elektriciens in een stad
 
-### Basic Information
-- Official name
-- Facility type(s)
-- Address (street, city, state, ZIP)
-- County
+### Detailpaginas
+- `/elektricien/[slug]` - Volledige informatie over een elektricien
+- `/dienst/[type]` - Alle elektriciens per dienst
 
-### Contact Information
-- Phone number
+### Informatie
+- `/informatie` - Gidsen en informatieve artikelen
+- `/over-ons` - Over het platform
+- `/contact` - Contactinformatie
+
+## Informatie per Elektricien
+
+Elke elektricien-pagina kan bevatten:
+
+### Basisinformatie
+- Bedrijfsnaam
+- Type diensten
+- Adres (straat, plaats, provincie)
+- Gemeente
+
+### Contactinformatie
+- Telefoonnummer
 - Website
-- Hours of operation
+- Openingstijden
 
-### Location
-- GPS coordinates
-- Interactive Google Maps
-- Directions
+### Locatie
+- GPS-coordinaten
+- Interactieve kaart
+- Werkgebied
 
 ### Reviews
-- Google Maps rating (1-5 stars)
-- Number of reviews
-- Recent reviews
+- Google Maps beoordeling (1-5 sterren)
+- Aantal reviews
+- Recente reviews
 
 ### Media
-- Photos of the facility
-- Virtual tour (if available)
+- Fotos van het bedrijf
+- Logo
 
-### Description
-- Detailed description of the facility
-- Treatment programs offered
-- Amenities and features
-- Insurance accepted
+### Beschrijving
+- Gedetailleerde beschrijving
+- Aangeboden diensten
+- Certificeringen
+- Specialisaties
 
-## Frequently Asked Questions
+## Veelgestelde Vragen
 
-### How much does rehab cost?
-Costs vary widely depending on the type of facility and length of stay. Outpatient programs may cost $5,000-$15,000, while inpatient programs can range from $10,000 to $100,000+ for luxury facilities. Many facilities accept insurance.
+### Wat kost een elektricien?
+Uurtarieven varieren van 45 tot 75 euro per uur excl. BTW. Voorrijkosten zijn meestal 25-50 euro. Spoedwerk is duurder.
 
-### How long does treatment last?
-Treatment duration varies by program type. Detox typically lasts 3-10 days, inpatient programs are usually 28-90 days, and outpatient programs can last several months.
+### Hoe vind ik een elektricien bij mij in de buurt?
+Gebruik de zoekfunctie op /zoeken en voer uw plaats of postcode in. U kunt filteren op dienst en specialisatie.
 
-### What is the difference between inpatient and outpatient treatment?
-Inpatient treatment requires living at the facility during treatment, providing 24/7 care and a structured environment. Outpatient treatment allows patients to live at home while attending scheduled treatment sessions.
+### Wanneer heb ik een erkend elektricien nodig?
+Voor werkzaamheden die aan het elektriciteitsnet worden aangesloten, zoals nieuwe installaties of uitbreiding van de groepenkast.
 
-### How do I find a rehab near me?
-Use the search function on /search and enter your city, state, or ZIP code. You can filter results by facility type, treatment specialization, and insurance accepted.
+### Wat moet ik doen bij een stroomstoring?
+Controleer eerst de meterkast. Bij een persoonlijke storing, bel een elektricien. Bij een algemene storing, bel de netbeheerder.
 
-### Do facilities accept insurance?
-Many facilities accept various insurance plans including private insurance, Medicaid, and Medicare. Check the facility details page or contact them directly to verify coverage.
+## Nederlandse Provincies
 
-### What should I look for in a treatment facility?
-Consider: accreditation, staff credentials, treatment approaches offered, success rates, aftercare programs, insurance acceptance, location, and amenities.
+Alle 12 provincies zijn gedekt:
+- Noord-Holland (Amsterdam, Haarlem)
+- Zuid-Holland (Rotterdam, Den Haag)
+- Noord-Brabant (Eindhoven, Tilburg)
+- Gelderland (Nijmegen, Arnhem)
+- Utrecht
+- Limburg (Maastricht, Heerlen)
+- Overijssel
+- Friesland
+- Groningen
+- Drenthe
+- Zeeland
+- Flevoland
 
-## US States Covered
-
-All 50 US states are covered, including:
-- California, Texas, Florida, New York (highest number of facilities)
-- And all other states with comprehensive coverage
-
-## Technical Information
+## Technische Informatie
 
 ### Website
-- URL: https://rehabnearbyme.com
+- URL: https://vindelektricien.nl
 - Framework: Next.js 16
 - Hosting: Vercel
 
-### SEO & Indexing
-- Sitemap: https://rehabnearbyme.com/sitemap.xml
-- Robots.txt: https://rehabnearbyme.com/robots.txt
-- Structured data: JSON-LD on all pages
-
-### API (Not Public)
-The website has internal API endpoints that are not intended for external use.
+### SEO & Indexering
+- Sitemap: https://vindelektricien.nl/sitemap.xml
+- Robots.txt: https://vindelektricien.nl/robots.txt
+- Gestructureerde data: JSON-LD op alle paginas
 
 ## Contact
 
-- **Website**: https://rehabnearbyme.com
-- **Email**: info@rehabnearbyme.com
-- **Location**: United States
+- **Website**: https://vindelektricien.nl
+- **E-mail**: info@vindelektricien.nl
+- **Land**: Nederland
 
-## Legal
+## Juridisch
 
-RehabNearByMe.com is an independent informational website. We are not affiliated with specific treatment facilities, healthcare providers, or government agencies. The information on this website is compiled from public sources and is regularly updated.
+VindElektricien.nl is een onafhankelijke informatieve website. We zijn niet gelieerd aan specifieke elektriciens of installatiebedrijven. De informatie op deze website is verzameld uit openbare bronnen en wordt regelmatig bijgewerkt.
 
-This website does not provide medical advice. If you or someone you know is experiencing a medical emergency, please call 911 or your local emergency services.
+Deze website geeft geen technisch advies. Bij elektrische noodsituaties, bel 112.
 
-## Last Update
+## Laatste Update
 
-January 2026
+Januari 2026
