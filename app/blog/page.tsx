@@ -4,22 +4,18 @@ import { Calendar, Clock, ArrowRight, BookOpen, Tag } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import LeaderboardAd from '@/components/ads/LeaderboardAd';
 import InlineAd from '@/components/ads/InlineAd';
-import PremiumContentBanner from '@/components/PremiumContentBanner';
 import { blogPosts, categories } from '@/lib/blog-data';
-import { getCtaStatsText } from '@/lib/stats-config';
 
-const ctaStatsText = getCtaStatsText();
-
-// Placeholder images for blog posts (recovery/treatment themed)
+// Placeholder images for blog posts
 const blogImages = [
-  '/images/blog/recovery-support.jpg',
-  '/images/blog/treatment-center.jpg',
-  '/images/blog/therapy-session.jpg',
-  '/images/blog/family-support.jpg',
-  '/images/blog/meditation.jpg',
-  '/images/blog/group-therapy.jpg',
-  '/images/blog/nature-healing.jpg',
-  '/images/blog/hope-recovery.jpg',
+  '/images/blog/meterkast.jpg',
+  '/images/blog/laadpaal.jpg',
+  '/images/blog/storing.jpg',
+  '/images/blog/zonnepanelen.jpg',
+  '/images/blog/elektricien.jpg',
+  '/images/blog/verlichting.jpg',
+  '/images/blog/smart-home.jpg',
+  '/images/blog/veiligheid.jpg',
 ];
 
 // Helper function to get a placeholder image based on post index
@@ -28,21 +24,21 @@ function getPlaceholderImage(index: number): string {
 }
 
 export const metadata: Metadata = {
-  title: 'Blog | Rehab Near Me - Addiction Treatment & Recovery Resources',
-  description: 'Expert articles about addiction treatment, recovery tips, how to choose a rehab, insurance coverage, and supporting loved ones through addiction.',
-  keywords: 'addiction treatment blog, rehab guide, recovery tips, drug rehab articles, alcohol treatment resources, addiction help, family support addiction',
-  authors: [{ name: 'Rehab Near Me' }],
+  title: 'Blog | VindElektricien.nl - Tips & Advies over Elektra',
+  description: 'Handige artikelen over elektrische installaties, storingen oplossen, verduurzaming met laadpalen en zonnepanelen, en tips voor het kiezen van een elektricien.',
+  keywords: 'elektricien tips, elektrische installatie, meterkast, laadpaal, zonnepanelen, storingen, elektra advies',
+  authors: [{ name: 'VindElektricien.nl' }],
   openGraph: {
-    title: 'Blog - Rehab Near Me',
-    description: 'Expert resources on addiction treatment, recovery strategies, and finding the right rehab center',
+    title: 'Blog - VindElektricien.nl',
+    description: 'Tips en advies over elektrische installaties en het vinden van de juiste elektricien',
     type: 'website',
-    siteName: 'Rehab Near Me',
-    locale: 'en_US',
+    siteName: 'VindElektricien.nl',
+    locale: 'nl_NL',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blog - Rehab Near Me',
-    description: 'Expert resources on addiction treatment and recovery',
+    title: 'Blog - VindElektricien.nl',
+    description: 'Tips en advies over elektrische installaties',
   },
   robots: {
     index: true,
@@ -62,11 +58,11 @@ export default function BlogPage() {
       <LeaderboardAd />
 
       {/* Hero Section */}
-      <div className="bg-primary text-primary-foreground py-16">
+      <div className="bg-gradient-to-br from-yellow-500 to-yellow-600 text-white py-16">
         <div className="container mx-auto px-4">
           {/* Breadcrumb */}
           <nav className="mb-6">
-            <ol className="flex items-center space-x-2 text-sm text-primary-foreground/70">
+            <ol className="flex items-center space-x-2 text-sm text-white/70">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
               <li>/</li>
               <li className="text-white">Blog</li>
@@ -74,22 +70,22 @@ export default function BlogPage() {
           </nav>
 
           <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-4">
-            Recovery Resources
+            Tips & Advies
           </h1>
-          <p className="text-primary-foreground/80 text-lg max-w-2xl">
-            Expert guides, treatment insights, and recovery strategies to help you
-            or your loved one on the path to healing.
+          <p className="text-white/90 text-lg max-w-2xl">
+            Handige artikelen over elektrische installaties, storingen, verduurzaming
+            en tips voor het kiezen van de juiste elektricien.
           </p>
 
           {/* Stats */}
           <div className="flex flex-wrap gap-8 mt-8">
             <div>
-              <div className="text-3xl font-bold text-coral-300">{blogPosts.length}</div>
-              <div className="text-primary-foreground/70 text-sm">Articles</div>
+              <div className="text-3xl font-bold text-yellow-200">{blogPosts.length}</div>
+              <div className="text-white/70 text-sm">Artikelen</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-coral-300">{categories.length}</div>
-              <div className="text-primary-foreground/70 text-sm">Categories</div>
+              <div className="text-3xl font-bold text-yellow-200">{categories.length - 1}</div>
+              <div className="text-white/70 text-sm">Categorieen</div>
             </div>
           </div>
         </div>
@@ -102,15 +98,15 @@ export default function BlogPage() {
             <div className="lg:col-span-1 order-2 lg:order-1">
               <Card className="p-6 shadow-soft sticky top-4">
                 <div className="flex items-center gap-2 mb-4">
-                  <Tag className="w-5 h-5 text-accent" />
-                  <h3 className="font-serif font-semibold">Categories</h3>
+                  <Tag className="w-5 h-5 text-yellow-500" />
+                  <h3 className="font-serif font-semibold">Categorieen</h3>
                 </div>
                 <ul className="space-y-3">
                   {categories.map((category) => (
                     <li key={category.name}>
-                      <button className="text-sm text-muted-foreground hover:text-accent transition-colors flex justify-between w-full group">
+                      <button className="text-sm text-muted-foreground hover:text-yellow-600 transition-colors flex justify-between w-full group">
                         <span className="group-hover:translate-x-1 transition-transform">{category.name}</span>
-                        <span className="text-xs bg-teal-100 text-teal-700 px-2 py-0.5 rounded-full">
+                        <span className="text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full">
                           {category.count}
                         </span>
                       </button>
@@ -123,7 +119,7 @@ export default function BlogPage() {
             {/* Blog posts */}
             <div className="lg:col-span-3 space-y-8 order-1 lg:order-2">
               {/* Featured post */}
-              <Card className="overflow-hidden shadow-soft border-2 border-transparent hover:border-accent/30 transition-all duration-300">
+              <Card className="overflow-hidden shadow-soft border-2 border-transparent hover:border-yellow-300 transition-all duration-300">
                 <div className="grid md:grid-cols-2 gap-0">
                   <div className="relative bg-muted aspect-video md:aspect-auto">
                     <img
@@ -133,15 +129,15 @@ export default function BlogPage() {
                       loading="eager"
                     />
                     <div className="absolute top-4 left-4">
-                      <span className="px-3 py-1 bg-accent text-accent-foreground text-xs font-semibold rounded-full">
-                        FEATURED
+                      <span className="px-3 py-1 bg-yellow-500 text-white text-xs font-semibold rounded-full">
+                        UITGELICHT
                       </span>
                     </div>
                   </div>
                   <div className="p-6 md:p-8 flex flex-col justify-center">
-                    <span className="text-xs text-accent font-medium mb-2">{blogPosts[0].category}</span>
+                    <span className="text-xs text-yellow-600 font-medium mb-2">{blogPosts[0].category}</span>
                     <h2 className="font-serif text-2xl font-bold mb-3">
-                      <Link href={`/blog/${blogPosts[0].slug}`} className="hover:text-accent transition-colors">
+                      <Link href={`/blog/${blogPosts[0].slug}`} className="hover:text-yellow-600 transition-colors">
                         {blogPosts[0].title}
                       </Link>
                     </h2>
@@ -149,7 +145,7 @@ export default function BlogPage() {
                     <div className="flex items-center gap-4 text-sm text-muted-foreground">
                       <span className="flex items-center gap-1">
                         <Calendar className="w-4 h-4" />
-                        {new Date(blogPosts[0].date).toLocaleDateString('en-US')}
+                        {new Date(blogPosts[0].date).toLocaleDateString('nl-NL')}
                       </span>
                       <span className="flex items-center gap-1">
                         <Clock className="w-4 h-4" />
@@ -158,9 +154,9 @@ export default function BlogPage() {
                     </div>
                     <Link
                       href={`/blog/${blogPosts[0].slug}`}
-                      className="mt-6 inline-flex items-center gap-2 text-accent font-medium hover:underline"
+                      className="mt-6 inline-flex items-center gap-2 text-yellow-600 font-medium hover:underline"
                     >
-                      Read article
+                      Lees artikel
                       <ArrowRight className="w-4 h-4" />
                     </Link>
                   </div>
@@ -174,7 +170,7 @@ export default function BlogPage() {
                 {blogPosts.slice(1).map((post) => (
                   <Card
                     key={post.id}
-                    className="overflow-hidden shadow-soft border-2 border-transparent hover:border-accent/30 transition-all duration-300 group"
+                    className="overflow-hidden shadow-soft border-2 border-transparent hover:border-yellow-300 transition-all duration-300 group"
                   >
                     <div className="aspect-video relative overflow-hidden bg-muted">
                       <img
@@ -185,9 +181,9 @@ export default function BlogPage() {
                       />
                     </div>
                     <div className="p-6">
-                      <span className="text-xs text-accent font-medium">{post.category}</span>
+                      <span className="text-xs text-yellow-600 font-medium">{post.category}</span>
                       <h3 className="font-serif text-xl font-semibold mt-2 mb-3">
-                        <Link href={`/blog/${post.slug}`} className="hover:text-accent transition-colors">
+                        <Link href={`/blog/${post.slug}`} className="hover:text-yellow-600 transition-colors">
                           {post.title}
                         </Link>
                       </h3>
@@ -198,7 +194,7 @@ export default function BlogPage() {
                         <div className="flex items-center gap-3 text-sm text-muted-foreground">
                           <span className="flex items-center gap-1">
                             <Calendar className="w-3 h-3" />
-                            {new Date(post.date).toLocaleDateString('en-US')}
+                            {new Date(post.date).toLocaleDateString('nl-NL')}
                           </span>
                           <span className="flex items-center gap-1">
                             <Clock className="w-3 h-3" />
@@ -207,9 +203,9 @@ export default function BlogPage() {
                         </div>
                         <Link
                           href={`/blog/${post.slug}`}
-                          className="text-accent hover:underline text-sm flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity"
+                          className="text-yellow-600 hover:underline text-sm flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity"
                         >
-                          Read more
+                          Lees meer
                           <ArrowRight className="w-3 h-3" />
                         </Link>
                       </div>
@@ -220,30 +216,27 @@ export default function BlogPage() {
 
               <InlineAd />
 
-              {/* Premium Content Banner */}
-              <PremiumContentBanner />
-
               {/* Newsletter signup */}
-              <Card className="p-8 shadow-soft bg-gradient-to-r from-teal-50 to-coral-50/30 dark:from-teal-900/20 dark:to-coral-900/10 border-teal-100 dark:border-teal-800 text-center">
-                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <BookOpen className="w-6 h-6 text-accent" />
+              <Card className="p-8 shadow-soft bg-gradient-to-r from-yellow-50 to-yellow-100/50 border-yellow-200 text-center">
+                <div className="w-12 h-12 bg-yellow-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <BookOpen className="w-6 h-6 text-yellow-600" />
                 </div>
-                <h3 className="font-serif text-2xl font-semibold mb-3">Stay Informed</h3>
+                <h3 className="font-serif text-2xl font-semibold mb-3">Blijf op de hoogte</h3>
                 <p className="text-muted-foreground mb-6 max-w-md mx-auto">
-                  Receive monthly recovery resources, treatment guides, and
-                  support articles directly to your inbox.
+                  Ontvang maandelijks tips over elektrische installaties, verduurzaming
+                  en handige doe-het-zelf adviezen.
                 </p>
                 <form className="max-w-md mx-auto flex gap-2">
                   <input
                     type="email"
-                    placeholder="Your email address"
-                    className="flex-1 px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-accent bg-background"
+                    placeholder="Uw e-mailadres"
+                    className="flex-1 px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-yellow-500 bg-background"
                   />
                   <button
                     type="submit"
-                    className="px-6 py-2 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-colors"
+                    className="px-6 py-2 bg-yellow-500 text-white rounded-lg font-medium hover:bg-yellow-600 transition-colors"
                   >
-                    Subscribe
+                    Aanmelden
                   </button>
                 </form>
               </Card>
@@ -253,16 +246,16 @@ export default function BlogPage() {
           {/* CTA Section */}
           <div className="mt-16 text-center">
             <h2 className="font-serif text-2xl font-semibold mb-4">
-              Ready to Find Treatment?
+              Op zoek naar een elektricien?
             </h2>
             <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-              {ctaStatsText}
+              Vind snel een betrouwbare elektricien bij jou in de buurt via onze gratis zoekmachine.
             </p>
             <Link
-              href="/search"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
+              href="/zoeken"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-yellow-500 text-white rounded-lg font-medium hover:bg-yellow-600 transition-colors"
             >
-              Find Rehab Centers
+              Vind Elektricien
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getAllCities, getFacilitiesByCity, createCitySlug, createCountySlug, createStateSlug, type Facility } from '@/lib/data';
+import { getAllCities, getFacilitiesByCity, createCitySlug, createStateSlug, type Facility } from '@/lib/data';
 import { notFound } from 'next/navigation';
-import { Building, Info } from 'lucide-react';
+import { Zap, Info, MapPin, Phone, Star } from 'lucide-react';
 import FacilityCard from '@/components/FacilityCard';
 import LeaderboardAd from '@/components/ads/LeaderboardAd';
 import SidebarAd from '@/components/ads/SidebarAd';
@@ -18,7 +18,6 @@ interface PageProps {
 // Limit static generation to top 200 cities to stay under Vercel's 75MB limit
 export async function generateStaticParams() {
   const cities = await getAllCities();
-  // Take first 200 cities (sorted by facility count would be better but this is simpler)
   return cities.slice(0, 200).map((city) => ({
     slug: createCitySlug(city),
   }));
@@ -37,20 +36,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!city) {
     return {
-      title: 'City not found',
+      title: 'Stad niet gevonden',
     };
   }
 
   const facilities = await getFacilitiesByCity(city);
-  const county = facilities[0]?.county || '';
-  const state = facilities[0]?.state || '';
+  const province = facilities[0]?.state || '';
 
   return {
-    title: `Rehab & Treatment Centers in ${city} | Rehab Near By Me`,
-    description: `Find all ${facilities.length} addiction treatment centers and rehab facilities in ${city}, ${county ? `${county} County, ` : ''}${state}. View locations, services, and contact information for local treatment centers.`,
+    title: `Elektricien ${city} - Vind een Elektricien bij jou in de buurt | VindElektricien.nl`,
+    description: `Vind ${facilities.length} elektriciens in ${city}${province ? `, ${province}` : ''}. Bekijk beoordelingen, contactgegevens en specialisaties van lokale elektriciens.`,
     openGraph: {
-      title: `Treatment Centers in ${city}`,
-      description: `All rehab facilities in ${city}${county ? `, ${county} County` : ''}`,
+      title: `Elektriciens in ${city}`,
+      description: `Alle elektriciens in ${city}${province ? `, ${province}` : ''}`,
       type: 'website',
     },
   };
@@ -71,13 +69,12 @@ export default async function CityPage({ params }: PageProps) {
     notFound();
   }
 
-  const county = facilities[0]?.county || '';
-  const state = facilities[0]?.state || '';
-  const stateAbbr = facilities[0]?.state_abbr || '';
+  const province = facilities[0]?.state || '';
+  const provinceAbbr = facilities[0]?.state_abbr || '';
 
   // Count facility types
   const typeCount = facilities.reduce((acc: Record<string, number>, facility: Facility) => {
-    const typeName = facility.type || 'Treatment Center';
+    const typeName = facility.type || 'Elektricien';
     acc[typeName] = (acc[typeName] || 0) + 1;
     return acc;
   }, {} as Record<string, number>);
@@ -85,8 +82,8 @@ export default async function CityPage({ params }: PageProps) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `Treatment Centers in ${city}`,
-    description: `Directory of all addiction treatment centers and rehab facilities in ${city}${county ? `, ${county} County` : ''}`,
+    name: `Elektriciens in ${city}`,
+    description: `Overzicht van alle elektriciens in ${city}${province ? `, ${province}` : ''}`,
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [
@@ -94,25 +91,19 @@ export default async function CityPage({ params }: PageProps) {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.rehabnearbyme.com'
+          item: 'https://www.vindelektricien.nl'
         },
         {
           '@type': 'ListItem',
           position: 2,
-          name: state,
-          item: `https://www.rehabnearbyme.com/state/${createStateSlug(state)}`
+          name: province,
+          item: `https://www.vindelektricien.nl/provincie/${createStateSlug(province)}`
         },
-        ...(county ? [{
-          '@type': 'ListItem',
-          position: 3,
-          name: `${county} County`,
-          item: `https://www.rehabnearbyme.com/county/${createCountySlug(county)}`
-        }] : []),
         {
           '@type': 'ListItem',
-          position: county ? 4 : 3,
+          position: 3,
           name: city,
-          item: `https://www.rehabnearbyme.com/city/${slug}`
+          item: `https://www.vindelektricien.nl/stad/${slug}`
         }
       ]
     },
@@ -122,7 +113,7 @@ export default async function CityPage({ params }: PageProps) {
       itemListElement: facilities.map((facility, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `https://www.rehabnearbyme.com/facility/${facility.slug}`
+        url: `https://www.vindelektricien.nl/elektricien/${facility.slug}`
       }))
     }
   };
@@ -145,25 +136,12 @@ export default async function CityPage({ params }: PageProps) {
             <li>/</li>
             <li>
               <Link
-                href={`/state/${createStateSlug(state)}`}
+                href={`/provincie/${createStateSlug(province)}`}
                 className="hover:text-foreground"
               >
-                {state}
+                {province}
               </Link>
             </li>
-            {county && (
-              <>
-                <li>/</li>
-                <li>
-                  <Link
-                    href={`/county/${createCountySlug(county)}`}
-                    className="hover:text-foreground"
-                  >
-                    {county} County
-                  </Link>
-                </li>
-              </>
-            )}
             <li>/</li>
             <li className="text-foreground">{city}</li>
           </ol>
@@ -172,10 +150,10 @@ export default async function CityPage({ params }: PageProps) {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-4">
-            Treatment Centers in {city}
+            Elektricien in {city}
           </h1>
           <p className="text-lg text-muted-foreground">
-            There {facilities.length === 1 ? 'is' : 'are'} {facilities.length} {facilities.length === 1 ? 'treatment center' : 'treatment centers'} in {city}{county ? `, ${county} County` : ''}, {state}.
+            Er {facilities.length === 1 ? 'is' : 'zijn'} {facilities.length} {facilities.length === 1 ? 'elektricien' : 'elektriciens'} in {city}, {province}.
           </p>
         </div>
 
@@ -183,10 +161,10 @@ export default async function CityPage({ params }: PageProps) {
         <div className="grid gap-4 md:grid-cols-4 mb-8">
           <div className="bg-card rounded-lg p-6 shadow-sm border">
             <div className="flex items-center gap-3">
-              <Building className="w-5 h-5 text-muted-foreground" />
+              <Zap className="w-5 h-5 text-yellow-500" />
               <div>
                 <p className="text-2xl font-bold">{facilities.length}</p>
-                <p className="text-sm text-muted-foreground">Total</p>
+                <p className="text-sm text-muted-foreground">Totaal</p>
               </div>
             </div>
           </div>
@@ -232,35 +210,40 @@ export default async function CityPage({ params }: PageProps) {
 
               {/* Related Links */}
               <div className="bg-card rounded-lg p-6 shadow-sm border">
-                <h3 className="text-lg font-semibold mb-4">Related Pages</h3>
+                <h3 className="text-lg font-semibold mb-4">Gerelateerde Pagina&apos;s</h3>
                 <ul className="space-y-2">
-                  {county && (
-                    <li>
-                      <Link
-                        href={`/county/${createCountySlug(county)}`}
-                        className="text-sm text-muted-foreground hover:text-foreground"
-                      >
-                        All treatment centers in {county} County
-                      </Link>
-                    </li>
-                  )}
                   <li>
                     <Link
-                      href={`/state/${createStateSlug(state)}`}
+                      href={`/provincie/${createStateSlug(province)}`}
                       className="text-sm text-muted-foreground hover:text-foreground"
                     >
-                      All treatment centers in {state}
+                      Alle elektriciens in {province}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/diensten/storingen-reparaties"
+                      className="text-sm text-muted-foreground hover:text-foreground"
+                    >
+                      Storingsdienst {city}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/diensten/laadpaal-installatie"
+                      className="text-sm text-muted-foreground hover:text-foreground"
+                    >
+                      Laadpaal installatie {city}
                     </Link>
                   </li>
                 </ul>
               </div>
 
               {/* Info Box */}
-              <div className="bg-muted rounded-lg p-6">
-                <h3 className="text-lg font-semibold mb-2">About {city}</h3>
+              <div className="bg-yellow-50 rounded-lg p-6 border border-yellow-200">
+                <h3 className="text-lg font-semibold mb-2">Over {city}</h3>
                 <p className="text-sm text-muted-foreground">
-                  {city} is located in {county ? `${county} County, ` : ''}{state}.
-                  This page provides an overview of all addiction treatment centers and rehab facilities in this area.
+                  {city} ligt in {province}. Op deze pagina vind je een overzicht van alle elektriciens in dit gebied met hun contactgegevens en specialisaties.
                 </p>
               </div>
             </div>
@@ -269,36 +252,30 @@ export default async function CityPage({ params }: PageProps) {
 
         {/* SEO Content */}
         <div className="mt-12 prose prose-lg max-w-none">
-          <h2>Treatment Centers and Rehab Facilities in {city}</h2>
+          <h2>Elektriciens in {city}</h2>
           <p>
-            In {city} you&apos;ll find various types of treatment centers, from inpatient rehabilitation facilities to
-            outpatient programs and sober living homes. Each facility offers specialized care and support for those seeking recovery.
+            In {city} vind je diverse elektriciens, van installatiebedrijven tot gespecialiseerde storingsdiensten.
+            Elke elektricien biedt specifieke diensten aan, zoals installaties, reparaties en keuringen.
           </p>
 
-          {typeCount['Inpatient Rehabilitation'] > 0 && (
-            <>
-              <h3>Inpatient Rehabilitation Centers</h3>
-              <p>
-                {city} has {typeCount['Inpatient Rehabilitation']} inpatient {typeCount['Inpatient Rehabilitation'] > 1 ? 'facilities' : 'facility'}.
-                These programs provide 24/7 care and support in a residential setting for those beginning their recovery journey.
-              </p>
-            </>
-          )}
-
-          {typeCount['Outpatient Treatment'] > 0 && (
-            <>
-              <h3>Outpatient Treatment Programs</h3>
-              <p>
-                There {typeCount['Outpatient Treatment'] > 1 ? 'are' : 'is'} {typeCount['Outpatient Treatment']} outpatient
-                {typeCount['Outpatient Treatment'] > 1 ? ' programs' : ' program'} in {city}, offering flexible treatment options for those who need to maintain work or family commitments.
-              </p>
-            </>
-          )}
-
-          <h3>Getting Help Information</h3>
+          <h3>Wanneer heb je een elektricien nodig?</h3>
           <p>
-            For more information about a specific treatment center in {city}, click on the facility
-            above. There you will find contact details, services offered, insurance information, and how to get started with treatment.
+            Een elektricien in {city} kan je helpen bij:
+          </p>
+          <ul>
+            <li>Elektrische storingen en kortsluiting</li>
+            <li>Vervanging of uitbreiding van de meterkast</li>
+            <li>Installatie van laadpalen voor elektrische auto&apos;s</li>
+            <li>Plaatsing van zonnepanelen</li>
+            <li>Smart home en domotica installaties</li>
+            <li>NEN-keuringen en veiligheidsinspecties</li>
+          </ul>
+
+          <h3>Tips voor het kiezen van een elektricien</h3>
+          <p>
+            Bij het kiezen van een elektricien in {city} is het belangrijk om te letten op certificeringen (zoals Erkend of VCA),
+            reviews van eerdere klanten, en of de elektricien ervaring heeft met jouw specifieke vraag.
+            Vraag altijd om een offerte voordat je een opdracht geeft.
           </p>
         </div>
       </div>
